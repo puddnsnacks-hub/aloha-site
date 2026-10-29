@@ -304,14 +304,20 @@ document.addEventListener('click', (e) => { const a = e.target.closest && e.targ
     const day = (d) => `<li class="day"><span class="day-d">${esc(longDate(d.date))}</span><div class="day-b"><h4>${esc(d.title)}</h4>${d.stops.length ? `<p class="day-stops">${d.stops.filter(id => P[id]).map(id => `<button class="link-pill stop" type="button" data-place="${esc(id)}">${esc(P[id].short || P[id].name)}</button>`).join('')}</p>` : ''}${d.note ? `<p class="day-note">${esc(d.note)}</p>` : ''}</div></li>`;
     const legRow = l => `<li><span>${esc(l.from)} → ${esc(l.to)} · ${esc(longDate(l.date))}<span class="leg-basis">${esc(usd(l.fare))} plus ${esc(usd2(l.companion))} for the companion. ${esc(l.basis[0].toUpperCase() + l.basis.slice(1))}.${src(l.source, 'fare page')}</span></span><span class="num">${esc(usd2(l.two))}</span></li>`;
     const legs = c.legs.map(legRow).join('');
-    const viaName = v => v.out === v.back ? `through ${v.out}` : `out through ${v.out}, home through ${v.back}`;
     const vs = c.vias || [];
-    const viaDiff = v => v.diff > 0 ? `${usd(v.diff)} more` : v.diff < 0 ? `${usd(-v.diff)} less` : 'the same';
-    const viaHTML = vs.length ? `<h4 class="sheet-h">Other ways to fly</h4>
-      <ul class="price-list">${vs.map(v => `<li><span>${esc(viaName(v)[0].toUpperCase() + viaName(v).slice(1))}<span class="leg-basis">${v.legs.length} one-way tickets. Flights ${esc(usd(v.flights))} for two, ${esc(viaDiff(v))} than the Houston fares.</span></span><span class="num">${esc(usd(v.low))}–${esc(usd(v.high))}</span></li>`).join('')}</ul>
-      <h4 class="sheet-h">The tickets, ${esc(viaName(vs[0]))}</h4>
-      <ul class="price-list bill">${vs[0].legs.map(legRow).join('')}</ul>` : '';
-    const vegasHTML = viaHTML ? viaHTML + `<p class="caption">Separate tickets don't protect a connection. If the Houston flight runs late and you miss the island flight, the second ticket is on you, so leave three hours or more between them, or fly in the night before. Bags come off at the end of each ticket, so expect to pay for them again. Most flights home from Hawaii fly overnight, so the ticket to Houston is often the next morning. Vegas flies nonstop to Honolulu, Kahului, Kona and Lihue. Southwest doesn't say its Seattle or Hilo flights are nonstop.</p>` : '';
+    const viaName = v => v.out === v.back ? `Through ${v.out}` : `Out through ${v.out}, home through ${v.back}`;
+    const stayName = (v, o) => ({ none: 'Same-day connections', out: `A night in ${v.out} going out`, back: `A night in ${v.back} coming home`, both: v.out === v.back ? `A night in ${v.out} each way` : `A night in each city` })[o.stay];
+    const vsDiff = d => d > 0 ? `${usd(d)} more than the Houston plan` : d < 0 ? `${usd(-d)} less than the Houston plan` : 'the same as the Houston plan';
+    const optRow = (v, o) => `<li><span>${esc(stayName(v, o))}<span class="leg-basis">${o.legs.length} one-way tickets, flights ${esc(usd(o.flights))}${o.hub_nights ? `, ${o.hub_nights === 1 ? 'hotel' : 'hotels'} ${esc(usd(o.hotel[0]))}–${esc(usd(o.hotel[1]))}` : ''}. ${o.gives.length ? esc(o.gives.map(g => g[0].toUpperCase() + g.slice(1)).join('. ')) + '. ' : ''}About ${esc(vsDiff(o.diff))}.</span></span><span class="num">${esc(usd(o.low))}–${esc(usd(o.high))}</span></li>`;
+    const pick = vs.length && vs[0].options.find(o => o.stay === 'both') || (vs.length && vs[0].options[0]);
+    const viaHTML = vs.length ? `<h4 class="sheet-h">Through Vegas or Seattle</h4>
+      <p class="prose">The same ten days, with the long flights split in two. A night in either city comes out of the island nights.</p>
+      ${vs.map(v => `<h5 class="via-h">${esc(viaName(v))} <span class="badge badge--${v.nonstop ? 'go' : 'caution'}">${v.nonstop ? 'Nonstop' : 'Connects'}</span></h5>
+      <ul class="price-list">${v.options.map(o => optRow(v, o)).join('')}</ul>
+      <p class="caption">${esc([...new Set(v.options.flatMap(o => o.notes))].join(' '))}</p>`).join('')}
+      <h4 class="sheet-h">The tickets, ${esc(stayName(vs[0], pick).toLowerCase())}</h4>
+      <ul class="price-list bill">${pick.legs.map(legRow).join('')}</ul>` : '';
+    const vegasHTML = viaHTML ? viaHTML + `<p class="caption">Separate tickets don't protect a connection. On a same-day connection, a late first flight can cost you the second ticket, so leave three hours or more, or take the night. Bags come off at the end of each ticket, so expect to pay for them again. City hotels are average December rates before resort fees.</p>` : '';
     const cars = c.cars.map(x => x.rate ? `<li><span>Car, ${esc(ISL[x.island])}, ${x.days} days<span class="leg-basis">${esc(usd(x.rate))} a day, ${esc(x.basis)}.</span></span><span class="num">${esc(usd(x.rate * x.days))}</span></li>` : `<li><span>Car, ${esc(ISL[x.island])}, ${x.days} days<span class="leg-basis">Not in the total: ${esc(x.basis)}.</span></span><span class="num">–</span></li>`).join('');
     return `<span class="eyebrow">No. ${n} · ${esc(t.tag)}</span>
       <h3 id="sheet-title" class="heading-sm tm-name">${esc(t.name)}</h3>
@@ -349,7 +355,7 @@ document.addEventListener('click', (e) => { const a = e.target.closest && e.targ
     /* the sheet's island buttons and stop pills need the trip to come back to */
     bd.addEventListener('click', (e) => { const b = e.target.closest('[data-trip-open]'); if (!b) return; const t = ts.find(x => x.id === b.dataset.tripOpen); backStack = null; WSP.sheet._trip = { title: t.name, html: modals[b.getAttribute('data-modal')] }; }, true);
     const fb = body('trips-math'); if (fb) fb.innerHTML = `<p class="prose">${esc(d.basis)}</p>
-      <ul class="price-list">${ts.map(t => `<li><span>${esc(t.name)}<span class="leg-basis">Flights ${esc(usd(t.cost.flights))} · stays ${esc(usd(t.cost.lodging[0]))}–${esc(usd(t.cost.lodging[1]))}${t.cost.car ? ` · car ${esc(usd(t.cost.car))}` : ''}${t.cost.ferry ? ` · ferry ${esc(usd(t.cost.ferry))}` : ''}${t.cost.vias && t.cost.vias.length ? ` · best through ${esc(t.cost.vias[0].out === t.cost.vias[0].back ? t.cost.vias[0].out : t.cost.vias[0].out + ' and ' + t.cost.vias[0].back)} ${esc(usd(t.cost.vias[0].low))}–${esc(usd(t.cost.vias[0].high))}` : ''}</span></span><span class="num">${esc(usd(t.cost.low))}–${esc(usd(t.cost.high))}</span></li>`).join('')}</ul>
+      <ul class="price-list">${ts.map(t => `<li><span>${esc(t.name)}<span class="leg-basis">Flights ${esc(usd(t.cost.flights))} · stays ${esc(usd(t.cost.lodging[0]))}–${esc(usd(t.cost.lodging[1]))}${t.cost.car ? ` · car ${esc(usd(t.cost.car))}` : ''}${t.cost.ferry ? ` · ferry ${esc(usd(t.cost.ferry))}` : ''}${t.cost.vias && t.cost.vias.length ? (o => ` · through Vegas, a night each way, ${esc(usd(o.low))}–${esc(usd(o.high))}`)(t.cost.vias[0].options.find(o => o.stay === 'both') || t.cost.vias[0].options[0]) : ''}</span></span><span class="num">${esc(usd(t.cost.low))}–${esc(usd(t.cost.high))}</span></li>`).join('')}</ul>
       <p class="caption">Each flight uses the lowest fare Southwest showed for that route and month. Holiday dates usually cost more.</p>`;
   }
   /* a stop inside a trip opens the place, with a way back to the trip */

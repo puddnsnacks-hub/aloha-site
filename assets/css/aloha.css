@@ -462,3 +462,4 @@ a.src, .src-list a, .src { font-size: 16px !important; min-height: 32px; line-he
 /* outlook and verdict rows: the badge gets its own width, the text the rest */
 .rules .rule:has(> .badge) { display: grid; grid-template-columns: auto minmax(0, 1fr); align-items: start; }
 .rules .rule > span.badge { font: 700 14px/1.3 var(--pds-font-mono); letter-spacing: .06em; min-width: 0; white-space: nowrap; margin-top: 3px; }
+.via-h { margin: 18px 0 6px; font: 600 18px/1.3 var(--pds-font-sans); color: var(--wsp-ink-90); display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
