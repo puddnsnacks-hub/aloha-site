@@ -1,6 +1,11 @@
 {
  "flights": [
   {
+   "label": "One-way tickets",
+   "text": "Book every flight as its own one-way ticket. That is the only way the 2-for-1 applies, so a trip with three flights is three bookings, each with the companion added.",
+   "source": "https://www.southwest.com/rapid-rewards/tiers/companion-pass/"
+  },
+  {
    "label": "From Houston",
    "text": "Southwest flies to Hawaii from Hobby only, and every itinerary connects. The connecting city shows at booking.",
    "source": "https://www.southwest.com/destinations/hawaii/honolulu"

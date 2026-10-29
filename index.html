@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Aloha · Hawaii, Dec 19 – Jan 3</title>
-<meta name="description" content="Seven nights in Hawaii between Dec 19 and Jan 3: six trips priced for two, Donn Beach and the tiki bars, luaus and New Year’s Eve, volcanoes, shrimp trucks and poke.">
+<meta name="description" content="Ten days in Hawaii between Dec 19 and Jan 3: six trips priced for two, Donn Beach and the tiki bars, luaus and New Year’s Eve, volcanoes, shrimp trucks and poke.">
 <meta name="theme-color" content="#083e3d">
 <meta property="og:title" content="Aloha · Hawaii, Dec 19 – Jan 3">
 <meta property="og:description" content="Six Hawaii trips priced for two, tiki history, luaus, volcanoes and shrimp trucks.">
@@ -14,13 +14,13 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT,WONK@0,9..144,400..900,100,1;1,9..144,400..900,100,1&family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600;700&family=Covered+By+Your+Grace&family=Francois+One&display=swap">
 <link rel="stylesheet" href="assets/css/leaflet.css">
 <link rel="stylesheet" href="assets/css/pds-tokens.css">
-<link rel="stylesheet" href="assets/css/theme-aloha.css">
+<link rel="stylesheet" href="assets/css/theme-aloha.css?v=2">
 <link rel="stylesheet" href="assets/css/site.css">
 <link rel="stylesheet" href="assets/css/art-breaks.css">
 <link rel="stylesheet" href="assets/css/layer.css">
 <link rel="stylesheet" href="assets/css/reverse.css">
 <link rel="stylesheet" href="assets/css/timeline.css">
-<link rel="stylesheet" href="assets/css/aloha.css?v=6">
+<link rel="stylesheet" href="assets/css/aloha.css?v=9">
 <script>document.documentElement.setAttribute("data-theme","light");</script>
 </head>
 <body>
@@ -31,7 +31,7 @@
     <p class="h2-ghost h2-ghost-w" aria-hidden="true">Aloha</p>
     <h1 class="h2-title"><span class="h2-w">Aloha</span> <span class="h2-mke">Dec 19 – Jan 3</span></h1>
     <nav class="h2-days" aria-label="The islands"><a class="h2-day" href="#island-oahu" data-hero-go="islands" data-hero-card="island-oahu" data-city="oahu"><span class="h2-code" aria-hidden="true">HNL</span><span class="h2-date" aria-hidden="true">Oʻahu</span><span class="visually-hidden">Oʻahu must-sees</span></a><a class="h2-day" href="#island-maui" data-hero-go="islands" data-hero-card="island-maui" data-city="maui"><span class="h2-code" aria-hidden="true">OGG</span><span class="h2-date" aria-hidden="true">Maui</span><span class="visually-hidden">Maui must-sees</span></a><a class="h2-day" href="#island-big-island" data-hero-go="islands" data-hero-card="island-big-island" data-city="big-island"><span class="h2-code" aria-hidden="true">KOA</span><span class="h2-date" aria-hidden="true">Big Island</span><span class="visually-hidden">Big Island must-sees</span></a><a class="h2-day" href="#island-kauai" data-hero-go="islands" data-hero-card="island-kauai" data-city="kauai"><span class="h2-code" aria-hidden="true">LIH</span><span class="h2-date" aria-hidden="true">Kauaʻi</span><span class="visually-hidden">Kauaʻi must-sees</span></a></nav>
-    <nav class="h2-go" aria-label="Featured"><a class="h2-btn h2-btn--1" href="#trips-menu" data-hero-go="trips" data-hero-card="trips-menu"><span>Pick a trip</span></a><a class="h2-btn h2-btn--2" href="#tiki-history" data-hero-go="tiki" data-hero-card="tiki-history"><span>The Donn Beach story</span></a><a class="h2-btn h2-btn--3" href="#holiday-list" data-hero-go="luaus" data-hero-card="holiday-list"><span>New Year&#x27;s Eve</span></a></nav>
+    <nav class="h2-go" aria-label="Featured"><a class="h2-btn h2-btn--1" href="#trips-menu" data-hero-go="trips" data-hero-card="trips-menu"><span>Pick a trip</span></a><a class="h2-btn h2-btn--2" href="#xmas-verdict" data-hero-go="christmas" data-hero-card="xmas-verdict"><span>Christmas</span></a><a class="h2-btn h2-btn--3" href="#tiki-history" data-hero-go="tiki" data-hero-card="tiki-history"><span>The Donn Beach story</span></a><a class="h2-btn h2-btn--4" href="#holiday-list" data-hero-go="luaus" data-hero-card="holiday-list"><span>New Year&#x27;s Eve</span></a></nav>
     <a class="temp-pill" href="#weather" id="temp-pill" data-hero-go="around" data-hero-card="weather">
         <svg id="temp-icon" viewBox="0 0 24 24" aria-hidden="true"></svg>
         <span class="t num" id="temp-now"></span>
@@ -52,7 +52,7 @@
   <div class="mega" id="mega" role="dialog" aria-modal="true" aria-label="Menu" hidden>
     <div class="mega-inner">
       <div class="mega-top"><span class="mega-label">Menu</span><button class="mega-close" type="button" aria-label="Close the menu"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button></div>
-      <ul class="mega-cats"><li><a class="mega-cat" href="#scene-home" data-chapter-link="home" style="--chip: var(--chip-home)"><span class="mega-chip" aria-hidden="true"></span><span class="mega-t">Aloha</span><span class="mega-d">The note</span></a></li><li><a class="mega-cat" href="#scene-trips" data-chapter-link="trips" style="--chip: var(--chip-trips)"><span class="mega-chip" aria-hidden="true"></span><span class="mega-t">The menu</span><span class="mega-d">Six trips, how the prices add up</span></a></li><li><a class="mega-cat" href="#scene-islands" data-chapter-link="islands" style="--chip: var(--chip-islands)"><span class="mega-chip" aria-hidden="true"></span><span class="mega-t">The islands</span><span class="mega-d">Oʻahu, Maui, Big Island, Kauaʻi</span></a></li><li><a class="mega-cat" href="#scene-tiki" data-chapter-link="tiki" style="--chip: var(--chip-tiki)"><span class="mega-chip" aria-hidden="true"></span><span class="mega-t">Tiki</span><span class="mega-d">Donn Beach, 1907–1989, tiki bars</span></a></li><li><a class="mega-cat" href="#scene-luaus" data-chapter-link="luaus" style="--chip: var(--chip-luaus)"><span class="mega-chip" aria-hidden="true"></span><span class="mega-t">Luaus and holidays</span><span class="mega-d">Luaus, Christmas and New Year&#x27;s Eve, adults-only stays</span></a></li><li><a class="mega-cat" href="#scene-music" data-chapter-link="music" style="--chip: var(--chip-music)"><span class="mega-chip" aria-hidden="true"></span><span class="mega-t">Music</span><span class="mega-d">On the calendar, rooms</span></a></li><li><a class="mega-cat" href="#scene-food" data-chapter-link="food" style="--chip: var(--chip-food)"><span class="mega-chip" aria-hidden="true"></span><span class="mega-t">Food</span><span class="mega-d">The big dinner, trucks and plate lunch, poke, diners and dives, fruit and markets</span></a></li><li><a class="mega-cat" href="#scene-nature" data-chapter-link="nature" style="--chip: var(--chip-nature)"><span class="mega-chip" aria-hidden="true"></span><span class="mega-t">Nature</span><span class="mega-d">Island by island, volcanoes, jungle and waterfalls, lagoons and beaches</span></a></li><li><a class="mega-cat" href="#scene-around" data-chapter-link="around" style="--chip: var(--chip-around)"><span class="mega-chip" aria-hidden="true"></span><span class="mega-t">Getting around</span><span class="mega-d">Flights, ferry, cars, stays, the map, the weather</span></a></li></ul>
+      <ul class="mega-cats"><li><a class="mega-cat" href="#scene-home" data-chapter-link="home" style="--chip: var(--chip-home)"><span class="mega-chip" aria-hidden="true"></span><span class="mega-t">Aloha</span><span class="mega-d">The note</span></a></li><li><a class="mega-cat" href="#scene-trips" data-chapter-link="trips" style="--chip: var(--chip-trips)"><span class="mega-chip" aria-hidden="true"></span><span class="mega-t">The menu</span><span class="mega-d">Six trips, how the prices add up</span></a></li><li><a class="mega-cat" href="#scene-christmas" data-chapter-link="christmas" style="--chip: var(--chip-christmas)"><span class="mega-chip" aria-hidden="true"></span><span class="mega-t">Christmas</span><span class="mega-d">Island by island, the six trips on Dec 24 and 25, Christmas Eve, Christmas Day, lights, pop-ups and luaus, open and closed, book now</span></a></li><li><a class="mega-cat" href="#scene-islands" data-chapter-link="islands" style="--chip: var(--chip-islands)"><span class="mega-chip" aria-hidden="true"></span><span class="mega-t">The islands</span><span class="mega-d">Oʻahu, Maui, Big Island, Kauaʻi</span></a></li><li><a class="mega-cat" href="#scene-tiki" data-chapter-link="tiki" style="--chip: var(--chip-tiki)"><span class="mega-chip" aria-hidden="true"></span><span class="mega-t">Tiki</span><span class="mega-d">Donn Beach, 1907–1989, tiki bars</span></a></li><li><a class="mega-cat" href="#scene-luaus" data-chapter-link="luaus" style="--chip: var(--chip-luaus)"><span class="mega-chip" aria-hidden="true"></span><span class="mega-t">Luaus and New Year&#x27;s</span><span class="mega-d">Luaus, new Year&#x27;s Eve, adults-only stays</span></a></li><li><a class="mega-cat" href="#scene-music" data-chapter-link="music" style="--chip: var(--chip-music)"><span class="mega-chip" aria-hidden="true"></span><span class="mega-t">Music</span><span class="mega-d">On the calendar, rooms</span></a></li><li><a class="mega-cat" href="#scene-food" data-chapter-link="food" style="--chip: var(--chip-food)"><span class="mega-chip" aria-hidden="true"></span><span class="mega-t">Food</span><span class="mega-d">The big dinner, trucks and plate lunch, poke, diners and dives, fruit and markets</span></a></li><li><a class="mega-cat" href="#scene-nature" data-chapter-link="nature" style="--chip: var(--chip-nature)"><span class="mega-chip" aria-hidden="true"></span><span class="mega-t">Nature</span><span class="mega-d">Island by island, volcanoes, jungle and waterfalls, lagoons and beaches</span></a></li><li><a class="mega-cat" href="#scene-around" data-chapter-link="around" style="--chip: var(--chip-around)"><span class="mega-chip" aria-hidden="true"></span><span class="mega-t">Getting around</span><span class="mega-d">Flights, ferry, cars, stays, the map, the weather</span></a></li></ul>
       <ul class="mega-x"><li><a class="mega-xl" href="#top" data-x="top">Top of the page</a></li></ul>
     </div>
   </div>
@@ -72,7 +72,7 @@
     </div>
     <div class="space space--gap" data-space="G0" data-next="trips" data-ground="flat" aria-hidden="true" style="--sg: var(--wsp-teal-80)"></div>
     <div class="scene cat" id="scene-trips" data-chapter="trips" data-title="The menu" data-side="left">
-    <div class="scene-head"><button class="cat-btn" type="button" aria-expanded="false" data-chapter-toggle="trips"><span class="strip strip--title">The menu</span><span class="cat-desc">Six trips, seven nights each, priced for two</span><span class="cat-chev" aria-hidden="true"><svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></span></button></div>
+    <div class="scene-head"><button class="cat-btn" type="button" aria-expanded="false" data-chapter-toggle="trips"><span class="strip strip--title">The menu</span><span class="cat-desc">Six trips, ten days each, priced for two</span><span class="cat-chev" aria-hidden="true"><svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></span></button></div>
     <section class="w" id="trips-menu" data-widget="trips-menu" aria-labelledby="trips-menu-h">
       <header><div class="t"><span class="eyebrow">Six trips</span><h2 id="trips-menu-h">Name your poison</h2></div></header>
       <div class="body"><div class="pending-note">Loading</div></div>
@@ -82,8 +82,40 @@
       <div class="body"><div class="pending-note">Loading</div></div>
     </section>
     </div>
-    <div class="space space--gap" data-space="G1" data-next="islands" data-ground="flat" aria-hidden="true" style="--sg: var(--wsp-paper-10)"></div>
-    <div class="scene cat" id="scene-islands" data-chapter="islands" data-title="The islands" data-side="right">
+    <div class="space space--gap" data-space="G1" data-next="christmas" data-ground="flat" aria-hidden="true" style="--sg: var(--wsp-pink-50)"></div>
+    <div class="scene cat" id="scene-christmas" data-chapter="christmas" data-title="Christmas" data-side="right">
+    <div class="scene-head"><button class="cat-btn" type="button" aria-expanded="false" data-chapter-toggle="christmas"><span class="strip strip--title">Christmas</span><span class="cat-desc">Where to spend it, and where to eat on Christmas Eve and Christmas Day</span><span class="cat-chev" aria-hidden="true"><svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></span></button></div>
+    <section class="w" id="xmas-verdict" data-widget="xmas-verdict" aria-labelledby="xmas-verdict-h">
+      <header><div class="t"><span class="eyebrow">Island by island</span><h2 id="xmas-verdict-h">Where to hang the stocking</h2></div></header>
+      <div class="body"><div class="pending-note">Loading</div></div>
+    </section>
+    <section class="w w--half" id="xmas-trips" data-widget="xmas-trips" aria-labelledby="xmas-trips-h">
+      <header><div class="t"><span class="eyebrow">The six trips on Dec 24 and 25</span><h2 id="xmas-trips-h">Where the sleigh lands</h2></div></header>
+      <div class="body"><div class="pending-note">Loading</div></div>
+    </section>
+    <section class="w" id="xmas-eve" data-widget="xmas-eve" aria-labelledby="xmas-eve-h">
+      <header><div class="t"><span class="eyebrow">Christmas Eve</span><h2 id="xmas-eve-h">The night before</h2></div></header>
+      <div class="body"><div class="pending-note">Loading</div></div>
+    </section>
+    <section class="w" id="xmas-day" data-widget="xmas-day" aria-labelledby="xmas-day-h">
+      <header><div class="t"><span class="eyebrow">Christmas Day</span><h2 id="xmas-day-h">Dinner is served</h2></div></header>
+      <div class="body"><div class="pending-note">Loading</div></div>
+    </section>
+    <section class="w" id="xmas-lights" data-widget="xmas-lights" aria-labelledby="xmas-lights-h">
+      <header><div class="t"><span class="eyebrow">Lights, pop-ups and luaus</span><h2 id="xmas-lights-h">Deck the tiki bar</h2></div></header>
+      <div class="body"><div class="pending-note">Loading</div></div>
+    </section>
+    <section class="w w--half" id="xmas-open" data-widget="xmas-open" aria-labelledby="xmas-open-h">
+      <header><div class="t"><span class="eyebrow">Open and closed</span><h2 id="xmas-open-h">Who works the holiday</h2></div></header>
+      <div class="body"><div class="pending-note">Loading</div></div>
+    </section>
+    <section class="w w--half" id="xmas-calls" data-widget="xmas-calls" aria-labelledby="xmas-calls-h">
+      <header><div class="t"><span class="eyebrow">Book now</span><h2 id="xmas-calls-h">Calls to make this week</h2></div></header>
+      <div class="body"><div class="pending-note">Loading</div></div>
+    </section>
+    </div>
+    <div class="space space--gap" data-space="G2" data-next="islands" data-ground="flat" aria-hidden="true" style="--sg: var(--wsp-paper-10)"></div>
+    <div class="scene cat" id="scene-islands" data-chapter="islands" data-title="The islands" data-side="left">
     <div class="scene-head"><button class="cat-btn" type="button" aria-expanded="false" data-chapter-toggle="islands"><span class="strip strip--title">The islands</span><span class="cat-desc">Must-sees on Oʻahu, Maui, the Big Island and Kauaʻi</span><span class="cat-chev" aria-hidden="true"><svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></span></button></div>
     <section class="w" id="island-oahu" data-widget="island-oahu" aria-labelledby="island-oahu-h">
       <header><div class="t"><span class="eyebrow">Oʻahu</span><h2 id="island-oahu-h">Where the tiki story lives</h2></div></header>
@@ -102,8 +134,8 @@
       <div class="body"><div class="pending-note">Loading</div></div>
     </section>
     </div>
-    <div class="space space--gap" data-space="G2" data-next="tiki" data-ground="flat" aria-hidden="true" style="--sg: var(--wsp-gold-40)"></div>
-    <div class="scene cat" id="scene-tiki" data-chapter="tiki" data-title="Tiki" data-side="left">
+    <div class="space space--gap" data-space="G3" data-next="tiki" data-ground="flat" aria-hidden="true" style="--sg: var(--wsp-gold-40)"></div>
+    <div class="scene cat" id="scene-tiki" data-chapter="tiki" data-title="Tiki" data-side="right">
     <div class="scene-head"><button class="cat-btn" type="button" aria-expanded="false" data-chapter-toggle="tiki"><span class="strip strip--title">Tiki</span><span class="cat-desc">Donn Beach&#x27;s story and the bars that carry it</span><span class="cat-chev" aria-hidden="true"><svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></span></button></div>
     <section class="w" id="tiki-history" data-widget="tiki-history" aria-labelledby="tiki-history-h">
       <header><div class="t"><span class="eyebrow">Donn Beach, 1907–1989</span><h2 id="tiki-history-h">Paradise, invented</h2></div></header>
@@ -114,15 +146,15 @@
       <div class="body"><div class="pending-note">Loading</div></div>
     </section>
     </div>
-    <div class="space space--gap" data-space="G3" data-next="luaus" data-ground="flat" aria-hidden="true" style="--sg: var(--wsp-ink-80)"></div>
-    <div class="scene cat" id="scene-luaus" data-chapter="luaus" data-title="Luaus and holidays" data-side="right">
-    <div class="scene-head"><button class="cat-btn" type="button" aria-expanded="false" data-chapter-toggle="luaus"><span class="strip strip--title">Luaus and holidays</span><span class="cat-desc">Luaus, Christmas dinners and New Year&#x27;s Eve, for grown-ups</span><span class="cat-chev" aria-hidden="true"><svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></span></button></div>
+    <div class="space space--gap" data-space="G4" data-next="luaus" data-ground="flat" aria-hidden="true" style="--sg: var(--wsp-ink-80)"></div>
+    <div class="scene cat" id="scene-luaus" data-chapter="luaus" data-title="Luaus and New Year&#x27;s" data-side="left">
+    <div class="scene-head"><button class="cat-btn" type="button" aria-expanded="false" data-chapter-toggle="luaus"><span class="strip strip--title">Luaus and New Year&#x27;s</span><span class="cat-desc">Luaus and New Year&#x27;s Eve, for grown-ups</span><span class="cat-chev" aria-hidden="true"><svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></span></button></div>
     <section class="w" id="luau-list" data-widget="luau-list" aria-labelledby="luau-list-h">
       <header><div class="t"><span class="eyebrow">Luaus</span><h2 id="luau-list-h">Under the torches</h2></div></header>
       <div class="body"><div class="pending-note">Loading</div></div>
     </section>
     <section class="w" id="holiday-list" data-widget="holiday-list" aria-labelledby="holiday-list-h">
-      <header><div class="t"><span class="eyebrow">Christmas and New Year&#x27;s Eve</span><h2 id="holiday-list-h">Midnight, island time</h2></div></header>
+      <header><div class="t"><span class="eyebrow">New Year&#x27;s Eve</span><h2 id="holiday-list-h">Midnight, island time</h2></div></header>
       <div class="body"><div class="pending-note">Loading</div></div>
     </section>
     <section class="w w--half" id="adult-stays" data-widget="adult-stays" aria-labelledby="adult-stays-h">
@@ -130,8 +162,8 @@
       <div class="body"><div class="pending-note">Loading</div></div>
     </section>
     </div>
-    <div class="space space--gap" data-space="G4" data-next="music" data-ground="flat" aria-hidden="true" style="--sg: var(--wsp-teal-30)"></div>
-    <div class="scene cat" id="scene-music" data-chapter="music" data-title="Music" data-side="left">
+    <div class="space space--gap" data-space="G5" data-next="music" data-ground="flat" aria-hidden="true" style="--sg: var(--wsp-teal-30)"></div>
+    <div class="scene cat" id="scene-music" data-chapter="music" data-title="Music" data-side="right">
     <div class="scene-head"><button class="cat-btn" type="button" aria-expanded="false" data-chapter-toggle="music"><span class="strip strip--title">Music</span><span class="cat-desc">The shows in the window and the rooms worth a night</span><span class="cat-chev" aria-hidden="true"><svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></span></button></div>
     <section class="w" id="music-shows" data-widget="music-shows" aria-labelledby="music-shows-h">
       <header><div class="t"><span class="eyebrow">On the calendar</span><h2 id="music-shows-h">Who&#x27;s playing</h2></div></header>
@@ -142,8 +174,8 @@
       <div class="body"><div class="pending-note">Loading</div></div>
     </section>
     </div>
-    <div class="space space--gap" data-space="G5" data-next="food" data-ground="flat" aria-hidden="true" style="--sg: var(--wsp-paper-5)"></div>
-    <div class="scene cat" id="scene-food" data-chapter="food" data-title="Food" data-side="right">
+    <div class="space space--gap" data-space="G6" data-next="food" data-ground="flat" aria-hidden="true" style="--sg: var(--wsp-paper-5)"></div>
+    <div class="scene cat" id="scene-food" data-chapter="food" data-title="Food" data-side="left">
     <div class="scene-head"><button class="cat-btn" type="button" aria-expanded="false" data-chapter-toggle="food"><span class="strip strip--title">Food</span><span class="cat-desc">Shrimp trucks, poke, pancakes, markets and one big dinner</span><span class="cat-chev" aria-hidden="true"><svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></span></button></div>
     <section class="w" id="food-fine" data-widget="food-fine" aria-labelledby="food-fine-h">
       <header><div class="t"><span class="eyebrow">The big dinner</span><h2 id="food-fine-h">Dress for dinner</h2></div></header>
@@ -166,8 +198,8 @@
       <div class="body"><div class="pending-note">Loading</div></div>
     </section>
     </div>
-    <div class="space space--gap" data-space="G6" data-next="nature" data-ground="flat" aria-hidden="true" style="--sg: var(--wsp-green-60)"></div>
-    <div class="scene cat" id="scene-nature" data-chapter="nature" data-title="Nature" data-side="left">
+    <div class="space space--gap" data-space="G7" data-next="nature" data-ground="flat" aria-hidden="true" style="--sg: var(--wsp-green-60)"></div>
+    <div class="scene cat" id="scene-nature" data-chapter="nature" data-title="Nature" data-side="right">
     <div class="scene-head"><button class="cat-btn" type="button" aria-expanded="false" data-chapter-toggle="nature"><span class="strip strip--title">Nature</span><span class="cat-desc">Volcanoes, jungle, lagoons and the quiet beaches</span><span class="cat-chev" aria-hidden="true"><svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></span></button></div>
     <section class="w w--half" id="nature-outlook" data-widget="nature-outlook" aria-labelledby="nature-outlook-h">
       <header><div class="t"><span class="eyebrow">Island by island</span><h2 id="nature-outlook-h">What&#x27;s open</h2></div></header>
@@ -186,8 +218,8 @@
       <div class="body"><div class="pending-note">Loading</div></div>
     </section>
     </div>
-    <div class="space space--gap" data-space="G7" data-next="around" data-ground="flat" aria-hidden="true" style="--sg: var(--wsp-teal-90)"></div>
-    <div class="scene cat" id="scene-around" data-chapter="around" data-title="Getting around" data-side="right">
+    <div class="space space--gap" data-space="G8" data-next="around" data-ground="flat" aria-hidden="true" style="--sg: var(--wsp-teal-90)"></div>
+    <div class="scene cat" id="scene-around" data-chapter="around" data-title="Getting around" data-side="left">
     <div class="scene-head"><button class="cat-btn" type="button" aria-expanded="false" data-chapter-toggle="around"><span class="strip strip--title">Getting around</span><span class="cat-desc">Flights, the ferry, cars, where to stay, the map and the weather</span><span class="cat-chev" aria-hidden="true"><svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></span></button></div>
     <section class="w" id="getting-flights" data-widget="getting-flights" aria-labelledby="getting-flights-h">
       <header><div class="t"><span class="eyebrow">Southwest</span><h2 id="getting-flights-h">Two seats, one fare</h2></div></header>
@@ -241,8 +273,8 @@
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
 <script src="assets/js/icons.js?v=4"></script>
 <script src="assets/js/weather.js?v=1"></script>
-<script src="assets/js/map.js?v=2"></script>
+<script src="assets/js/map.js?v=3"></script>
 <script src="assets/js/shell.js?v=8"></script>
-<script src="assets/js/app.js?v=6"></script>
+<script src="assets/js/app.js?v=9"></script>
 </body>
 </html>

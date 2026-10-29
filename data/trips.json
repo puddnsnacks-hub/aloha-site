@@ -6,7 +6,7 @@
    "tag": "Oʻahu · Big Island",
    "line": "Waikiki's tiki history first, then Christmas on the Big Island.",
    "start": "2026-12-19",
-   "end": "2026-12-26",
+   "end": "2026-12-28",
    "pace": "Steady",
    "pace_n": 2,
    "caution": "",
@@ -14,22 +14,22 @@
     {
      "island": "Oahu",
      "display": "Oʻahu",
-     "nights": 4,
+     "nights": 5,
      "bases": [
       "Waikiki"
      ],
-     "stay_low": 600,
-     "stay_high": 1000
+     "stay_low": 750,
+     "stay_high": 1250
     },
     {
      "island": "Big Island",
      "display": "Big Island",
-     "nights": 3,
+     "nights": 4,
      "bases": [
       "Kailua-Kona"
      ],
-     "stay_low": 450,
-     "stay_high": 750
+     "stay_low": 600,
+     "stay_high": 1000
     }
    ],
    "ferry": false,
@@ -74,51 +74,315 @@
     },
     {
      "date": "2026-12-23",
-     "title": "Fly to Kona",
+     "title": "The bay and Chinatown",
      "stops": [
-      "royal-kona-dons-mai-tai-bar",
-      "voyagers-of-the-pacific-royal-kona"
+      "kaneohe-sandbar",
+      "maguro-brothers",
+      "lewers-lounge"
      ],
-     "note": "The luau runs Wednesdays."
+     "note": "Sandbar tours sell out, so book ahead."
     },
     {
      "date": "2026-12-24",
+     "title": "Fly to Kona for Christmas Eve",
+     "stops": [
+      "royal-kona-dons-mai-tai-bar"
+     ],
+     "note": "Live Hawaiian music on Thursdays, 5 to 7."
+    },
+    {
+     "date": "2026-12-25",
+     "title": "Christmas on the Kona coast",
+     "stops": [
+      "kiholo-bay",
+      "huggos-christmas-day"
+     ],
+     "note": "Huggo's Christmas menu starts at 3."
+    },
+    {
+     "date": "2026-12-26",
      "title": "Volcano day",
      "stops": [
       "kilauea-summit",
       "kilauea-iki",
-      "nahuku",
-      "umekes"
+      "nahuku"
      ],
      "note": "Lots can fill by 10 a.m., so start early."
     },
     {
-     "date": "2026-12-25",
-     "title": "Christmas on the Kohala Coast",
+     "date": "2026-12-27",
+     "title": "Waipio and Waimea",
      "stops": [
-      "kiholo-bay",
-      "mauna-kea-luau"
+      "waipio-lookout",
+      "merrimans-waimea"
      ],
-     "note": "The luau's Christmas night isn't confirmed."
+     "note": "Merriman's Sunday brunch runs 10:30 to 1."
     },
     {
-     "date": "2026-12-26",
-     "title": "Fly home",
-     "stops": [],
+     "date": "2026-12-28",
+     "title": "Poke, then home",
+     "stops": [
+      "umekes"
+     ],
      "note": ""
     }
    ],
+   "trim": "For 8 days, skip Dec 23 on Oʻahu and Dec 27 on the Big Island.",
+   "tickets": 3,
+   "deal": "This assumes your 2-for-1 works on every one-way ticket, the way Southwest's Companion Pass does. If it's a one-time certificate, check its terms before you split the trip into 3 tickets.",
    "cost": {
+    "vias": [
+     {
+      "out": "Las Vegas",
+      "back": "Las Vegas",
+      "legs": [
+       {
+        "from": "HOU",
+        "to": "LAS",
+        "date": "2026-12-19",
+        "fare": 72,
+        "companion": 5.6,
+        "two": 77.6,
+        "basis": "lowest fare Southwest showed, Dec 1, 5, 7, 8, 12, 2026",
+        "source": "https://www.southwest.com/en/flights/flights-from-houston-hobby-to-las-vegas"
+       },
+       {
+        "from": "LAS",
+        "to": "HNL",
+        "date": "2026-12-19",
+        "fare": 241,
+        "companion": 5.6,
+        "two": 246.6,
+        "basis": "lowest fare Southwest showed, Dec 7, 2026",
+        "source": "https://www.southwest.com/en/flights/flights-from-las-vegas-to-honolulu"
+       },
+       {
+        "from": "HNL",
+        "to": "KOA",
+        "date": "2026-12-24",
+        "fare": 69,
+        "companion": 5.6,
+        "two": 74.6,
+        "basis": "lowest fare Southwest showed, Dec 16, 18 and 21, 2026",
+        "source": "https://www.southwest.com/en/flights/flights-from-honolulu-to-kona"
+       },
+       {
+        "from": "KOA",
+        "to": "LAS",
+        "date": "2026-12-28",
+        "fare": 199,
+        "companion": 5.6,
+        "two": 204.6,
+        "basis": "lowest fare Southwest showed, Dec 9, 2026",
+        "source": "https://www.southwest.com/en/flights/flights-from-kona-to-las-vegas"
+       },
+       {
+        "from": "LAS",
+        "to": "HOU",
+        "date": "2026-12-28",
+        "fare": 72,
+        "companion": 5.6,
+        "two": 77.6,
+        "basis": "lowest fare Southwest showed, Dec 1, 2, 3, 10, 17, 2026",
+        "source": "https://www.southwest.com/en/flights/flights-from-las-vegas-to-houston-hobby"
+       }
+      ],
+      "flights": 681,
+      "low": 2539,
+      "high": 3439,
+      "diff": 27
+     },
+     {
+      "out": "Seattle",
+      "back": "Las Vegas",
+      "legs": [
+       {
+        "from": "HOU",
+        "to": "SEA",
+        "date": "2026-12-19",
+        "fare": 187,
+        "companion": 5.6,
+        "two": 192.6,
+        "basis": "lowest fare Southwest showed, Dec 2, 7, 8, 10, 12, 2026",
+        "source": "https://www.southwest.com/en/flights/flights-from-houston-hobby-to-seattle-tacoma"
+       },
+       {
+        "from": "SEA",
+        "to": "HNL",
+        "date": "2026-12-19",
+        "fare": 248,
+        "companion": 5.6,
+        "two": 253.6,
+        "basis": "lowest fare Southwest showed, Dec 2, 3, 15, 2026",
+        "source": "https://www.southwest.com/en/flights/flights-from-seattle-tacoma-to-honolulu"
+       },
+       {
+        "from": "HNL",
+        "to": "KOA",
+        "date": "2026-12-24",
+        "fare": 69,
+        "companion": 5.6,
+        "two": 74.6,
+        "basis": "lowest fare Southwest showed, Dec 16, 18 and 21, 2026",
+        "source": "https://www.southwest.com/en/flights/flights-from-honolulu-to-kona"
+       },
+       {
+        "from": "KOA",
+        "to": "LAS",
+        "date": "2026-12-28",
+        "fare": 199,
+        "companion": 5.6,
+        "two": 204.6,
+        "basis": "lowest fare Southwest showed, Dec 9, 2026",
+        "source": "https://www.southwest.com/en/flights/flights-from-kona-to-las-vegas"
+       },
+       {
+        "from": "LAS",
+        "to": "HOU",
+        "date": "2026-12-28",
+        "fare": 72,
+        "companion": 5.6,
+        "two": 77.6,
+        "basis": "lowest fare Southwest showed, Dec 1, 2, 3, 10, 17, 2026",
+        "source": "https://www.southwest.com/en/flights/flights-from-las-vegas-to-houston-hobby"
+       }
+      ],
+      "flights": 803,
+      "low": 2661,
+      "high": 3561,
+      "diff": 149
+     },
+     {
+      "out": "Las Vegas",
+      "back": "Seattle",
+      "legs": [
+       {
+        "from": "HOU",
+        "to": "LAS",
+        "date": "2026-12-19",
+        "fare": 72,
+        "companion": 5.6,
+        "two": 77.6,
+        "basis": "lowest fare Southwest showed, Dec 1, 5, 7, 8, 12, 2026",
+        "source": "https://www.southwest.com/en/flights/flights-from-houston-hobby-to-las-vegas"
+       },
+       {
+        "from": "LAS",
+        "to": "HNL",
+        "date": "2026-12-19",
+        "fare": 241,
+        "companion": 5.6,
+        "two": 246.6,
+        "basis": "lowest fare Southwest showed, Dec 7, 2026",
+        "source": "https://www.southwest.com/en/flights/flights-from-las-vegas-to-honolulu"
+       },
+       {
+        "from": "HNL",
+        "to": "KOA",
+        "date": "2026-12-24",
+        "fare": 69,
+        "companion": 5.6,
+        "two": 74.6,
+        "basis": "lowest fare Southwest showed, Dec 16, 18 and 21, 2026",
+        "source": "https://www.southwest.com/en/flights/flights-from-honolulu-to-kona"
+       },
+       {
+        "from": "KOA",
+        "to": "SEA",
+        "date": "2026-12-28",
+        "fare": 238,
+        "companion": 5.6,
+        "two": 243.6,
+        "basis": "lowest fare Southwest showed, Dec 21, 2026 (also $268 on Dec 19, 2026)",
+        "source": "https://www.southwest.com/en/flights/flights-from-kona-to-seattle-tacoma"
+       },
+       {
+        "from": "SEA",
+        "to": "HOU",
+        "date": "2026-12-28",
+        "fare": 182,
+        "companion": 5.6,
+        "two": 187.6,
+        "basis": "lowest fare Southwest showed, Dec 2, 15, 2026",
+        "source": "https://www.southwest.com/en/flights/flights-from-seattle-tacoma-to-houston-hobby"
+       }
+      ],
+      "flights": 830,
+      "low": 2688,
+      "high": 3588,
+      "diff": 176
+     },
+     {
+      "out": "Seattle",
+      "back": "Seattle",
+      "legs": [
+       {
+        "from": "HOU",
+        "to": "SEA",
+        "date": "2026-12-19",
+        "fare": 187,
+        "companion": 5.6,
+        "two": 192.6,
+        "basis": "lowest fare Southwest showed, Dec 2, 7, 8, 10, 12, 2026",
+        "source": "https://www.southwest.com/en/flights/flights-from-houston-hobby-to-seattle-tacoma"
+       },
+       {
+        "from": "SEA",
+        "to": "HNL",
+        "date": "2026-12-19",
+        "fare": 248,
+        "companion": 5.6,
+        "two": 253.6,
+        "basis": "lowest fare Southwest showed, Dec 2, 3, 15, 2026",
+        "source": "https://www.southwest.com/en/flights/flights-from-seattle-tacoma-to-honolulu"
+       },
+       {
+        "from": "HNL",
+        "to": "KOA",
+        "date": "2026-12-24",
+        "fare": 69,
+        "companion": 5.6,
+        "two": 74.6,
+        "basis": "lowest fare Southwest showed, Dec 16, 18 and 21, 2026",
+        "source": "https://www.southwest.com/en/flights/flights-from-honolulu-to-kona"
+       },
+       {
+        "from": "KOA",
+        "to": "SEA",
+        "date": "2026-12-28",
+        "fare": 238,
+        "companion": 5.6,
+        "two": 243.6,
+        "basis": "lowest fare Southwest showed, Dec 21, 2026 (also $268 on Dec 19, 2026)",
+        "source": "https://www.southwest.com/en/flights/flights-from-kona-to-seattle-tacoma"
+       },
+       {
+        "from": "SEA",
+        "to": "HOU",
+        "date": "2026-12-28",
+        "fare": 182,
+        "companion": 5.6,
+        "two": 187.6,
+        "basis": "lowest fare Southwest showed, Dec 2, 15, 2026",
+        "source": "https://www.southwest.com/en/flights/flights-from-seattle-tacoma-to-houston-hobby"
+       }
+      ],
+      "flights": 952,
+      "low": 2810,
+      "high": 3710,
+      "diff": 298
+     }
+    ],
     "flights": 654,
     "lodging": [
-     1050,
-     1750
+     1350,
+     2250
     ],
-    "car": 381,
+    "car": 508,
     "ferry": 0,
     "ferry_each": 66,
-    "low": 2085,
-    "high": 2785,
+    "low": 2512,
+    "high": 3412,
     "legs": [
      {
       "from": "HOU",
@@ -133,7 +397,7 @@
      {
       "from": "HNL",
       "to": "KOA",
-      "date": "2026-12-23",
+      "date": "2026-12-24",
       "fare": 69,
       "companion": 5.6,
       "two": 74.6,
@@ -143,7 +407,7 @@
      {
       "from": "KOA",
       "to": "HOU",
-      "date": "2026-12-26",
+      "date": "2026-12-28",
       "fare": 318,
       "companion": 5.6,
       "two": 323.6,
@@ -154,7 +418,7 @@
     "cars": [
      {
       "island": "Big Island",
-      "days": 3,
+      "days": 4,
       "rate": 127,
       "basis": "cheapest winter car at Kona, Dec 2025 survey. Kona rates nearly doubled Dec 21 to 26"
      }
@@ -169,17 +433,21 @@
     "hau-tree-bar-hilton",
     "skull-and-crown",
     "royal-kona-dons-mai-tai-bar",
-    "voyagers-of-the-pacific-royal-kona",
-    "mauna-kea-luau",
     "polynesian-cultural-center",
+    "lewers-lounge",
+    "merrimans-waimea",
     "giovannis-kahuku",
     "ono-seafood",
+    "maguro-brothers",
     "umekes",
     "kilauea-summit",
     "kilauea-iki",
     "nahuku",
     "diamond-head",
-    "kiholo-bay"
+    "kiholo-bay",
+    "kaneohe-sandbar",
+    "waipio-lookout",
+    "huggos-christmas-day"
    ],
    "extras": [
     "A one-day car on Oʻahu for the North Shore"
@@ -191,8 +459,8 @@
    "id": "fire-down-below",
    "name": "Fire Down Below",
    "tag": "Big Island · Maui",
-   "line": "Two volcanoes in one week, and New Year's Eve on Maui.",
-   "start": "2026-12-26",
+   "line": "Christmas at the volcano, then New Year's Eve on Maui.",
+   "start": "2026-12-24",
    "end": "2027-01-02",
    "pace": "Full tilt",
    "pace_n": 3,
@@ -201,58 +469,68 @@
     {
      "island": "Big Island",
      "display": "Big Island",
-     "nights": 4,
+     "nights": 5,
      "bases": [
       "Hilo",
       "Kailua-Kona"
      ],
-     "stay_low": 600,
-     "stay_high": 1000
+     "stay_low": 750,
+     "stay_high": 1250
     },
     {
      "island": "Maui",
      "display": "Maui",
-     "nights": 3,
+     "nights": 4,
      "bases": [
       "Kihei or Paia"
      ],
-     "stay_low": 540,
-     "stay_high": 900
+     "stay_low": 720,
+     "stay_high": 1200
     }
    ],
    "ferry": false,
    "days": [
     {
-     "date": "2026-12-26",
-     "title": "Land in Hilo",
+     "date": "2026-12-24",
+     "title": "Land in Hilo on Christmas Eve",
      "stops": [
       "kens-pancakes"
      ],
      "note": "A long travel day. Ken's is open until 9."
     },
     {
-     "date": "2026-12-27",
-     "title": "Hawaii Volcanoes",
+     "date": "2026-12-25",
+     "title": "Christmas at the volcano",
      "stops": [
       "kilauea-summit",
       "kilauea-iki",
       "nahuku",
       "mauna-ulu-puu-huluhulu"
      ],
-     "note": "Lots can fill by 10 a.m."
+     "note": "The park stays open on Christmas. Lots can fill by 10 a.m. Hilo has no posted Christmas dinners, so book Ken's or plan a picnic."
+    },
+    {
+     "date": "2026-12-26",
+     "title": "Hilo",
+     "stops": [
+      "hilo-farmers-market",
+      "two-ladies-kitchen",
+      "rainbow-falls",
+      "akaka-falls"
+     ],
+     "note": ""
+    },
+    {
+     "date": "2026-12-27",
+     "title": "Across the island",
+     "stops": [
+      "waipio-lookout",
+      "merrimans-waimea"
+     ],
+     "note": "Merriman's Sunday brunch runs 10:30 to 1. Then on to Kona."
     },
     {
      "date": "2026-12-28",
-     "title": "Hilo, then across the island",
-     "stops": [
-      "hilo-farmers-market",
-      "akaka-falls",
-      "waipio-lookout"
-     ],
-     "note": "Then on to Kona."
-    },
-    {
-     "date": "2026-12-29",
      "title": "Lagoon and luau",
      "stops": [
       "kiholo-bay",
@@ -262,12 +540,21 @@
      "note": ""
     },
     {
-     "date": "2026-12-30",
+     "date": "2026-12-29",
      "title": "Fly to Maui",
      "stops": [
       "mamas-fish-house"
      ],
      "note": "Book Mama's now."
+    },
+    {
+     "date": "2026-12-30",
+     "title": "Road to Hana",
+     "stops": [
+      "waianapanapa",
+      "pipiwai-trail"
+     ],
+     "note": "Waianapanapa needs a reservation."
     },
     {
      "date": "2026-12-31",
@@ -297,22 +584,147 @@
      "note": "Saturdays 7 to 11."
     }
    ],
+   "trim": "For 8 days, skip Dec 26 in Hilo and Dec 30 on the Road to Hana.",
+   "tickets": 3,
+   "deal": "This assumes your 2-for-1 works on every one-way ticket, the way Southwest's Companion Pass does. If it's a one-time certificate, check its terms before you split the trip into 3 tickets.",
    "cost": {
+    "vias": [
+     {
+      "out": "Las Vegas",
+      "back": "Las Vegas",
+      "legs": [
+       {
+        "from": "HOU",
+        "to": "LAS",
+        "date": "2026-12-24",
+        "fare": 72,
+        "companion": 5.6,
+        "two": 77.6,
+        "basis": "lowest fare Southwest showed, Dec 1, 5, 7, 8, 12, 2026",
+        "source": "https://www.southwest.com/en/flights/flights-from-houston-hobby-to-las-vegas"
+       },
+       {
+        "from": "LAS",
+        "to": "ITO",
+        "date": "2026-12-24",
+        "fare": 256,
+        "companion": 5.6,
+        "two": 261.6,
+        "basis": "lowest fare Southwest showed, Dec 8, 2026",
+        "source": "https://www.southwest.com/en/flights/flights-from-las-vegas-to-hilo"
+       },
+       {
+        "from": "KOA",
+        "to": "OGG",
+        "date": "2026-12-29",
+        "fare": 69,
+        "companion": 5.6,
+        "two": 74.6,
+        "basis": "lowest fare Southwest showed, Dec 21, 2026",
+        "source": "https://www.southwest.com/en/flights/flights-from-kona-to-kahului"
+       },
+       {
+        "from": "OGG",
+        "to": "LAS",
+        "date": "2027-01-02",
+        "fare": 250,
+        "companion": 5.6,
+        "two": 255.6,
+        "basis": "lowest fare Southwest showed, Jan 6, 2027",
+        "source": "https://www.southwest.com/en/flights/flights-from-kahului-to-las-vegas"
+       },
+       {
+        "from": "LAS",
+        "to": "HOU",
+        "date": "2027-01-02",
+        "fare": 86,
+        "companion": 5.6,
+        "two": 91.6,
+        "basis": "lowest fare Southwest showed, Jan 2027 (monthly 'From' fare; no date shown)",
+        "source": "https://www.southwest.com/en/flights/flights-from-las-vegas-to-houston-hobby"
+       }
+      ],
+      "flights": 761,
+      "low": 3282,
+      "high": 4262,
+      "diff": 115
+     },
+     {
+      "out": "Seattle",
+      "back": "Las Vegas",
+      "legs": [
+       {
+        "from": "HOU",
+        "to": "SEA",
+        "date": "2026-12-24",
+        "fare": 187,
+        "companion": 5.6,
+        "two": 192.6,
+        "basis": "lowest fare Southwest showed, Dec 2, 7, 8, 10, 12, 2026",
+        "source": "https://www.southwest.com/en/flights/flights-from-houston-hobby-to-seattle-tacoma"
+       },
+       {
+        "from": "SEA",
+        "to": "ITO",
+        "date": "2026-12-24",
+        "fare": 254,
+        "companion": 5.6,
+        "two": 259.6,
+        "basis": "lowest fare Southwest showed, Dec 10, 2026",
+        "source": "https://www.southwest.com/en/flights/flights-from-seattle-tacoma-to-hilo"
+       },
+       {
+        "from": "KOA",
+        "to": "OGG",
+        "date": "2026-12-29",
+        "fare": 69,
+        "companion": 5.6,
+        "two": 74.6,
+        "basis": "lowest fare Southwest showed, Dec 21, 2026",
+        "source": "https://www.southwest.com/en/flights/flights-from-kona-to-kahului"
+       },
+       {
+        "from": "OGG",
+        "to": "LAS",
+        "date": "2027-01-02",
+        "fare": 250,
+        "companion": 5.6,
+        "two": 255.6,
+        "basis": "lowest fare Southwest showed, Jan 6, 2027",
+        "source": "https://www.southwest.com/en/flights/flights-from-kahului-to-las-vegas"
+       },
+       {
+        "from": "LAS",
+        "to": "HOU",
+        "date": "2027-01-02",
+        "fare": 86,
+        "companion": 5.6,
+        "two": 91.6,
+        "basis": "lowest fare Southwest showed, Jan 2027 (monthly 'From' fare; no date shown)",
+        "source": "https://www.southwest.com/en/flights/flights-from-las-vegas-to-houston-hobby"
+       }
+      ],
+      "flights": 874,
+      "low": 3395,
+      "high": 4375,
+      "diff": 228
+     }
+    ],
     "flights": 646,
     "lodging": [
-     1140,
-     1900
+     1470,
+     2450
     ],
-    "car": 820,
+    "car": 1051,
     "ferry": 0,
     "ferry_each": 66,
-    "low": 2606,
-    "high": 3366,
+    "low": 3167,
+    "high": 4147,
     "legs": [
      {
       "from": "HOU",
       "to": "ITO",
-      "date": "2026-12-26",
+      "date": "2026-12-24",
       "fare": 285,
       "companion": 5.6,
       "two": 290.6,
@@ -322,7 +734,7 @@
      {
       "from": "KOA",
       "to": "OGG",
-      "date": "2026-12-30",
+      "date": "2026-12-29",
       "fare": 69,
       "companion": 5.6,
       "two": 74.6,
@@ -343,13 +755,13 @@
     "cars": [
      {
       "island": "Big Island",
-      "days": 4,
+      "days": 5,
       "rate": 127,
       "basis": "cheapest winter car at Kona, Dec 2025 survey. Kona rates nearly doubled Dec 21 to 26"
      },
      {
       "island": "Maui",
-      "days": 3,
+      "days": 4,
       "rate": 104,
       "basis": "cheapest winter car at Kahului, Dec 2025 survey"
      }
@@ -361,9 +773,11 @@
     "westin-maui-nye-drone-show",
     "grand-wailea-humu-after-hours",
     "mamas-fish-house",
+    "merrimans-waimea",
     "umekes",
     "like-poke",
     "kens-pancakes",
+    "two-ladies-kitchen",
     "hilo-farmers-market",
     "upcountry-farmers-market",
     "kilauea-summit",
@@ -371,9 +785,12 @@
     "nahuku",
     "mauna-ulu-puu-huluhulu",
     "haleakala-sunrise",
+    "pipiwai-trail",
     "akaka-falls",
+    "rainbow-falls",
     "kiholo-bay",
     "makena-big-beach",
+    "waianapanapa",
     "waipio-lookout"
    ],
    "extras": [
@@ -388,8 +805,8 @@
    "id": "waikiki-countdown",
    "name": "Waikiki Countdown",
    "tag": "Maui · Oʻahu",
-   "line": "Maui's jungle and sunrise, then New Year's Eve in Waikiki.",
-   "start": "2026-12-27",
+   "line": "Fly out on Christmas Day, Maui's jungle and sunrise, then New Year's Eve in Waikiki.",
+   "start": "2026-12-25",
    "end": "2027-01-03",
    "pace": "Steady",
    "pace_n": 2,
@@ -398,31 +815,50 @@
     {
      "island": "Maui",
      "display": "Maui",
-     "nights": 4,
+     "nights": 5,
      "bases": [
       "Paia or Kihei"
      ],
-     "stay_low": 720,
-     "stay_high": 1200
+     "stay_low": 900,
+     "stay_high": 1500
     },
     {
      "island": "Oahu",
      "display": "Oʻahu",
-     "nights": 3,
+     "nights": 4,
      "bases": [
       "Waikiki"
      ],
-     "stay_low": 450,
-     "stay_high": 750
+     "stay_low": 600,
+     "stay_high": 1000
     }
    ],
    "ferry": false,
    "days": [
     {
-     "date": "2026-12-27",
-     "title": "Land in Kahului",
+     "date": "2026-12-25",
+     "title": "Land in Kahului on Christmas",
      "stops": [],
-     "note": "A full travel day with a connection."
+     "note": "A full travel day with a connection. Most Christmas dinners will be done by the time you land."
+    },
+    {
+     "date": "2026-12-26",
+     "title": "Upcountry and Iao",
+     "stops": [
+      "upcountry-farmers-market",
+      "iao-valley",
+      "sam-satos"
+     ],
+     "note": "The market runs Saturdays 7 to 11."
+    },
+    {
+     "date": "2026-12-27",
+     "title": "Haleakala sunrise, then Makawao",
+     "stops": [
+      "haleakala-sunrise",
+      "casanova"
+     ],
+     "note": "Casanova's Sunday sets run 1 to 3. Sunrise reservations for this morning opened Oct 28. A few more release 2 days before, at 7 a.m. Hawaii time."
     },
     {
      "date": "2026-12-28",
@@ -435,27 +871,29 @@
     },
     {
      "date": "2026-12-29",
-     "title": "Haleakala sunrise, then Kaanapali music",
+     "title": "South shore",
      "stops": [
-      "haleakala-sunrise",
-      "the-branches"
-     ],
-     "note": "Sunrise reservations for this morning release 60 days ahead (Oct 30) at 7 a.m. Hawaii time, with a few more 2 days before."
-    },
-    {
-     "date": "2026-12-30",
-     "title": "Iao and Paia",
-     "stops": [
-      "iao-valley",
-      "sam-satos",
+      "makena-big-beach",
+      "south-maui-fish-co",
       "mamas-fish-house"
      ],
      "note": "Book Mama's now."
     },
     {
-     "date": "2026-12-31",
-     "title": "Fly to Honolulu for midnight",
+     "date": "2026-12-30",
+     "title": "Fly to Honolulu",
      "stops": [
+      "international-market-place-dons-treehouse",
+      "royal-hawaiian-mai-tai-bar",
+      "house-without-a-key"
+     ],
+     "note": ""
+    },
+    {
+     "date": "2026-12-31",
+     "title": "New Year's Eve",
+     "stops": [
+      "la-mariana-sailing-club",
       "blue-note-hawaii",
       "star-of-honolulu-nye-cruise",
       "four-seasons-oahu-ko-olina-holiday"
@@ -477,8 +915,7 @@
      "stops": [
       "kcc-farmers-market",
       "diamond-head",
-      "international-market-place-dons-treehouse",
-      "la-mariana-sailing-club"
+      "skull-and-crown"
      ],
      "note": "Diamond Head reservations release 30 days ahead (Dec 3)."
     },
@@ -489,22 +926,267 @@
      "note": ""
     }
    ],
+   "trim": "For 8 days, skip Dec 29 on Maui and Jan 1 on Oʻahu.",
+   "tickets": 3,
+   "deal": "This assumes your 2-for-1 works on every one-way ticket, the way Southwest's Companion Pass does. If it's a one-time certificate, check its terms before you split the trip into 3 tickets.",
    "cost": {
+    "vias": [
+     {
+      "out": "Las Vegas",
+      "back": "Las Vegas",
+      "legs": [
+       {
+        "from": "HOU",
+        "to": "LAS",
+        "date": "2026-12-25",
+        "fare": 72,
+        "companion": 5.6,
+        "two": 77.6,
+        "basis": "lowest fare Southwest showed, Dec 1, 5, 7, 8, 12, 2026",
+        "source": "https://www.southwest.com/en/flights/flights-from-houston-hobby-to-las-vegas"
+       },
+       {
+        "from": "LAS",
+        "to": "OGG",
+        "date": "2026-12-25",
+        "fare": 241,
+        "companion": 5.6,
+        "two": 246.6,
+        "basis": "lowest fare Southwest showed, Dec 1, 2026",
+        "source": "https://www.southwest.com/en/flights/flights-from-las-vegas-to-kahului"
+       },
+       {
+        "from": "OGG",
+        "to": "HNL",
+        "date": "2026-12-30",
+        "fare": 65,
+        "companion": 5.6,
+        "two": 70.6,
+        "basis": "lowest fare Southwest showed, Dec 21, 2026",
+        "source": "https://www.southwest.com/destinations/hawaii/honolulu"
+       },
+       {
+        "from": "HNL",
+        "to": "LAS",
+        "date": "2027-01-03",
+        "fare": 204,
+        "companion": 5.6,
+        "two": 209.6,
+        "basis": "lowest fare Southwest showed, Jan 21, 28, 2027",
+        "source": "https://www.southwest.com/en/flights/flights-from-honolulu-to-las-vegas"
+       },
+       {
+        "from": "LAS",
+        "to": "HOU",
+        "date": "2027-01-03",
+        "fare": 86,
+        "companion": 5.6,
+        "two": 91.6,
+        "basis": "lowest fare Southwest showed, Jan 2027 (monthly 'From' fare; no date shown)",
+        "source": "https://www.southwest.com/en/flights/flights-from-las-vegas-to-houston-hobby"
+       }
+      ],
+      "flights": 696,
+      "low": 2716,
+      "high": 3716,
+      "diff": 114
+     },
+     {
+      "out": "Las Vegas",
+      "back": "Seattle",
+      "legs": [
+       {
+        "from": "HOU",
+        "to": "LAS",
+        "date": "2026-12-25",
+        "fare": 72,
+        "companion": 5.6,
+        "two": 77.6,
+        "basis": "lowest fare Southwest showed, Dec 1, 5, 7, 8, 12, 2026",
+        "source": "https://www.southwest.com/en/flights/flights-from-houston-hobby-to-las-vegas"
+       },
+       {
+        "from": "LAS",
+        "to": "OGG",
+        "date": "2026-12-25",
+        "fare": 241,
+        "companion": 5.6,
+        "two": 246.6,
+        "basis": "lowest fare Southwest showed, Dec 1, 2026",
+        "source": "https://www.southwest.com/en/flights/flights-from-las-vegas-to-kahului"
+       },
+       {
+        "from": "OGG",
+        "to": "HNL",
+        "date": "2026-12-30",
+        "fare": 65,
+        "companion": 5.6,
+        "two": 70.6,
+        "basis": "lowest fare Southwest showed, Dec 21, 2026",
+        "source": "https://www.southwest.com/destinations/hawaii/honolulu"
+       },
+       {
+        "from": "HNL",
+        "to": "SEA",
+        "date": "2027-01-03",
+        "fare": 119,
+        "companion": 5.6,
+        "two": 124.6,
+        "basis": "lowest fare Southwest showed, Jan 2027 (monthly 'From' fare; no date shown)",
+        "source": "https://www.southwest.com/en/flights/flights-from-honolulu-to-seattle-tacoma"
+       },
+       {
+        "from": "SEA",
+        "to": "HOU",
+        "date": "2027-01-03",
+        "fare": 209,
+        "companion": 5.6,
+        "two": 214.6,
+        "basis": "lowest fare Southwest showed, Jan 2027 (monthly 'From' fare; no date shown)",
+        "source": "https://www.southwest.com/en/flights/flights-from-seattle-tacoma-to-houston-hobby"
+       }
+      ],
+      "flights": 734,
+      "low": 2754,
+      "high": 3754,
+      "diff": 152
+     },
+     {
+      "out": "Seattle",
+      "back": "Las Vegas",
+      "legs": [
+       {
+        "from": "HOU",
+        "to": "SEA",
+        "date": "2026-12-25",
+        "fare": 187,
+        "companion": 5.6,
+        "two": 192.6,
+        "basis": "lowest fare Southwest showed, Dec 2, 7, 8, 10, 12, 2026",
+        "source": "https://www.southwest.com/en/flights/flights-from-houston-hobby-to-seattle-tacoma"
+       },
+       {
+        "from": "SEA",
+        "to": "OGG",
+        "date": "2026-12-25",
+        "fare": 172,
+        "companion": 5.6,
+        "two": 177.6,
+        "basis": "lowest fare Southwest showed, Dec 3, 2026",
+        "source": "https://www.southwest.com/en/flights/flights-from-seattle-tacoma-to-kahului"
+       },
+       {
+        "from": "OGG",
+        "to": "HNL",
+        "date": "2026-12-30",
+        "fare": 65,
+        "companion": 5.6,
+        "two": 70.6,
+        "basis": "lowest fare Southwest showed, Dec 21, 2026",
+        "source": "https://www.southwest.com/destinations/hawaii/honolulu"
+       },
+       {
+        "from": "HNL",
+        "to": "LAS",
+        "date": "2027-01-03",
+        "fare": 204,
+        "companion": 5.6,
+        "two": 209.6,
+        "basis": "lowest fare Southwest showed, Jan 21, 28, 2027",
+        "source": "https://www.southwest.com/en/flights/flights-from-honolulu-to-las-vegas"
+       },
+       {
+        "from": "LAS",
+        "to": "HOU",
+        "date": "2027-01-03",
+        "fare": 86,
+        "companion": 5.6,
+        "two": 91.6,
+        "basis": "lowest fare Southwest showed, Jan 2027 (monthly 'From' fare; no date shown)",
+        "source": "https://www.southwest.com/en/flights/flights-from-las-vegas-to-houston-hobby"
+       }
+      ],
+      "flights": 742,
+      "low": 2762,
+      "high": 3762,
+      "diff": 160
+     },
+     {
+      "out": "Seattle",
+      "back": "Seattle",
+      "legs": [
+       {
+        "from": "HOU",
+        "to": "SEA",
+        "date": "2026-12-25",
+        "fare": 187,
+        "companion": 5.6,
+        "two": 192.6,
+        "basis": "lowest fare Southwest showed, Dec 2, 7, 8, 10, 12, 2026",
+        "source": "https://www.southwest.com/en/flights/flights-from-houston-hobby-to-seattle-tacoma"
+       },
+       {
+        "from": "SEA",
+        "to": "OGG",
+        "date": "2026-12-25",
+        "fare": 172,
+        "companion": 5.6,
+        "two": 177.6,
+        "basis": "lowest fare Southwest showed, Dec 3, 2026",
+        "source": "https://www.southwest.com/en/flights/flights-from-seattle-tacoma-to-kahului"
+       },
+       {
+        "from": "OGG",
+        "to": "HNL",
+        "date": "2026-12-30",
+        "fare": 65,
+        "companion": 5.6,
+        "two": 70.6,
+        "basis": "lowest fare Southwest showed, Dec 21, 2026",
+        "source": "https://www.southwest.com/destinations/hawaii/honolulu"
+       },
+       {
+        "from": "HNL",
+        "to": "SEA",
+        "date": "2027-01-03",
+        "fare": 119,
+        "companion": 5.6,
+        "two": 124.6,
+        "basis": "lowest fare Southwest showed, Jan 2027 (monthly 'From' fare; no date shown)",
+        "source": "https://www.southwest.com/en/flights/flights-from-honolulu-to-seattle-tacoma"
+       },
+       {
+        "from": "SEA",
+        "to": "HOU",
+        "date": "2027-01-03",
+        "fare": 209,
+        "companion": 5.6,
+        "two": 214.6,
+        "basis": "lowest fare Southwest showed, Jan 2027 (monthly 'From' fare; no date shown)",
+        "source": "https://www.southwest.com/en/flights/flights-from-seattle-tacoma-to-houston-hobby"
+       }
+      ],
+      "flights": 780,
+      "low": 2800,
+      "high": 3800,
+      "diff": 198
+     }
+    ],
     "flights": 582,
     "lodging": [
-     1170,
-     1950
+     1500,
+     2500
     ],
-    "car": 416,
+    "car": 520,
     "ferry": 0,
     "ferry_each": 66,
-    "low": 2168,
-    "high": 2948,
+    "low": 2602,
+    "high": 3602,
     "legs": [
      {
       "from": "HOU",
       "to": "OGG",
-      "date": "2026-12-27",
+      "date": "2026-12-25",
       "fare": 250,
       "companion": 5.6,
       "two": 255.6,
@@ -514,7 +1196,7 @@
      {
       "from": "OGG",
       "to": "HNL",
-      "date": "2026-12-31",
+      "date": "2026-12-30",
       "fare": 65,
       "companion": 5.6,
       "two": 70.6,
@@ -535,7 +1217,7 @@
     "cars": [
      {
       "island": "Maui",
-      "days": 4,
+      "days": 5,
       "rate": 104,
       "basis": "cheapest winter car at Kahului, Dec 2025 survey"
      }
@@ -545,19 +1227,25 @@
    "stops": [
     "international-market-place-dons-treehouse",
     "la-mariana-sailing-club",
+    "royal-hawaiian-mai-tai-bar",
+    "house-without-a-key",
+    "skull-and-crown",
     "four-seasons-oahu-ko-olina-holiday",
     "star-of-honolulu-nye-cruise",
     "blue-note-hawaii",
-    "the-branches",
+    "casanova",
     "mamas-fish-house",
+    "south-maui-fish-co",
     "boots-kimos",
     "sam-satos",
     "kcc-farmers-market",
+    "upcountry-farmers-market",
     "haleakala-sunrise",
     "diamond-head",
     "pipiwai-trail",
     "iao-valley",
     "lanikai-kailua",
+    "makena-big-beach",
     "waianapanapa"
    ],
    "extras": [
@@ -572,9 +1260,9 @@
    "id": "garden-party",
    "name": "Garden Party",
    "tag": "Oʻahu · Kauaʻi",
-   "line": "Waikiki for three nights, then Christmas Eve on a luau's 21-and-over ticket, open bar included.",
+   "line": "Waikiki for four nights, then Christmas Eve on a luau's 21-and-over ticket, open bar included.",
    "start": "2026-12-19",
-   "end": "2026-12-26",
+   "end": "2026-12-28",
    "pace": "Steady",
    "pace_n": 2,
    "caution": "Kauaʻi is the least certain island. Kokee Road, Polihale, Secret Falls and most state parks are closed after Hurricane Lowell.",
@@ -582,22 +1270,22 @@
     {
      "island": "Oahu",
      "display": "Oʻahu",
-     "nights": 3,
+     "nights": 4,
      "bases": [
       "Waikiki"
      ],
-     "stay_low": 450,
-     "stay_high": 750
+     "stay_low": 600,
+     "stay_high": 1000
     },
     {
      "island": "Kauai",
      "display": "Kauaʻi",
-     "nights": 4,
+     "nights": 5,
      "bases": [
       "Kapaa"
      ],
-     "stay_low": 720,
-     "stay_high": 1120
+     "stay_low": 900,
+     "stay_high": 1400
     }
    ],
    "ferry": false,
@@ -625,25 +1313,27 @@
      "title": "Windward side",
      "stops": [
       "boots-kimos",
-      "lanikai-kailua"
+      "lanikai-kailua",
+      "kaneohe-sandbar"
      ],
      "note": ""
     },
     {
      "date": "2026-12-22",
-     "title": "Fly to Lihue",
+     "title": "Kapahulu and Sand Island",
      "stops": [
+      "diamond-head",
       "ono-seafood",
-      "hamura-saimin"
+      "la-mariana-sailing-club",
+      "skull-and-crown"
      ],
-     "note": ""
+     "note": "Diamond Head reservations release 30 days ahead (Nov 22)."
     },
     {
      "date": "2026-12-23",
-     "title": "Hanalei",
+     "title": "Fly to Lihue",
      "stops": [
-      "hanalei-bay",
-      "tahiti-nui",
+      "hamura-saimin",
       "kauai-sunshine-kapaa"
      ],
      "note": "The Kapaa market runs Wednesdays, 3 to 4:30."
@@ -659,14 +1349,34 @@
     },
     {
      "date": "2026-12-25",
-     "title": "Na Pali on foot",
+     "title": "Na Pali, then Christmas dinner",
      "stops": [
-      "hanakapiai"
+      "hanakapiai",
+      "gaylords-kilohana-christmas"
      ],
-     "note": "Reserve at gohaena.com. Hāʻena reservations release 30 days ahead (Nov 25)."
+     "note": "Reserve the trail at gohaena.com. Hāʻena reservations release 30 days ahead (Nov 25)."
     },
     {
      "date": "2026-12-26",
+     "title": "Hanalei",
+     "stops": [
+      "hanalei-bay",
+      "tahiti-nui",
+      "bar-acuda"
+     ],
+     "note": ""
+    },
+    {
+     "date": "2026-12-27",
+     "title": "South shore",
+     "stops": [
+      "musubi-truck",
+      "tidepools"
+     ],
+     "note": ""
+    },
+    {
+     "date": "2026-12-28",
      "title": "Canyon, then home",
      "stops": [
       "waimea-canyon-lookout"
@@ -674,17 +1384,262 @@
      "note": "One lookout is open."
     }
    ],
+   "trim": "For 8 days, skip Dec 21 on Oʻahu and Dec 27 on Kauaʻi.",
+   "tickets": 3,
+   "deal": "This assumes your 2-for-1 works on every one-way ticket, the way Southwest's Companion Pass does. If it's a one-time certificate, check its terms before you split the trip into 3 tickets.",
    "cost": {
+    "vias": [
+     {
+      "out": "Las Vegas",
+      "back": "Las Vegas",
+      "legs": [
+       {
+        "from": "HOU",
+        "to": "LAS",
+        "date": "2026-12-19",
+        "fare": 72,
+        "companion": 5.6,
+        "two": 77.6,
+        "basis": "lowest fare Southwest showed, Dec 1, 5, 7, 8, 12, 2026",
+        "source": "https://www.southwest.com/en/flights/flights-from-houston-hobby-to-las-vegas"
+       },
+       {
+        "from": "LAS",
+        "to": "HNL",
+        "date": "2026-12-19",
+        "fare": 241,
+        "companion": 5.6,
+        "two": 246.6,
+        "basis": "lowest fare Southwest showed, Dec 7, 2026",
+        "source": "https://www.southwest.com/en/flights/flights-from-las-vegas-to-honolulu"
+       },
+       {
+        "from": "HNL",
+        "to": "LIH",
+        "date": "2026-12-23",
+        "fare": 69,
+        "companion": 5.6,
+        "two": 74.6,
+        "basis": "lowest fare Southwest showed, Dec 19 and 31, 2026",
+        "source": "https://www.southwest.com/en/flights/flights-from-honolulu-to-lihue"
+       },
+       {
+        "from": "LIH",
+        "to": "LAS",
+        "date": "2026-12-28",
+        "fare": 313,
+        "companion": 5.6,
+        "two": 318.6,
+        "basis": "lowest fare Southwest showed, Dec 14, 21, 24, 2026",
+        "source": "https://www.southwest.com/en/flights/flights-from-lihue-to-las-vegas"
+       },
+       {
+        "from": "LAS",
+        "to": "HOU",
+        "date": "2026-12-28",
+        "fare": 72,
+        "companion": 5.6,
+        "two": 77.6,
+        "basis": "lowest fare Southwest showed, Dec 1, 2, 3, 10, 17, 2026",
+        "source": "https://www.southwest.com/en/flights/flights-from-las-vegas-to-houston-hobby"
+       }
+      ],
+      "flights": 795,
+      "low": 2295,
+      "high": 3195,
+      "diff": 102
+     },
+     {
+      "out": "Las Vegas",
+      "back": "Seattle",
+      "legs": [
+       {
+        "from": "HOU",
+        "to": "LAS",
+        "date": "2026-12-19",
+        "fare": 72,
+        "companion": 5.6,
+        "two": 77.6,
+        "basis": "lowest fare Southwest showed, Dec 1, 5, 7, 8, 12, 2026",
+        "source": "https://www.southwest.com/en/flights/flights-from-houston-hobby-to-las-vegas"
+       },
+       {
+        "from": "LAS",
+        "to": "HNL",
+        "date": "2026-12-19",
+        "fare": 241,
+        "companion": 5.6,
+        "two": 246.6,
+        "basis": "lowest fare Southwest showed, Dec 7, 2026",
+        "source": "https://www.southwest.com/en/flights/flights-from-las-vegas-to-honolulu"
+       },
+       {
+        "from": "HNL",
+        "to": "LIH",
+        "date": "2026-12-23",
+        "fare": 69,
+        "companion": 5.6,
+        "two": 74.6,
+        "basis": "lowest fare Southwest showed, Dec 19 and 31, 2026",
+        "source": "https://www.southwest.com/en/flights/flights-from-honolulu-to-lihue"
+       },
+       {
+        "from": "LIH",
+        "to": "SEA",
+        "date": "2026-12-28",
+        "fare": 248,
+        "companion": 5.6,
+        "two": 253.6,
+        "basis": "lowest fare Southwest showed, Dec 20, 25, 2026",
+        "source": "https://www.southwest.com/en/flights/flights-from-lihue-to-seattle-tacoma"
+       },
+       {
+        "from": "SEA",
+        "to": "HOU",
+        "date": "2026-12-28",
+        "fare": 182,
+        "companion": 5.6,
+        "two": 187.6,
+        "basis": "lowest fare Southwest showed, Dec 2, 15, 2026",
+        "source": "https://www.southwest.com/en/flights/flights-from-seattle-tacoma-to-houston-hobby"
+       }
+      ],
+      "flights": 840,
+      "low": 2340,
+      "high": 3240,
+      "diff": 147
+     },
+     {
+      "out": "Seattle",
+      "back": "Las Vegas",
+      "legs": [
+       {
+        "from": "HOU",
+        "to": "SEA",
+        "date": "2026-12-19",
+        "fare": 187,
+        "companion": 5.6,
+        "two": 192.6,
+        "basis": "lowest fare Southwest showed, Dec 2, 7, 8, 10, 12, 2026",
+        "source": "https://www.southwest.com/en/flights/flights-from-houston-hobby-to-seattle-tacoma"
+       },
+       {
+        "from": "SEA",
+        "to": "HNL",
+        "date": "2026-12-19",
+        "fare": 248,
+        "companion": 5.6,
+        "two": 253.6,
+        "basis": "lowest fare Southwest showed, Dec 2, 3, 15, 2026",
+        "source": "https://www.southwest.com/en/flights/flights-from-seattle-tacoma-to-honolulu"
+       },
+       {
+        "from": "HNL",
+        "to": "LIH",
+        "date": "2026-12-23",
+        "fare": 69,
+        "companion": 5.6,
+        "two": 74.6,
+        "basis": "lowest fare Southwest showed, Dec 19 and 31, 2026",
+        "source": "https://www.southwest.com/en/flights/flights-from-honolulu-to-lihue"
+       },
+       {
+        "from": "LIH",
+        "to": "LAS",
+        "date": "2026-12-28",
+        "fare": 313,
+        "companion": 5.6,
+        "two": 318.6,
+        "basis": "lowest fare Southwest showed, Dec 14, 21, 24, 2026",
+        "source": "https://www.southwest.com/en/flights/flights-from-lihue-to-las-vegas"
+       },
+       {
+        "from": "LAS",
+        "to": "HOU",
+        "date": "2026-12-28",
+        "fare": 72,
+        "companion": 5.6,
+        "two": 77.6,
+        "basis": "lowest fare Southwest showed, Dec 1, 2, 3, 10, 17, 2026",
+        "source": "https://www.southwest.com/en/flights/flights-from-las-vegas-to-houston-hobby"
+       }
+      ],
+      "flights": 917,
+      "low": 2417,
+      "high": 3317,
+      "diff": 224
+     },
+     {
+      "out": "Seattle",
+      "back": "Seattle",
+      "legs": [
+       {
+        "from": "HOU",
+        "to": "SEA",
+        "date": "2026-12-19",
+        "fare": 187,
+        "companion": 5.6,
+        "two": 192.6,
+        "basis": "lowest fare Southwest showed, Dec 2, 7, 8, 10, 12, 2026",
+        "source": "https://www.southwest.com/en/flights/flights-from-houston-hobby-to-seattle-tacoma"
+       },
+       {
+        "from": "SEA",
+        "to": "HNL",
+        "date": "2026-12-19",
+        "fare": 248,
+        "companion": 5.6,
+        "two": 253.6,
+        "basis": "lowest fare Southwest showed, Dec 2, 3, 15, 2026",
+        "source": "https://www.southwest.com/en/flights/flights-from-seattle-tacoma-to-honolulu"
+       },
+       {
+        "from": "HNL",
+        "to": "LIH",
+        "date": "2026-12-23",
+        "fare": 69,
+        "companion": 5.6,
+        "two": 74.6,
+        "basis": "lowest fare Southwest showed, Dec 19 and 31, 2026",
+        "source": "https://www.southwest.com/en/flights/flights-from-honolulu-to-lihue"
+       },
+       {
+        "from": "LIH",
+        "to": "SEA",
+        "date": "2026-12-28",
+        "fare": 248,
+        "companion": 5.6,
+        "two": 253.6,
+        "basis": "lowest fare Southwest showed, Dec 20, 25, 2026",
+        "source": "https://www.southwest.com/en/flights/flights-from-lihue-to-seattle-tacoma"
+       },
+       {
+        "from": "SEA",
+        "to": "HOU",
+        "date": "2026-12-28",
+        "fare": 182,
+        "companion": 5.6,
+        "two": 187.6,
+        "basis": "lowest fare Southwest showed, Dec 2, 15, 2026",
+        "source": "https://www.southwest.com/en/flights/flights-from-seattle-tacoma-to-houston-hobby"
+       }
+      ],
+      "flights": 962,
+      "low": 2462,
+      "high": 3362,
+      "diff": 269
+     }
+    ],
     "flights": 693,
     "lodging": [
-     1170,
-     1870
+     1500,
+     2400
     ],
     "car": 0,
     "ferry": 0,
     "ferry_each": 66,
-    "low": 1863,
-    "high": 2563,
+    "low": 2193,
+    "high": 3093,
     "legs": [
      {
       "from": "HOU",
@@ -699,7 +1654,7 @@
      {
       "from": "HNL",
       "to": "LIH",
-      "date": "2026-12-22",
+      "date": "2026-12-23",
       "fare": 69,
       "companion": 5.6,
       "two": 74.6,
@@ -709,7 +1664,7 @@
      {
       "from": "LIH",
       "to": "HOU",
-      "date": "2026-12-26",
+      "date": "2026-12-28",
       "fare": 357,
       "companion": 5.6,
       "two": 362.6,
@@ -720,7 +1675,7 @@
     "cars": [
      {
       "island": "Kauai",
-      "days": 4,
+      "days": 5,
       "rate": null,
       "basis": "no survey price for Lihue"
      }
@@ -729,23 +1684,31 @@
    },
    "stops": [
     "international-market-place-dons-treehouse",
+    "la-mariana-sailing-club",
     "royal-hawaiian-mai-tai-bar",
     "house-without-a-key",
     "hau-tree-bar-hilton",
+    "skull-and-crown",
     "tahiti-nui",
     "drums-dances-royal-sonesta-kauai",
+    "tidepools",
+    "bar-acuda",
+    "musubi-truck",
     "ono-seafood",
     "boots-kimos",
     "hamura-saimin",
     "kauai-sunshine-kapaa",
+    "diamond-head",
     "hanakapiai",
     "wailua-river-kayak",
+    "kaneohe-sandbar",
     "lanikai-kailua",
     "hanalei-bay",
-    "waimea-canyon-lookout"
+    "waimea-canyon-lookout",
+    "gaylords-kilohana-christmas"
    ],
    "extras": [
-    "The car on Kauaʻi, four days (no survey price for Lihue)",
+    "The car on Kauaʻi, five days (no survey price for Lihue)",
     "A day's car on Oʻahu for the windward side"
    ],
    "flag": "Plus a car",
@@ -757,9 +1720,9 @@
    "id": "island-hopper",
    "name": "Island Hopper",
    "tag": "Oʻahu · Maui · Big Island",
-   "line": "Three islands across Christmas. The most ground, the least sleep.",
-   "start": "2026-12-23",
-   "end": "2026-12-30",
+   "line": "Three islands, three nights each, home for New Year's Eve.",
+   "start": "2026-12-22",
+   "end": "2026-12-31",
    "pace": "Full tilt",
    "pace_n": 3,
    "caution": "",
@@ -777,56 +1740,68 @@
     {
      "island": "Maui",
      "display": "Maui",
-     "nights": 2,
+     "nights": 3,
      "bases": [
       "Paia"
      ],
-     "stay_low": 360,
-     "stay_high": 600
+     "stay_low": 540,
+     "stay_high": 900
     },
     {
      "island": "Big Island",
      "display": "Big Island",
-     "nights": 2,
+     "nights": 3,
      "bases": [
       "Kailua-Kona"
      ],
-     "stay_low": 300,
-     "stay_high": 500
+     "stay_low": 450,
+     "stay_high": 750
     }
    ],
    "ferry": false,
    "days": [
     {
-     "date": "2026-12-23",
+     "date": "2026-12-22",
      "title": "Land in Honolulu",
-     "stops": [],
+     "stops": [
+      "house-without-a-key"
+     ],
+     "note": ""
+    },
+    {
+     "date": "2026-12-23",
+     "title": "Where Donn Beach built",
+     "stops": [
+      "international-market-place-dons-treehouse",
+      "royal-hawaiian-mai-tai-bar",
+      "skull-and-crown"
+     ],
      "note": ""
     },
     {
      "date": "2026-12-24",
      "title": "Christmas Eve",
      "stops": [
-      "royal-hawaiian-mai-tai-bar",
-      "four-seasons-oahu-ko-olina-holiday"
+      "diamond-head",
+      "ono-seafood",
+      "four-seasons-oahu-christmas"
      ],
-     "note": "Ko Olina's Christmas Eve dinners need the concierge."
+     "note": "Ko Olina's Christmas Eve buffet runs 5 to 9. Book through the concierge. Diamond Head reservations release 30 days ahead (Nov 24)."
     },
     {
      "date": "2026-12-25",
-     "title": "Christmas Day",
+     "title": "Christmas Day, fly to Maui",
      "stops": [
-      "lanikai-kailua",
-      "la-mariana-sailing-club"
+      "mamas-fish-house"
      ],
-     "note": "Holiday hours aren't posted anywhere. Call ahead."
+     "note": "Fly early. Mama's is ten minutes from Paia, if it opens on Christmas and you can get a table."
     },
     {
      "date": "2026-12-26",
-     "title": "Market, then Maui",
+     "title": "Upcountry and Iao",
      "stops": [
-      "kcc-farmers-market",
-      "mamas-fish-house"
+      "upcountry-farmers-market",
+      "iao-valley"
      ],
      "note": ""
     },
@@ -837,7 +1812,7 @@
       "haleakala-sunrise",
       "casanova"
      ],
-     "note": "Casanova's Sunday sets run 1 to 3. Sunrise reservations for this morning release 60 days ahead (Oct 28) at 7 a.m. Hawaii time, with a few more 2 days before."
+     "note": "Casanova's Sunday sets run 1 to 3. Sunrise reservations for this morning opened Oct 28. A few more release 2 days before, at 7 a.m. Hawaii time."
     },
     {
      "date": "2026-12-28",
@@ -860,29 +1835,322 @@
     },
     {
      "date": "2026-12-30",
-     "title": "Lagoon, then home",
+     "title": "Lagoon and plate lunch",
      "stops": [
-      "kiholo-bay"
+      "kiholo-bay",
+      "broke-da-mouth",
+      "umekes"
      ],
+     "note": ""
+    },
+    {
+     "date": "2026-12-31",
+     "title": "Fly home",
+     "stops": [],
      "note": ""
     }
    ],
+   "trim": "For 8 days, skip Dec 26 on Maui and Dec 30 on the Big Island.",
+   "tickets": 4,
+   "deal": "This assumes your 2-for-1 works on every one-way ticket, the way Southwest's Companion Pass does. If it's a one-time certificate, check its terms before you split the trip into 4 tickets.",
    "cost": {
+    "vias": [
+     {
+      "out": "Las Vegas",
+      "back": "Las Vegas",
+      "legs": [
+       {
+        "from": "HOU",
+        "to": "LAS",
+        "date": "2026-12-22",
+        "fare": 72,
+        "companion": 5.6,
+        "two": 77.6,
+        "basis": "lowest fare Southwest showed, Dec 1, 5, 7, 8, 12, 2026",
+        "source": "https://www.southwest.com/en/flights/flights-from-houston-hobby-to-las-vegas"
+       },
+       {
+        "from": "LAS",
+        "to": "HNL",
+        "date": "2026-12-22",
+        "fare": 241,
+        "companion": 5.6,
+        "two": 246.6,
+        "basis": "lowest fare Southwest showed, Dec 7, 2026",
+        "source": "https://www.southwest.com/en/flights/flights-from-las-vegas-to-honolulu"
+       },
+       {
+        "from": "HNL",
+        "to": "OGG",
+        "date": "2026-12-25",
+        "fare": 58,
+        "companion": 5.6,
+        "two": 63.6,
+        "basis": "lowest fare Southwest showed, Dec 17, 2026",
+        "source": "https://www.southwest.com/en/flights/flights-from-honolulu-to-kahului"
+       },
+       {
+        "from": "OGG",
+        "to": "KOA",
+        "date": "2026-12-28",
+        "fare": 67,
+        "companion": 5.6,
+        "two": 72.6,
+        "basis": "lowest fare Southwest showed, Dec 29, 2026",
+        "source": "https://www.southwest.com/en/flights/flights-from-kahului-to-kona"
+       },
+       {
+        "from": "KOA",
+        "to": "LAS",
+        "date": "2026-12-31",
+        "fare": 199,
+        "companion": 5.6,
+        "two": 204.6,
+        "basis": "lowest fare Southwest showed, Dec 9, 2026",
+        "source": "https://www.southwest.com/en/flights/flights-from-kona-to-las-vegas"
+       },
+       {
+        "from": "LAS",
+        "to": "HOU",
+        "date": "2026-12-31",
+        "fare": 72,
+        "companion": 5.6,
+        "two": 77.6,
+        "basis": "lowest fare Southwest showed, Dec 1, 2, 3, 10, 17, 2026",
+        "source": "https://www.southwest.com/en/flights/flights-from-las-vegas-to-houston-hobby"
+       }
+      ],
+      "flights": 743,
+      "low": 2876,
+      "high": 3836,
+      "diff": 28
+     },
+     {
+      "out": "Seattle",
+      "back": "Las Vegas",
+      "legs": [
+       {
+        "from": "HOU",
+        "to": "SEA",
+        "date": "2026-12-22",
+        "fare": 187,
+        "companion": 5.6,
+        "two": 192.6,
+        "basis": "lowest fare Southwest showed, Dec 2, 7, 8, 10, 12, 2026",
+        "source": "https://www.southwest.com/en/flights/flights-from-houston-hobby-to-seattle-tacoma"
+       },
+       {
+        "from": "SEA",
+        "to": "HNL",
+        "date": "2026-12-22",
+        "fare": 248,
+        "companion": 5.6,
+        "two": 253.6,
+        "basis": "lowest fare Southwest showed, Dec 2, 3, 15, 2026",
+        "source": "https://www.southwest.com/en/flights/flights-from-seattle-tacoma-to-honolulu"
+       },
+       {
+        "from": "HNL",
+        "to": "OGG",
+        "date": "2026-12-25",
+        "fare": 58,
+        "companion": 5.6,
+        "two": 63.6,
+        "basis": "lowest fare Southwest showed, Dec 17, 2026",
+        "source": "https://www.southwest.com/en/flights/flights-from-honolulu-to-kahului"
+       },
+       {
+        "from": "OGG",
+        "to": "KOA",
+        "date": "2026-12-28",
+        "fare": 67,
+        "companion": 5.6,
+        "two": 72.6,
+        "basis": "lowest fare Southwest showed, Dec 29, 2026",
+        "source": "https://www.southwest.com/en/flights/flights-from-kahului-to-kona"
+       },
+       {
+        "from": "KOA",
+        "to": "LAS",
+        "date": "2026-12-31",
+        "fare": 199,
+        "companion": 5.6,
+        "two": 204.6,
+        "basis": "lowest fare Southwest showed, Dec 9, 2026",
+        "source": "https://www.southwest.com/en/flights/flights-from-kona-to-las-vegas"
+       },
+       {
+        "from": "LAS",
+        "to": "HOU",
+        "date": "2026-12-31",
+        "fare": 72,
+        "companion": 5.6,
+        "two": 77.6,
+        "basis": "lowest fare Southwest showed, Dec 1, 2, 3, 10, 17, 2026",
+        "source": "https://www.southwest.com/en/flights/flights-from-las-vegas-to-houston-hobby"
+       }
+      ],
+      "flights": 865,
+      "low": 2998,
+      "high": 3958,
+      "diff": 150
+     },
+     {
+      "out": "Las Vegas",
+      "back": "Seattle",
+      "legs": [
+       {
+        "from": "HOU",
+        "to": "LAS",
+        "date": "2026-12-22",
+        "fare": 72,
+        "companion": 5.6,
+        "two": 77.6,
+        "basis": "lowest fare Southwest showed, Dec 1, 5, 7, 8, 12, 2026",
+        "source": "https://www.southwest.com/en/flights/flights-from-houston-hobby-to-las-vegas"
+       },
+       {
+        "from": "LAS",
+        "to": "HNL",
+        "date": "2026-12-22",
+        "fare": 241,
+        "companion": 5.6,
+        "two": 246.6,
+        "basis": "lowest fare Southwest showed, Dec 7, 2026",
+        "source": "https://www.southwest.com/en/flights/flights-from-las-vegas-to-honolulu"
+       },
+       {
+        "from": "HNL",
+        "to": "OGG",
+        "date": "2026-12-25",
+        "fare": 58,
+        "companion": 5.6,
+        "two": 63.6,
+        "basis": "lowest fare Southwest showed, Dec 17, 2026",
+        "source": "https://www.southwest.com/en/flights/flights-from-honolulu-to-kahului"
+       },
+       {
+        "from": "OGG",
+        "to": "KOA",
+        "date": "2026-12-28",
+        "fare": 67,
+        "companion": 5.6,
+        "two": 72.6,
+        "basis": "lowest fare Southwest showed, Dec 29, 2026",
+        "source": "https://www.southwest.com/en/flights/flights-from-kahului-to-kona"
+       },
+       {
+        "from": "KOA",
+        "to": "SEA",
+        "date": "2026-12-31",
+        "fare": 238,
+        "companion": 5.6,
+        "two": 243.6,
+        "basis": "lowest fare Southwest showed, Dec 21, 2026 (also $268 on Dec 19, 2026)",
+        "source": "https://www.southwest.com/en/flights/flights-from-kona-to-seattle-tacoma"
+       },
+       {
+        "from": "SEA",
+        "to": "HOU",
+        "date": "2026-12-31",
+        "fare": 182,
+        "companion": 5.6,
+        "two": 187.6,
+        "basis": "lowest fare Southwest showed, Dec 2, 15, 2026",
+        "source": "https://www.southwest.com/en/flights/flights-from-seattle-tacoma-to-houston-hobby"
+       }
+      ],
+      "flights": 892,
+      "low": 3025,
+      "high": 3985,
+      "diff": 177
+     },
+     {
+      "out": "Seattle",
+      "back": "Seattle",
+      "legs": [
+       {
+        "from": "HOU",
+        "to": "SEA",
+        "date": "2026-12-22",
+        "fare": 187,
+        "companion": 5.6,
+        "two": 192.6,
+        "basis": "lowest fare Southwest showed, Dec 2, 7, 8, 10, 12, 2026",
+        "source": "https://www.southwest.com/en/flights/flights-from-houston-hobby-to-seattle-tacoma"
+       },
+       {
+        "from": "SEA",
+        "to": "HNL",
+        "date": "2026-12-22",
+        "fare": 248,
+        "companion": 5.6,
+        "two": 253.6,
+        "basis": "lowest fare Southwest showed, Dec 2, 3, 15, 2026",
+        "source": "https://www.southwest.com/en/flights/flights-from-seattle-tacoma-to-honolulu"
+       },
+       {
+        "from": "HNL",
+        "to": "OGG",
+        "date": "2026-12-25",
+        "fare": 58,
+        "companion": 5.6,
+        "two": 63.6,
+        "basis": "lowest fare Southwest showed, Dec 17, 2026",
+        "source": "https://www.southwest.com/en/flights/flights-from-honolulu-to-kahului"
+       },
+       {
+        "from": "OGG",
+        "to": "KOA",
+        "date": "2026-12-28",
+        "fare": 67,
+        "companion": 5.6,
+        "two": 72.6,
+        "basis": "lowest fare Southwest showed, Dec 29, 2026",
+        "source": "https://www.southwest.com/en/flights/flights-from-kahului-to-kona"
+       },
+       {
+        "from": "KOA",
+        "to": "SEA",
+        "date": "2026-12-31",
+        "fare": 238,
+        "companion": 5.6,
+        "two": 243.6,
+        "basis": "lowest fare Southwest showed, Dec 21, 2026 (also $268 on Dec 19, 2026)",
+        "source": "https://www.southwest.com/en/flights/flights-from-kona-to-seattle-tacoma"
+       },
+       {
+        "from": "SEA",
+        "to": "HOU",
+        "date": "2026-12-31",
+        "fare": 182,
+        "companion": 5.6,
+        "two": 187.6,
+        "basis": "lowest fare Southwest showed, Dec 2, 15, 2026",
+        "source": "https://www.southwest.com/en/flights/flights-from-seattle-tacoma-to-houston-hobby"
+       }
+      ],
+      "flights": 1014,
+      "low": 3147,
+      "high": 4107,
+      "diff": 299
+     }
+    ],
     "flights": 715,
     "lodging": [
-     1110,
-     1850
+     1440,
+     2400
     ],
-    "car": 462,
+    "car": 693,
     "ferry": 0,
     "ferry_each": 66,
-    "low": 2287,
-    "high": 3027,
+    "low": 2848,
+    "high": 3808,
     "legs": [
      {
       "from": "HOU",
       "to": "HNL",
-      "date": "2026-12-23",
+      "date": "2026-12-22",
       "fare": 250,
       "companion": 5.6,
       "two": 255.6,
@@ -892,7 +2160,7 @@
      {
       "from": "HNL",
       "to": "OGG",
-      "date": "2026-12-26",
+      "date": "2026-12-25",
       "fare": 58,
       "companion": 5.6,
       "two": 63.6,
@@ -912,7 +2180,7 @@
      {
       "from": "KOA",
       "to": "HOU",
-      "date": "2026-12-30",
+      "date": "2026-12-31",
       "fare": 318,
       "companion": 5.6,
       "two": 323.6,
@@ -923,13 +2191,13 @@
     "cars": [
      {
       "island": "Maui",
-      "days": 2,
+      "days": 3,
       "rate": 104,
       "basis": "cheapest winter car at Kahului, Dec 2025 survey"
      },
      {
       "island": "Big Island",
-      "days": 2,
+      "days": 3,
       "rate": 127,
       "basis": "cheapest winter car at Kona, Dec 2025 survey. Kona rates nearly doubled Dec 21 to 26"
      }
@@ -937,24 +2205,28 @@
     "excludes": "Taxes and fees on the main tickets, bags, food, parking, park fees, tours and fun. Holiday fares and rates run higher."
    },
    "stops": [
-    "la-mariana-sailing-club",
+    "international-market-place-dons-treehouse",
     "royal-hawaiian-mai-tai-bar",
+    "house-without-a-key",
+    "skull-and-crown",
     "royal-kona-dons-mai-tai-bar",
     "voyagers-of-the-pacific-royal-kona",
-    "four-seasons-oahu-ko-olina-holiday",
     "casanova",
     "mamas-fish-house",
-    "kcc-farmers-market",
+    "broke-da-mouth",
+    "ono-seafood",
+    "umekes",
+    "upcountry-farmers-market",
     "kilauea-summit",
     "kilauea-iki",
     "nahuku",
     "haleakala-sunrise",
+    "diamond-head",
+    "iao-valley",
     "kiholo-bay",
-    "lanikai-kailua"
+    "four-seasons-oahu-christmas"
    ],
-   "extras": [
-    "A day's car on Oʻahu for Kailua"
-   ],
+   "extras": [],
    "flag": "",
    "checks": []
   },
@@ -963,8 +2235,8 @@
    "name": "Two by Sea",
    "tag": "Maui · Lānaʻi · Oʻahu",
    "line": "Maui at an easy pace, a ferry day to Lānaʻi, and Christmas in Waikiki.",
-   "start": "2026-12-20",
-   "end": "2026-12-27",
+   "start": "2026-12-19",
+   "end": "2026-12-28",
    "pace": "Easy",
    "pace_n": 1,
    "caution": "",
@@ -972,31 +2244,40 @@
     {
      "island": "Maui",
      "display": "Maui",
-     "nights": 4,
+     "nights": 5,
      "bases": [
       "Wailea or Kihei"
      ],
-     "stay_low": 720,
-     "stay_high": 1200
+     "stay_low": 900,
+     "stay_high": 1500
     },
     {
      "island": "Oahu",
      "display": "Oʻahu",
-     "nights": 3,
+     "nights": 4,
      "bases": [
       "Waikiki"
      ],
-     "stay_low": 450,
-     "stay_high": 750
+     "stay_low": 600,
+     "stay_high": 1000
     }
    ],
    "ferry": true,
    "days": [
     {
-     "date": "2026-12-20",
+     "date": "2026-12-19",
      "title": "Land in Kahului",
      "stops": [],
      "note": "Hotel Wailea is the adults-only stay. Its rates aren't in the total."
+    },
+    {
+     "date": "2026-12-20",
+     "title": "An easy south-shore day",
+     "stops": [
+      "makena-big-beach",
+      "south-maui-fish-co"
+     ],
+     "note": ""
     },
     {
      "date": "2026-12-21",
@@ -1011,7 +2292,7 @@
       "haleakala-sunrise",
       "feast-at-mokapu-andaz-maui"
      ],
-     "note": "Check the luau's calendar for the night. Sunrise reservations for this morning release 60 days ahead (Oct 23) at 7 a.m. Hawaii time, with a few more 2 days before."
+     "note": "Check the luau's calendar for the night. Sunrise reservations for this morning opened Oct 23. A few more release 2 days before, at 7 a.m. Hawaii time."
     },
     {
      "date": "2026-12-23",
@@ -1025,11 +2306,11 @@
     },
     {
      "date": "2026-12-24",
-     "title": "Fly to Honolulu",
+     "title": "Fly to Honolulu for Christmas Eve",
      "stops": [
-      "four-seasons-oahu-ko-olina-holiday"
+      "hau-tree-kaimana-christmas"
      ],
-     "note": "Christmas Eve dinner at Ko Olina."
+     "note": "Christmas Eve dinner on the sand at Kaimana Beach, from 4."
     },
     {
      "date": "2026-12-25",
@@ -1037,9 +2318,9 @@
      "stops": [
       "international-market-place-dons-treehouse",
       "royal-hawaiian-mai-tai-bar",
-      "house-without-a-key"
+      "halekulani-house-without-a-key-christmas"
      ],
-     "note": ""
+     "note": "Diamond Head and Ala Moana close today."
     },
     {
      "date": "2026-12-26",
@@ -1053,27 +2334,281 @@
     },
     {
      "date": "2026-12-27",
+     "title": "Windward side",
+     "stops": [
+      "lanikai-kailua",
+      "kaneohe-sandbar"
+     ],
+     "note": ""
+    },
+    {
+     "date": "2026-12-28",
      "title": "Fly home",
      "stops": [],
      "note": ""
     }
    ],
+   "trim": "For 8 days, skip Dec 20 on Maui and Dec 27 on Oʻahu.",
+   "tickets": 3,
+   "deal": "This assumes your 2-for-1 works on every one-way ticket, the way Southwest's Companion Pass does. If it's a one-time certificate, check its terms before you split the trip into 3 tickets.",
    "cost": {
+    "vias": [
+     {
+      "out": "Las Vegas",
+      "back": "Las Vegas",
+      "legs": [
+       {
+        "from": "HOU",
+        "to": "LAS",
+        "date": "2026-12-19",
+        "fare": 72,
+        "companion": 5.6,
+        "two": 77.6,
+        "basis": "lowest fare Southwest showed, Dec 1, 5, 7, 8, 12, 2026",
+        "source": "https://www.southwest.com/en/flights/flights-from-houston-hobby-to-las-vegas"
+       },
+       {
+        "from": "LAS",
+        "to": "OGG",
+        "date": "2026-12-19",
+        "fare": 241,
+        "companion": 5.6,
+        "two": 246.6,
+        "basis": "lowest fare Southwest showed, Dec 1, 2026",
+        "source": "https://www.southwest.com/en/flights/flights-from-las-vegas-to-kahului"
+       },
+       {
+        "from": "OGG",
+        "to": "HNL",
+        "date": "2026-12-24",
+        "fare": 65,
+        "companion": 5.6,
+        "two": 70.6,
+        "basis": "lowest fare Southwest showed, Dec 21, 2026",
+        "source": "https://www.southwest.com/destinations/hawaii/honolulu"
+       },
+       {
+        "from": "HNL",
+        "to": "LAS",
+        "date": "2026-12-28",
+        "fare": 204,
+        "companion": 5.6,
+        "two": 209.6,
+        "basis": "lowest fare Southwest showed, Dec 9, 11, 2026",
+        "source": "https://www.southwest.com/en/flights/flights-from-honolulu-to-las-vegas"
+       },
+       {
+        "from": "LAS",
+        "to": "HOU",
+        "date": "2026-12-28",
+        "fare": 72,
+        "companion": 5.6,
+        "two": 77.6,
+        "basis": "lowest fare Southwest showed, Dec 1, 2, 3, 10, 17, 2026",
+        "source": "https://www.southwest.com/en/flights/flights-from-las-vegas-to-houston-hobby"
+       }
+      ],
+      "flights": 682,
+      "low": 2966,
+      "high": 3966,
+      "diff": 100
+     },
+     {
+      "out": "Seattle",
+      "back": "Las Vegas",
+      "legs": [
+       {
+        "from": "HOU",
+        "to": "SEA",
+        "date": "2026-12-19",
+        "fare": 187,
+        "companion": 5.6,
+        "two": 192.6,
+        "basis": "lowest fare Southwest showed, Dec 2, 7, 8, 10, 12, 2026",
+        "source": "https://www.southwest.com/en/flights/flights-from-houston-hobby-to-seattle-tacoma"
+       },
+       {
+        "from": "SEA",
+        "to": "OGG",
+        "date": "2026-12-19",
+        "fare": 172,
+        "companion": 5.6,
+        "two": 177.6,
+        "basis": "lowest fare Southwest showed, Dec 3, 2026",
+        "source": "https://www.southwest.com/en/flights/flights-from-seattle-tacoma-to-kahului"
+       },
+       {
+        "from": "OGG",
+        "to": "HNL",
+        "date": "2026-12-24",
+        "fare": 65,
+        "companion": 5.6,
+        "two": 70.6,
+        "basis": "lowest fare Southwest showed, Dec 21, 2026",
+        "source": "https://www.southwest.com/destinations/hawaii/honolulu"
+       },
+       {
+        "from": "HNL",
+        "to": "LAS",
+        "date": "2026-12-28",
+        "fare": 204,
+        "companion": 5.6,
+        "two": 209.6,
+        "basis": "lowest fare Southwest showed, Dec 9, 11, 2026",
+        "source": "https://www.southwest.com/en/flights/flights-from-honolulu-to-las-vegas"
+       },
+       {
+        "from": "LAS",
+        "to": "HOU",
+        "date": "2026-12-28",
+        "fare": 72,
+        "companion": 5.6,
+        "two": 77.6,
+        "basis": "lowest fare Southwest showed, Dec 1, 2, 3, 10, 17, 2026",
+        "source": "https://www.southwest.com/en/flights/flights-from-las-vegas-to-houston-hobby"
+       }
+      ],
+      "flights": 728,
+      "low": 3012,
+      "high": 4012,
+      "diff": 146
+     },
+     {
+      "out": "Las Vegas",
+      "back": "Seattle",
+      "legs": [
+       {
+        "from": "HOU",
+        "to": "LAS",
+        "date": "2026-12-19",
+        "fare": 72,
+        "companion": 5.6,
+        "two": 77.6,
+        "basis": "lowest fare Southwest showed, Dec 1, 5, 7, 8, 12, 2026",
+        "source": "https://www.southwest.com/en/flights/flights-from-houston-hobby-to-las-vegas"
+       },
+       {
+        "from": "LAS",
+        "to": "OGG",
+        "date": "2026-12-19",
+        "fare": 241,
+        "companion": 5.6,
+        "two": 246.6,
+        "basis": "lowest fare Southwest showed, Dec 1, 2026",
+        "source": "https://www.southwest.com/en/flights/flights-from-las-vegas-to-kahului"
+       },
+       {
+        "from": "OGG",
+        "to": "HNL",
+        "date": "2026-12-24",
+        "fare": 65,
+        "companion": 5.6,
+        "two": 70.6,
+        "basis": "lowest fare Southwest showed, Dec 21, 2026",
+        "source": "https://www.southwest.com/destinations/hawaii/honolulu"
+       },
+       {
+        "from": "HNL",
+        "to": "SEA",
+        "date": "2026-12-28",
+        "fare": 208,
+        "companion": 5.6,
+        "two": 213.6,
+        "basis": "lowest fare Southwest showed, Dec 2026 (monthly 'From' fare; no date shown)",
+        "source": "https://www.southwest.com/en/flights/flights-from-honolulu-to-seattle-tacoma"
+       },
+       {
+        "from": "SEA",
+        "to": "HOU",
+        "date": "2026-12-28",
+        "fare": 182,
+        "companion": 5.6,
+        "two": 187.6,
+        "basis": "lowest fare Southwest showed, Dec 2, 15, 2026",
+        "source": "https://www.southwest.com/en/flights/flights-from-seattle-tacoma-to-houston-hobby"
+       }
+      ],
+      "flights": 796,
+      "low": 3080,
+      "high": 4080,
+      "diff": 214
+     },
+     {
+      "out": "Seattle",
+      "back": "Seattle",
+      "legs": [
+       {
+        "from": "HOU",
+        "to": "SEA",
+        "date": "2026-12-19",
+        "fare": 187,
+        "companion": 5.6,
+        "two": 192.6,
+        "basis": "lowest fare Southwest showed, Dec 2, 7, 8, 10, 12, 2026",
+        "source": "https://www.southwest.com/en/flights/flights-from-houston-hobby-to-seattle-tacoma"
+       },
+       {
+        "from": "SEA",
+        "to": "OGG",
+        "date": "2026-12-19",
+        "fare": 172,
+        "companion": 5.6,
+        "two": 177.6,
+        "basis": "lowest fare Southwest showed, Dec 3, 2026",
+        "source": "https://www.southwest.com/en/flights/flights-from-seattle-tacoma-to-kahului"
+       },
+       {
+        "from": "OGG",
+        "to": "HNL",
+        "date": "2026-12-24",
+        "fare": 65,
+        "companion": 5.6,
+        "two": 70.6,
+        "basis": "lowest fare Southwest showed, Dec 21, 2026",
+        "source": "https://www.southwest.com/destinations/hawaii/honolulu"
+       },
+       {
+        "from": "HNL",
+        "to": "SEA",
+        "date": "2026-12-28",
+        "fare": 208,
+        "companion": 5.6,
+        "two": 213.6,
+        "basis": "lowest fare Southwest showed, Dec 2026 (monthly 'From' fare; no date shown)",
+        "source": "https://www.southwest.com/en/flights/flights-from-honolulu-to-seattle-tacoma"
+       },
+       {
+        "from": "SEA",
+        "to": "HOU",
+        "date": "2026-12-28",
+        "fare": 182,
+        "companion": 5.6,
+        "two": 187.6,
+        "basis": "lowest fare Southwest showed, Dec 2, 15, 2026",
+        "source": "https://www.southwest.com/en/flights/flights-from-seattle-tacoma-to-houston-hobby"
+       }
+      ],
+      "flights": 842,
+      "low": 3126,
+      "high": 4126,
+      "diff": 260
+     }
+    ],
     "flights": 582,
     "lodging": [
-     1170,
-     1950
+     1500,
+     2500
     ],
-    "car": 416,
+    "car": 520,
     "ferry": 264,
     "ferry_each": 66,
-    "low": 2432,
-    "high": 3212,
+    "low": 2866,
+    "high": 3866,
     "legs": [
      {
       "from": "HOU",
       "to": "OGG",
-      "date": "2026-12-20",
+      "date": "2026-12-19",
       "fare": 250,
       "companion": 5.6,
       "two": 255.6,
@@ -1093,7 +2628,7 @@
      {
       "from": "HNL",
       "to": "HOU",
-      "date": "2026-12-27",
+      "date": "2026-12-28",
       "fare": 250,
       "companion": 5.6,
       "two": 255.6,
@@ -1104,7 +2639,7 @@
     "cars": [
      {
       "island": "Maui",
-      "days": 4,
+      "days": 5,
       "rate": 104,
       "basis": "cheapest winter car at Kahului, Dec 2025 survey"
      }
@@ -1115,15 +2650,19 @@
     "international-market-place-dons-treehouse",
     "la-mariana-sailing-club",
     "royal-hawaiian-mai-tai-bar",
-    "house-without-a-key",
     "skull-and-crown",
     "south-shore-tiki-lounge",
     "feast-at-mokapu-andaz-maui",
-    "four-seasons-oahu-ko-olina-holiday",
+    "south-maui-fish-co",
     "kcc-farmers-market",
     "haleakala-sunrise",
     "pipiwai-trail",
-    "waianapanapa"
+    "kaneohe-sandbar",
+    "lanikai-kailua",
+    "makena-big-beach",
+    "waianapanapa",
+    "hau-tree-kaimana-christmas",
+    "halekulani-house-without-a-key-christmas"
    ],
    "extras": [
     "A car or the resort shuttle on Lānaʻi",
@@ -1133,5 +2672,5 @@
    "checks": []
   }
  ],
- "basis": "Two travelers. One full fare per flight plus the companion's taxes, at the lowest fare Southwest published for each route. Budget stays at an estimated nightly range. Cars at the cheapest winter rate from a December 2025 survey."
+ "basis": "Two travelers, ten days. Every flight is its own one-way ticket, the only way the 2-for-1 applies: one full fare plus the companion's taxes, at the lowest fare Southwest published for each route. Budget stays at an estimated nightly range. Cars at the cheapest winter rate from a December 2025 survey."
 }

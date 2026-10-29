@@ -181,7 +181,7 @@
     "address": "62-100 Mauna Kea Beach Drive, Kohala Coast, HI",
     "lat": 20.0062907,
     "lng": -155.8243753,
-    "blurb": "Formal and cultural, with aloha attire requested. Tuesdays and Fridays, including Christmas and New Year's Day.",
+    "blurb": "Formal and cultural, with aloha attire requested. Tuesdays and Fridays.",
     "check": "Holiday-night operation isn't confirmed. Ask for the seating time.",
     "status": "open",
     "order": "",
@@ -510,39 +510,6 @@
     "unverified": false
    },
    {
-    "id": "canoehouse-christmas-eve-mauna-lani",
-    "name": "CanoeHouse Christmas Eve Chef's Tasting",
-    "short": "CanoeHouse Christmas Eve Chef's Tasting",
-    "island": "Big Island",
-    "chapter": "luaus",
-    "card": "holiday-list",
-    "category": "luau",
-    "area": "CanoeHouse, Mauna Lani, Auberge Resorts Collection",
-    "address": "68-1400 Mauna Lani Drive, Kohala Coast, HI",
-    "lat": 19.9460512,
-    "lng": -155.8666638,
-    "blurb": "A family-style chef's tasting on Christmas Eve, $225 a person.",
-    "check": "Only for guests staying at Mauna Lani, Dec 18 to Jan 3.",
-    "status": "open",
-    "order": "",
-    "hours": "",
-    "price": "$225 a person",
-    "age": "Keiki menu available",
-    "difficulty": "",
-    "distance": "",
-    "reservation": "",
-    "dates": [
-     "2026-12-24"
-    ],
-    "time": "Restaurant hours 5 to 9:30 p.m.",
-    "website": "https://auberge.com/mauna-lani/canoe-house/christmas-eve",
-    "donn": false,
-    "sources": [
-     "https://auberge.com/mauna-lani/canoe-house/christmas-eve"
-    ],
-    "unverified": false
-   },
-   {
     "id": "canoehouse-nye-mauna-lani",
     "name": "CanoeHouse New Year's Eve Chef's Tasting",
     "short": "CanoeHouse New Year's Eve Chef's Tasting",
@@ -655,5 +622,5 @@
    "note": "Reopening after storm repairs isn't confirmed."
   }
  ],
- "holiday_note": "Christmas and New Year's Day both fall on a Friday. Almost no restaurant, truck or bar has posted holiday hours. Call ahead for both days."
+ "holiday_note": "New Year's Day falls on a Friday. Almost no restaurant, truck or bar has posted holiday hours, so call ahead."
 }

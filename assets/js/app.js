@@ -266,7 +266,7 @@ document.addEventListener('click', (e) => { const a = e.target.closest && e.targ
       <p class="prose"><b class="strong">${esc(p.blurb)}</b></p>
       ${p.check ? `<p class="check-first"><b>Check first</b> ${esc(p.check)}</p>` : ''}
       ${rows.length ? `<dl class="hrs--wide place-dl">${rows.map(([k, v]) => `<dt>${k}</dt><dd>${v}</dd>`).join('')}</dl>` : ''}
-      <div class="links">${p.address || (p.lat && p.lng) ? pill(mapsFor(Object.assign({}, p, { city: ISL[p.island] || p.island })), 'Maps', I.pin, 'maps') : ''}${pill(p.website, /luau|holiday/.test(p.card || '') ? 'Book' : 'Site', p.website && /book|reserv|ticket|fareharbor|tock|opentable/i.test(p.website) ? I.ticket : I.link)}${onMap(p)}</div>
+      <div class="links">${p.address || (p.lat && p.lng) ? pill(mapsFor(Object.assign({}, p, { city: ISL[p.island] || p.island })), 'Maps', I.pin, 'maps') : ''}${pill(p.website, /luau|holiday|xmas/.test(p.card || '') ? 'Book' : 'Site', p.website && /book|reserv|ticket|fareharbor|tock|opentable/i.test(p.website) ? I.ticket : I.link)}${onMap(p)}</div>
       ${srcList(p.sources)}`;
   }
   let backStack = null;
@@ -302,7 +302,16 @@ document.addEventListener('click', (e) => { const a = e.target.closest && e.targ
   function tripHTML(t, n) {
     const c = t.cost;
     const day = (d) => `<li class="day"><span class="day-d">${esc(longDate(d.date))}</span><div class="day-b"><h4>${esc(d.title)}</h4>${d.stops.length ? `<p class="day-stops">${d.stops.filter(id => P[id]).map(id => `<button class="link-pill stop" type="button" data-place="${esc(id)}">${esc(P[id].short || P[id].name)}</button>`).join('')}</p>` : ''}${d.note ? `<p class="day-note">${esc(d.note)}</p>` : ''}</div></li>`;
-    const legs = c.legs.map(l => `<li><span>${esc(l.from)} → ${esc(l.to)} · ${esc(longDate(l.date))}<span class="leg-basis">${esc(usd(l.fare))} plus ${esc(usd2(l.companion))} for the companion. ${esc(l.basis[0].toUpperCase() + l.basis.slice(1))}.${src(l.source, 'fare page')}</span></span><span class="num">${esc(usd2(l.two))}</span></li>`).join('');
+    const legRow = l => `<li><span>${esc(l.from)} → ${esc(l.to)} · ${esc(longDate(l.date))}<span class="leg-basis">${esc(usd(l.fare))} plus ${esc(usd2(l.companion))} for the companion. ${esc(l.basis[0].toUpperCase() + l.basis.slice(1))}.${src(l.source, 'fare page')}</span></span><span class="num">${esc(usd2(l.two))}</span></li>`;
+    const legs = c.legs.map(legRow).join('');
+    const viaName = v => v.out === v.back ? `through ${v.out}` : `out through ${v.out}, home through ${v.back}`;
+    const vs = c.vias || [];
+    const viaDiff = v => v.diff > 0 ? `${usd(v.diff)} more` : v.diff < 0 ? `${usd(-v.diff)} less` : 'the same';
+    const viaHTML = vs.length ? `<h4 class="sheet-h">Other ways to fly</h4>
+      <ul class="price-list">${vs.map(v => `<li><span>${esc(viaName(v)[0].toUpperCase() + viaName(v).slice(1))}<span class="leg-basis">${v.legs.length} one-way tickets. Flights ${esc(usd(v.flights))} for two, ${esc(viaDiff(v))} than the Houston fares.</span></span><span class="num">${esc(usd(v.low))}–${esc(usd(v.high))}</span></li>`).join('')}</ul>
+      <h4 class="sheet-h">The tickets, ${esc(viaName(vs[0]))}</h4>
+      <ul class="price-list bill">${vs[0].legs.map(legRow).join('')}</ul>` : '';
+    const vegasHTML = viaHTML ? viaHTML + `<p class="caption">Separate tickets don't protect a connection. If the Houston flight runs late and you miss the island flight, the second ticket is on you, so leave three hours or more between them, or fly in the night before. Bags come off at the end of each ticket, so expect to pay for them again. Most flights home from Hawaii fly overnight, so the ticket to Houston is often the next morning. Vegas flies nonstop to Honolulu, Kahului, Kona and Lihue. Southwest doesn't say its Seattle or Hilo flights are nonstop.</p>` : '';
     const cars = c.cars.map(x => x.rate ? `<li><span>Car, ${esc(ISL[x.island])}, ${x.days} days<span class="leg-basis">${esc(usd(x.rate))} a day, ${esc(x.basis)}.</span></span><span class="num">${esc(usd(x.rate * x.days))}</span></li>` : `<li><span>Car, ${esc(ISL[x.island])}, ${x.days} days<span class="leg-basis">Not in the total: ${esc(x.basis)}.</span></span><span class="num">–</span></li>`).join('');
     return `<span class="eyebrow">No. ${n} · ${esc(t.tag)}</span>
       <h3 id="sheet-title" class="heading-sm tm-name">${esc(t.name)}</h3>
@@ -313,18 +322,22 @@ document.addEventListener('click', (e) => { const a = e.target.closest && e.targ
       <div class="links">${t.islands.map(x => `<button class="link-pill" type="button" data-island-go="${esc(slug(x.island))}">${I.pin}${esc(x.display)} must-sees</button>`).join('')}</div>
       <h4 class="sheet-h">Day by day</h4>
       <ol class="days">${t.days.map(day).join('')}</ol>
+      ${t.trim ? `<p class="day-note trim-note"><b>Shorter trip</b> ${esc(t.trim)}</p>` : ''}
       <h4 class="sheet-h">The bill for two</h4>
+      <p class="prose">Book ${t.tickets} one-way tickets, one per flight, and add the companion to each.</p>
+      ${t.deal ? `<p class="check-first"><b>Check first</b> ${esc(t.deal)}</p>` : ''}
       <ul class="price-list bill">${legs}
         ${t.islands.map(x => `<li><span>Stays, ${esc(x.display)}, ${x.nights} nights<span class="leg-basis">Look in ${esc(x.bases.join(' and '))}. Clean, simple stays, estimated.</span></span><span class="num">${esc(usd(x.stay_low))}–${esc(usd(x.stay_high))}</span></li>`).join('')}
         ${cars}
         ${c.ferry ? `<li><span>Ferry to Lānaʻi and back, two people<span class="leg-basis">Expeditions, ${esc(usd(c.ferry_each))} a person each way.</span></span><span class="num">${esc(usd(c.ferry))}</span></li>` : ''}
         <li class="bill-total"><span>About</span><span class="num">${esc(usd(c.low))}–${esc(usd(c.high))}</span></li></ul>
-      <p class="caption">Not counted: ${esc([...t.extras, c.excludes].join(". ").replace(/^./, m => m.toLowerCase()))}</p>`;
+      <p class="caption">Not counted: ${esc([...t.extras, c.excludes].join(". ").replace(/^./, m => m.toLowerCase()))}</p>
+      ${vegasHTML}`;
   }
   function renderTrips(d) {
     const bd = body('trips-menu'); if (!bd) return;
     const ts = arr(d && d.trips); if (!ts.length) return pending('trips-menu');
-    bd.innerHTML = `<div class="tm"><p class="tm-head"><span>Seven nights</span><span>For two</span></p><ol class="tm-list">${ts.map((t, i) => {
+    bd.innerHTML = `<div class="tm"><p class="tm-head"><span>Ten days</span><span>For two</span></p><ol class="tm-list">${ts.map((t, i) => {
       const m = modal(tripHTML(t, i + 1));
       return `<li class="tm-row" data-trip="${esc(t.id)}"><button class="tm-item" type="button" ${m} data-trip-open="${esc(t.id)}" aria-label="${esc(`No. ${i + 1}, ${t.name}: ${t.tag}, ${longDate(t.start)} to ${longDate(t.end)}, about ${usd(t.cost.low)} to ${usd(t.cost.high)} for two. Open the day-by-day`)}">
         <span class="tm-top"><span class="tm-n num">${i + 1}</span><span class="tm-name">${esc(t.name)}</span><span class="tm-dots" aria-hidden="true"></span><span class="tm-price num">${esc(usd(t.cost.low))}<span class="tm-to">–${esc(usd(t.cost.high))}</span></span></span>
@@ -332,11 +345,11 @@ document.addEventListener('click', (e) => { const a = e.target.closest && e.targ
         <span class="tm-recipe">${pour(t)}</span>
         <span class="tm-meta"><span>${esc(longDate(t.start))} – ${esc(longDate(t.end))}</span>${strength(t.pace_n, t.pace)}${t.flag ? `<span class="tm-flag tm-flag--car">${esc(t.flag)}</span>` : ''}${t.checks.length ? '<span class="tm-flag">Check first</span>' : ''}</span>
       </button></li>`; }).join('')}</ol>
-      <p class="tm-foot">For two, with the second seat on your 2-for-1 (the companion pays from $5.60 a flight). Flights, stays and cars, before taxes, fees, food and fun.</p></div>`;
+      <p class="tm-foot">For two. Every flight is its own one-way ticket, the only way the 2-for-1 applies (the companion pays from $5.60 a flight). Flights, stays and cars, before taxes, fees, food and fun.</p></div>`;
     /* the sheet's island buttons and stop pills need the trip to come back to */
     bd.addEventListener('click', (e) => { const b = e.target.closest('[data-trip-open]'); if (!b) return; const t = ts.find(x => x.id === b.dataset.tripOpen); backStack = null; WSP.sheet._trip = { title: t.name, html: modals[b.getAttribute('data-modal')] }; }, true);
     const fb = body('trips-math'); if (fb) fb.innerHTML = `<p class="prose">${esc(d.basis)}</p>
-      <ul class="price-list">${ts.map(t => `<li><span>${esc(t.name)}<span class="leg-basis">Flights ${esc(usd(t.cost.flights))} · stays ${esc(usd(t.cost.lodging[0]))}–${esc(usd(t.cost.lodging[1]))}${t.cost.car ? ` · car ${esc(usd(t.cost.car))}` : ''}${t.cost.ferry ? ` · ferry ${esc(usd(t.cost.ferry))}` : ''}</span></span><span class="num">${esc(usd(t.cost.low))}–${esc(usd(t.cost.high))}</span></li>`).join('')}</ul>
+      <ul class="price-list">${ts.map(t => `<li><span>${esc(t.name)}<span class="leg-basis">Flights ${esc(usd(t.cost.flights))} · stays ${esc(usd(t.cost.lodging[0]))}–${esc(usd(t.cost.lodging[1]))}${t.cost.car ? ` · car ${esc(usd(t.cost.car))}` : ''}${t.cost.ferry ? ` · ferry ${esc(usd(t.cost.ferry))}` : ''}${t.cost.vias && t.cost.vias.length ? ` · best through ${esc(t.cost.vias[0].out === t.cost.vias[0].back ? t.cost.vias[0].out : t.cost.vias[0].out + ' and ' + t.cost.vias[0].back)} ${esc(usd(t.cost.vias[0].low))}–${esc(usd(t.cost.vias[0].high))}` : ''}</span></span><span class="num">${esc(usd(t.cost.low))}–${esc(usd(t.cost.high))}</span></li>`).join('')}</ul>
       <p class="caption">Each flight uses the lowest fare Southwest showed for that route and month. Holiday dates usually cost more.</p>`;
   }
   /* a stop inside a trip opens the place, with a way back to the trip */
@@ -377,6 +390,19 @@ document.addEventListener('click', (e) => { const a = e.target.closest && e.targ
     const hb = body('holiday-list'); if (hb) hb.insertAdjacentHTML('afterbegin', `<p class="check-first"><b>Check first</b> ${esc(l.holiday_note)}</p>`);
     const lb = body('luau-list'); if (lb) lb.insertAdjacentHTML('beforeend', closedList(l.closed));
   }
+  function renderChristmas(x) {
+    const ids = ['xmas-verdict', 'xmas-trips', 'xmas-eve', 'xmas-day', 'xmas-lights', 'xmas-open', 'xmas-calls'];
+    if (!x) return ids.forEach(k => pending(k));
+    const vb = body('xmas-verdict');
+    if (vb) vb.innerHTML = `<ul class="rules">${arr(x.verdicts).map(v => `<li class="rule"><span class="badge badge--${v.verdict === 'go' ? 'go' : 'caution'}">${v.verdict === 'go' ? 'Go' : 'Quiet'}</span><span><b>${esc(v.display)}.</b> ${esc(v.text)}</span></li>`).join('')}</ul>${srcList(x.sources)}`;
+    const pills = (d) => d && d.stops.length ? `<p class="day-stops">${d.stops.filter(id => P[id]).map(id => `<button class="link-pill stop" type="button" data-place="${esc(id)}">${esc(P[id].short || P[id].name)}</button>`).join('')}</p>` : '';
+    const on = (i) => i === 'Big Island' ? 'the Big Island' : (ISL[i] || i);
+    const where = (t) => !t.eve ? `Christmas Day on ${on(t.day)}.` : t.eve === t.day ? `Christmas Eve and Christmas Day on ${on(t.eve)}.` : `Christmas Eve on ${on(t.eve)}, Christmas Day on ${on(t.day)}.`;
+    const tb = body('xmas-trips');
+    if (tb) tb.innerHTML = `<ul class="xmas-trips">${arr(x.trips).map(t => `<li><b>${esc(t.name)}</b><span>${esc(where(t))} ${t.eve_day ? esc(t.eve_day.title) + '.' : ''} ${t.xmas_day ? esc(t.xmas_day.title) + '.' : ''}</span>${pills(t.eve_day)}${pills(t.xmas_day)}</li>`).join('')}</ul>`;
+    ['xmas-eve', 'xmas-day', 'xmas-lights', 'xmas-open'].forEach(k => renderPlaces(k, x.cards[k]));
+    const cb = body('xmas-calls'); if (cb) cb.innerHTML = `<ol class="xmas-calls">${arr(x.calls).map(c => `<li>${esc(c)}</li>`).join('')}</ol>`;
+  }
   function renderMusic(m) {
     if (!m) return ['music-shows', 'music-rooms'].forEach(k => pending(k));
     const bd = body('music-shows');
@@ -407,12 +433,12 @@ document.addEventListener('click', (e) => { const a = e.target.closest && e.targ
   /* ---------- Boot ---------- */
   async function boot() {
     const wxP = WSP.weather.init();
-    const names = ['trips', 'islands', 'tiki', 'luaus', 'music', 'food', 'nature', 'getting', 'places'];
+    const names = ['trips', 'christmas', 'islands', 'tiki', 'luaus', 'music', 'food', 'nature', 'getting', 'places'];
     const d = Object.fromEntries(await Promise.all(names.map(async n => [n, await load(n)])));
     arr(d.places && d.places.places).forEach(p => { P[p.id] = p; byId[p.id] = p; });
     const locs = arr(d.places && d.places.pins).map(p => Object.assign({}, P[p.id] || {}, p));
     WSP.locations = locs;
-    [() => renderTrips(d.trips), () => renderIslands(d.islands, d.getting), () => renderTiki(d.tiki), () => renderLuaus(d.luaus),
+    [() => renderTrips(d.trips), () => renderChristmas(d.christmas), () => renderIslands(d.islands, d.getting), () => renderTiki(d.tiki), () => renderLuaus(d.luaus),
      () => renderMusic(d.music), () => renderFood(d.food), () => renderNature(d.nature), () => renderGetting(d.getting)]
       .forEach(f => { try { f(); } catch (e) { console.warn('render', e); } });
     WSP.map.init(locs, 'all');

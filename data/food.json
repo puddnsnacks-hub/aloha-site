@@ -33,37 +33,6 @@
     "unverified": false
    },
    {
-    "id": "mamas-fish-house",
-    "name": "Mama's Fish House",
-    "short": "Mama's Fish House",
-    "island": "Maui",
-    "chapter": "food",
-    "card": "food-fine",
-    "category": "food",
-    "area": "Paia (Kuau)",
-    "address": "799 Poho Pl., Paia, HI 96779",
-    "lat": 20.9290567,
-    "lng": -156.3669784,
-    "blurb": "Fresh-catch seafood on the water in Paia. It books up to 18 months out and is usually full months ahead, so book now.",
-    "check": "",
-    "status": "open",
-    "order": "The fresh catch",
-    "hours": "Lunch 11 to 4, dinner 4 to 10",
-    "price": "$$$$. A card holds the table, with a $50 a person no-show fee",
-    "age": "Resort casual. Footwear required",
-    "difficulty": "",
-    "distance": "",
-    "reservation": "",
-    "dates": [],
-    "time": "",
-    "website": "https://mamasfishhouse.com/contact",
-    "donn": false,
-    "sources": [
-     "https://mamasfishhouse.com/contact"
-    ],
-    "unverified": false
-   },
-   {
     "id": "merrimans-waimea",
     "name": "Merriman's Waimea",
     "short": "Merriman's Waimea",

@@ -60,6 +60,7 @@
 
   /* ---------- Category colors (map pins, chips, tiles) ---------- */
   --wsp-cat-tiki: var(--wsp-gold-40);      --wsp-cat-tiki-ink: var(--wsp-ink-90);
+  --wsp-cat-xmas: var(--wsp-pink-50);     --wsp-cat-xmas-ink: var(--wsp-paper-5);
   --wsp-cat-luau: var(--wsp-orange-60);    --wsp-cat-luau-ink: var(--wsp-paper-5);
   --wsp-cat-music: var(--wsp-pink-60);     --wsp-cat-music-ink: var(--wsp-paper-5);
   --wsp-cat-food: var(--wsp-gold-60);      --wsp-cat-food-ink: var(--wsp-paper-5);

@@ -4,7 +4,8 @@ window.WSP = window.WSP || {};
 WSP.map = (function () {
   const CATS = {
     'tiki':    { label: 'Tiki',         glyph: 'T' },
-    'luau':    { label: 'Luaus and holidays', glyph: 'L' },
+    'xmas':    { label: 'Christmas',    glyph: '✶' },
+    'luau':    { label: 'Luaus and New Year\'s', glyph: 'L' },
     'music':   { label: 'Music',        glyph: '♫' },
     'food':    { label: 'Food',         glyph: 'F' },
     'nature':  { label: 'Nature',       glyph: 'N' },

@@ -7,6 +7,8 @@
   --c-w1: var(--wsp-teal-80); --c-w1-ink: var(--wsp-paper-5); --c-w2: var(--wsp-teal-80); --c-w2-ink: var(--wsp-paper-5); }
 .scene[data-chapter="trips"]   { --ground: var(--wsp-teal-80); --c-title: var(--wsp-paper-5); --c-shadow: var(--wsp-orange-50);
   --c-w1: var(--wsp-ink-90); --c-w1-ink: var(--wsp-paper-5); --c-w2: var(--wsp-pink-60); --c-w2-ink: var(--wsp-paper-5); }
+.scene[data-chapter="christmas"] { --ground: var(--wsp-pink-50); --c-title: var(--wsp-paper-5); --c-shadow: var(--wsp-green-60);
+  --c-w1: var(--wsp-green-60); --c-w1-ink: var(--wsp-paper-5); --c-w2: var(--wsp-ink-90); --c-w2-ink: var(--wsp-paper-5); }
 .scene[data-chapter="islands"] { --ground: var(--wsp-teal-40); --c-title: var(--wsp-paper-5); --c-shadow: var(--wsp-teal-90);
   --c-w1: var(--wsp-teal-80); --c-w1-ink: var(--wsp-paper-5); --c-w2: var(--wsp-green-60); --c-w2-ink: var(--wsp-paper-5); }
 .scene[data-chapter="tiki"]    { --ground: var(--wsp-ink-80); --c-title: var(--wsp-gold-30); --c-shadow: var(--wsp-orange-60);
@@ -23,6 +25,7 @@
   --c-w1: var(--wsp-teal-80); --c-w1-ink: var(--wsp-paper-5); --c-w2: var(--wsp-green-60); --c-w2-ink: var(--wsp-paper-5); }
 
 #scene-trips   { --lab-ink: var(--wsp-teal-80);  clip-path: polygon(0 calc(var(--c) * .3), 100% var(--c), 100% calc(100% - var(--c) * .7), 52% 100%, 0 calc(100% - var(--c) * .7)); }
+#scene-christmas { --lab-ink: var(--wsp-pink-60); clip-path: polygon(0 0, 100% calc(var(--c) * .8), 100% 100%, 48% calc(100% - var(--c) * .9), 0 100%); }
 #scene-islands { --lab-ink: var(--wsp-teal-70);  clip-path: polygon(0 var(--c), 100% 0, 100% calc(100% - var(--c) * 1.3), 0 calc(100% - var(--c) * .2)); }
 #scene-tiki    { --lab-ink: var(--wsp-gold-60);  clip-path: polygon(0 calc(var(--c) * 1.2), 34% 0, 100% calc(var(--c) * .5), 100% 100%, 0 calc(100% - var(--c) * .8)); }
 #scene-luaus   { --lab-ink: var(--wsp-orange-60); clip-path: polygon(0 calc(var(--c) * .5), 100% 0, 100% calc(100% - var(--c) * 1.2), 50% 100%, 0 calc(100% - var(--c) * 1.2)); }
@@ -32,7 +35,7 @@
 #scene-food .cat-desc { color: var(--wsp-ink-80); }
 
 :root { --chip-home: var(--wsp-gold-30); --chip-trips: var(--wsp-teal-80); --chip-islands: var(--wsp-teal-40); --chip-tiki: var(--wsp-ink-80);
-  --chip-luaus: var(--wsp-orange-50); --chip-music: var(--wsp-pink-60); --chip-food: var(--wsp-gold-40); --chip-nature: var(--wsp-green-60); --chip-around: var(--wsp-teal-20); }
+  --chip-luaus: var(--wsp-orange-50); --chip-christmas: var(--wsp-pink-50); --chip-music: var(--wsp-pink-60); --chip-food: var(--wsp-gold-40); --chip-nature: var(--wsp-green-60); --chip-around: var(--wsp-teal-20); }
 .mega-cat[data-chapter-link="trips"] .mega-chip, .mega-cat[data-chapter-link="tiki"] .mega-chip { box-shadow: inset 0 0 0 2px var(--wsp-paper-5); clip-path: none; }
 
 /* ---------- The letter: flat saffron, no poster ---------- */
@@ -444,3 +447,18 @@ a.src, .src-list a, .src { font-size: 16px !important; min-height: 32px; line-he
 /* QA round 1 */
 .price-list .leg-basis { display: block; }
 .tm-flag--car { background: var(--wsp-teal-20); color: var(--wsp-teal-80); }
+
+/* ten days, one-way tickets */
+.trim-note { margin-top: var(--wsp-space-3, 12px); }
+
+/* ---------- Christmas: where each trip lands, and the verdict per island ---------- */
+.xmas-trips { list-style: none; margin: 0; padding: 0; display: grid; gap: 14px; }
+.xmas-trips li { display: grid; gap: 4px; padding-bottom: 12px; border-bottom: 1px dashed var(--wsp-paper-40); }
+.xmas-trips li:last-child { border-bottom: 0; padding-bottom: 0; }
+.xmas-trips b { font: 600 18px/1.3 var(--pds-font-sans); color: var(--wsp-ink-90); }
+.xmas-trips span { font: 400 16px/1.45 var(--pds-font-sans); color: var(--wsp-ink-80); }
+.xmas-calls { margin: 0; padding-left: 1.3em; display: grid; gap: 10px; font: 400 17px/1.45 var(--pds-font-sans); color: var(--wsp-ink-90); }
+
+/* outlook and verdict rows: the badge gets its own width, the text the rest */
+.rules .rule:has(> .badge) { display: grid; grid-template-columns: auto minmax(0, 1fr); align-items: start; }
+.rules .rule > span.badge { font: 700 14px/1.3 var(--pds-font-mono); letter-spacing: .06em; min-width: 0; white-space: nowrap; margin-top: 3px; }
