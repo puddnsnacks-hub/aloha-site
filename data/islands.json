@@ -1,0 +1,81 @@
+{
+ "islands": [
+  {
+   "id": "oahu",
+   "island": "Oahu",
+   "display": "Oʻahu",
+   "outlook": "go",
+   "line": "The tiki story starts and ends here: Waikiki, Chinatown and Sand Island.",
+   "airport": "HNL",
+   "must": [
+    "international-market-place-dons-treehouse",
+    "la-mariana-sailing-club",
+    "royal-hawaiian-mai-tai-bar",
+    "house-without-a-key",
+    "giovannis-kahuku",
+    "ono-seafood",
+    "boots-kimos",
+    "diamond-head",
+    "lanikai-kailua",
+    "blue-note-hawaii"
+   ]
+  },
+  {
+   "id": "maui",
+   "island": "Maui",
+   "display": "Maui",
+   "outlook": "go",
+   "line": "Haleakala at sunrise, the Hana jungle, and Maui's only adults-only hotel.",
+   "airport": "OGG",
+   "must": [
+    "haleakala-sunrise",
+    "pipiwai-trail",
+    "waianapanapa",
+    "mamas-fish-house",
+    "like-poke",
+    "old-lahaina-luau",
+    "upcountry-farmers-market",
+    "south-shore-tiki-lounge",
+    "the-branches"
+   ]
+  },
+  {
+   "id": "big-island",
+   "island": "Big Island",
+   "display": "Big Island",
+   "outlook": "go",
+   "line": "The volcano. Kilauea erupts in episodes, and the park is open again.",
+   "airport": "KOA",
+   "must": [
+    "kilauea-summit",
+    "kilauea-iki",
+    "nahuku",
+    "kiholo-bay",
+    "royal-kona-dons-mai-tai-bar",
+    "merrimans-waimea",
+    "hilo-farmers-market",
+    "kens-pancakes",
+    "umekes",
+    "mauna-kea-luau"
+   ]
+  },
+  {
+   "id": "kauai",
+   "island": "Kauai",
+   "display": "Kauaʻi",
+   "outlook": "caution",
+   "line": "Hanalei is open and lovely. Most state parks are still closed after Hurricane Lowell.",
+   "airport": "LIH",
+   "must": [
+    "tahiti-nui",
+    "hanalei-bay",
+    "hanakapiai",
+    "drums-dances-royal-sonesta-kauai",
+    "hamura-saimin",
+    "musubi-truck",
+    "wailua-river-kayak",
+    "tidepools"
+   ]
+  }
+ ]
+}

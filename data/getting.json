@@ -1,0 +1,96 @@
+{
+ "flights": [
+  {
+   "label": "From Houston",
+   "text": "Southwest flies to Hawaii from Hobby only, and every itinerary connects. The connecting city shows at booking.",
+   "source": "https://www.southwest.com/destinations/hawaii/honolulu"
+  },
+  {
+   "label": "Between islands",
+   "text": "Honolulu connects to every island. The nonstops that skip Honolulu are Kona to Kahului and Kahului to Lihue, once a day each.",
+   "source": "https://www.southwest.com/en/flights/flights-from-kahului-to-lihue"
+  },
+  {
+   "label": "Two for one",
+   "text": "The 2-for-1 works like Southwest's Companion Pass: one companion flies for taxes and fees, from $5.60 each way, as often as you fly, on paid or points tickets.",
+   "source": "https://www.southwest.com/rapid-rewards/tiers/companion-pass/"
+  },
+  {
+   "label": "Bags",
+   "text": "From Houston, $45 for the first bag and $55 for the second, per person. Between islands, $30 and $40 for visitors. A Southwest credit card makes the first bag free.",
+   "source": "https://www.southwest.com/bagpolicy/"
+  }
+ ],
+ "boat": [
+  {
+   "label": "Maui to Lānaʻi",
+   "text": "Expeditions sails from Maalaea to Manele three times a day, about 70 minutes each way, $66 a person each way.",
+   "source": "https://mauinow.com/2026/09/20/maui-county-run-ferry-service-aims-to-launch-for-lanai-next-year-molokai-in-2029/"
+  },
+  {
+   "label": "Holidays",
+   "text": "The ferry doesn't post a Christmas or New Year's Day schedule.",
+   "source": "https://www.go-lanai.com/"
+  },
+  {
+   "label": "Molokai",
+   "text": "No passenger ferry until 2029.",
+   "source": "https://mauinow.com/2026/09/20/maui-county-run-ferry-service-aims-to-launch-for-lanai-next-year-molokai-in-2029/"
+  }
+ ],
+ "lahaina": "Front Street (Papalaua to Shaw) reopened to vehicles on Aug 1, 2026. Open: five north-end Front Street restaurants (Honu, Star Noodle, Mala, Coco Deck, Aloha Mixed Plate), Lahaina Cannery Mall shops, the Banyan Tree and Old Lahaina Luau. Still closed: Old Lahaina Courthouse, Baldwin Home, Market Street, Papelekane Street and Mokuhinia Place. Lahaina Small Boat Harbor has limited permitted commercial operations",
+ "lahaina_source": "https://www.hawaii-guide.com/blog/visiting-lahaina-summer-2026-whats-open",
+ "islands": [
+  {
+   "island": "Oahu",
+   "display": "Oʻahu",
+   "car": "Optional. Rent one for a North Shore or windward day.",
+   "stay": [
+    "Waikiki side streets",
+    "Kapahulu",
+    "Kailua (rentals)"
+   ],
+   "adr": "",
+   "budget": "About $150 to $250 a night for a clean, simple stay. An estimate."
+  },
+  {
+   "island": "Maui",
+   "display": "Maui",
+   "car": "Needed. The volcano, Hana and most beaches are off the bus lines.",
+   "stay": [
+    "Kihei (budget condos)",
+    "Paia (rustic)",
+    "Wailea (Hotel Wailea, 18+)",
+    "Kahului (near the airport)"
+   ],
+   "adr": "",
+   "budget": "About $180 to $300 a night for a clean, simple stay. An estimate."
+  },
+  {
+   "island": "Big Island",
+   "display": "Big Island",
+   "car": "Needed. The park, the Kohala Coast and the bays aren't on a bus route.",
+   "stay": [
+    "Kailua-Kona",
+    "Keauhou",
+    "Hilo",
+    "Volcano village (rustic)"
+   ],
+   "adr": "",
+   "budget": "About $150 to $250 a night for a clean, simple stay. An estimate."
+  },
+  {
+   "island": "Kauai",
+   "display": "Kauaʻi",
+   "car": "Needed. The north shore and the canyon are out of bus range.",
+   "stay": [
+    "Kapaa",
+    "Lihue",
+    "Hanapepe (rustic Westside)"
+   ],
+   "adr": "",
+   "budget": "About $180 to $280 a night for a clean, simple stay. An estimate."
+  }
+ ],
+ "rentals_note": "For Airbnb and VRBO, search these towns."
+}

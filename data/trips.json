@@ -1,0 +1,1137 @@
+{
+ "trips": [
+  {
+   "id": "tiki-trail",
+   "name": "The Tiki Trail",
+   "tag": "Oʻahu · Big Island",
+   "line": "Waikiki's tiki history first, then Christmas on the Big Island.",
+   "start": "2026-12-19",
+   "end": "2026-12-26",
+   "pace": "Steady",
+   "pace_n": 2,
+   "caution": "",
+   "islands": [
+    {
+     "island": "Oahu",
+     "display": "Oʻahu",
+     "nights": 4,
+     "bases": [
+      "Waikiki"
+     ],
+     "stay_low": 600,
+     "stay_high": 1000
+    },
+    {
+     "island": "Big Island",
+     "display": "Big Island",
+     "nights": 3,
+     "bases": [
+      "Kailua-Kona"
+     ],
+     "stay_low": 450,
+     "stay_high": 750
+    }
+   ],
+   "ferry": false,
+   "days": [
+    {
+     "date": "2026-12-19",
+     "title": "Land in Honolulu",
+     "stops": [
+      "house-without-a-key"
+     ],
+     "note": "A full travel day with a connection. Sunset music runs 5:30 to 8:30."
+    },
+    {
+     "date": "2026-12-20",
+     "title": "Where Donn Beach built",
+     "stops": [
+      "international-market-place-dons-treehouse",
+      "royal-hawaiian-mai-tai-bar",
+      "hau-tree-bar-hilton"
+     ],
+     "note": "La Mariana is closed Sundays and Mondays."
+    },
+    {
+     "date": "2026-12-21",
+     "title": "North Shore and Laie",
+     "stops": [
+      "giovannis-kahuku",
+      "polynesian-cultural-center"
+     ],
+     "note": "A one-day car makes this easy."
+    },
+    {
+     "date": "2026-12-22",
+     "title": "Kapahulu, Diamond Head, Sand Island",
+     "stops": [
+      "diamond-head",
+      "ono-seafood",
+      "la-mariana-sailing-club",
+      "skull-and-crown"
+     ],
+     "note": "Diamond Head reservations release 30 days ahead (Nov 22)."
+    },
+    {
+     "date": "2026-12-23",
+     "title": "Fly to Kona",
+     "stops": [
+      "royal-kona-dons-mai-tai-bar",
+      "voyagers-of-the-pacific-royal-kona"
+     ],
+     "note": "The luau runs Wednesdays."
+    },
+    {
+     "date": "2026-12-24",
+     "title": "Volcano day",
+     "stops": [
+      "kilauea-summit",
+      "kilauea-iki",
+      "nahuku",
+      "umekes"
+     ],
+     "note": "Lots can fill by 10 a.m., so start early."
+    },
+    {
+     "date": "2026-12-25",
+     "title": "Christmas on the Kohala Coast",
+     "stops": [
+      "kiholo-bay",
+      "mauna-kea-luau"
+     ],
+     "note": "The luau's Christmas night isn't confirmed."
+    },
+    {
+     "date": "2026-12-26",
+     "title": "Fly home",
+     "stops": [],
+     "note": ""
+    }
+   ],
+   "cost": {
+    "flights": 654,
+    "lodging": [
+     1050,
+     1750
+    ],
+    "car": 381,
+    "ferry": 0,
+    "ferry_each": 66,
+    "low": 2085,
+    "high": 2785,
+    "legs": [
+     {
+      "from": "HOU",
+      "to": "HNL",
+      "date": "2026-12-19",
+      "fare": 250,
+      "companion": 5.6,
+      "two": 255.6,
+      "basis": "lowest fare Southwest showed, Dec 7 and 9, 2026",
+      "source": "https://www.southwest.com/routes/flights-from-houston-hobby-to-honolulu"
+     },
+     {
+      "from": "HNL",
+      "to": "KOA",
+      "date": "2026-12-23",
+      "fare": 69,
+      "companion": 5.6,
+      "two": 74.6,
+      "basis": "lowest fare Southwest showed, Dec 16, 18 and 21, 2026",
+      "source": "https://www.southwest.com/en/flights/flights-from-honolulu-to-kona"
+     },
+     {
+      "from": "KOA",
+      "to": "HOU",
+      "date": "2026-12-26",
+      "fare": 318,
+      "companion": 5.6,
+      "two": 323.6,
+      "basis": "lowest fare Southwest showed, Dec 16, 2026",
+      "source": "https://www.southwest.com/en/flights/flights-from-kona-to-houston-hobby"
+     }
+    ],
+    "cars": [
+     {
+      "island": "Big Island",
+      "days": 3,
+      "rate": 127,
+      "basis": "cheapest winter car at Kona, Dec 2025 survey. Kona rates nearly doubled Dec 21 to 26"
+     }
+    ],
+    "excludes": "Taxes and fees on the main tickets, bags, food, parking, park fees, tours and fun. Holiday fares and rates run higher."
+   },
+   "stops": [
+    "international-market-place-dons-treehouse",
+    "la-mariana-sailing-club",
+    "royal-hawaiian-mai-tai-bar",
+    "house-without-a-key",
+    "hau-tree-bar-hilton",
+    "skull-and-crown",
+    "royal-kona-dons-mai-tai-bar",
+    "voyagers-of-the-pacific-royal-kona",
+    "mauna-kea-luau",
+    "polynesian-cultural-center",
+    "giovannis-kahuku",
+    "ono-seafood",
+    "umekes",
+    "kilauea-summit",
+    "kilauea-iki",
+    "nahuku",
+    "diamond-head",
+    "kiholo-bay"
+   ],
+   "extras": [
+    "A one-day car on Oʻahu for the North Shore"
+   ],
+   "flag": "Plus a car",
+   "checks": []
+  },
+  {
+   "id": "fire-down-below",
+   "name": "Fire Down Below",
+   "tag": "Big Island · Maui",
+   "line": "Two volcanoes in one week, and New Year's Eve on Maui.",
+   "start": "2026-12-26",
+   "end": "2027-01-02",
+   "pace": "Full tilt",
+   "pace_n": 3,
+   "caution": "",
+   "islands": [
+    {
+     "island": "Big Island",
+     "display": "Big Island",
+     "nights": 4,
+     "bases": [
+      "Hilo",
+      "Kailua-Kona"
+     ],
+     "stay_low": 600,
+     "stay_high": 1000
+    },
+    {
+     "island": "Maui",
+     "display": "Maui",
+     "nights": 3,
+     "bases": [
+      "Kihei or Paia"
+     ],
+     "stay_low": 540,
+     "stay_high": 900
+    }
+   ],
+   "ferry": false,
+   "days": [
+    {
+     "date": "2026-12-26",
+     "title": "Land in Hilo",
+     "stops": [
+      "kens-pancakes"
+     ],
+     "note": "A long travel day. Ken's is open until 9."
+    },
+    {
+     "date": "2026-12-27",
+     "title": "Hawaii Volcanoes",
+     "stops": [
+      "kilauea-summit",
+      "kilauea-iki",
+      "nahuku",
+      "mauna-ulu-puu-huluhulu"
+     ],
+     "note": "Lots can fill by 10 a.m."
+    },
+    {
+     "date": "2026-12-28",
+     "title": "Hilo, then across the island",
+     "stops": [
+      "hilo-farmers-market",
+      "akaka-falls",
+      "waipio-lookout"
+     ],
+     "note": "Then on to Kona."
+    },
+    {
+     "date": "2026-12-29",
+     "title": "Lagoon and luau",
+     "stops": [
+      "kiholo-bay",
+      "umekes",
+      "voyagers-of-the-pacific-royal-kona"
+     ],
+     "note": ""
+    },
+    {
+     "date": "2026-12-30",
+     "title": "Fly to Maui",
+     "stops": [
+      "mamas-fish-house"
+     ],
+     "note": "Book Mama's now."
+    },
+    {
+     "date": "2026-12-31",
+     "title": "New Year's Eve",
+     "stops": [
+      "makena-big-beach",
+      "like-poke",
+      "grand-wailea-humu-after-hours",
+      "westin-maui-nye-drone-show"
+     ],
+     "note": "Pick one party. Prices for both are still unposted."
+    },
+    {
+     "date": "2027-01-01",
+     "title": "Haleakala sunrise",
+     "stops": [
+      "haleakala-sunrise"
+     ],
+     "note": "Sunrise reservations for this morning release 60 days ahead (Nov 2) at 7 a.m. Hawaii time, with a few more 2 days before."
+    },
+    {
+     "date": "2027-01-02",
+     "title": "Market, then home",
+     "stops": [
+      "upcountry-farmers-market"
+     ],
+     "note": "Saturdays 7 to 11."
+    }
+   ],
+   "cost": {
+    "flights": 646,
+    "lodging": [
+     1140,
+     1900
+    ],
+    "car": 820,
+    "ferry": 0,
+    "ferry_each": 66,
+    "low": 2606,
+    "high": 3366,
+    "legs": [
+     {
+      "from": "HOU",
+      "to": "ITO",
+      "date": "2026-12-26",
+      "fare": 285,
+      "companion": 5.6,
+      "two": 290.6,
+      "basis": "lowest fare Southwest showed, Dec 7, 2026",
+      "source": "https://www.southwest.com/en/flights/flights-from-houston-hobby-to-hilo"
+     },
+     {
+      "from": "KOA",
+      "to": "OGG",
+      "date": "2026-12-30",
+      "fare": 69,
+      "companion": 5.6,
+      "two": 74.6,
+      "basis": "lowest fare Southwest showed, Dec 21, 2026",
+      "source": "https://www.southwest.com/en/flights/flights-from-kona-to-kahului"
+     },
+     {
+      "from": "OGG",
+      "to": "HOU",
+      "date": "2027-01-02",
+      "fare": 275,
+      "companion": 5.6,
+      "two": 280.6,
+      "basis": "lowest fare Southwest showed, Jan 13, 2027",
+      "source": "https://www.southwest.com/en/flights/flights-from-kahului-to-houston-hobby"
+     }
+    ],
+    "cars": [
+     {
+      "island": "Big Island",
+      "days": 4,
+      "rate": 127,
+      "basis": "cheapest winter car at Kona, Dec 2025 survey. Kona rates nearly doubled Dec 21 to 26"
+     },
+     {
+      "island": "Maui",
+      "days": 3,
+      "rate": 104,
+      "basis": "cheapest winter car at Kahului, Dec 2025 survey"
+     }
+    ],
+    "excludes": "Taxes and fees on the main tickets, bags, food, parking, park fees, tours and fun. Holiday fares and rates run higher."
+   },
+   "stops": [
+    "voyagers-of-the-pacific-royal-kona",
+    "westin-maui-nye-drone-show",
+    "grand-wailea-humu-after-hours",
+    "mamas-fish-house",
+    "umekes",
+    "like-poke",
+    "kens-pancakes",
+    "hilo-farmers-market",
+    "upcountry-farmers-market",
+    "kilauea-summit",
+    "kilauea-iki",
+    "nahuku",
+    "mauna-ulu-puu-huluhulu",
+    "haleakala-sunrise",
+    "akaka-falls",
+    "kiholo-bay",
+    "makena-big-beach",
+    "waipio-lookout"
+   ],
+   "extras": [
+    "A one-way fee for picking the car up in Hilo and dropping it in Kona"
+   ],
+   "flag": "",
+   "checks": [
+    "Your 2-for-1 has to cover a January 2027 flight. Check its dates before you book."
+   ]
+  },
+  {
+   "id": "waikiki-countdown",
+   "name": "Waikiki Countdown",
+   "tag": "Maui · Oʻahu",
+   "line": "Maui's jungle and sunrise, then New Year's Eve in Waikiki.",
+   "start": "2026-12-27",
+   "end": "2027-01-03",
+   "pace": "Steady",
+   "pace_n": 2,
+   "caution": "",
+   "islands": [
+    {
+     "island": "Maui",
+     "display": "Maui",
+     "nights": 4,
+     "bases": [
+      "Paia or Kihei"
+     ],
+     "stay_low": 720,
+     "stay_high": 1200
+    },
+    {
+     "island": "Oahu",
+     "display": "Oʻahu",
+     "nights": 3,
+     "bases": [
+      "Waikiki"
+     ],
+     "stay_low": 450,
+     "stay_high": 750
+    }
+   ],
+   "ferry": false,
+   "days": [
+    {
+     "date": "2026-12-27",
+     "title": "Land in Kahului",
+     "stops": [],
+     "note": "A full travel day with a connection."
+    },
+    {
+     "date": "2026-12-28",
+     "title": "Road to Hana",
+     "stops": [
+      "waianapanapa",
+      "pipiwai-trail"
+     ],
+     "note": "Waianapanapa needs a reservation."
+    },
+    {
+     "date": "2026-12-29",
+     "title": "Haleakala sunrise, then Kaanapali music",
+     "stops": [
+      "haleakala-sunrise",
+      "the-branches"
+     ],
+     "note": "Sunrise reservations for this morning release 60 days ahead (Oct 30) at 7 a.m. Hawaii time, with a few more 2 days before."
+    },
+    {
+     "date": "2026-12-30",
+     "title": "Iao and Paia",
+     "stops": [
+      "iao-valley",
+      "sam-satos",
+      "mamas-fish-house"
+     ],
+     "note": "Book Mama's now."
+    },
+    {
+     "date": "2026-12-31",
+     "title": "Fly to Honolulu for midnight",
+     "stops": [
+      "blue-note-hawaii",
+      "star-of-honolulu-nye-cruise",
+      "four-seasons-oahu-ko-olina-holiday"
+     ],
+     "note": "WAR plays Blue Note at 7 and 10. Or take the cruise, or the Ko Olina party."
+    },
+    {
+     "date": "2027-01-01",
+     "title": "Slow start in Kailua",
+     "stops": [
+      "boots-kimos",
+      "lanikai-kailua"
+     ],
+     "note": "Diamond Head is closed on New Year's Day."
+    },
+    {
+     "date": "2027-01-02",
+     "title": "Saturday in town",
+     "stops": [
+      "kcc-farmers-market",
+      "diamond-head",
+      "international-market-place-dons-treehouse",
+      "la-mariana-sailing-club"
+     ],
+     "note": "Diamond Head reservations release 30 days ahead (Dec 3)."
+    },
+    {
+     "date": "2027-01-03",
+     "title": "Fly home",
+     "stops": [],
+     "note": ""
+    }
+   ],
+   "cost": {
+    "flights": 582,
+    "lodging": [
+     1170,
+     1950
+    ],
+    "car": 416,
+    "ferry": 0,
+    "ferry_each": 66,
+    "low": 2168,
+    "high": 2948,
+    "legs": [
+     {
+      "from": "HOU",
+      "to": "OGG",
+      "date": "2026-12-27",
+      "fare": 250,
+      "companion": 5.6,
+      "two": 255.6,
+      "basis": "lowest fare Southwest showed, December 2026",
+      "source": "https://www.southwest.com/en/flights/flights-from-houston-hobby-to-kahului"
+     },
+     {
+      "from": "OGG",
+      "to": "HNL",
+      "date": "2026-12-31",
+      "fare": 65,
+      "companion": 5.6,
+      "two": 70.6,
+      "basis": "lowest fare Southwest showed, Dec 21, 2026",
+      "source": "https://www.southwest.com/destinations/hawaii/honolulu"
+     },
+     {
+      "from": "HNL",
+      "to": "HOU",
+      "date": "2027-01-03",
+      "fare": 250,
+      "companion": 5.6,
+      "two": 255.6,
+      "basis": "lowest fare Southwest showed, Jan 19 and 21, 2027",
+      "source": "https://www.southwest.com/routes/flights-from-honolulu-to-houston-hobby"
+     }
+    ],
+    "cars": [
+     {
+      "island": "Maui",
+      "days": 4,
+      "rate": 104,
+      "basis": "cheapest winter car at Kahului, Dec 2025 survey"
+     }
+    ],
+    "excludes": "Taxes and fees on the main tickets, bags, food, parking, park fees, tours and fun. Holiday fares and rates run higher."
+   },
+   "stops": [
+    "international-market-place-dons-treehouse",
+    "la-mariana-sailing-club",
+    "four-seasons-oahu-ko-olina-holiday",
+    "star-of-honolulu-nye-cruise",
+    "blue-note-hawaii",
+    "the-branches",
+    "mamas-fish-house",
+    "boots-kimos",
+    "sam-satos",
+    "kcc-farmers-market",
+    "haleakala-sunrise",
+    "diamond-head",
+    "pipiwai-trail",
+    "iao-valley",
+    "lanikai-kailua",
+    "waianapanapa"
+   ],
+   "extras": [
+    "A day's car on Oʻahu, if you want Kailua"
+   ],
+   "flag": "",
+   "checks": [
+    "Your 2-for-1 has to cover a January 2027 flight. Check its dates before you book."
+   ]
+  },
+  {
+   "id": "garden-party",
+   "name": "Garden Party",
+   "tag": "Oʻahu · Kauaʻi",
+   "line": "Waikiki for three nights, then Christmas Eve on a luau's 21-and-over ticket, open bar included.",
+   "start": "2026-12-19",
+   "end": "2026-12-26",
+   "pace": "Steady",
+   "pace_n": 2,
+   "caution": "Kauaʻi is the least certain island. Kokee Road, Polihale, Secret Falls and most state parks are closed after Hurricane Lowell.",
+   "islands": [
+    {
+     "island": "Oahu",
+     "display": "Oʻahu",
+     "nights": 3,
+     "bases": [
+      "Waikiki"
+     ],
+     "stay_low": 450,
+     "stay_high": 750
+    },
+    {
+     "island": "Kauai",
+     "display": "Kauaʻi",
+     "nights": 4,
+     "bases": [
+      "Kapaa"
+     ],
+     "stay_low": 720,
+     "stay_high": 1120
+    }
+   ],
+   "ferry": false,
+   "days": [
+    {
+     "date": "2026-12-19",
+     "title": "Land in Honolulu",
+     "stops": [
+      "house-without-a-key"
+     ],
+     "note": ""
+    },
+    {
+     "date": "2026-12-20",
+     "title": "Where Donn Beach built",
+     "stops": [
+      "international-market-place-dons-treehouse",
+      "royal-hawaiian-mai-tai-bar",
+      "hau-tree-bar-hilton"
+     ],
+     "note": ""
+    },
+    {
+     "date": "2026-12-21",
+     "title": "Windward side",
+     "stops": [
+      "boots-kimos",
+      "lanikai-kailua"
+     ],
+     "note": ""
+    },
+    {
+     "date": "2026-12-22",
+     "title": "Fly to Lihue",
+     "stops": [
+      "ono-seafood",
+      "hamura-saimin"
+     ],
+     "note": ""
+    },
+    {
+     "date": "2026-12-23",
+     "title": "Hanalei",
+     "stops": [
+      "hanalei-bay",
+      "tahiti-nui",
+      "kauai-sunshine-kapaa"
+     ],
+     "note": "The Kapaa market runs Wednesdays, 3 to 4:30."
+    },
+    {
+     "date": "2026-12-24",
+     "title": "Christmas Eve luau",
+     "stops": [
+      "wailua-river-kayak",
+      "drums-dances-royal-sonesta-kauai"
+     ],
+     "note": "The 21-and-over ticket includes the open bar."
+    },
+    {
+     "date": "2026-12-25",
+     "title": "Na Pali on foot",
+     "stops": [
+      "hanakapiai"
+     ],
+     "note": "Reserve at gohaena.com. Hāʻena reservations release 30 days ahead (Nov 25)."
+    },
+    {
+     "date": "2026-12-26",
+     "title": "Canyon, then home",
+     "stops": [
+      "waimea-canyon-lookout"
+     ],
+     "note": "One lookout is open."
+    }
+   ],
+   "cost": {
+    "flights": 693,
+    "lodging": [
+     1170,
+     1870
+    ],
+    "car": 0,
+    "ferry": 0,
+    "ferry_each": 66,
+    "low": 1863,
+    "high": 2563,
+    "legs": [
+     {
+      "from": "HOU",
+      "to": "HNL",
+      "date": "2026-12-19",
+      "fare": 250,
+      "companion": 5.6,
+      "two": 255.6,
+      "basis": "lowest fare Southwest showed, Dec 7 and 9, 2026",
+      "source": "https://www.southwest.com/routes/flights-from-houston-hobby-to-honolulu"
+     },
+     {
+      "from": "HNL",
+      "to": "LIH",
+      "date": "2026-12-22",
+      "fare": 69,
+      "companion": 5.6,
+      "two": 74.6,
+      "basis": "lowest fare Southwest showed, Dec 19 and 31, 2026",
+      "source": "https://www.southwest.com/en/flights/flights-from-honolulu-to-lihue"
+     },
+     {
+      "from": "LIH",
+      "to": "HOU",
+      "date": "2026-12-26",
+      "fare": 357,
+      "companion": 5.6,
+      "two": 362.6,
+      "basis": "lowest fare Southwest showed, Nov 5, 2026 (no December fare posted)",
+      "source": "https://www.southwest.com/en/flights/flights-from-lihue-to-houston-hobby"
+     }
+    ],
+    "cars": [
+     {
+      "island": "Kauai",
+      "days": 4,
+      "rate": null,
+      "basis": "no survey price for Lihue"
+     }
+    ],
+    "excludes": "Taxes and fees on the main tickets, bags, food, parking, park fees, tours and fun. Holiday fares and rates run higher."
+   },
+   "stops": [
+    "international-market-place-dons-treehouse",
+    "royal-hawaiian-mai-tai-bar",
+    "house-without-a-key",
+    "hau-tree-bar-hilton",
+    "tahiti-nui",
+    "drums-dances-royal-sonesta-kauai",
+    "ono-seafood",
+    "boots-kimos",
+    "hamura-saimin",
+    "kauai-sunshine-kapaa",
+    "hanakapiai",
+    "wailua-river-kayak",
+    "lanikai-kailua",
+    "hanalei-bay",
+    "waimea-canyon-lookout"
+   ],
+   "extras": [
+    "The car on Kauaʻi, four days (no survey price for Lihue)",
+    "A day's car on Oʻahu for the windward side"
+   ],
+   "flag": "Plus a car",
+   "checks": [
+    "Kauaʻi is the least certain island. Kokee Road, Polihale, Secret Falls and most state parks are closed after Hurricane Lowell."
+   ]
+  },
+  {
+   "id": "island-hopper",
+   "name": "Island Hopper",
+   "tag": "Oʻahu · Maui · Big Island",
+   "line": "Three islands across Christmas. The most ground, the least sleep.",
+   "start": "2026-12-23",
+   "end": "2026-12-30",
+   "pace": "Full tilt",
+   "pace_n": 3,
+   "caution": "",
+   "islands": [
+    {
+     "island": "Oahu",
+     "display": "Oʻahu",
+     "nights": 3,
+     "bases": [
+      "Waikiki"
+     ],
+     "stay_low": 450,
+     "stay_high": 750
+    },
+    {
+     "island": "Maui",
+     "display": "Maui",
+     "nights": 2,
+     "bases": [
+      "Paia"
+     ],
+     "stay_low": 360,
+     "stay_high": 600
+    },
+    {
+     "island": "Big Island",
+     "display": "Big Island",
+     "nights": 2,
+     "bases": [
+      "Kailua-Kona"
+     ],
+     "stay_low": 300,
+     "stay_high": 500
+    }
+   ],
+   "ferry": false,
+   "days": [
+    {
+     "date": "2026-12-23",
+     "title": "Land in Honolulu",
+     "stops": [],
+     "note": ""
+    },
+    {
+     "date": "2026-12-24",
+     "title": "Christmas Eve",
+     "stops": [
+      "royal-hawaiian-mai-tai-bar",
+      "four-seasons-oahu-ko-olina-holiday"
+     ],
+     "note": "Ko Olina's Christmas Eve dinners need the concierge."
+    },
+    {
+     "date": "2026-12-25",
+     "title": "Christmas Day",
+     "stops": [
+      "lanikai-kailua",
+      "la-mariana-sailing-club"
+     ],
+     "note": "Holiday hours aren't posted anywhere. Call ahead."
+    },
+    {
+     "date": "2026-12-26",
+     "title": "Market, then Maui",
+     "stops": [
+      "kcc-farmers-market",
+      "mamas-fish-house"
+     ],
+     "note": ""
+    },
+    {
+     "date": "2026-12-27",
+     "title": "Haleakala and Makawao",
+     "stops": [
+      "haleakala-sunrise",
+      "casanova"
+     ],
+     "note": "Casanova's Sunday sets run 1 to 3. Sunrise reservations for this morning release 60 days ahead (Oct 28) at 7 a.m. Hawaii time, with a few more 2 days before."
+    },
+    {
+     "date": "2026-12-28",
+     "title": "Fly to Kona",
+     "stops": [
+      "royal-kona-dons-mai-tai-bar",
+      "voyagers-of-the-pacific-royal-kona"
+     ],
+     "note": ""
+    },
+    {
+     "date": "2026-12-29",
+     "title": "Volcano day",
+     "stops": [
+      "kilauea-summit",
+      "kilauea-iki",
+      "nahuku"
+     ],
+     "note": ""
+    },
+    {
+     "date": "2026-12-30",
+     "title": "Lagoon, then home",
+     "stops": [
+      "kiholo-bay"
+     ],
+     "note": ""
+    }
+   ],
+   "cost": {
+    "flights": 715,
+    "lodging": [
+     1110,
+     1850
+    ],
+    "car": 462,
+    "ferry": 0,
+    "ferry_each": 66,
+    "low": 2287,
+    "high": 3027,
+    "legs": [
+     {
+      "from": "HOU",
+      "to": "HNL",
+      "date": "2026-12-23",
+      "fare": 250,
+      "companion": 5.6,
+      "two": 255.6,
+      "basis": "lowest fare Southwest showed, Dec 7 and 9, 2026",
+      "source": "https://www.southwest.com/routes/flights-from-houston-hobby-to-honolulu"
+     },
+     {
+      "from": "HNL",
+      "to": "OGG",
+      "date": "2026-12-26",
+      "fare": 58,
+      "companion": 5.6,
+      "two": 63.6,
+      "basis": "lowest fare Southwest showed, Dec 17, 2026",
+      "source": "https://www.southwest.com/en/flights/flights-from-honolulu-to-kahului"
+     },
+     {
+      "from": "OGG",
+      "to": "KOA",
+      "date": "2026-12-28",
+      "fare": 67,
+      "companion": 5.6,
+      "two": 72.6,
+      "basis": "lowest fare Southwest showed, Dec 29, 2026",
+      "source": "https://www.southwest.com/en/flights/flights-from-kahului-to-kona"
+     },
+     {
+      "from": "KOA",
+      "to": "HOU",
+      "date": "2026-12-30",
+      "fare": 318,
+      "companion": 5.6,
+      "two": 323.6,
+      "basis": "lowest fare Southwest showed, Dec 16, 2026",
+      "source": "https://www.southwest.com/en/flights/flights-from-kona-to-houston-hobby"
+     }
+    ],
+    "cars": [
+     {
+      "island": "Maui",
+      "days": 2,
+      "rate": 104,
+      "basis": "cheapest winter car at Kahului, Dec 2025 survey"
+     },
+     {
+      "island": "Big Island",
+      "days": 2,
+      "rate": 127,
+      "basis": "cheapest winter car at Kona, Dec 2025 survey. Kona rates nearly doubled Dec 21 to 26"
+     }
+    ],
+    "excludes": "Taxes and fees on the main tickets, bags, food, parking, park fees, tours and fun. Holiday fares and rates run higher."
+   },
+   "stops": [
+    "la-mariana-sailing-club",
+    "royal-hawaiian-mai-tai-bar",
+    "royal-kona-dons-mai-tai-bar",
+    "voyagers-of-the-pacific-royal-kona",
+    "four-seasons-oahu-ko-olina-holiday",
+    "casanova",
+    "mamas-fish-house",
+    "kcc-farmers-market",
+    "kilauea-summit",
+    "kilauea-iki",
+    "nahuku",
+    "haleakala-sunrise",
+    "kiholo-bay",
+    "lanikai-kailua"
+   ],
+   "extras": [
+    "A day's car on Oʻahu for Kailua"
+   ],
+   "flag": "",
+   "checks": []
+  },
+  {
+   "id": "two-by-sea",
+   "name": "Two by Sea",
+   "tag": "Maui · Lānaʻi · Oʻahu",
+   "line": "Maui at an easy pace, a ferry day to Lānaʻi, and Christmas in Waikiki.",
+   "start": "2026-12-20",
+   "end": "2026-12-27",
+   "pace": "Easy",
+   "pace_n": 1,
+   "caution": "",
+   "islands": [
+    {
+     "island": "Maui",
+     "display": "Maui",
+     "nights": 4,
+     "bases": [
+      "Wailea or Kihei"
+     ],
+     "stay_low": 720,
+     "stay_high": 1200
+    },
+    {
+     "island": "Oahu",
+     "display": "Oʻahu",
+     "nights": 3,
+     "bases": [
+      "Waikiki"
+     ],
+     "stay_low": 450,
+     "stay_high": 750
+    }
+   ],
+   "ferry": true,
+   "days": [
+    {
+     "date": "2026-12-20",
+     "title": "Land in Kahului",
+     "stops": [],
+     "note": "Hotel Wailea is the adults-only stay. Its rates aren't in the total."
+    },
+    {
+     "date": "2026-12-21",
+     "title": "Ferry to Lānaʻi",
+     "stops": [],
+     "note": "Expeditions leaves Maalaea at 6:30 and 11. The last boat back leaves Manele at 5:30. Lānaʻi has no public transportation, so rent a car there or take the resort shuttle."
+    },
+    {
+     "date": "2026-12-22",
+     "title": "Haleakala sunrise, Wailea luau",
+     "stops": [
+      "haleakala-sunrise",
+      "feast-at-mokapu-andaz-maui"
+     ],
+     "note": "Check the luau's calendar for the night. Sunrise reservations for this morning release 60 days ahead (Oct 23) at 7 a.m. Hawaii time, with a few more 2 days before."
+    },
+    {
+     "date": "2026-12-23",
+     "title": "Road to Hana",
+     "stops": [
+      "waianapanapa",
+      "pipiwai-trail",
+      "south-shore-tiki-lounge"
+     ],
+     "note": "Waianapanapa needs a reservation. Back to Kihei for a nightcap."
+    },
+    {
+     "date": "2026-12-24",
+     "title": "Fly to Honolulu",
+     "stops": [
+      "four-seasons-oahu-ko-olina-holiday"
+     ],
+     "note": "Christmas Eve dinner at Ko Olina."
+    },
+    {
+     "date": "2026-12-25",
+     "title": "Christmas in Waikiki",
+     "stops": [
+      "international-market-place-dons-treehouse",
+      "royal-hawaiian-mai-tai-bar",
+      "house-without-a-key"
+     ],
+     "note": ""
+    },
+    {
+     "date": "2026-12-26",
+     "title": "Saturday in town",
+     "stops": [
+      "kcc-farmers-market",
+      "la-mariana-sailing-club",
+      "skull-and-crown"
+     ],
+     "note": ""
+    },
+    {
+     "date": "2026-12-27",
+     "title": "Fly home",
+     "stops": [],
+     "note": ""
+    }
+   ],
+   "cost": {
+    "flights": 582,
+    "lodging": [
+     1170,
+     1950
+    ],
+    "car": 416,
+    "ferry": 264,
+    "ferry_each": 66,
+    "low": 2432,
+    "high": 3212,
+    "legs": [
+     {
+      "from": "HOU",
+      "to": "OGG",
+      "date": "2026-12-20",
+      "fare": 250,
+      "companion": 5.6,
+      "two": 255.6,
+      "basis": "lowest fare Southwest showed, December 2026",
+      "source": "https://www.southwest.com/en/flights/flights-from-houston-hobby-to-kahului"
+     },
+     {
+      "from": "OGG",
+      "to": "HNL",
+      "date": "2026-12-24",
+      "fare": 65,
+      "companion": 5.6,
+      "two": 70.6,
+      "basis": "lowest fare Southwest showed, Dec 21, 2026",
+      "source": "https://www.southwest.com/destinations/hawaii/honolulu"
+     },
+     {
+      "from": "HNL",
+      "to": "HOU",
+      "date": "2026-12-27",
+      "fare": 250,
+      "companion": 5.6,
+      "two": 255.6,
+      "basis": "lowest fare Southwest showed, Dec 3, 2026",
+      "source": "https://www.southwest.com/routes/flights-from-honolulu-to-houston-hobby"
+     }
+    ],
+    "cars": [
+     {
+      "island": "Maui",
+      "days": 4,
+      "rate": 104,
+      "basis": "cheapest winter car at Kahului, Dec 2025 survey"
+     }
+    ],
+    "excludes": "Taxes and fees on the main tickets, bags, food, parking, park fees, tours and fun. Holiday fares and rates run higher."
+   },
+   "stops": [
+    "international-market-place-dons-treehouse",
+    "la-mariana-sailing-club",
+    "royal-hawaiian-mai-tai-bar",
+    "house-without-a-key",
+    "skull-and-crown",
+    "south-shore-tiki-lounge",
+    "feast-at-mokapu-andaz-maui",
+    "four-seasons-oahu-ko-olina-holiday",
+    "kcc-farmers-market",
+    "haleakala-sunrise",
+    "pipiwai-trail",
+    "waianapanapa"
+   ],
+   "extras": [
+    "A car or the resort shuttle on Lānaʻi",
+    "Hotel Wailea's rates, if you stay there"
+   ],
+   "flag": "",
+   "checks": []
+  }
+ ],
+ "basis": "Two travelers. One full fare per flight plus the companion's taxes, at the lowest fare Southwest published for each route. Budget stays at an estimated nightly range. Cars at the cheapest winter rate from a December 2025 survey."
+}
