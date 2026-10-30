@@ -227,28 +227,18 @@
         "diff": 27
        },
        {
-        "stay": "back",
-        "days": 10,
+        "stay": "home1",
+        "days": 12,
         "legs": [
          {
           "from": "HOU",
-          "to": "LAS",
-          "date": "2026-12-19",
-          "fare": 72,
-          "companion": 5.6,
-          "two": 77.6,
-          "basis": "lowest fare Southwest showed, Dec 1, 5, 7, 8, 12, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-houston-hobby-to-las-vegas"
-         },
-         {
-          "from": "LAS",
           "to": "HNL",
           "date": "2026-12-19",
-          "fare": 241,
+          "fare": 250,
           "companion": 5.6,
-          "two": 246.6,
-          "basis": "lowest fare Southwest showed, Dec 7, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-las-vegas-to-honolulu"
+          "two": 255.6,
+          "basis": "lowest fare Southwest showed, Dec 7 and 9, 2026",
+          "source": "https://www.southwest.com/routes/flights-from-houston-hobby-to-honolulu"
          },
          {
           "from": "HNL",
@@ -263,7 +253,7 @@
          {
           "from": "KOA",
           "to": "LAS",
-          "date": "2026-12-27",
+          "date": "2026-12-28",
           "fare": 199,
           "companion": 5.6,
           "two": 204.6,
@@ -273,7 +263,7 @@
          {
           "from": "LAS",
           "to": "HOU",
-          "date": "2026-12-28",
+          "date": "2026-12-30",
           "fare": 72,
           "companion": 5.6,
           "two": 77.6,
@@ -281,202 +271,36 @@
           "source": "https://www.southwest.com/en/flights/flights-from-las-vegas-to-houston-hobby"
          }
         ],
-        "flights": 681,
+        "flights": 612,
         "hotel": [
          104,
          207
         ],
         "hub_nights": 1,
         "gives": [
-         "a night in Las Vegas on the way home, so one less on the Big Island"
+         "The overnight flight from Kona leaves about 8 p.m. Dec 28 and lands in Vegas early Dec 29",
+         "1 night in Vegas, home to Houston Dec 30"
         ],
         "notes": [
-         "Nonstop on every flight.",
-         "Same day means a dawn flight from Houston. The Vegas flights to Honolulu and Hilo leave in the morning."
+         "Nonstop on every flight."
         ],
-        "low": 2366,
-        "high": 3269,
-        "diff": -146
-       }
-      ]
-     },
-     {
-      "out": "Las Vegas",
-      "back": "Seattle",
-      "nonstop": false,
-      "options": [
-       {
-        "stay": "none",
-        "days": 10,
-        "legs": [
-         {
-          "from": "HOU",
-          "to": "LAS",
-          "date": "2026-12-19",
-          "fare": 72,
-          "companion": 5.6,
-          "two": 77.6,
-          "basis": "lowest fare Southwest showed, Dec 1, 5, 7, 8, 12, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-houston-hobby-to-las-vegas"
-         },
-         {
-          "from": "LAS",
-          "to": "HNL",
-          "date": "2026-12-19",
-          "fare": 241,
-          "companion": 5.6,
-          "two": 246.6,
-          "basis": "lowest fare Southwest showed, Dec 7, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-las-vegas-to-honolulu"
-         },
-         {
-          "from": "HNL",
-          "to": "KOA",
-          "date": "2026-12-24",
-          "fare": 69,
-          "companion": 5.6,
-          "two": 74.6,
-          "basis": "lowest fare Southwest showed, Dec 16, 18 and 21, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-honolulu-to-kona"
-         },
-         {
-          "from": "KOA",
-          "to": "SEA",
-          "date": "2026-12-28",
-          "fare": 238,
-          "companion": 5.6,
-          "two": 243.6,
-          "basis": "lowest fare Southwest showed, Dec 21, 2026 (also $268 on Dec 19, 2026)",
-          "source": "https://www.southwest.com/en/flights/flights-from-kona-to-seattle-tacoma"
-         },
-         {
-          "from": "SEA",
-          "to": "HOU",
-          "date": "2026-12-28",
-          "fare": 182,
-          "companion": 5.6,
-          "two": 187.6,
-          "basis": "lowest fare Southwest showed, Dec 2, 15, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-seattle-tacoma-to-houston-hobby"
-         }
-        ],
-        "flights": 830,
-        "hotel": [
-         0,
-         0
-        ],
-        "hub_nights": 0,
-        "gives": [],
-        "notes": [
-         "Southwest's Seattle flights to Hawaii connect. Only Houston to Seattle is nonstop.",
-         "Same day means a dawn flight from Houston. The Vegas flights to Honolulu and Hilo leave in the morning."
-        ],
-        "low": 2688,
-        "high": 3588,
-        "diff": 176
+        "low": 2574,
+        "high": 3577,
+        "diff": 62
        },
        {
-        "stay": "back",
-        "days": 10,
+        "stay": "home2",
+        "days": 13,
         "legs": [
          {
           "from": "HOU",
-          "to": "LAS",
-          "date": "2026-12-19",
-          "fare": 72,
-          "companion": 5.6,
-          "two": 77.6,
-          "basis": "lowest fare Southwest showed, Dec 1, 5, 7, 8, 12, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-houston-hobby-to-las-vegas"
-         },
-         {
-          "from": "LAS",
           "to": "HNL",
           "date": "2026-12-19",
-          "fare": 241,
+          "fare": 250,
           "companion": 5.6,
-          "two": 246.6,
-          "basis": "lowest fare Southwest showed, Dec 7, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-las-vegas-to-honolulu"
-         },
-         {
-          "from": "HNL",
-          "to": "KOA",
-          "date": "2026-12-24",
-          "fare": 69,
-          "companion": 5.6,
-          "two": 74.6,
-          "basis": "lowest fare Southwest showed, Dec 16, 18 and 21, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-honolulu-to-kona"
-         },
-         {
-          "from": "KOA",
-          "to": "SEA",
-          "date": "2026-12-27",
-          "fare": 238,
-          "companion": 5.6,
-          "two": 243.6,
-          "basis": "lowest fare Southwest showed, Dec 21, 2026 (also $268 on Dec 19, 2026)",
-          "source": "https://www.southwest.com/en/flights/flights-from-kona-to-seattle-tacoma"
-         },
-         {
-          "from": "SEA",
-          "to": "HOU",
-          "date": "2026-12-28",
-          "fare": 182,
-          "companion": 5.6,
-          "two": 187.6,
-          "basis": "lowest fare Southwest showed, Dec 2, 15, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-seattle-tacoma-to-houston-hobby"
-         }
-        ],
-        "flights": 830,
-        "hotel": [
-         145,
-         237
-        ],
-        "hub_nights": 1,
-        "gives": [
-         "a night in Seattle on the way home, so one less on the Big Island"
-        ],
-        "notes": [
-         "Southwest's Seattle flights to Hawaii connect. Only Houston to Seattle is nonstop.",
-         "Same day means a dawn flight from Houston. The Vegas flights to Honolulu and Hilo leave in the morning."
-        ],
-        "low": 2556,
-        "high": 3448,
-        "diff": 44
-       }
-      ]
-     },
-     {
-      "out": "Seattle",
-      "back": "Las Vegas",
-      "nonstop": false,
-      "options": [
-       {
-        "stay": "none",
-        "days": 10,
-        "legs": [
-         {
-          "from": "HOU",
-          "to": "SEA",
-          "date": "2026-12-19",
-          "fare": 187,
-          "companion": 5.6,
-          "two": 192.6,
-          "basis": "lowest fare Southwest showed, Dec 2, 7, 8, 10, 12, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-houston-hobby-to-seattle-tacoma"
-         },
-         {
-          "from": "SEA",
-          "to": "HNL",
-          "date": "2026-12-19",
-          "fare": 248,
-          "companion": 5.6,
-          "two": 253.6,
-          "basis": "lowest fare Southwest showed, Dec 2, 3, 15, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-seattle-tacoma-to-honolulu"
+          "two": 255.6,
+          "basis": "lowest fare Southwest showed, Dec 7 and 9, 2026",
+          "source": "https://www.southwest.com/routes/flights-from-houston-hobby-to-honolulu"
          },
          {
           "from": "HNL",
@@ -501,7 +325,7 @@
          {
           "from": "LAS",
           "to": "HOU",
-          "date": "2026-12-28",
+          "date": "2026-12-31",
           "fare": 72,
           "companion": 5.6,
           "two": 77.6,
@@ -509,240 +333,21 @@
           "source": "https://www.southwest.com/en/flights/flights-from-las-vegas-to-houston-hobby"
          }
         ],
-        "flights": 803,
+        "flights": 612,
         "hotel": [
-         0,
-         0
+         208,
+         414
         ],
-        "hub_nights": 0,
-        "gives": [],
-        "notes": [
-         "Southwest's Seattle flights to Hawaii connect. Only Houston to Seattle is nonstop.",
-         "Houston and Seattle are nonstop on weekdays only, and Dec 19 is a Saturday."
-        ],
-        "low": 2661,
-        "high": 3561,
-        "diff": 149
-       },
-       {
-        "stay": "back",
-        "days": 10,
-        "legs": [
-         {
-          "from": "HOU",
-          "to": "SEA",
-          "date": "2026-12-19",
-          "fare": 187,
-          "companion": 5.6,
-          "two": 192.6,
-          "basis": "lowest fare Southwest showed, Dec 2, 7, 8, 10, 12, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-houston-hobby-to-seattle-tacoma"
-         },
-         {
-          "from": "SEA",
-          "to": "HNL",
-          "date": "2026-12-19",
-          "fare": 248,
-          "companion": 5.6,
-          "two": 253.6,
-          "basis": "lowest fare Southwest showed, Dec 2, 3, 15, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-seattle-tacoma-to-honolulu"
-         },
-         {
-          "from": "HNL",
-          "to": "KOA",
-          "date": "2026-12-24",
-          "fare": 69,
-          "companion": 5.6,
-          "two": 74.6,
-          "basis": "lowest fare Southwest showed, Dec 16, 18 and 21, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-honolulu-to-kona"
-         },
-         {
-          "from": "KOA",
-          "to": "LAS",
-          "date": "2026-12-27",
-          "fare": 199,
-          "companion": 5.6,
-          "two": 204.6,
-          "basis": "lowest fare Southwest showed, Dec 9, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-kona-to-las-vegas"
-         },
-         {
-          "from": "LAS",
-          "to": "HOU",
-          "date": "2026-12-28",
-          "fare": 72,
-          "companion": 5.6,
-          "two": 77.6,
-          "basis": "lowest fare Southwest showed, Dec 1, 2, 3, 10, 17, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-las-vegas-to-houston-hobby"
-         }
-        ],
-        "flights": 803,
-        "hotel": [
-         104,
-         207
-        ],
-        "hub_nights": 1,
+        "hub_nights": 2,
         "gives": [
-         "a night in Las Vegas on the way home, so one less on the Big Island"
+         "The overnight flight from Kona leaves about 8 p.m. Dec 28 and lands in Vegas early Dec 29",
+         "2 nights in Vegas, home to Houston Dec 31"
         ],
         "notes": [
-         "Southwest's Seattle flights to Hawaii connect. Only Houston to Seattle is nonstop.",
-         "Houston and Seattle are nonstop on weekdays only, and Dec 19 is a Saturday."
-        ],
-        "low": 2488,
-        "high": 3391,
-        "diff": -24
-       }
-      ]
-     },
-     {
-      "out": "Seattle",
-      "back": "Seattle",
-      "nonstop": false,
-      "options": [
-       {
-        "stay": "none",
-        "days": 10,
-        "legs": [
-         {
-          "from": "HOU",
-          "to": "SEA",
-          "date": "2026-12-19",
-          "fare": 187,
-          "companion": 5.6,
-          "two": 192.6,
-          "basis": "lowest fare Southwest showed, Dec 2, 7, 8, 10, 12, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-houston-hobby-to-seattle-tacoma"
-         },
-         {
-          "from": "SEA",
-          "to": "HNL",
-          "date": "2026-12-19",
-          "fare": 248,
-          "companion": 5.6,
-          "two": 253.6,
-          "basis": "lowest fare Southwest showed, Dec 2, 3, 15, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-seattle-tacoma-to-honolulu"
-         },
-         {
-          "from": "HNL",
-          "to": "KOA",
-          "date": "2026-12-24",
-          "fare": 69,
-          "companion": 5.6,
-          "two": 74.6,
-          "basis": "lowest fare Southwest showed, Dec 16, 18 and 21, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-honolulu-to-kona"
-         },
-         {
-          "from": "KOA",
-          "to": "SEA",
-          "date": "2026-12-28",
-          "fare": 238,
-          "companion": 5.6,
-          "two": 243.6,
-          "basis": "lowest fare Southwest showed, Dec 21, 2026 (also $268 on Dec 19, 2026)",
-          "source": "https://www.southwest.com/en/flights/flights-from-kona-to-seattle-tacoma"
-         },
-         {
-          "from": "SEA",
-          "to": "HOU",
-          "date": "2026-12-28",
-          "fare": 182,
-          "companion": 5.6,
-          "two": 187.6,
-          "basis": "lowest fare Southwest showed, Dec 2, 15, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-seattle-tacoma-to-houston-hobby"
-         }
-        ],
-        "flights": 952,
-        "hotel": [
-         0,
-         0
-        ],
-        "hub_nights": 0,
-        "gives": [],
-        "notes": [
-         "Southwest's Seattle flights to Hawaii connect. Only Houston to Seattle is nonstop.",
-         "Houston and Seattle are nonstop on weekdays only, and Dec 19 is a Saturday."
-        ],
-        "low": 2810,
-        "high": 3710,
-        "diff": 298
-       },
-       {
-        "stay": "back",
-        "days": 10,
-        "legs": [
-         {
-          "from": "HOU",
-          "to": "SEA",
-          "date": "2026-12-19",
-          "fare": 187,
-          "companion": 5.6,
-          "two": 192.6,
-          "basis": "lowest fare Southwest showed, Dec 2, 7, 8, 10, 12, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-houston-hobby-to-seattle-tacoma"
-         },
-         {
-          "from": "SEA",
-          "to": "HNL",
-          "date": "2026-12-19",
-          "fare": 248,
-          "companion": 5.6,
-          "two": 253.6,
-          "basis": "lowest fare Southwest showed, Dec 2, 3, 15, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-seattle-tacoma-to-honolulu"
-         },
-         {
-          "from": "HNL",
-          "to": "KOA",
-          "date": "2026-12-24",
-          "fare": 69,
-          "companion": 5.6,
-          "two": 74.6,
-          "basis": "lowest fare Southwest showed, Dec 16, 18 and 21, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-honolulu-to-kona"
-         },
-         {
-          "from": "KOA",
-          "to": "SEA",
-          "date": "2026-12-27",
-          "fare": 238,
-          "companion": 5.6,
-          "two": 243.6,
-          "basis": "lowest fare Southwest showed, Dec 21, 2026 (also $268 on Dec 19, 2026)",
-          "source": "https://www.southwest.com/en/flights/flights-from-kona-to-seattle-tacoma"
-         },
-         {
-          "from": "SEA",
-          "to": "HOU",
-          "date": "2026-12-28",
-          "fare": 182,
-          "companion": 5.6,
-          "two": 187.6,
-          "basis": "lowest fare Southwest showed, Dec 2, 15, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-seattle-tacoma-to-houston-hobby"
-         }
-        ],
-        "flights": 952,
-        "hotel": [
-         145,
-         237
-        ],
-        "hub_nights": 1,
-        "gives": [
-         "a night in Seattle on the way home, so one less on the Big Island"
-        ],
-        "notes": [
-         "Southwest's Seattle flights to Hawaii connect. Only Houston to Seattle is nonstop.",
-         "Houston and Seattle are nonstop on weekdays only, and Dec 19 is a Saturday."
+         "Nonstop on every flight."
         ],
         "low": 2678,
-        "high": 3570,
+        "high": 3784,
         "diff": 166
        }
       ]
@@ -1040,28 +645,18 @@
         "diff": 102
        },
        {
-        "stay": "back",
-        "days": 10,
+        "stay": "home1",
+        "days": 12,
         "legs": [
          {
           "from": "HOU",
-          "to": "LAS",
-          "date": "2026-12-19",
-          "fare": 72,
-          "companion": 5.6,
-          "two": 77.6,
-          "basis": "lowest fare Southwest showed, Dec 1, 5, 7, 8, 12, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-houston-hobby-to-las-vegas"
-         },
-         {
-          "from": "LAS",
           "to": "HNL",
           "date": "2026-12-19",
-          "fare": 241,
+          "fare": 250,
           "companion": 5.6,
-          "two": 246.6,
-          "basis": "lowest fare Southwest showed, Dec 7, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-las-vegas-to-honolulu"
+          "two": 255.6,
+          "basis": "lowest fare Southwest showed, Dec 7 and 9, 2026",
+          "source": "https://www.southwest.com/routes/flights-from-houston-hobby-to-honolulu"
          },
          {
           "from": "HNL",
@@ -1076,7 +671,7 @@
          {
           "from": "LIH",
           "to": "LAS",
-          "date": "2026-12-27",
+          "date": "2026-12-28",
           "fare": 313,
           "companion": 5.6,
           "two": 318.6,
@@ -1086,7 +681,7 @@
          {
           "from": "LAS",
           "to": "HOU",
-          "date": "2026-12-28",
+          "date": "2026-12-30",
           "fare": 72,
           "companion": 5.6,
           "two": 77.6,
@@ -1094,202 +689,36 @@
           "source": "https://www.southwest.com/en/flights/flights-from-las-vegas-to-houston-hobby"
          }
         ],
-        "flights": 795,
+        "flights": 726,
         "hotel": [
          104,
          207
         ],
         "hub_nights": 1,
         "gives": [
-         "a night in Las Vegas on the way home, so one less on Kauaʻi"
+         "The overnight flight from Lihue leaves about 8 p.m. Dec 28 and lands in Vegas early Dec 29",
+         "1 night in Vegas, home to Houston Dec 30"
         ],
         "notes": [
-         "Nonstop on every flight.",
-         "Same day means a dawn flight from Houston. The Vegas flights to Honolulu and Hilo leave in the morning."
+         "Nonstop on every flight."
         ],
-        "low": 2219,
-        "high": 3122,
-        "diff": 26
-       }
-      ]
-     },
-     {
-      "out": "Las Vegas",
-      "back": "Seattle",
-      "nonstop": false,
-      "options": [
-       {
-        "stay": "none",
-        "days": 10,
-        "legs": [
-         {
-          "from": "HOU",
-          "to": "LAS",
-          "date": "2026-12-19",
-          "fare": 72,
-          "companion": 5.6,
-          "two": 77.6,
-          "basis": "lowest fare Southwest showed, Dec 1, 5, 7, 8, 12, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-houston-hobby-to-las-vegas"
-         },
-         {
-          "from": "LAS",
-          "to": "HNL",
-          "date": "2026-12-19",
-          "fare": 241,
-          "companion": 5.6,
-          "two": 246.6,
-          "basis": "lowest fare Southwest showed, Dec 7, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-las-vegas-to-honolulu"
-         },
-         {
-          "from": "HNL",
-          "to": "LIH",
-          "date": "2026-12-23",
-          "fare": 69,
-          "companion": 5.6,
-          "two": 74.6,
-          "basis": "lowest fare Southwest showed, Dec 19 and 31, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-honolulu-to-lihue"
-         },
-         {
-          "from": "LIH",
-          "to": "SEA",
-          "date": "2026-12-28",
-          "fare": 248,
-          "companion": 5.6,
-          "two": 253.6,
-          "basis": "lowest fare Southwest showed, Dec 20, 25, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-lihue-to-seattle-tacoma"
-         },
-         {
-          "from": "SEA",
-          "to": "HOU",
-          "date": "2026-12-28",
-          "fare": 182,
-          "companion": 5.6,
-          "two": 187.6,
-          "basis": "lowest fare Southwest showed, Dec 2, 15, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-seattle-tacoma-to-houston-hobby"
-         }
-        ],
-        "flights": 840,
-        "hotel": [
-         0,
-         0
-        ],
-        "hub_nights": 0,
-        "gives": [],
-        "notes": [
-         "Southwest's Seattle flights to Hawaii connect. Only Houston to Seattle is nonstop.",
-         "Same day means a dawn flight from Houston. The Vegas flights to Honolulu and Hilo leave in the morning."
-        ],
-        "low": 2340,
-        "high": 3240,
-        "diff": 147
+        "low": 2330,
+        "high": 3333,
+        "diff": 137
        },
        {
-        "stay": "back",
-        "days": 10,
+        "stay": "home2",
+        "days": 13,
         "legs": [
          {
           "from": "HOU",
-          "to": "LAS",
-          "date": "2026-12-19",
-          "fare": 72,
-          "companion": 5.6,
-          "two": 77.6,
-          "basis": "lowest fare Southwest showed, Dec 1, 5, 7, 8, 12, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-houston-hobby-to-las-vegas"
-         },
-         {
-          "from": "LAS",
           "to": "HNL",
           "date": "2026-12-19",
-          "fare": 241,
+          "fare": 250,
           "companion": 5.6,
-          "two": 246.6,
-          "basis": "lowest fare Southwest showed, Dec 7, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-las-vegas-to-honolulu"
-         },
-         {
-          "from": "HNL",
-          "to": "LIH",
-          "date": "2026-12-23",
-          "fare": 69,
-          "companion": 5.6,
-          "two": 74.6,
-          "basis": "lowest fare Southwest showed, Dec 19 and 31, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-honolulu-to-lihue"
-         },
-         {
-          "from": "LIH",
-          "to": "SEA",
-          "date": "2026-12-27",
-          "fare": 248,
-          "companion": 5.6,
-          "two": 253.6,
-          "basis": "lowest fare Southwest showed, Dec 20, 25, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-lihue-to-seattle-tacoma"
-         },
-         {
-          "from": "SEA",
-          "to": "HOU",
-          "date": "2026-12-28",
-          "fare": 182,
-          "companion": 5.6,
-          "two": 187.6,
-          "basis": "lowest fare Southwest showed, Dec 2, 15, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-seattle-tacoma-to-houston-hobby"
-         }
-        ],
-        "flights": 840,
-        "hotel": [
-         145,
-         237
-        ],
-        "hub_nights": 1,
-        "gives": [
-         "a night in Seattle on the way home, so one less on Kauaʻi"
-        ],
-        "notes": [
-         "Southwest's Seattle flights to Hawaii connect. Only Houston to Seattle is nonstop.",
-         "Same day means a dawn flight from Houston. The Vegas flights to Honolulu and Hilo leave in the morning."
-        ],
-        "low": 2305,
-        "high": 3197,
-        "diff": 112
-       }
-      ]
-     },
-     {
-      "out": "Seattle",
-      "back": "Las Vegas",
-      "nonstop": false,
-      "options": [
-       {
-        "stay": "none",
-        "days": 10,
-        "legs": [
-         {
-          "from": "HOU",
-          "to": "SEA",
-          "date": "2026-12-19",
-          "fare": 187,
-          "companion": 5.6,
-          "two": 192.6,
-          "basis": "lowest fare Southwest showed, Dec 2, 7, 8, 10, 12, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-houston-hobby-to-seattle-tacoma"
-         },
-         {
-          "from": "SEA",
-          "to": "HNL",
-          "date": "2026-12-19",
-          "fare": 248,
-          "companion": 5.6,
-          "two": 253.6,
-          "basis": "lowest fare Southwest showed, Dec 2, 3, 15, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-seattle-tacoma-to-honolulu"
+          "two": 255.6,
+          "basis": "lowest fare Southwest showed, Dec 7 and 9, 2026",
+          "source": "https://www.southwest.com/routes/flights-from-houston-hobby-to-honolulu"
          },
          {
           "from": "HNL",
@@ -1314,7 +743,7 @@
          {
           "from": "LAS",
           "to": "HOU",
-          "date": "2026-12-28",
+          "date": "2026-12-31",
           "fare": 72,
           "companion": 5.6,
           "two": 77.6,
@@ -1322,241 +751,22 @@
           "source": "https://www.southwest.com/en/flights/flights-from-las-vegas-to-houston-hobby"
          }
         ],
-        "flights": 917,
+        "flights": 726,
         "hotel": [
-         0,
-         0
+         208,
+         414
         ],
-        "hub_nights": 0,
-        "gives": [],
-        "notes": [
-         "Southwest's Seattle flights to Hawaii connect. Only Houston to Seattle is nonstop.",
-         "Houston and Seattle are nonstop on weekdays only, and Dec 19 is a Saturday."
-        ],
-        "low": 2417,
-        "high": 3317,
-        "diff": 224
-       },
-       {
-        "stay": "back",
-        "days": 10,
-        "legs": [
-         {
-          "from": "HOU",
-          "to": "SEA",
-          "date": "2026-12-19",
-          "fare": 187,
-          "companion": 5.6,
-          "two": 192.6,
-          "basis": "lowest fare Southwest showed, Dec 2, 7, 8, 10, 12, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-houston-hobby-to-seattle-tacoma"
-         },
-         {
-          "from": "SEA",
-          "to": "HNL",
-          "date": "2026-12-19",
-          "fare": 248,
-          "companion": 5.6,
-          "two": 253.6,
-          "basis": "lowest fare Southwest showed, Dec 2, 3, 15, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-seattle-tacoma-to-honolulu"
-         },
-         {
-          "from": "HNL",
-          "to": "LIH",
-          "date": "2026-12-23",
-          "fare": 69,
-          "companion": 5.6,
-          "two": 74.6,
-          "basis": "lowest fare Southwest showed, Dec 19 and 31, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-honolulu-to-lihue"
-         },
-         {
-          "from": "LIH",
-          "to": "LAS",
-          "date": "2026-12-27",
-          "fare": 313,
-          "companion": 5.6,
-          "two": 318.6,
-          "basis": "lowest fare Southwest showed, Dec 14, 21, 24, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-lihue-to-las-vegas"
-         },
-         {
-          "from": "LAS",
-          "to": "HOU",
-          "date": "2026-12-28",
-          "fare": 72,
-          "companion": 5.6,
-          "two": 77.6,
-          "basis": "lowest fare Southwest showed, Dec 1, 2, 3, 10, 17, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-las-vegas-to-houston-hobby"
-         }
-        ],
-        "flights": 917,
-        "hotel": [
-         104,
-         207
-        ],
-        "hub_nights": 1,
+        "hub_nights": 2,
         "gives": [
-         "a night in Las Vegas on the way home, so one less on Kauaʻi"
+         "The overnight flight from Lihue leaves about 8 p.m. Dec 28 and lands in Vegas early Dec 29",
+         "2 nights in Vegas, home to Houston Dec 31"
         ],
         "notes": [
-         "Southwest's Seattle flights to Hawaii connect. Only Houston to Seattle is nonstop.",
-         "Houston and Seattle are nonstop on weekdays only, and Dec 19 is a Saturday."
+         "Nonstop on every flight."
         ],
-        "low": 2341,
-        "high": 3244,
-        "diff": 148
-       }
-      ]
-     },
-     {
-      "out": "Seattle",
-      "back": "Seattle",
-      "nonstop": false,
-      "options": [
-       {
-        "stay": "none",
-        "days": 10,
-        "legs": [
-         {
-          "from": "HOU",
-          "to": "SEA",
-          "date": "2026-12-19",
-          "fare": 187,
-          "companion": 5.6,
-          "two": 192.6,
-          "basis": "lowest fare Southwest showed, Dec 2, 7, 8, 10, 12, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-houston-hobby-to-seattle-tacoma"
-         },
-         {
-          "from": "SEA",
-          "to": "HNL",
-          "date": "2026-12-19",
-          "fare": 248,
-          "companion": 5.6,
-          "two": 253.6,
-          "basis": "lowest fare Southwest showed, Dec 2, 3, 15, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-seattle-tacoma-to-honolulu"
-         },
-         {
-          "from": "HNL",
-          "to": "LIH",
-          "date": "2026-12-23",
-          "fare": 69,
-          "companion": 5.6,
-          "two": 74.6,
-          "basis": "lowest fare Southwest showed, Dec 19 and 31, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-honolulu-to-lihue"
-         },
-         {
-          "from": "LIH",
-          "to": "SEA",
-          "date": "2026-12-28",
-          "fare": 248,
-          "companion": 5.6,
-          "two": 253.6,
-          "basis": "lowest fare Southwest showed, Dec 20, 25, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-lihue-to-seattle-tacoma"
-         },
-         {
-          "from": "SEA",
-          "to": "HOU",
-          "date": "2026-12-28",
-          "fare": 182,
-          "companion": 5.6,
-          "two": 187.6,
-          "basis": "lowest fare Southwest showed, Dec 2, 15, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-seattle-tacoma-to-houston-hobby"
-         }
-        ],
-        "flights": 962,
-        "hotel": [
-         0,
-         0
-        ],
-        "hub_nights": 0,
-        "gives": [],
-        "notes": [
-         "Southwest's Seattle flights to Hawaii connect. Only Houston to Seattle is nonstop.",
-         "Houston and Seattle are nonstop on weekdays only, and Dec 19 is a Saturday."
-        ],
-        "low": 2462,
-        "high": 3362,
-        "diff": 269
-       },
-       {
-        "stay": "back",
-        "days": 10,
-        "legs": [
-         {
-          "from": "HOU",
-          "to": "SEA",
-          "date": "2026-12-19",
-          "fare": 187,
-          "companion": 5.6,
-          "two": 192.6,
-          "basis": "lowest fare Southwest showed, Dec 2, 7, 8, 10, 12, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-houston-hobby-to-seattle-tacoma"
-         },
-         {
-          "from": "SEA",
-          "to": "HNL",
-          "date": "2026-12-19",
-          "fare": 248,
-          "companion": 5.6,
-          "two": 253.6,
-          "basis": "lowest fare Southwest showed, Dec 2, 3, 15, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-seattle-tacoma-to-honolulu"
-         },
-         {
-          "from": "HNL",
-          "to": "LIH",
-          "date": "2026-12-23",
-          "fare": 69,
-          "companion": 5.6,
-          "two": 74.6,
-          "basis": "lowest fare Southwest showed, Dec 19 and 31, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-honolulu-to-lihue"
-         },
-         {
-          "from": "LIH",
-          "to": "SEA",
-          "date": "2026-12-27",
-          "fare": 248,
-          "companion": 5.6,
-          "two": 253.6,
-          "basis": "lowest fare Southwest showed, Dec 20, 25, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-lihue-to-seattle-tacoma"
-         },
-         {
-          "from": "SEA",
-          "to": "HOU",
-          "date": "2026-12-28",
-          "fare": 182,
-          "companion": 5.6,
-          "two": 187.6,
-          "basis": "lowest fare Southwest showed, Dec 2, 15, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-seattle-tacoma-to-houston-hobby"
-         }
-        ],
-        "flights": 962,
-        "hotel": [
-         145,
-         237
-        ],
-        "hub_nights": 1,
-        "gives": [
-         "a night in Seattle on the way home, so one less on Kauaʻi"
-        ],
-        "notes": [
-         "Southwest's Seattle flights to Hawaii connect. Only Houston to Seattle is nonstop.",
-         "Houston and Seattle are nonstop on weekdays only, and Dec 19 is a Saturday."
-        ],
-        "low": 2427,
-        "high": 3319,
-        "diff": 234
+        "low": 2434,
+        "high": 3540,
+        "diff": 241
        }
       ]
      }
@@ -1912,28 +1122,18 @@
         "diff": 237
        },
        {
-        "stay": "back",
-        "days": 10,
+        "stay": "home1",
+        "days": 11,
         "legs": [
          {
           "from": "HOU",
-          "to": "LAS",
-          "date": "2026-12-19",
-          "fare": 72,
-          "companion": 5.6,
-          "two": 77.6,
-          "basis": "lowest fare Southwest showed, Dec 1, 5, 7, 8, 12, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-houston-hobby-to-las-vegas"
-         },
-         {
-          "from": "LAS",
           "to": "HNL",
           "date": "2026-12-19",
-          "fare": 241,
+          "fare": 250,
           "companion": 5.6,
-          "two": 246.6,
-          "basis": "lowest fare Southwest showed, Dec 7, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-las-vegas-to-honolulu"
+          "two": 255.6,
+          "basis": "lowest fare Southwest showed, Dec 7 and 9, 2026",
+          "source": "https://www.southwest.com/routes/flights-from-houston-hobby-to-honolulu"
          },
          {
           "from": "HNL",
@@ -1958,7 +1158,7 @@
          {
           "from": "LAS",
           "to": "HOU",
-          "date": "2026-12-28",
+          "date": "2026-12-29",
           "fare": 72,
           "companion": 5.6,
           "two": 77.6,
@@ -1966,46 +1166,36 @@
           "source": "https://www.southwest.com/en/flights/flights-from-las-vegas-to-houston-hobby"
          }
         ],
-        "flights": 717,
+        "flights": 648,
         "hotel": [
          104,
          207
         ],
         "hub_nights": 1,
         "gives": [
-         "a night in Las Vegas on the way home, one more day"
+         "The overnight flight from Kahului leaves about 8 p.m. Dec 27 and lands in Vegas early Dec 28",
+         "1 night in Vegas, home to Houston Dec 29"
         ],
         "notes": [
-         "Nonstop on every flight.",
-         "Same day means a dawn flight from Houston. The Vegas flights to Honolulu and Hilo leave in the morning."
+         "Nonstop on every flight."
         ],
-        "low": 2955,
-        "high": 3958,
-        "diff": 237
+        "low": 2886,
+        "high": 3889,
+        "diff": 168
        },
        {
-        "stay": "both",
-        "days": 10,
+        "stay": "home2",
+        "days": 12,
         "legs": [
          {
           "from": "HOU",
-          "to": "LAS",
-          "date": "2026-12-18",
-          "fare": 72,
-          "companion": 5.6,
-          "two": 77.6,
-          "basis": "lowest fare Southwest showed, Dec 1, 5, 7, 8, 12, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-houston-hobby-to-las-vegas"
-         },
-         {
-          "from": "LAS",
           "to": "HNL",
           "date": "2026-12-19",
-          "fare": 241,
+          "fare": 250,
           "companion": 5.6,
-          "two": 246.6,
-          "basis": "lowest fare Southwest showed, Dec 7, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-las-vegas-to-honolulu"
+          "two": 255.6,
+          "basis": "lowest fare Southwest showed, Dec 7 and 9, 2026",
+          "source": "https://www.southwest.com/routes/flights-from-houston-hobby-to-honolulu"
          },
          {
           "from": "HNL",
@@ -2020,7 +1210,7 @@
          {
           "from": "OGG",
           "to": "LAS",
-          "date": "2026-12-26",
+          "date": "2026-12-27",
           "fare": 246,
           "companion": 5.6,
           "two": 251.6,
@@ -2030,7 +1220,7 @@
          {
           "from": "LAS",
           "to": "HOU",
-          "date": "2026-12-27",
+          "date": "2026-12-30",
           "fare": 72,
           "companion": 5.6,
           "two": 77.6,
@@ -2038,904 +1228,22 @@
           "source": "https://www.southwest.com/en/flights/flights-from-las-vegas-to-houston-hobby"
          }
         ],
-        "flights": 717,
+        "flights": 648,
         "hotel": [
          208,
          414
         ],
         "hub_nights": 2,
         "gives": [
-         "a night in Las Vegas on the way out, leaving Houston Dec 18",
-         "a night in Las Vegas on the way home, so one less on Maui"
+         "The overnight flight from Kahului leaves about 8 p.m. Dec 27 and lands in Vegas early Dec 28",
+         "2 nights in Vegas, home to Houston Dec 30"
         ],
         "notes": [
          "Nonstop on every flight."
         ],
-        "low": 2775,
-        "high": 3761,
-        "diff": 57
-       }
-      ]
-     },
-     {
-      "out": "Las Vegas",
-      "back": "Seattle",
-      "nonstop": false,
-      "options": [
-       {
-        "stay": "none",
-        "days": 9,
-        "legs": [
-         {
-          "from": "HOU",
-          "to": "LAS",
-          "date": "2026-12-19",
-          "fare": 72,
-          "companion": 5.6,
-          "two": 77.6,
-          "basis": "lowest fare Southwest showed, Dec 1, 5, 7, 8, 12, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-houston-hobby-to-las-vegas"
-         },
-         {
-          "from": "LAS",
-          "to": "HNL",
-          "date": "2026-12-19",
-          "fare": 241,
-          "companion": 5.6,
-          "two": 246.6,
-          "basis": "lowest fare Southwest showed, Dec 7, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-las-vegas-to-honolulu"
-         },
-         {
-          "from": "HNL",
-          "to": "OGG",
-          "date": "2026-12-22",
-          "fare": 58,
-          "companion": 5.6,
-          "two": 63.6,
-          "basis": "lowest fare Southwest showed, Dec 17, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-honolulu-to-kahului"
-         },
-         {
-          "from": "OGG",
-          "to": "SEA",
-          "date": "2026-12-27",
-          "fare": 218,
-          "companion": 5.6,
-          "two": 223.6,
-          "basis": "lowest fare Southwest showed, Dec 2026 (monthly 'From' fare; no date shown)",
-          "source": "https://www.southwest.com/en/flights/flights-from-kahului-to-seattle-tacoma"
-         },
-         {
-          "from": "SEA",
-          "to": "HOU",
-          "date": "2026-12-27",
-          "fare": 182,
-          "companion": 5.6,
-          "two": 187.6,
-          "basis": "lowest fare Southwest showed, Dec 2, 15, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-seattle-tacoma-to-houston-hobby"
-         }
-        ],
-        "flights": 799,
-        "hotel": [
-         0,
-         0
-        ],
-        "hub_nights": 0,
-        "gives": [],
-        "notes": [
-         "Southwest's Seattle flights to Hawaii connect. Only Houston to Seattle is nonstop.",
-         "Houston and Seattle are nonstop on weekdays only, and Dec 27 is a Sunday.",
-         "Same day means a dawn flight from Houston. The Vegas flights to Honolulu and Hilo leave in the morning."
-        ],
-        "low": 2933,
-        "high": 3833,
-        "diff": 215
-       },
-       {
-        "stay": "out",
-        "days": 10,
-        "legs": [
-         {
-          "from": "HOU",
-          "to": "LAS",
-          "date": "2026-12-18",
-          "fare": 72,
-          "companion": 5.6,
-          "two": 77.6,
-          "basis": "lowest fare Southwest showed, Dec 1, 5, 7, 8, 12, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-houston-hobby-to-las-vegas"
-         },
-         {
-          "from": "LAS",
-          "to": "HNL",
-          "date": "2026-12-19",
-          "fare": 241,
-          "companion": 5.6,
-          "two": 246.6,
-          "basis": "lowest fare Southwest showed, Dec 7, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-las-vegas-to-honolulu"
-         },
-         {
-          "from": "HNL",
-          "to": "OGG",
-          "date": "2026-12-22",
-          "fare": 58,
-          "companion": 5.6,
-          "two": 63.6,
-          "basis": "lowest fare Southwest showed, Dec 17, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-honolulu-to-kahului"
-         },
-         {
-          "from": "OGG",
-          "to": "SEA",
-          "date": "2026-12-27",
-          "fare": 218,
-          "companion": 5.6,
-          "two": 223.6,
-          "basis": "lowest fare Southwest showed, Dec 2026 (monthly 'From' fare; no date shown)",
-          "source": "https://www.southwest.com/en/flights/flights-from-kahului-to-seattle-tacoma"
-         },
-         {
-          "from": "SEA",
-          "to": "HOU",
-          "date": "2026-12-27",
-          "fare": 182,
-          "companion": 5.6,
-          "two": 187.6,
-          "basis": "lowest fare Southwest showed, Dec 2, 15, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-seattle-tacoma-to-houston-hobby"
-         }
-        ],
-        "flights": 799,
-        "hotel": [
-         104,
-         207
-        ],
-        "hub_nights": 1,
-        "gives": [
-         "a night in Las Vegas on the way out, leaving Houston Dec 18"
-        ],
-        "notes": [
-         "Southwest's Seattle flights to Hawaii connect. Only Houston to Seattle is nonstop.",
-         "Houston and Seattle are nonstop on weekdays only, and Dec 27 is a Sunday."
-        ],
-        "low": 3037,
-        "high": 4040,
-        "diff": 319
-       },
-       {
-        "stay": "back",
-        "days": 10,
-        "legs": [
-         {
-          "from": "HOU",
-          "to": "LAS",
-          "date": "2026-12-19",
-          "fare": 72,
-          "companion": 5.6,
-          "two": 77.6,
-          "basis": "lowest fare Southwest showed, Dec 1, 5, 7, 8, 12, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-houston-hobby-to-las-vegas"
-         },
-         {
-          "from": "LAS",
-          "to": "HNL",
-          "date": "2026-12-19",
-          "fare": 241,
-          "companion": 5.6,
-          "two": 246.6,
-          "basis": "lowest fare Southwest showed, Dec 7, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-las-vegas-to-honolulu"
-         },
-         {
-          "from": "HNL",
-          "to": "OGG",
-          "date": "2026-12-22",
-          "fare": 58,
-          "companion": 5.6,
-          "two": 63.6,
-          "basis": "lowest fare Southwest showed, Dec 17, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-honolulu-to-kahului"
-         },
-         {
-          "from": "OGG",
-          "to": "SEA",
-          "date": "2026-12-27",
-          "fare": 218,
-          "companion": 5.6,
-          "two": 223.6,
-          "basis": "lowest fare Southwest showed, Dec 2026 (monthly 'From' fare; no date shown)",
-          "source": "https://www.southwest.com/en/flights/flights-from-kahului-to-seattle-tacoma"
-         },
-         {
-          "from": "SEA",
-          "to": "HOU",
-          "date": "2026-12-28",
-          "fare": 182,
-          "companion": 5.6,
-          "two": 187.6,
-          "basis": "lowest fare Southwest showed, Dec 2, 15, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-seattle-tacoma-to-houston-hobby"
-         }
-        ],
-        "flights": 799,
-        "hotel": [
-         145,
-         237
-        ],
-        "hub_nights": 1,
-        "gives": [
-         "a night in Seattle on the way home, one more day"
-        ],
-        "notes": [
-         "Southwest's Seattle flights to Hawaii connect. Only Houston to Seattle is nonstop.",
-         "Same day means a dawn flight from Houston. The Vegas flights to Honolulu and Hilo leave in the morning."
-        ],
-        "low": 3078,
-        "high": 4070,
-        "diff": 360
-       },
-       {
-        "stay": "both",
-        "days": 10,
-        "legs": [
-         {
-          "from": "HOU",
-          "to": "LAS",
-          "date": "2026-12-18",
-          "fare": 72,
-          "companion": 5.6,
-          "two": 77.6,
-          "basis": "lowest fare Southwest showed, Dec 1, 5, 7, 8, 12, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-houston-hobby-to-las-vegas"
-         },
-         {
-          "from": "LAS",
-          "to": "HNL",
-          "date": "2026-12-19",
-          "fare": 241,
-          "companion": 5.6,
-          "two": 246.6,
-          "basis": "lowest fare Southwest showed, Dec 7, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-las-vegas-to-honolulu"
-         },
-         {
-          "from": "HNL",
-          "to": "OGG",
-          "date": "2026-12-22",
-          "fare": 58,
-          "companion": 5.6,
-          "two": 63.6,
-          "basis": "lowest fare Southwest showed, Dec 17, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-honolulu-to-kahului"
-         },
-         {
-          "from": "OGG",
-          "to": "SEA",
-          "date": "2026-12-26",
-          "fare": 218,
-          "companion": 5.6,
-          "two": 223.6,
-          "basis": "lowest fare Southwest showed, Dec 2026 (monthly 'From' fare; no date shown)",
-          "source": "https://www.southwest.com/en/flights/flights-from-kahului-to-seattle-tacoma"
-         },
-         {
-          "from": "SEA",
-          "to": "HOU",
-          "date": "2026-12-27",
-          "fare": 182,
-          "companion": 5.6,
-          "two": 187.6,
-          "basis": "lowest fare Southwest showed, Dec 2, 15, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-seattle-tacoma-to-houston-hobby"
-         }
-        ],
-        "flights": 799,
-        "hotel": [
-         249,
-         444
-        ],
-        "hub_nights": 2,
-        "gives": [
-         "a night in Las Vegas on the way out, leaving Houston Dec 18",
-         "a night in Seattle on the way home, so one less on Maui"
-        ],
-        "notes": [
-         "Southwest's Seattle flights to Hawaii connect. Only Houston to Seattle is nonstop.",
-         "Houston and Seattle are nonstop on weekdays only, and Dec 27 is a Sunday."
-        ],
-        "low": 2898,
-        "high": 3873,
-        "diff": 180
-       }
-      ]
-     },
-     {
-      "out": "Seattle",
-      "back": "Las Vegas",
-      "nonstop": false,
-      "options": [
-       {
-        "stay": "none",
-        "days": 9,
-        "legs": [
-         {
-          "from": "HOU",
-          "to": "SEA",
-          "date": "2026-12-19",
-          "fare": 187,
-          "companion": 5.6,
-          "two": 192.6,
-          "basis": "lowest fare Southwest showed, Dec 2, 7, 8, 10, 12, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-houston-hobby-to-seattle-tacoma"
-         },
-         {
-          "from": "SEA",
-          "to": "HNL",
-          "date": "2026-12-19",
-          "fare": 248,
-          "companion": 5.6,
-          "two": 253.6,
-          "basis": "lowest fare Southwest showed, Dec 2, 3, 15, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-seattle-tacoma-to-honolulu"
-         },
-         {
-          "from": "HNL",
-          "to": "OGG",
-          "date": "2026-12-22",
-          "fare": 58,
-          "companion": 5.6,
-          "two": 63.6,
-          "basis": "lowest fare Southwest showed, Dec 17, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-honolulu-to-kahului"
-         },
-         {
-          "from": "OGG",
-          "to": "LAS",
-          "date": "2026-12-27",
-          "fare": 246,
-          "companion": 5.6,
-          "two": 251.6,
-          "basis": "lowest fare Southwest showed, Dec 3, 9, 10, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-kahului-to-las-vegas"
-         },
-         {
-          "from": "LAS",
-          "to": "HOU",
-          "date": "2026-12-27",
-          "fare": 72,
-          "companion": 5.6,
-          "two": 77.6,
-          "basis": "lowest fare Southwest showed, Dec 1, 2, 3, 10, 17, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-las-vegas-to-houston-hobby"
-         }
-        ],
-        "flights": 839,
-        "hotel": [
-         0,
-         0
-        ],
-        "hub_nights": 0,
-        "gives": [],
-        "notes": [
-         "Southwest's Seattle flights to Hawaii connect. Only Houston to Seattle is nonstop.",
-         "Houston and Seattle are nonstop on weekdays only, and Dec 19 is a Saturday."
-        ],
-        "low": 2973,
-        "high": 3873,
-        "diff": 255
-       },
-       {
-        "stay": "out",
-        "days": 10,
-        "legs": [
-         {
-          "from": "HOU",
-          "to": "SEA",
-          "date": "2026-12-18",
-          "fare": 187,
-          "companion": 5.6,
-          "two": 192.6,
-          "basis": "lowest fare Southwest showed, Dec 2, 7, 8, 10, 12, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-houston-hobby-to-seattle-tacoma"
-         },
-         {
-          "from": "SEA",
-          "to": "HNL",
-          "date": "2026-12-19",
-          "fare": 248,
-          "companion": 5.6,
-          "two": 253.6,
-          "basis": "lowest fare Southwest showed, Dec 2, 3, 15, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-seattle-tacoma-to-honolulu"
-         },
-         {
-          "from": "HNL",
-          "to": "OGG",
-          "date": "2026-12-22",
-          "fare": 58,
-          "companion": 5.6,
-          "two": 63.6,
-          "basis": "lowest fare Southwest showed, Dec 17, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-honolulu-to-kahului"
-         },
-         {
-          "from": "OGG",
-          "to": "LAS",
-          "date": "2026-12-27",
-          "fare": 246,
-          "companion": 5.6,
-          "two": 251.6,
-          "basis": "lowest fare Southwest showed, Dec 3, 9, 10, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-kahului-to-las-vegas"
-         },
-         {
-          "from": "LAS",
-          "to": "HOU",
-          "date": "2026-12-27",
-          "fare": 72,
-          "companion": 5.6,
-          "two": 77.6,
-          "basis": "lowest fare Southwest showed, Dec 1, 2, 3, 10, 17, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-las-vegas-to-houston-hobby"
-         }
-        ],
-        "flights": 839,
-        "hotel": [
-         145,
-         237
-        ],
-        "hub_nights": 1,
-        "gives": [
-         "a night in Seattle on the way out, leaving Houston Dec 18"
-        ],
-        "notes": [
-         "Southwest's Seattle flights to Hawaii connect. Only Houston to Seattle is nonstop."
-        ],
-        "low": 3118,
-        "high": 4110,
-        "diff": 400
-       },
-       {
-        "stay": "back",
-        "days": 10,
-        "legs": [
-         {
-          "from": "HOU",
-          "to": "SEA",
-          "date": "2026-12-19",
-          "fare": 187,
-          "companion": 5.6,
-          "two": 192.6,
-          "basis": "lowest fare Southwest showed, Dec 2, 7, 8, 10, 12, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-houston-hobby-to-seattle-tacoma"
-         },
-         {
-          "from": "SEA",
-          "to": "HNL",
-          "date": "2026-12-19",
-          "fare": 248,
-          "companion": 5.6,
-          "two": 253.6,
-          "basis": "lowest fare Southwest showed, Dec 2, 3, 15, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-seattle-tacoma-to-honolulu"
-         },
-         {
-          "from": "HNL",
-          "to": "OGG",
-          "date": "2026-12-22",
-          "fare": 58,
-          "companion": 5.6,
-          "two": 63.6,
-          "basis": "lowest fare Southwest showed, Dec 17, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-honolulu-to-kahului"
-         },
-         {
-          "from": "OGG",
-          "to": "LAS",
-          "date": "2026-12-27",
-          "fare": 246,
-          "companion": 5.6,
-          "two": 251.6,
-          "basis": "lowest fare Southwest showed, Dec 3, 9, 10, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-kahului-to-las-vegas"
-         },
-         {
-          "from": "LAS",
-          "to": "HOU",
-          "date": "2026-12-28",
-          "fare": 72,
-          "companion": 5.6,
-          "two": 77.6,
-          "basis": "lowest fare Southwest showed, Dec 1, 2, 3, 10, 17, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-las-vegas-to-houston-hobby"
-         }
-        ],
-        "flights": 839,
-        "hotel": [
-         104,
-         207
-        ],
-        "hub_nights": 1,
-        "gives": [
-         "a night in Las Vegas on the way home, one more day"
-        ],
-        "notes": [
-         "Southwest's Seattle flights to Hawaii connect. Only Houston to Seattle is nonstop.",
-         "Houston and Seattle are nonstop on weekdays only, and Dec 19 is a Saturday."
-        ],
-        "low": 3077,
-        "high": 4080,
-        "diff": 359
-       },
-       {
-        "stay": "both",
-        "days": 10,
-        "legs": [
-         {
-          "from": "HOU",
-          "to": "SEA",
-          "date": "2026-12-18",
-          "fare": 187,
-          "companion": 5.6,
-          "two": 192.6,
-          "basis": "lowest fare Southwest showed, Dec 2, 7, 8, 10, 12, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-houston-hobby-to-seattle-tacoma"
-         },
-         {
-          "from": "SEA",
-          "to": "HNL",
-          "date": "2026-12-19",
-          "fare": 248,
-          "companion": 5.6,
-          "two": 253.6,
-          "basis": "lowest fare Southwest showed, Dec 2, 3, 15, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-seattle-tacoma-to-honolulu"
-         },
-         {
-          "from": "HNL",
-          "to": "OGG",
-          "date": "2026-12-22",
-          "fare": 58,
-          "companion": 5.6,
-          "two": 63.6,
-          "basis": "lowest fare Southwest showed, Dec 17, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-honolulu-to-kahului"
-         },
-         {
-          "from": "OGG",
-          "to": "LAS",
-          "date": "2026-12-26",
-          "fare": 246,
-          "companion": 5.6,
-          "two": 251.6,
-          "basis": "lowest fare Southwest showed, Dec 3, 9, 10, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-kahului-to-las-vegas"
-         },
-         {
-          "from": "LAS",
-          "to": "HOU",
-          "date": "2026-12-27",
-          "fare": 72,
-          "companion": 5.6,
-          "two": 77.6,
-          "basis": "lowest fare Southwest showed, Dec 1, 2, 3, 10, 17, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-las-vegas-to-houston-hobby"
-         }
-        ],
-        "flights": 839,
-        "hotel": [
-         249,
-         444
-        ],
-        "hub_nights": 2,
-        "gives": [
-         "a night in Seattle on the way out, leaving Houston Dec 18",
-         "a night in Las Vegas on the way home, so one less on Maui"
-        ],
-        "notes": [
-         "Southwest's Seattle flights to Hawaii connect. Only Houston to Seattle is nonstop."
-        ],
-        "low": 2938,
-        "high": 3913,
-        "diff": 220
-       }
-      ]
-     },
-     {
-      "out": "Seattle",
-      "back": "Seattle",
-      "nonstop": false,
-      "options": [
-       {
-        "stay": "none",
-        "days": 9,
-        "legs": [
-         {
-          "from": "HOU",
-          "to": "SEA",
-          "date": "2026-12-19",
-          "fare": 187,
-          "companion": 5.6,
-          "two": 192.6,
-          "basis": "lowest fare Southwest showed, Dec 2, 7, 8, 10, 12, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-houston-hobby-to-seattle-tacoma"
-         },
-         {
-          "from": "SEA",
-          "to": "HNL",
-          "date": "2026-12-19",
-          "fare": 248,
-          "companion": 5.6,
-          "two": 253.6,
-          "basis": "lowest fare Southwest showed, Dec 2, 3, 15, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-seattle-tacoma-to-honolulu"
-         },
-         {
-          "from": "HNL",
-          "to": "OGG",
-          "date": "2026-12-22",
-          "fare": 58,
-          "companion": 5.6,
-          "two": 63.6,
-          "basis": "lowest fare Southwest showed, Dec 17, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-honolulu-to-kahului"
-         },
-         {
-          "from": "OGG",
-          "to": "SEA",
-          "date": "2026-12-27",
-          "fare": 218,
-          "companion": 5.6,
-          "two": 223.6,
-          "basis": "lowest fare Southwest showed, Dec 2026 (monthly 'From' fare; no date shown)",
-          "source": "https://www.southwest.com/en/flights/flights-from-kahului-to-seattle-tacoma"
-         },
-         {
-          "from": "SEA",
-          "to": "HOU",
-          "date": "2026-12-27",
-          "fare": 182,
-          "companion": 5.6,
-          "two": 187.6,
-          "basis": "lowest fare Southwest showed, Dec 2, 15, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-seattle-tacoma-to-houston-hobby"
-         }
-        ],
-        "flights": 921,
-        "hotel": [
-         0,
-         0
-        ],
-        "hub_nights": 0,
-        "gives": [],
-        "notes": [
-         "Southwest's Seattle flights to Hawaii connect. Only Houston to Seattle is nonstop.",
-         "Houston and Seattle are nonstop on weekdays only, and Dec 19 is a Saturday.",
-         "Houston and Seattle are nonstop on weekdays only, and Dec 27 is a Sunday."
-        ],
-        "low": 3055,
-        "high": 3955,
-        "diff": 337
-       },
-       {
-        "stay": "out",
-        "days": 10,
-        "legs": [
-         {
-          "from": "HOU",
-          "to": "SEA",
-          "date": "2026-12-18",
-          "fare": 187,
-          "companion": 5.6,
-          "two": 192.6,
-          "basis": "lowest fare Southwest showed, Dec 2, 7, 8, 10, 12, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-houston-hobby-to-seattle-tacoma"
-         },
-         {
-          "from": "SEA",
-          "to": "HNL",
-          "date": "2026-12-19",
-          "fare": 248,
-          "companion": 5.6,
-          "two": 253.6,
-          "basis": "lowest fare Southwest showed, Dec 2, 3, 15, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-seattle-tacoma-to-honolulu"
-         },
-         {
-          "from": "HNL",
-          "to": "OGG",
-          "date": "2026-12-22",
-          "fare": 58,
-          "companion": 5.6,
-          "two": 63.6,
-          "basis": "lowest fare Southwest showed, Dec 17, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-honolulu-to-kahului"
-         },
-         {
-          "from": "OGG",
-          "to": "SEA",
-          "date": "2026-12-27",
-          "fare": 218,
-          "companion": 5.6,
-          "two": 223.6,
-          "basis": "lowest fare Southwest showed, Dec 2026 (monthly 'From' fare; no date shown)",
-          "source": "https://www.southwest.com/en/flights/flights-from-kahului-to-seattle-tacoma"
-         },
-         {
-          "from": "SEA",
-          "to": "HOU",
-          "date": "2026-12-27",
-          "fare": 182,
-          "companion": 5.6,
-          "two": 187.6,
-          "basis": "lowest fare Southwest showed, Dec 2, 15, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-seattle-tacoma-to-houston-hobby"
-         }
-        ],
-        "flights": 921,
-        "hotel": [
-         145,
-         237
-        ],
-        "hub_nights": 1,
-        "gives": [
-         "a night in Seattle on the way out, leaving Houston Dec 18"
-        ],
-        "notes": [
-         "Southwest's Seattle flights to Hawaii connect. Only Houston to Seattle is nonstop.",
-         "Houston and Seattle are nonstop on weekdays only, and Dec 27 is a Sunday."
-        ],
-        "low": 3200,
-        "high": 4192,
-        "diff": 482
-       },
-       {
-        "stay": "back",
-        "days": 10,
-        "legs": [
-         {
-          "from": "HOU",
-          "to": "SEA",
-          "date": "2026-12-19",
-          "fare": 187,
-          "companion": 5.6,
-          "two": 192.6,
-          "basis": "lowest fare Southwest showed, Dec 2, 7, 8, 10, 12, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-houston-hobby-to-seattle-tacoma"
-         },
-         {
-          "from": "SEA",
-          "to": "HNL",
-          "date": "2026-12-19",
-          "fare": 248,
-          "companion": 5.6,
-          "two": 253.6,
-          "basis": "lowest fare Southwest showed, Dec 2, 3, 15, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-seattle-tacoma-to-honolulu"
-         },
-         {
-          "from": "HNL",
-          "to": "OGG",
-          "date": "2026-12-22",
-          "fare": 58,
-          "companion": 5.6,
-          "two": 63.6,
-          "basis": "lowest fare Southwest showed, Dec 17, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-honolulu-to-kahului"
-         },
-         {
-          "from": "OGG",
-          "to": "SEA",
-          "date": "2026-12-27",
-          "fare": 218,
-          "companion": 5.6,
-          "two": 223.6,
-          "basis": "lowest fare Southwest showed, Dec 2026 (monthly 'From' fare; no date shown)",
-          "source": "https://www.southwest.com/en/flights/flights-from-kahului-to-seattle-tacoma"
-         },
-         {
-          "from": "SEA",
-          "to": "HOU",
-          "date": "2026-12-28",
-          "fare": 182,
-          "companion": 5.6,
-          "two": 187.6,
-          "basis": "lowest fare Southwest showed, Dec 2, 15, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-seattle-tacoma-to-houston-hobby"
-         }
-        ],
-        "flights": 921,
-        "hotel": [
-         145,
-         237
-        ],
-        "hub_nights": 1,
-        "gives": [
-         "a night in Seattle on the way home, one more day"
-        ],
-        "notes": [
-         "Southwest's Seattle flights to Hawaii connect. Only Houston to Seattle is nonstop.",
-         "Houston and Seattle are nonstop on weekdays only, and Dec 19 is a Saturday."
-        ],
-        "low": 3200,
-        "high": 4192,
-        "diff": 482
-       },
-       {
-        "stay": "both",
-        "days": 10,
-        "legs": [
-         {
-          "from": "HOU",
-          "to": "SEA",
-          "date": "2026-12-18",
-          "fare": 187,
-          "companion": 5.6,
-          "two": 192.6,
-          "basis": "lowest fare Southwest showed, Dec 2, 7, 8, 10, 12, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-houston-hobby-to-seattle-tacoma"
-         },
-         {
-          "from": "SEA",
-          "to": "HNL",
-          "date": "2026-12-19",
-          "fare": 248,
-          "companion": 5.6,
-          "two": 253.6,
-          "basis": "lowest fare Southwest showed, Dec 2, 3, 15, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-seattle-tacoma-to-honolulu"
-         },
-         {
-          "from": "HNL",
-          "to": "OGG",
-          "date": "2026-12-22",
-          "fare": 58,
-          "companion": 5.6,
-          "two": 63.6,
-          "basis": "lowest fare Southwest showed, Dec 17, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-honolulu-to-kahului"
-         },
-         {
-          "from": "OGG",
-          "to": "SEA",
-          "date": "2026-12-26",
-          "fare": 218,
-          "companion": 5.6,
-          "two": 223.6,
-          "basis": "lowest fare Southwest showed, Dec 2026 (monthly 'From' fare; no date shown)",
-          "source": "https://www.southwest.com/en/flights/flights-from-kahului-to-seattle-tacoma"
-         },
-         {
-          "from": "SEA",
-          "to": "HOU",
-          "date": "2026-12-27",
-          "fare": 182,
-          "companion": 5.6,
-          "two": 187.6,
-          "basis": "lowest fare Southwest showed, Dec 2, 15, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-seattle-tacoma-to-houston-hobby"
-         }
-        ],
-        "flights": 921,
-        "hotel": [
-         290,
-         474
-        ],
-        "hub_nights": 2,
-        "gives": [
-         "a night in Seattle on the way out, leaving Houston Dec 18",
-         "a night in Seattle on the way home, so one less on Maui"
-        ],
-        "notes": [
-         "Southwest's Seattle flights to Hawaii connect. Only Houston to Seattle is nonstop.",
-         "Houston and Seattle are nonstop on weekdays only, and Dec 27 is a Sunday."
-        ],
-        "low": 3061,
-        "high": 4025,
-        "diff": 343
+        "low": 2990,
+        "high": 4096,
+        "diff": 272
        }
       ]
      }
@@ -3277,28 +1585,18 @@
         "diff": 131
        },
        {
-        "stay": "back",
-        "days": 9,
+        "stay": "home1",
+        "days": 10,
         "legs": [
          {
           "from": "HOU",
-          "to": "LAS",
-          "date": "2026-12-19",
-          "fare": 72,
-          "companion": 5.6,
-          "two": 77.6,
-          "basis": "lowest fare Southwest showed, Dec 1, 5, 7, 8, 12, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-houston-hobby-to-las-vegas"
-         },
-         {
-          "from": "LAS",
           "to": "HNL",
           "date": "2026-12-19",
-          "fare": 241,
+          "fare": 250,
           "companion": 5.6,
-          "two": 246.6,
-          "basis": "lowest fare Southwest showed, Dec 7, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-las-vegas-to-honolulu"
+          "two": 255.6,
+          "basis": "lowest fare Southwest showed, Dec 7 and 9, 2026",
+          "source": "https://www.southwest.com/routes/flights-from-houston-hobby-to-honolulu"
          },
          {
           "from": "HNL",
@@ -3323,7 +1621,7 @@
          {
           "from": "LAS",
           "to": "HOU",
-          "date": "2026-12-27",
+          "date": "2026-12-28",
           "fare": 72,
           "companion": 5.6,
           "two": 77.6,
@@ -3331,46 +1629,36 @@
           "source": "https://www.southwest.com/en/flights/flights-from-las-vegas-to-houston-hobby"
          }
         ],
-        "flights": 681,
+        "flights": 612,
         "hotel": [
          104,
          207
         ],
         "hub_nights": 1,
         "gives": [
-         "a night in Las Vegas on the way home, one more day"
+         "The overnight flight from Kona leaves about 8 p.m. Dec 26 and lands in Vegas early Dec 27",
+         "1 night in Vegas, home to Houston Dec 28"
         ],
         "notes": [
-         "Nonstop on every flight.",
-         "Same day means a dawn flight from Houston. The Vegas flights to Honolulu and Hilo leave in the morning."
+         "Nonstop on every flight."
         ],
-        "low": 2470,
-        "high": 3273,
-        "diff": 131
+        "low": 2401,
+        "high": 3204,
+        "diff": 62
        },
        {
-        "stay": "both",
-        "days": 10,
+        "stay": "home2",
+        "days": 11,
         "legs": [
          {
           "from": "HOU",
-          "to": "LAS",
-          "date": "2026-12-18",
-          "fare": 72,
-          "companion": 5.6,
-          "two": 77.6,
-          "basis": "lowest fare Southwest showed, Dec 1, 5, 7, 8, 12, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-houston-hobby-to-las-vegas"
-         },
-         {
-          "from": "LAS",
           "to": "HNL",
           "date": "2026-12-19",
-          "fare": 241,
+          "fare": 250,
           "companion": 5.6,
-          "two": 246.6,
-          "basis": "lowest fare Southwest showed, Dec 7, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-las-vegas-to-honolulu"
+          "two": 255.6,
+          "basis": "lowest fare Southwest showed, Dec 7 and 9, 2026",
+          "source": "https://www.southwest.com/routes/flights-from-houston-hobby-to-honolulu"
          },
          {
           "from": "HNL",
@@ -3395,7 +1683,7 @@
          {
           "from": "LAS",
           "to": "HOU",
-          "date": "2026-12-27",
+          "date": "2026-12-29",
           "fare": 72,
           "companion": 5.6,
           "two": 77.6,
@@ -3403,906 +1691,22 @@
           "source": "https://www.southwest.com/en/flights/flights-from-las-vegas-to-houston-hobby"
          }
         ],
-        "flights": 681,
+        "flights": 612,
         "hotel": [
          208,
          414
         ],
         "hub_nights": 2,
         "gives": [
-         "a night in Las Vegas on the way out, leaving Houston Dec 18",
-         "a night in Las Vegas on the way home, one more day"
+         "The overnight flight from Kona leaves about 8 p.m. Dec 26 and lands in Vegas early Dec 27",
+         "2 nights in Vegas, home to Houston Dec 29"
         ],
         "notes": [
          "Nonstop on every flight."
         ],
-        "low": 2574,
-        "high": 3480,
-        "diff": 235
-       }
-      ]
-     },
-     {
-      "out": "Las Vegas",
-      "back": "Seattle",
-      "nonstop": false,
-      "options": [
-       {
-        "stay": "none",
-        "days": 8,
-        "legs": [
-         {
-          "from": "HOU",
-          "to": "LAS",
-          "date": "2026-12-19",
-          "fare": 72,
-          "companion": 5.6,
-          "two": 77.6,
-          "basis": "lowest fare Southwest showed, Dec 1, 5, 7, 8, 12, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-houston-hobby-to-las-vegas"
-         },
-         {
-          "from": "LAS",
-          "to": "HNL",
-          "date": "2026-12-19",
-          "fare": 241,
-          "companion": 5.6,
-          "two": 246.6,
-          "basis": "lowest fare Southwest showed, Dec 7, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-las-vegas-to-honolulu"
-         },
-         {
-          "from": "HNL",
-          "to": "KOA",
-          "date": "2026-12-21",
-          "fare": 69,
-          "companion": 5.6,
-          "two": 74.6,
-          "basis": "lowest fare Southwest showed, Dec 16, 18 and 21, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-honolulu-to-kona"
-         },
-         {
-          "from": "KOA",
-          "to": "SEA",
-          "date": "2026-12-26",
-          "fare": 238,
-          "companion": 5.6,
-          "two": 243.6,
-          "basis": "lowest fare Southwest showed, Dec 21, 2026 (also $268 on Dec 19, 2026)",
-          "source": "https://www.southwest.com/en/flights/flights-from-kona-to-seattle-tacoma"
-         },
-         {
-          "from": "SEA",
-          "to": "HOU",
-          "date": "2026-12-26",
-          "fare": 182,
-          "companion": 5.6,
-          "two": 187.6,
-          "basis": "lowest fare Southwest showed, Dec 2, 15, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-seattle-tacoma-to-houston-hobby"
-         }
-        ],
-        "flights": 830,
-        "hotel": [
-         0,
-         0
-        ],
-        "hub_nights": 0,
-        "gives": [],
-        "notes": [
-         "Southwest's Seattle flights to Hawaii connect. Only Houston to Seattle is nonstop.",
-         "Houston and Seattle are nonstop on weekdays only, and Dec 26 is a Saturday.",
-         "Same day means a dawn flight from Houston. The Vegas flights to Honolulu and Hilo leave in the morning."
-        ],
-        "low": 2515,
-        "high": 3215,
-        "diff": 176
-       },
-       {
-        "stay": "out",
-        "days": 9,
-        "legs": [
-         {
-          "from": "HOU",
-          "to": "LAS",
-          "date": "2026-12-18",
-          "fare": 72,
-          "companion": 5.6,
-          "two": 77.6,
-          "basis": "lowest fare Southwest showed, Dec 1, 5, 7, 8, 12, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-houston-hobby-to-las-vegas"
-         },
-         {
-          "from": "LAS",
-          "to": "HNL",
-          "date": "2026-12-19",
-          "fare": 241,
-          "companion": 5.6,
-          "two": 246.6,
-          "basis": "lowest fare Southwest showed, Dec 7, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-las-vegas-to-honolulu"
-         },
-         {
-          "from": "HNL",
-          "to": "KOA",
-          "date": "2026-12-21",
-          "fare": 69,
-          "companion": 5.6,
-          "two": 74.6,
-          "basis": "lowest fare Southwest showed, Dec 16, 18 and 21, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-honolulu-to-kona"
-         },
-         {
-          "from": "KOA",
-          "to": "SEA",
-          "date": "2026-12-26",
-          "fare": 238,
-          "companion": 5.6,
-          "two": 243.6,
-          "basis": "lowest fare Southwest showed, Dec 21, 2026 (also $268 on Dec 19, 2026)",
-          "source": "https://www.southwest.com/en/flights/flights-from-kona-to-seattle-tacoma"
-         },
-         {
-          "from": "SEA",
-          "to": "HOU",
-          "date": "2026-12-26",
-          "fare": 182,
-          "companion": 5.6,
-          "two": 187.6,
-          "basis": "lowest fare Southwest showed, Dec 2, 15, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-seattle-tacoma-to-houston-hobby"
-         }
-        ],
-        "flights": 830,
-        "hotel": [
-         104,
-         207
-        ],
-        "hub_nights": 1,
-        "gives": [
-         "a night in Las Vegas on the way out, leaving Houston Dec 18"
-        ],
-        "notes": [
-         "Southwest's Seattle flights to Hawaii connect. Only Houston to Seattle is nonstop.",
-         "Houston and Seattle are nonstop on weekdays only, and Dec 26 is a Saturday."
-        ],
-        "low": 2619,
-        "high": 3422,
-        "diff": 280
-       },
-       {
-        "stay": "back",
-        "days": 9,
-        "legs": [
-         {
-          "from": "HOU",
-          "to": "LAS",
-          "date": "2026-12-19",
-          "fare": 72,
-          "companion": 5.6,
-          "two": 77.6,
-          "basis": "lowest fare Southwest showed, Dec 1, 5, 7, 8, 12, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-houston-hobby-to-las-vegas"
-         },
-         {
-          "from": "LAS",
-          "to": "HNL",
-          "date": "2026-12-19",
-          "fare": 241,
-          "companion": 5.6,
-          "two": 246.6,
-          "basis": "lowest fare Southwest showed, Dec 7, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-las-vegas-to-honolulu"
-         },
-         {
-          "from": "HNL",
-          "to": "KOA",
-          "date": "2026-12-21",
-          "fare": 69,
-          "companion": 5.6,
-          "two": 74.6,
-          "basis": "lowest fare Southwest showed, Dec 16, 18 and 21, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-honolulu-to-kona"
-         },
-         {
-          "from": "KOA",
-          "to": "SEA",
-          "date": "2026-12-26",
-          "fare": 238,
-          "companion": 5.6,
-          "two": 243.6,
-          "basis": "lowest fare Southwest showed, Dec 21, 2026 (also $268 on Dec 19, 2026)",
-          "source": "https://www.southwest.com/en/flights/flights-from-kona-to-seattle-tacoma"
-         },
-         {
-          "from": "SEA",
-          "to": "HOU",
-          "date": "2026-12-27",
-          "fare": 182,
-          "companion": 5.6,
-          "two": 187.6,
-          "basis": "lowest fare Southwest showed, Dec 2, 15, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-seattle-tacoma-to-houston-hobby"
-         }
-        ],
-        "flights": 830,
-        "hotel": [
-         145,
-         237
-        ],
-        "hub_nights": 1,
-        "gives": [
-         "a night in Seattle on the way home, one more day"
-        ],
-        "notes": [
-         "Southwest's Seattle flights to Hawaii connect. Only Houston to Seattle is nonstop.",
-         "Houston and Seattle are nonstop on weekdays only, and Dec 27 is a Sunday.",
-         "Same day means a dawn flight from Houston. The Vegas flights to Honolulu and Hilo leave in the morning."
-        ],
-        "low": 2660,
-        "high": 3452,
-        "diff": 321
-       },
-       {
-        "stay": "both",
-        "days": 10,
-        "legs": [
-         {
-          "from": "HOU",
-          "to": "LAS",
-          "date": "2026-12-18",
-          "fare": 72,
-          "companion": 5.6,
-          "two": 77.6,
-          "basis": "lowest fare Southwest showed, Dec 1, 5, 7, 8, 12, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-houston-hobby-to-las-vegas"
-         },
-         {
-          "from": "LAS",
-          "to": "HNL",
-          "date": "2026-12-19",
-          "fare": 241,
-          "companion": 5.6,
-          "two": 246.6,
-          "basis": "lowest fare Southwest showed, Dec 7, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-las-vegas-to-honolulu"
-         },
-         {
-          "from": "HNL",
-          "to": "KOA",
-          "date": "2026-12-21",
-          "fare": 69,
-          "companion": 5.6,
-          "two": 74.6,
-          "basis": "lowest fare Southwest showed, Dec 16, 18 and 21, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-honolulu-to-kona"
-         },
-         {
-          "from": "KOA",
-          "to": "SEA",
-          "date": "2026-12-26",
-          "fare": 238,
-          "companion": 5.6,
-          "two": 243.6,
-          "basis": "lowest fare Southwest showed, Dec 21, 2026 (also $268 on Dec 19, 2026)",
-          "source": "https://www.southwest.com/en/flights/flights-from-kona-to-seattle-tacoma"
-         },
-         {
-          "from": "SEA",
-          "to": "HOU",
-          "date": "2026-12-27",
-          "fare": 182,
-          "companion": 5.6,
-          "two": 187.6,
-          "basis": "lowest fare Southwest showed, Dec 2, 15, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-seattle-tacoma-to-houston-hobby"
-         }
-        ],
-        "flights": 830,
-        "hotel": [
-         249,
-         444
-        ],
-        "hub_nights": 2,
-        "gives": [
-         "a night in Las Vegas on the way out, leaving Houston Dec 18",
-         "a night in Seattle on the way home, one more day"
-        ],
-        "notes": [
-         "Southwest's Seattle flights to Hawaii connect. Only Houston to Seattle is nonstop.",
-         "Houston and Seattle are nonstop on weekdays only, and Dec 27 is a Sunday."
-        ],
-        "low": 2764,
-        "high": 3659,
-        "diff": 425
-       }
-      ]
-     },
-     {
-      "out": "Seattle",
-      "back": "Las Vegas",
-      "nonstop": false,
-      "options": [
-       {
-        "stay": "none",
-        "days": 8,
-        "legs": [
-         {
-          "from": "HOU",
-          "to": "SEA",
-          "date": "2026-12-19",
-          "fare": 187,
-          "companion": 5.6,
-          "two": 192.6,
-          "basis": "lowest fare Southwest showed, Dec 2, 7, 8, 10, 12, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-houston-hobby-to-seattle-tacoma"
-         },
-         {
-          "from": "SEA",
-          "to": "HNL",
-          "date": "2026-12-19",
-          "fare": 248,
-          "companion": 5.6,
-          "two": 253.6,
-          "basis": "lowest fare Southwest showed, Dec 2, 3, 15, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-seattle-tacoma-to-honolulu"
-         },
-         {
-          "from": "HNL",
-          "to": "KOA",
-          "date": "2026-12-21",
-          "fare": 69,
-          "companion": 5.6,
-          "two": 74.6,
-          "basis": "lowest fare Southwest showed, Dec 16, 18 and 21, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-honolulu-to-kona"
-         },
-         {
-          "from": "KOA",
-          "to": "LAS",
-          "date": "2026-12-26",
-          "fare": 199,
-          "companion": 5.6,
-          "two": 204.6,
-          "basis": "lowest fare Southwest showed, Dec 9, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-kona-to-las-vegas"
-         },
-         {
-          "from": "LAS",
-          "to": "HOU",
-          "date": "2026-12-26",
-          "fare": 72,
-          "companion": 5.6,
-          "two": 77.6,
-          "basis": "lowest fare Southwest showed, Dec 1, 2, 3, 10, 17, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-las-vegas-to-houston-hobby"
-         }
-        ],
-        "flights": 803,
-        "hotel": [
-         0,
-         0
-        ],
-        "hub_nights": 0,
-        "gives": [],
-        "notes": [
-         "Southwest's Seattle flights to Hawaii connect. Only Houston to Seattle is nonstop.",
-         "Houston and Seattle are nonstop on weekdays only, and Dec 19 is a Saturday."
-        ],
-        "low": 2488,
-        "high": 3188,
-        "diff": 149
-       },
-       {
-        "stay": "out",
-        "days": 9,
-        "legs": [
-         {
-          "from": "HOU",
-          "to": "SEA",
-          "date": "2026-12-18",
-          "fare": 187,
-          "companion": 5.6,
-          "two": 192.6,
-          "basis": "lowest fare Southwest showed, Dec 2, 7, 8, 10, 12, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-houston-hobby-to-seattle-tacoma"
-         },
-         {
-          "from": "SEA",
-          "to": "HNL",
-          "date": "2026-12-19",
-          "fare": 248,
-          "companion": 5.6,
-          "two": 253.6,
-          "basis": "lowest fare Southwest showed, Dec 2, 3, 15, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-seattle-tacoma-to-honolulu"
-         },
-         {
-          "from": "HNL",
-          "to": "KOA",
-          "date": "2026-12-21",
-          "fare": 69,
-          "companion": 5.6,
-          "two": 74.6,
-          "basis": "lowest fare Southwest showed, Dec 16, 18 and 21, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-honolulu-to-kona"
-         },
-         {
-          "from": "KOA",
-          "to": "LAS",
-          "date": "2026-12-26",
-          "fare": 199,
-          "companion": 5.6,
-          "two": 204.6,
-          "basis": "lowest fare Southwest showed, Dec 9, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-kona-to-las-vegas"
-         },
-         {
-          "from": "LAS",
-          "to": "HOU",
-          "date": "2026-12-26",
-          "fare": 72,
-          "companion": 5.6,
-          "two": 77.6,
-          "basis": "lowest fare Southwest showed, Dec 1, 2, 3, 10, 17, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-las-vegas-to-houston-hobby"
-         }
-        ],
-        "flights": 803,
-        "hotel": [
-         145,
-         237
-        ],
-        "hub_nights": 1,
-        "gives": [
-         "a night in Seattle on the way out, leaving Houston Dec 18"
-        ],
-        "notes": [
-         "Southwest's Seattle flights to Hawaii connect. Only Houston to Seattle is nonstop."
-        ],
-        "low": 2633,
-        "high": 3425,
-        "diff": 294
-       },
-       {
-        "stay": "back",
-        "days": 9,
-        "legs": [
-         {
-          "from": "HOU",
-          "to": "SEA",
-          "date": "2026-12-19",
-          "fare": 187,
-          "companion": 5.6,
-          "two": 192.6,
-          "basis": "lowest fare Southwest showed, Dec 2, 7, 8, 10, 12, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-houston-hobby-to-seattle-tacoma"
-         },
-         {
-          "from": "SEA",
-          "to": "HNL",
-          "date": "2026-12-19",
-          "fare": 248,
-          "companion": 5.6,
-          "two": 253.6,
-          "basis": "lowest fare Southwest showed, Dec 2, 3, 15, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-seattle-tacoma-to-honolulu"
-         },
-         {
-          "from": "HNL",
-          "to": "KOA",
-          "date": "2026-12-21",
-          "fare": 69,
-          "companion": 5.6,
-          "two": 74.6,
-          "basis": "lowest fare Southwest showed, Dec 16, 18 and 21, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-honolulu-to-kona"
-         },
-         {
-          "from": "KOA",
-          "to": "LAS",
-          "date": "2026-12-26",
-          "fare": 199,
-          "companion": 5.6,
-          "two": 204.6,
-          "basis": "lowest fare Southwest showed, Dec 9, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-kona-to-las-vegas"
-         },
-         {
-          "from": "LAS",
-          "to": "HOU",
-          "date": "2026-12-27",
-          "fare": 72,
-          "companion": 5.6,
-          "two": 77.6,
-          "basis": "lowest fare Southwest showed, Dec 1, 2, 3, 10, 17, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-las-vegas-to-houston-hobby"
-         }
-        ],
-        "flights": 803,
-        "hotel": [
-         104,
-         207
-        ],
-        "hub_nights": 1,
-        "gives": [
-         "a night in Las Vegas on the way home, one more day"
-        ],
-        "notes": [
-         "Southwest's Seattle flights to Hawaii connect. Only Houston to Seattle is nonstop.",
-         "Houston and Seattle are nonstop on weekdays only, and Dec 19 is a Saturday."
-        ],
-        "low": 2592,
-        "high": 3395,
-        "diff": 253
-       },
-       {
-        "stay": "both",
-        "days": 10,
-        "legs": [
-         {
-          "from": "HOU",
-          "to": "SEA",
-          "date": "2026-12-18",
-          "fare": 187,
-          "companion": 5.6,
-          "two": 192.6,
-          "basis": "lowest fare Southwest showed, Dec 2, 7, 8, 10, 12, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-houston-hobby-to-seattle-tacoma"
-         },
-         {
-          "from": "SEA",
-          "to": "HNL",
-          "date": "2026-12-19",
-          "fare": 248,
-          "companion": 5.6,
-          "two": 253.6,
-          "basis": "lowest fare Southwest showed, Dec 2, 3, 15, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-seattle-tacoma-to-honolulu"
-         },
-         {
-          "from": "HNL",
-          "to": "KOA",
-          "date": "2026-12-21",
-          "fare": 69,
-          "companion": 5.6,
-          "two": 74.6,
-          "basis": "lowest fare Southwest showed, Dec 16, 18 and 21, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-honolulu-to-kona"
-         },
-         {
-          "from": "KOA",
-          "to": "LAS",
-          "date": "2026-12-26",
-          "fare": 199,
-          "companion": 5.6,
-          "two": 204.6,
-          "basis": "lowest fare Southwest showed, Dec 9, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-kona-to-las-vegas"
-         },
-         {
-          "from": "LAS",
-          "to": "HOU",
-          "date": "2026-12-27",
-          "fare": 72,
-          "companion": 5.6,
-          "two": 77.6,
-          "basis": "lowest fare Southwest showed, Dec 1, 2, 3, 10, 17, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-las-vegas-to-houston-hobby"
-         }
-        ],
-        "flights": 803,
-        "hotel": [
-         249,
-         444
-        ],
-        "hub_nights": 2,
-        "gives": [
-         "a night in Seattle on the way out, leaving Houston Dec 18",
-         "a night in Las Vegas on the way home, one more day"
-        ],
-        "notes": [
-         "Southwest's Seattle flights to Hawaii connect. Only Houston to Seattle is nonstop."
-        ],
-        "low": 2737,
-        "high": 3632,
-        "diff": 398
-       }
-      ]
-     },
-     {
-      "out": "Seattle",
-      "back": "Seattle",
-      "nonstop": false,
-      "options": [
-       {
-        "stay": "none",
-        "days": 8,
-        "legs": [
-         {
-          "from": "HOU",
-          "to": "SEA",
-          "date": "2026-12-19",
-          "fare": 187,
-          "companion": 5.6,
-          "two": 192.6,
-          "basis": "lowest fare Southwest showed, Dec 2, 7, 8, 10, 12, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-houston-hobby-to-seattle-tacoma"
-         },
-         {
-          "from": "SEA",
-          "to": "HNL",
-          "date": "2026-12-19",
-          "fare": 248,
-          "companion": 5.6,
-          "two": 253.6,
-          "basis": "lowest fare Southwest showed, Dec 2, 3, 15, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-seattle-tacoma-to-honolulu"
-         },
-         {
-          "from": "HNL",
-          "to": "KOA",
-          "date": "2026-12-21",
-          "fare": 69,
-          "companion": 5.6,
-          "two": 74.6,
-          "basis": "lowest fare Southwest showed, Dec 16, 18 and 21, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-honolulu-to-kona"
-         },
-         {
-          "from": "KOA",
-          "to": "SEA",
-          "date": "2026-12-26",
-          "fare": 238,
-          "companion": 5.6,
-          "two": 243.6,
-          "basis": "lowest fare Southwest showed, Dec 21, 2026 (also $268 on Dec 19, 2026)",
-          "source": "https://www.southwest.com/en/flights/flights-from-kona-to-seattle-tacoma"
-         },
-         {
-          "from": "SEA",
-          "to": "HOU",
-          "date": "2026-12-26",
-          "fare": 182,
-          "companion": 5.6,
-          "two": 187.6,
-          "basis": "lowest fare Southwest showed, Dec 2, 15, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-seattle-tacoma-to-houston-hobby"
-         }
-        ],
-        "flights": 952,
-        "hotel": [
-         0,
-         0
-        ],
-        "hub_nights": 0,
-        "gives": [],
-        "notes": [
-         "Southwest's Seattle flights to Hawaii connect. Only Houston to Seattle is nonstop.",
-         "Houston and Seattle are nonstop on weekdays only, and Dec 19 is a Saturday.",
-         "Houston and Seattle are nonstop on weekdays only, and Dec 26 is a Saturday."
-        ],
-        "low": 2637,
-        "high": 3337,
-        "diff": 298
-       },
-       {
-        "stay": "out",
-        "days": 9,
-        "legs": [
-         {
-          "from": "HOU",
-          "to": "SEA",
-          "date": "2026-12-18",
-          "fare": 187,
-          "companion": 5.6,
-          "two": 192.6,
-          "basis": "lowest fare Southwest showed, Dec 2, 7, 8, 10, 12, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-houston-hobby-to-seattle-tacoma"
-         },
-         {
-          "from": "SEA",
-          "to": "HNL",
-          "date": "2026-12-19",
-          "fare": 248,
-          "companion": 5.6,
-          "two": 253.6,
-          "basis": "lowest fare Southwest showed, Dec 2, 3, 15, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-seattle-tacoma-to-honolulu"
-         },
-         {
-          "from": "HNL",
-          "to": "KOA",
-          "date": "2026-12-21",
-          "fare": 69,
-          "companion": 5.6,
-          "two": 74.6,
-          "basis": "lowest fare Southwest showed, Dec 16, 18 and 21, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-honolulu-to-kona"
-         },
-         {
-          "from": "KOA",
-          "to": "SEA",
-          "date": "2026-12-26",
-          "fare": 238,
-          "companion": 5.6,
-          "two": 243.6,
-          "basis": "lowest fare Southwest showed, Dec 21, 2026 (also $268 on Dec 19, 2026)",
-          "source": "https://www.southwest.com/en/flights/flights-from-kona-to-seattle-tacoma"
-         },
-         {
-          "from": "SEA",
-          "to": "HOU",
-          "date": "2026-12-26",
-          "fare": 182,
-          "companion": 5.6,
-          "two": 187.6,
-          "basis": "lowest fare Southwest showed, Dec 2, 15, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-seattle-tacoma-to-houston-hobby"
-         }
-        ],
-        "flights": 952,
-        "hotel": [
-         145,
-         237
-        ],
-        "hub_nights": 1,
-        "gives": [
-         "a night in Seattle on the way out, leaving Houston Dec 18"
-        ],
-        "notes": [
-         "Southwest's Seattle flights to Hawaii connect. Only Houston to Seattle is nonstop.",
-         "Houston and Seattle are nonstop on weekdays only, and Dec 26 is a Saturday."
-        ],
-        "low": 2782,
-        "high": 3574,
-        "diff": 443
-       },
-       {
-        "stay": "back",
-        "days": 9,
-        "legs": [
-         {
-          "from": "HOU",
-          "to": "SEA",
-          "date": "2026-12-19",
-          "fare": 187,
-          "companion": 5.6,
-          "two": 192.6,
-          "basis": "lowest fare Southwest showed, Dec 2, 7, 8, 10, 12, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-houston-hobby-to-seattle-tacoma"
-         },
-         {
-          "from": "SEA",
-          "to": "HNL",
-          "date": "2026-12-19",
-          "fare": 248,
-          "companion": 5.6,
-          "two": 253.6,
-          "basis": "lowest fare Southwest showed, Dec 2, 3, 15, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-seattle-tacoma-to-honolulu"
-         },
-         {
-          "from": "HNL",
-          "to": "KOA",
-          "date": "2026-12-21",
-          "fare": 69,
-          "companion": 5.6,
-          "two": 74.6,
-          "basis": "lowest fare Southwest showed, Dec 16, 18 and 21, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-honolulu-to-kona"
-         },
-         {
-          "from": "KOA",
-          "to": "SEA",
-          "date": "2026-12-26",
-          "fare": 238,
-          "companion": 5.6,
-          "two": 243.6,
-          "basis": "lowest fare Southwest showed, Dec 21, 2026 (also $268 on Dec 19, 2026)",
-          "source": "https://www.southwest.com/en/flights/flights-from-kona-to-seattle-tacoma"
-         },
-         {
-          "from": "SEA",
-          "to": "HOU",
-          "date": "2026-12-27",
-          "fare": 182,
-          "companion": 5.6,
-          "two": 187.6,
-          "basis": "lowest fare Southwest showed, Dec 2, 15, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-seattle-tacoma-to-houston-hobby"
-         }
-        ],
-        "flights": 952,
-        "hotel": [
-         145,
-         237
-        ],
-        "hub_nights": 1,
-        "gives": [
-         "a night in Seattle on the way home, one more day"
-        ],
-        "notes": [
-         "Southwest's Seattle flights to Hawaii connect. Only Houston to Seattle is nonstop.",
-         "Houston and Seattle are nonstop on weekdays only, and Dec 19 is a Saturday.",
-         "Houston and Seattle are nonstop on weekdays only, and Dec 27 is a Sunday."
-        ],
-        "low": 2782,
-        "high": 3574,
-        "diff": 443
-       },
-       {
-        "stay": "both",
-        "days": 10,
-        "legs": [
-         {
-          "from": "HOU",
-          "to": "SEA",
-          "date": "2026-12-18",
-          "fare": 187,
-          "companion": 5.6,
-          "two": 192.6,
-          "basis": "lowest fare Southwest showed, Dec 2, 7, 8, 10, 12, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-houston-hobby-to-seattle-tacoma"
-         },
-         {
-          "from": "SEA",
-          "to": "HNL",
-          "date": "2026-12-19",
-          "fare": 248,
-          "companion": 5.6,
-          "two": 253.6,
-          "basis": "lowest fare Southwest showed, Dec 2, 3, 15, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-seattle-tacoma-to-honolulu"
-         },
-         {
-          "from": "HNL",
-          "to": "KOA",
-          "date": "2026-12-21",
-          "fare": 69,
-          "companion": 5.6,
-          "two": 74.6,
-          "basis": "lowest fare Southwest showed, Dec 16, 18 and 21, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-honolulu-to-kona"
-         },
-         {
-          "from": "KOA",
-          "to": "SEA",
-          "date": "2026-12-26",
-          "fare": 238,
-          "companion": 5.6,
-          "two": 243.6,
-          "basis": "lowest fare Southwest showed, Dec 21, 2026 (also $268 on Dec 19, 2026)",
-          "source": "https://www.southwest.com/en/flights/flights-from-kona-to-seattle-tacoma"
-         },
-         {
-          "from": "SEA",
-          "to": "HOU",
-          "date": "2026-12-27",
-          "fare": 182,
-          "companion": 5.6,
-          "two": 187.6,
-          "basis": "lowest fare Southwest showed, Dec 2, 15, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-seattle-tacoma-to-houston-hobby"
-         }
-        ],
-        "flights": 952,
-        "hotel": [
-         290,
-         474
-        ],
-        "hub_nights": 2,
-        "gives": [
-         "a night in Seattle on the way out, leaving Houston Dec 18",
-         "a night in Seattle on the way home, one more day"
-        ],
-        "notes": [
-         "Southwest's Seattle flights to Hawaii connect. Only Houston to Seattle is nonstop.",
-         "Houston and Seattle are nonstop on weekdays only, and Dec 27 is a Sunday."
-        ],
-        "low": 2927,
-        "high": 3811,
-        "diff": 588
+        "low": 2505,
+        "high": 3411,
+        "diff": 166
        }
       ]
      }
@@ -4673,28 +2077,18 @@
         "diff": 132
        },
        {
-        "stay": "back",
-        "days": 9,
+        "stay": "home1",
+        "days": 10,
         "legs": [
          {
           "from": "HOU",
-          "to": "LAS",
-          "date": "2026-12-19",
-          "fare": 72,
-          "companion": 5.6,
-          "two": 77.6,
-          "basis": "lowest fare Southwest showed, Dec 1, 5, 7, 8, 12, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-houston-hobby-to-las-vegas"
-         },
-         {
-          "from": "LAS",
           "to": "HNL",
           "date": "2026-12-19",
-          "fare": 241,
+          "fare": 250,
           "companion": 5.6,
-          "two": 246.6,
-          "basis": "lowest fare Southwest showed, Dec 7, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-las-vegas-to-honolulu"
+          "two": 255.6,
+          "basis": "lowest fare Southwest showed, Dec 7 and 9, 2026",
+          "source": "https://www.southwest.com/routes/flights-from-houston-hobby-to-honolulu"
          },
          {
           "from": "HNL",
@@ -4729,7 +2123,7 @@
          {
           "from": "LAS",
           "to": "HOU",
-          "date": "2026-12-27",
+          "date": "2026-12-28",
           "fare": 72,
           "companion": 5.6,
           "two": 77.6,
@@ -4737,46 +2131,36 @@
           "source": "https://www.southwest.com/en/flights/flights-from-las-vegas-to-houston-hobby"
          }
         ],
-        "flights": 743,
+        "flights": 674,
         "hotel": [
          104,
          207
         ],
         "hub_nights": 1,
         "gives": [
-         "a night in Las Vegas on the way home, one more day"
+         "The overnight flight from Kona leaves about 8 p.m. Dec 26 and lands in Vegas early Dec 27",
+         "1 night in Vegas, home to Houston Dec 28"
         ],
         "notes": [
-         "Nonstop on every flight.",
-         "Same day means a dawn flight from Houston. The Vegas flights to Honolulu and Hilo leave in the morning."
+         "Nonstop on every flight."
         ],
-        "low": 2419,
-        "high": 3262,
-        "diff": 132
+        "low": 2350,
+        "high": 3193,
+        "diff": 63
        },
        {
-        "stay": "both",
-        "days": 10,
+        "stay": "home2",
+        "days": 11,
         "legs": [
          {
           "from": "HOU",
-          "to": "LAS",
-          "date": "2026-12-18",
-          "fare": 72,
-          "companion": 5.6,
-          "two": 77.6,
-          "basis": "lowest fare Southwest showed, Dec 1, 5, 7, 8, 12, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-houston-hobby-to-las-vegas"
-         },
-         {
-          "from": "LAS",
           "to": "HNL",
           "date": "2026-12-19",
-          "fare": 241,
+          "fare": 250,
           "companion": 5.6,
-          "two": 246.6,
-          "basis": "lowest fare Southwest showed, Dec 7, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-las-vegas-to-honolulu"
+          "two": 255.6,
+          "basis": "lowest fare Southwest showed, Dec 7 and 9, 2026",
+          "source": "https://www.southwest.com/routes/flights-from-houston-hobby-to-honolulu"
          },
          {
           "from": "HNL",
@@ -4811,7 +2195,7 @@
          {
           "from": "LAS",
           "to": "HOU",
-          "date": "2026-12-27",
+          "date": "2026-12-29",
           "fare": 72,
           "companion": 5.6,
           "two": 77.6,
@@ -4819,1026 +2203,22 @@
           "source": "https://www.southwest.com/en/flights/flights-from-las-vegas-to-houston-hobby"
          }
         ],
-        "flights": 743,
+        "flights": 674,
         "hotel": [
          208,
          414
         ],
         "hub_nights": 2,
         "gives": [
-         "a night in Las Vegas on the way out, leaving Houston Dec 18",
-         "a night in Las Vegas on the way home, one more day"
+         "The overnight flight from Kona leaves about 8 p.m. Dec 26 and lands in Vegas early Dec 27",
+         "2 nights in Vegas, home to Houston Dec 29"
         ],
         "notes": [
          "Nonstop on every flight."
         ],
-        "low": 2523,
-        "high": 3469,
-        "diff": 236
-       }
-      ]
-     },
-     {
-      "out": "Las Vegas",
-      "back": "Seattle",
-      "nonstop": false,
-      "options": [
-       {
-        "stay": "none",
-        "days": 8,
-        "legs": [
-         {
-          "from": "HOU",
-          "to": "LAS",
-          "date": "2026-12-19",
-          "fare": 72,
-          "companion": 5.6,
-          "two": 77.6,
-          "basis": "lowest fare Southwest showed, Dec 1, 5, 7, 8, 12, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-houston-hobby-to-las-vegas"
-         },
-         {
-          "from": "LAS",
-          "to": "HNL",
-          "date": "2026-12-19",
-          "fare": 241,
-          "companion": 5.6,
-          "two": 246.6,
-          "basis": "lowest fare Southwest showed, Dec 7, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-las-vegas-to-honolulu"
-         },
-         {
-          "from": "HNL",
-          "to": "OGG",
-          "date": "2026-12-22",
-          "fare": 58,
-          "companion": 5.6,
-          "two": 63.6,
-          "basis": "lowest fare Southwest showed, Dec 17, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-honolulu-to-kahului"
-         },
-         {
-          "from": "OGG",
-          "to": "KOA",
-          "date": "2026-12-24",
-          "fare": 67,
-          "companion": 5.6,
-          "two": 72.6,
-          "basis": "lowest fare Southwest showed, Dec 29, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-kahului-to-kona"
-         },
-         {
-          "from": "KOA",
-          "to": "SEA",
-          "date": "2026-12-26",
-          "fare": 238,
-          "companion": 5.6,
-          "two": 243.6,
-          "basis": "lowest fare Southwest showed, Dec 21, 2026 (also $268 on Dec 19, 2026)",
-          "source": "https://www.southwest.com/en/flights/flights-from-kona-to-seattle-tacoma"
-         },
-         {
-          "from": "SEA",
-          "to": "HOU",
-          "date": "2026-12-26",
-          "fare": 182,
-          "companion": 5.6,
-          "two": 187.6,
-          "basis": "lowest fare Southwest showed, Dec 2, 15, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-seattle-tacoma-to-houston-hobby"
-         }
-        ],
-        "flights": 892,
-        "hotel": [
-         0,
-         0
-        ],
-        "hub_nights": 0,
-        "gives": [],
-        "notes": [
-         "Southwest's Seattle flights to Hawaii connect. Only Houston to Seattle is nonstop.",
-         "Houston and Seattle are nonstop on weekdays only, and Dec 26 is a Saturday.",
-         "Same day means a dawn flight from Houston. The Vegas flights to Honolulu and Hilo leave in the morning."
-        ],
-        "low": 2464,
-        "high": 3204,
-        "diff": 177
-       },
-       {
-        "stay": "out",
-        "days": 9,
-        "legs": [
-         {
-          "from": "HOU",
-          "to": "LAS",
-          "date": "2026-12-18",
-          "fare": 72,
-          "companion": 5.6,
-          "two": 77.6,
-          "basis": "lowest fare Southwest showed, Dec 1, 5, 7, 8, 12, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-houston-hobby-to-las-vegas"
-         },
-         {
-          "from": "LAS",
-          "to": "HNL",
-          "date": "2026-12-19",
-          "fare": 241,
-          "companion": 5.6,
-          "two": 246.6,
-          "basis": "lowest fare Southwest showed, Dec 7, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-las-vegas-to-honolulu"
-         },
-         {
-          "from": "HNL",
-          "to": "OGG",
-          "date": "2026-12-22",
-          "fare": 58,
-          "companion": 5.6,
-          "two": 63.6,
-          "basis": "lowest fare Southwest showed, Dec 17, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-honolulu-to-kahului"
-         },
-         {
-          "from": "OGG",
-          "to": "KOA",
-          "date": "2026-12-24",
-          "fare": 67,
-          "companion": 5.6,
-          "two": 72.6,
-          "basis": "lowest fare Southwest showed, Dec 29, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-kahului-to-kona"
-         },
-         {
-          "from": "KOA",
-          "to": "SEA",
-          "date": "2026-12-26",
-          "fare": 238,
-          "companion": 5.6,
-          "two": 243.6,
-          "basis": "lowest fare Southwest showed, Dec 21, 2026 (also $268 on Dec 19, 2026)",
-          "source": "https://www.southwest.com/en/flights/flights-from-kona-to-seattle-tacoma"
-         },
-         {
-          "from": "SEA",
-          "to": "HOU",
-          "date": "2026-12-26",
-          "fare": 182,
-          "companion": 5.6,
-          "two": 187.6,
-          "basis": "lowest fare Southwest showed, Dec 2, 15, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-seattle-tacoma-to-houston-hobby"
-         }
-        ],
-        "flights": 892,
-        "hotel": [
-         104,
-         207
-        ],
-        "hub_nights": 1,
-        "gives": [
-         "a night in Las Vegas on the way out, leaving Houston Dec 18"
-        ],
-        "notes": [
-         "Southwest's Seattle flights to Hawaii connect. Only Houston to Seattle is nonstop.",
-         "Houston and Seattle are nonstop on weekdays only, and Dec 26 is a Saturday."
-        ],
-        "low": 2568,
-        "high": 3411,
-        "diff": 281
-       },
-       {
-        "stay": "back",
-        "days": 9,
-        "legs": [
-         {
-          "from": "HOU",
-          "to": "LAS",
-          "date": "2026-12-19",
-          "fare": 72,
-          "companion": 5.6,
-          "two": 77.6,
-          "basis": "lowest fare Southwest showed, Dec 1, 5, 7, 8, 12, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-houston-hobby-to-las-vegas"
-         },
-         {
-          "from": "LAS",
-          "to": "HNL",
-          "date": "2026-12-19",
-          "fare": 241,
-          "companion": 5.6,
-          "two": 246.6,
-          "basis": "lowest fare Southwest showed, Dec 7, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-las-vegas-to-honolulu"
-         },
-         {
-          "from": "HNL",
-          "to": "OGG",
-          "date": "2026-12-22",
-          "fare": 58,
-          "companion": 5.6,
-          "two": 63.6,
-          "basis": "lowest fare Southwest showed, Dec 17, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-honolulu-to-kahului"
-         },
-         {
-          "from": "OGG",
-          "to": "KOA",
-          "date": "2026-12-24",
-          "fare": 67,
-          "companion": 5.6,
-          "two": 72.6,
-          "basis": "lowest fare Southwest showed, Dec 29, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-kahului-to-kona"
-         },
-         {
-          "from": "KOA",
-          "to": "SEA",
-          "date": "2026-12-26",
-          "fare": 238,
-          "companion": 5.6,
-          "two": 243.6,
-          "basis": "lowest fare Southwest showed, Dec 21, 2026 (also $268 on Dec 19, 2026)",
-          "source": "https://www.southwest.com/en/flights/flights-from-kona-to-seattle-tacoma"
-         },
-         {
-          "from": "SEA",
-          "to": "HOU",
-          "date": "2026-12-27",
-          "fare": 182,
-          "companion": 5.6,
-          "two": 187.6,
-          "basis": "lowest fare Southwest showed, Dec 2, 15, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-seattle-tacoma-to-houston-hobby"
-         }
-        ],
-        "flights": 892,
-        "hotel": [
-         145,
-         237
-        ],
-        "hub_nights": 1,
-        "gives": [
-         "a night in Seattle on the way home, one more day"
-        ],
-        "notes": [
-         "Southwest's Seattle flights to Hawaii connect. Only Houston to Seattle is nonstop.",
-         "Houston and Seattle are nonstop on weekdays only, and Dec 27 is a Sunday.",
-         "Same day means a dawn flight from Houston. The Vegas flights to Honolulu and Hilo leave in the morning."
-        ],
-        "low": 2609,
-        "high": 3441,
-        "diff": 322
-       },
-       {
-        "stay": "both",
-        "days": 10,
-        "legs": [
-         {
-          "from": "HOU",
-          "to": "LAS",
-          "date": "2026-12-18",
-          "fare": 72,
-          "companion": 5.6,
-          "two": 77.6,
-          "basis": "lowest fare Southwest showed, Dec 1, 5, 7, 8, 12, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-houston-hobby-to-las-vegas"
-         },
-         {
-          "from": "LAS",
-          "to": "HNL",
-          "date": "2026-12-19",
-          "fare": 241,
-          "companion": 5.6,
-          "two": 246.6,
-          "basis": "lowest fare Southwest showed, Dec 7, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-las-vegas-to-honolulu"
-         },
-         {
-          "from": "HNL",
-          "to": "OGG",
-          "date": "2026-12-22",
-          "fare": 58,
-          "companion": 5.6,
-          "two": 63.6,
-          "basis": "lowest fare Southwest showed, Dec 17, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-honolulu-to-kahului"
-         },
-         {
-          "from": "OGG",
-          "to": "KOA",
-          "date": "2026-12-24",
-          "fare": 67,
-          "companion": 5.6,
-          "two": 72.6,
-          "basis": "lowest fare Southwest showed, Dec 29, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-kahului-to-kona"
-         },
-         {
-          "from": "KOA",
-          "to": "SEA",
-          "date": "2026-12-26",
-          "fare": 238,
-          "companion": 5.6,
-          "two": 243.6,
-          "basis": "lowest fare Southwest showed, Dec 21, 2026 (also $268 on Dec 19, 2026)",
-          "source": "https://www.southwest.com/en/flights/flights-from-kona-to-seattle-tacoma"
-         },
-         {
-          "from": "SEA",
-          "to": "HOU",
-          "date": "2026-12-27",
-          "fare": 182,
-          "companion": 5.6,
-          "two": 187.6,
-          "basis": "lowest fare Southwest showed, Dec 2, 15, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-seattle-tacoma-to-houston-hobby"
-         }
-        ],
-        "flights": 892,
-        "hotel": [
-         249,
-         444
-        ],
-        "hub_nights": 2,
-        "gives": [
-         "a night in Las Vegas on the way out, leaving Houston Dec 18",
-         "a night in Seattle on the way home, one more day"
-        ],
-        "notes": [
-         "Southwest's Seattle flights to Hawaii connect. Only Houston to Seattle is nonstop.",
-         "Houston and Seattle are nonstop on weekdays only, and Dec 27 is a Sunday."
-        ],
-        "low": 2713,
-        "high": 3648,
-        "diff": 426
-       }
-      ]
-     },
-     {
-      "out": "Seattle",
-      "back": "Las Vegas",
-      "nonstop": false,
-      "options": [
-       {
-        "stay": "none",
-        "days": 8,
-        "legs": [
-         {
-          "from": "HOU",
-          "to": "SEA",
-          "date": "2026-12-19",
-          "fare": 187,
-          "companion": 5.6,
-          "two": 192.6,
-          "basis": "lowest fare Southwest showed, Dec 2, 7, 8, 10, 12, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-houston-hobby-to-seattle-tacoma"
-         },
-         {
-          "from": "SEA",
-          "to": "HNL",
-          "date": "2026-12-19",
-          "fare": 248,
-          "companion": 5.6,
-          "two": 253.6,
-          "basis": "lowest fare Southwest showed, Dec 2, 3, 15, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-seattle-tacoma-to-honolulu"
-         },
-         {
-          "from": "HNL",
-          "to": "OGG",
-          "date": "2026-12-22",
-          "fare": 58,
-          "companion": 5.6,
-          "two": 63.6,
-          "basis": "lowest fare Southwest showed, Dec 17, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-honolulu-to-kahului"
-         },
-         {
-          "from": "OGG",
-          "to": "KOA",
-          "date": "2026-12-24",
-          "fare": 67,
-          "companion": 5.6,
-          "two": 72.6,
-          "basis": "lowest fare Southwest showed, Dec 29, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-kahului-to-kona"
-         },
-         {
-          "from": "KOA",
-          "to": "LAS",
-          "date": "2026-12-26",
-          "fare": 199,
-          "companion": 5.6,
-          "two": 204.6,
-          "basis": "lowest fare Southwest showed, Dec 9, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-kona-to-las-vegas"
-         },
-         {
-          "from": "LAS",
-          "to": "HOU",
-          "date": "2026-12-26",
-          "fare": 72,
-          "companion": 5.6,
-          "two": 77.6,
-          "basis": "lowest fare Southwest showed, Dec 1, 2, 3, 10, 17, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-las-vegas-to-houston-hobby"
-         }
-        ],
-        "flights": 865,
-        "hotel": [
-         0,
-         0
-        ],
-        "hub_nights": 0,
-        "gives": [],
-        "notes": [
-         "Southwest's Seattle flights to Hawaii connect. Only Houston to Seattle is nonstop.",
-         "Houston and Seattle are nonstop on weekdays only, and Dec 19 is a Saturday."
-        ],
-        "low": 2437,
-        "high": 3177,
-        "diff": 150
-       },
-       {
-        "stay": "out",
-        "days": 9,
-        "legs": [
-         {
-          "from": "HOU",
-          "to": "SEA",
-          "date": "2026-12-18",
-          "fare": 187,
-          "companion": 5.6,
-          "two": 192.6,
-          "basis": "lowest fare Southwest showed, Dec 2, 7, 8, 10, 12, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-houston-hobby-to-seattle-tacoma"
-         },
-         {
-          "from": "SEA",
-          "to": "HNL",
-          "date": "2026-12-19",
-          "fare": 248,
-          "companion": 5.6,
-          "two": 253.6,
-          "basis": "lowest fare Southwest showed, Dec 2, 3, 15, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-seattle-tacoma-to-honolulu"
-         },
-         {
-          "from": "HNL",
-          "to": "OGG",
-          "date": "2026-12-22",
-          "fare": 58,
-          "companion": 5.6,
-          "two": 63.6,
-          "basis": "lowest fare Southwest showed, Dec 17, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-honolulu-to-kahului"
-         },
-         {
-          "from": "OGG",
-          "to": "KOA",
-          "date": "2026-12-24",
-          "fare": 67,
-          "companion": 5.6,
-          "two": 72.6,
-          "basis": "lowest fare Southwest showed, Dec 29, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-kahului-to-kona"
-         },
-         {
-          "from": "KOA",
-          "to": "LAS",
-          "date": "2026-12-26",
-          "fare": 199,
-          "companion": 5.6,
-          "two": 204.6,
-          "basis": "lowest fare Southwest showed, Dec 9, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-kona-to-las-vegas"
-         },
-         {
-          "from": "LAS",
-          "to": "HOU",
-          "date": "2026-12-26",
-          "fare": 72,
-          "companion": 5.6,
-          "two": 77.6,
-          "basis": "lowest fare Southwest showed, Dec 1, 2, 3, 10, 17, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-las-vegas-to-houston-hobby"
-         }
-        ],
-        "flights": 865,
-        "hotel": [
-         145,
-         237
-        ],
-        "hub_nights": 1,
-        "gives": [
-         "a night in Seattle on the way out, leaving Houston Dec 18"
-        ],
-        "notes": [
-         "Southwest's Seattle flights to Hawaii connect. Only Houston to Seattle is nonstop."
-        ],
-        "low": 2582,
-        "high": 3414,
-        "diff": 295
-       },
-       {
-        "stay": "back",
-        "days": 9,
-        "legs": [
-         {
-          "from": "HOU",
-          "to": "SEA",
-          "date": "2026-12-19",
-          "fare": 187,
-          "companion": 5.6,
-          "two": 192.6,
-          "basis": "lowest fare Southwest showed, Dec 2, 7, 8, 10, 12, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-houston-hobby-to-seattle-tacoma"
-         },
-         {
-          "from": "SEA",
-          "to": "HNL",
-          "date": "2026-12-19",
-          "fare": 248,
-          "companion": 5.6,
-          "two": 253.6,
-          "basis": "lowest fare Southwest showed, Dec 2, 3, 15, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-seattle-tacoma-to-honolulu"
-         },
-         {
-          "from": "HNL",
-          "to": "OGG",
-          "date": "2026-12-22",
-          "fare": 58,
-          "companion": 5.6,
-          "two": 63.6,
-          "basis": "lowest fare Southwest showed, Dec 17, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-honolulu-to-kahului"
-         },
-         {
-          "from": "OGG",
-          "to": "KOA",
-          "date": "2026-12-24",
-          "fare": 67,
-          "companion": 5.6,
-          "two": 72.6,
-          "basis": "lowest fare Southwest showed, Dec 29, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-kahului-to-kona"
-         },
-         {
-          "from": "KOA",
-          "to": "LAS",
-          "date": "2026-12-26",
-          "fare": 199,
-          "companion": 5.6,
-          "two": 204.6,
-          "basis": "lowest fare Southwest showed, Dec 9, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-kona-to-las-vegas"
-         },
-         {
-          "from": "LAS",
-          "to": "HOU",
-          "date": "2026-12-27",
-          "fare": 72,
-          "companion": 5.6,
-          "two": 77.6,
-          "basis": "lowest fare Southwest showed, Dec 1, 2, 3, 10, 17, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-las-vegas-to-houston-hobby"
-         }
-        ],
-        "flights": 865,
-        "hotel": [
-         104,
-         207
-        ],
-        "hub_nights": 1,
-        "gives": [
-         "a night in Las Vegas on the way home, one more day"
-        ],
-        "notes": [
-         "Southwest's Seattle flights to Hawaii connect. Only Houston to Seattle is nonstop.",
-         "Houston and Seattle are nonstop on weekdays only, and Dec 19 is a Saturday."
-        ],
-        "low": 2541,
-        "high": 3384,
-        "diff": 254
-       },
-       {
-        "stay": "both",
-        "days": 10,
-        "legs": [
-         {
-          "from": "HOU",
-          "to": "SEA",
-          "date": "2026-12-18",
-          "fare": 187,
-          "companion": 5.6,
-          "two": 192.6,
-          "basis": "lowest fare Southwest showed, Dec 2, 7, 8, 10, 12, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-houston-hobby-to-seattle-tacoma"
-         },
-         {
-          "from": "SEA",
-          "to": "HNL",
-          "date": "2026-12-19",
-          "fare": 248,
-          "companion": 5.6,
-          "two": 253.6,
-          "basis": "lowest fare Southwest showed, Dec 2, 3, 15, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-seattle-tacoma-to-honolulu"
-         },
-         {
-          "from": "HNL",
-          "to": "OGG",
-          "date": "2026-12-22",
-          "fare": 58,
-          "companion": 5.6,
-          "two": 63.6,
-          "basis": "lowest fare Southwest showed, Dec 17, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-honolulu-to-kahului"
-         },
-         {
-          "from": "OGG",
-          "to": "KOA",
-          "date": "2026-12-24",
-          "fare": 67,
-          "companion": 5.6,
-          "two": 72.6,
-          "basis": "lowest fare Southwest showed, Dec 29, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-kahului-to-kona"
-         },
-         {
-          "from": "KOA",
-          "to": "LAS",
-          "date": "2026-12-26",
-          "fare": 199,
-          "companion": 5.6,
-          "two": 204.6,
-          "basis": "lowest fare Southwest showed, Dec 9, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-kona-to-las-vegas"
-         },
-         {
-          "from": "LAS",
-          "to": "HOU",
-          "date": "2026-12-27",
-          "fare": 72,
-          "companion": 5.6,
-          "two": 77.6,
-          "basis": "lowest fare Southwest showed, Dec 1, 2, 3, 10, 17, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-las-vegas-to-houston-hobby"
-         }
-        ],
-        "flights": 865,
-        "hotel": [
-         249,
-         444
-        ],
-        "hub_nights": 2,
-        "gives": [
-         "a night in Seattle on the way out, leaving Houston Dec 18",
-         "a night in Las Vegas on the way home, one more day"
-        ],
-        "notes": [
-         "Southwest's Seattle flights to Hawaii connect. Only Houston to Seattle is nonstop."
-        ],
-        "low": 2686,
-        "high": 3621,
-        "diff": 399
-       }
-      ]
-     },
-     {
-      "out": "Seattle",
-      "back": "Seattle",
-      "nonstop": false,
-      "options": [
-       {
-        "stay": "none",
-        "days": 8,
-        "legs": [
-         {
-          "from": "HOU",
-          "to": "SEA",
-          "date": "2026-12-19",
-          "fare": 187,
-          "companion": 5.6,
-          "two": 192.6,
-          "basis": "lowest fare Southwest showed, Dec 2, 7, 8, 10, 12, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-houston-hobby-to-seattle-tacoma"
-         },
-         {
-          "from": "SEA",
-          "to": "HNL",
-          "date": "2026-12-19",
-          "fare": 248,
-          "companion": 5.6,
-          "two": 253.6,
-          "basis": "lowest fare Southwest showed, Dec 2, 3, 15, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-seattle-tacoma-to-honolulu"
-         },
-         {
-          "from": "HNL",
-          "to": "OGG",
-          "date": "2026-12-22",
-          "fare": 58,
-          "companion": 5.6,
-          "two": 63.6,
-          "basis": "lowest fare Southwest showed, Dec 17, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-honolulu-to-kahului"
-         },
-         {
-          "from": "OGG",
-          "to": "KOA",
-          "date": "2026-12-24",
-          "fare": 67,
-          "companion": 5.6,
-          "two": 72.6,
-          "basis": "lowest fare Southwest showed, Dec 29, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-kahului-to-kona"
-         },
-         {
-          "from": "KOA",
-          "to": "SEA",
-          "date": "2026-12-26",
-          "fare": 238,
-          "companion": 5.6,
-          "two": 243.6,
-          "basis": "lowest fare Southwest showed, Dec 21, 2026 (also $268 on Dec 19, 2026)",
-          "source": "https://www.southwest.com/en/flights/flights-from-kona-to-seattle-tacoma"
-         },
-         {
-          "from": "SEA",
-          "to": "HOU",
-          "date": "2026-12-26",
-          "fare": 182,
-          "companion": 5.6,
-          "two": 187.6,
-          "basis": "lowest fare Southwest showed, Dec 2, 15, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-seattle-tacoma-to-houston-hobby"
-         }
-        ],
-        "flights": 1014,
-        "hotel": [
-         0,
-         0
-        ],
-        "hub_nights": 0,
-        "gives": [],
-        "notes": [
-         "Southwest's Seattle flights to Hawaii connect. Only Houston to Seattle is nonstop.",
-         "Houston and Seattle are nonstop on weekdays only, and Dec 19 is a Saturday.",
-         "Houston and Seattle are nonstop on weekdays only, and Dec 26 is a Saturday."
-        ],
-        "low": 2586,
-        "high": 3326,
-        "diff": 299
-       },
-       {
-        "stay": "out",
-        "days": 9,
-        "legs": [
-         {
-          "from": "HOU",
-          "to": "SEA",
-          "date": "2026-12-18",
-          "fare": 187,
-          "companion": 5.6,
-          "two": 192.6,
-          "basis": "lowest fare Southwest showed, Dec 2, 7, 8, 10, 12, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-houston-hobby-to-seattle-tacoma"
-         },
-         {
-          "from": "SEA",
-          "to": "HNL",
-          "date": "2026-12-19",
-          "fare": 248,
-          "companion": 5.6,
-          "two": 253.6,
-          "basis": "lowest fare Southwest showed, Dec 2, 3, 15, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-seattle-tacoma-to-honolulu"
-         },
-         {
-          "from": "HNL",
-          "to": "OGG",
-          "date": "2026-12-22",
-          "fare": 58,
-          "companion": 5.6,
-          "two": 63.6,
-          "basis": "lowest fare Southwest showed, Dec 17, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-honolulu-to-kahului"
-         },
-         {
-          "from": "OGG",
-          "to": "KOA",
-          "date": "2026-12-24",
-          "fare": 67,
-          "companion": 5.6,
-          "two": 72.6,
-          "basis": "lowest fare Southwest showed, Dec 29, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-kahului-to-kona"
-         },
-         {
-          "from": "KOA",
-          "to": "SEA",
-          "date": "2026-12-26",
-          "fare": 238,
-          "companion": 5.6,
-          "two": 243.6,
-          "basis": "lowest fare Southwest showed, Dec 21, 2026 (also $268 on Dec 19, 2026)",
-          "source": "https://www.southwest.com/en/flights/flights-from-kona-to-seattle-tacoma"
-         },
-         {
-          "from": "SEA",
-          "to": "HOU",
-          "date": "2026-12-26",
-          "fare": 182,
-          "companion": 5.6,
-          "two": 187.6,
-          "basis": "lowest fare Southwest showed, Dec 2, 15, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-seattle-tacoma-to-houston-hobby"
-         }
-        ],
-        "flights": 1014,
-        "hotel": [
-         145,
-         237
-        ],
-        "hub_nights": 1,
-        "gives": [
-         "a night in Seattle on the way out, leaving Houston Dec 18"
-        ],
-        "notes": [
-         "Southwest's Seattle flights to Hawaii connect. Only Houston to Seattle is nonstop.",
-         "Houston and Seattle are nonstop on weekdays only, and Dec 26 is a Saturday."
-        ],
-        "low": 2731,
-        "high": 3563,
-        "diff": 444
-       },
-       {
-        "stay": "back",
-        "days": 9,
-        "legs": [
-         {
-          "from": "HOU",
-          "to": "SEA",
-          "date": "2026-12-19",
-          "fare": 187,
-          "companion": 5.6,
-          "two": 192.6,
-          "basis": "lowest fare Southwest showed, Dec 2, 7, 8, 10, 12, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-houston-hobby-to-seattle-tacoma"
-         },
-         {
-          "from": "SEA",
-          "to": "HNL",
-          "date": "2026-12-19",
-          "fare": 248,
-          "companion": 5.6,
-          "two": 253.6,
-          "basis": "lowest fare Southwest showed, Dec 2, 3, 15, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-seattle-tacoma-to-honolulu"
-         },
-         {
-          "from": "HNL",
-          "to": "OGG",
-          "date": "2026-12-22",
-          "fare": 58,
-          "companion": 5.6,
-          "two": 63.6,
-          "basis": "lowest fare Southwest showed, Dec 17, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-honolulu-to-kahului"
-         },
-         {
-          "from": "OGG",
-          "to": "KOA",
-          "date": "2026-12-24",
-          "fare": 67,
-          "companion": 5.6,
-          "two": 72.6,
-          "basis": "lowest fare Southwest showed, Dec 29, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-kahului-to-kona"
-         },
-         {
-          "from": "KOA",
-          "to": "SEA",
-          "date": "2026-12-26",
-          "fare": 238,
-          "companion": 5.6,
-          "two": 243.6,
-          "basis": "lowest fare Southwest showed, Dec 21, 2026 (also $268 on Dec 19, 2026)",
-          "source": "https://www.southwest.com/en/flights/flights-from-kona-to-seattle-tacoma"
-         },
-         {
-          "from": "SEA",
-          "to": "HOU",
-          "date": "2026-12-27",
-          "fare": 182,
-          "companion": 5.6,
-          "two": 187.6,
-          "basis": "lowest fare Southwest showed, Dec 2, 15, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-seattle-tacoma-to-houston-hobby"
-         }
-        ],
-        "flights": 1014,
-        "hotel": [
-         145,
-         237
-        ],
-        "hub_nights": 1,
-        "gives": [
-         "a night in Seattle on the way home, one more day"
-        ],
-        "notes": [
-         "Southwest's Seattle flights to Hawaii connect. Only Houston to Seattle is nonstop.",
-         "Houston and Seattle are nonstop on weekdays only, and Dec 19 is a Saturday.",
-         "Houston and Seattle are nonstop on weekdays only, and Dec 27 is a Sunday."
-        ],
-        "low": 2731,
-        "high": 3563,
-        "diff": 444
-       },
-       {
-        "stay": "both",
-        "days": 10,
-        "legs": [
-         {
-          "from": "HOU",
-          "to": "SEA",
-          "date": "2026-12-18",
-          "fare": 187,
-          "companion": 5.6,
-          "two": 192.6,
-          "basis": "lowest fare Southwest showed, Dec 2, 7, 8, 10, 12, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-houston-hobby-to-seattle-tacoma"
-         },
-         {
-          "from": "SEA",
-          "to": "HNL",
-          "date": "2026-12-19",
-          "fare": 248,
-          "companion": 5.6,
-          "two": 253.6,
-          "basis": "lowest fare Southwest showed, Dec 2, 3, 15, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-seattle-tacoma-to-honolulu"
-         },
-         {
-          "from": "HNL",
-          "to": "OGG",
-          "date": "2026-12-22",
-          "fare": 58,
-          "companion": 5.6,
-          "two": 63.6,
-          "basis": "lowest fare Southwest showed, Dec 17, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-honolulu-to-kahului"
-         },
-         {
-          "from": "OGG",
-          "to": "KOA",
-          "date": "2026-12-24",
-          "fare": 67,
-          "companion": 5.6,
-          "two": 72.6,
-          "basis": "lowest fare Southwest showed, Dec 29, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-kahului-to-kona"
-         },
-         {
-          "from": "KOA",
-          "to": "SEA",
-          "date": "2026-12-26",
-          "fare": 238,
-          "companion": 5.6,
-          "two": 243.6,
-          "basis": "lowest fare Southwest showed, Dec 21, 2026 (also $268 on Dec 19, 2026)",
-          "source": "https://www.southwest.com/en/flights/flights-from-kona-to-seattle-tacoma"
-         },
-         {
-          "from": "SEA",
-          "to": "HOU",
-          "date": "2026-12-27",
-          "fare": 182,
-          "companion": 5.6,
-          "two": 187.6,
-          "basis": "lowest fare Southwest showed, Dec 2, 15, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-seattle-tacoma-to-houston-hobby"
-         }
-        ],
-        "flights": 1014,
-        "hotel": [
-         290,
-         474
-        ],
-        "hub_nights": 2,
-        "gives": [
-         "a night in Seattle on the way out, leaving Houston Dec 18",
-         "a night in Seattle on the way home, one more day"
-        ],
-        "notes": [
-         "Southwest's Seattle flights to Hawaii connect. Only Houston to Seattle is nonstop.",
-         "Houston and Seattle are nonstop on weekdays only, and Dec 27 is a Sunday."
-        ],
-        "low": 2876,
-        "high": 3800,
-        "diff": 589
+        "low": 2454,
+        "high": 3400,
+        "diff": 167
        }
       ]
      }
@@ -6182,28 +2562,18 @@
         "diff": 237
        },
        {
-        "stay": "back",
-        "days": 8,
+        "stay": "home1",
+        "days": 9,
         "legs": [
          {
           "from": "HOU",
-          "to": "LAS",
-          "date": "2026-12-19",
-          "fare": 72,
-          "companion": 5.6,
-          "two": 77.6,
-          "basis": "lowest fare Southwest showed, Dec 1, 5, 7, 8, 12, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-houston-hobby-to-las-vegas"
-         },
-         {
-          "from": "LAS",
           "to": "HNL",
           "date": "2026-12-19",
-          "fare": 241,
+          "fare": 250,
           "companion": 5.6,
-          "two": 246.6,
-          "basis": "lowest fare Southwest showed, Dec 7, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-las-vegas-to-honolulu"
+          "two": 255.6,
+          "basis": "lowest fare Southwest showed, Dec 7 and 9, 2026",
+          "source": "https://www.southwest.com/routes/flights-from-houston-hobby-to-honolulu"
          },
          {
           "from": "HNL",
@@ -6228,7 +2598,7 @@
          {
           "from": "LAS",
           "to": "HOU",
-          "date": "2026-12-26",
+          "date": "2026-12-27",
           "fare": 72,
           "companion": 5.6,
           "two": 77.6,
@@ -6236,46 +2606,36 @@
           "source": "https://www.southwest.com/en/flights/flights-from-las-vegas-to-houston-hobby"
          }
         ],
-        "flights": 717,
+        "flights": 648,
         "hotel": [
          104,
          207
         ],
         "hub_nights": 1,
         "gives": [
-         "a night in Las Vegas on the way home, one more day"
+         "The overnight flight from Kahului leaves about 8 p.m. Dec 25 and lands in Vegas early Dec 26",
+         "1 night in Vegas, home to Houston Dec 27"
         ],
         "notes": [
-         "Nonstop on every flight.",
-         "Same day means a dawn flight from Houston. The Vegas flights to Honolulu and Hilo leave in the morning."
+         "Nonstop on every flight."
         ],
-        "low": 1989,
-        "high": 2732,
-        "diff": 237
+        "low": 1920,
+        "high": 2663,
+        "diff": 168
        },
        {
-        "stay": "both",
-        "days": 9,
+        "stay": "home2",
+        "days": 10,
         "legs": [
          {
           "from": "HOU",
-          "to": "LAS",
-          "date": "2026-12-18",
-          "fare": 72,
-          "companion": 5.6,
-          "two": 77.6,
-          "basis": "lowest fare Southwest showed, Dec 1, 5, 7, 8, 12, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-houston-hobby-to-las-vegas"
-         },
-         {
-          "from": "LAS",
           "to": "HNL",
           "date": "2026-12-19",
-          "fare": 241,
+          "fare": 250,
           "companion": 5.6,
-          "two": 246.6,
-          "basis": "lowest fare Southwest showed, Dec 7, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-las-vegas-to-honolulu"
+          "two": 255.6,
+          "basis": "lowest fare Southwest showed, Dec 7 and 9, 2026",
+          "source": "https://www.southwest.com/routes/flights-from-houston-hobby-to-honolulu"
          },
          {
           "from": "HNL",
@@ -6300,7 +2660,7 @@
          {
           "from": "LAS",
           "to": "HOU",
-          "date": "2026-12-26",
+          "date": "2026-12-28",
           "fare": 72,
           "companion": 5.6,
           "two": 77.6,
@@ -6308,902 +2668,22 @@
           "source": "https://www.southwest.com/en/flights/flights-from-las-vegas-to-houston-hobby"
          }
         ],
-        "flights": 717,
+        "flights": 648,
         "hotel": [
          208,
          414
         ],
         "hub_nights": 2,
         "gives": [
-         "a night in Las Vegas on the way out, leaving Houston Dec 18",
-         "a night in Las Vegas on the way home, one more day"
+         "The overnight flight from Kahului leaves about 8 p.m. Dec 25 and lands in Vegas early Dec 26",
+         "2 nights in Vegas, home to Houston Dec 28"
         ],
         "notes": [
          "Nonstop on every flight."
         ],
-        "low": 2093,
-        "high": 2939,
-        "diff": 341
-       }
-      ]
-     },
-     {
-      "out": "Las Vegas",
-      "back": "Seattle",
-      "nonstop": false,
-      "options": [
-       {
-        "stay": "none",
-        "days": 7,
-        "legs": [
-         {
-          "from": "HOU",
-          "to": "LAS",
-          "date": "2026-12-19",
-          "fare": 72,
-          "companion": 5.6,
-          "two": 77.6,
-          "basis": "lowest fare Southwest showed, Dec 1, 5, 7, 8, 12, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-houston-hobby-to-las-vegas"
-         },
-         {
-          "from": "LAS",
-          "to": "HNL",
-          "date": "2026-12-19",
-          "fare": 241,
-          "companion": 5.6,
-          "two": 246.6,
-          "basis": "lowest fare Southwest showed, Dec 7, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-las-vegas-to-honolulu"
-         },
-         {
-          "from": "HNL",
-          "to": "OGG",
-          "date": "2026-12-23",
-          "fare": 58,
-          "companion": 5.6,
-          "two": 63.6,
-          "basis": "lowest fare Southwest showed, Dec 17, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-honolulu-to-kahului"
-         },
-         {
-          "from": "OGG",
-          "to": "SEA",
-          "date": "2026-12-25",
-          "fare": 218,
-          "companion": 5.6,
-          "two": 223.6,
-          "basis": "lowest fare Southwest showed, Dec 2026 (monthly 'From' fare; no date shown)",
-          "source": "https://www.southwest.com/en/flights/flights-from-kahului-to-seattle-tacoma"
-         },
-         {
-          "from": "SEA",
-          "to": "HOU",
-          "date": "2026-12-25",
-          "fare": 182,
-          "companion": 5.6,
-          "two": 187.6,
-          "basis": "lowest fare Southwest showed, Dec 2, 15, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-seattle-tacoma-to-houston-hobby"
-         }
-        ],
-        "flights": 799,
-        "hotel": [
-         0,
-         0
-        ],
-        "hub_nights": 0,
-        "gives": [],
-        "notes": [
-         "Southwest's Seattle flights to Hawaii connect. Only Houston to Seattle is nonstop.",
-         "Same day means a dawn flight from Houston. The Vegas flights to Honolulu and Hilo leave in the morning."
-        ],
-        "low": 1967,
-        "high": 2607,
-        "diff": 215
-       },
-       {
-        "stay": "out",
-        "days": 8,
-        "legs": [
-         {
-          "from": "HOU",
-          "to": "LAS",
-          "date": "2026-12-18",
-          "fare": 72,
-          "companion": 5.6,
-          "two": 77.6,
-          "basis": "lowest fare Southwest showed, Dec 1, 5, 7, 8, 12, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-houston-hobby-to-las-vegas"
-         },
-         {
-          "from": "LAS",
-          "to": "HNL",
-          "date": "2026-12-19",
-          "fare": 241,
-          "companion": 5.6,
-          "two": 246.6,
-          "basis": "lowest fare Southwest showed, Dec 7, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-las-vegas-to-honolulu"
-         },
-         {
-          "from": "HNL",
-          "to": "OGG",
-          "date": "2026-12-23",
-          "fare": 58,
-          "companion": 5.6,
-          "two": 63.6,
-          "basis": "lowest fare Southwest showed, Dec 17, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-honolulu-to-kahului"
-         },
-         {
-          "from": "OGG",
-          "to": "SEA",
-          "date": "2026-12-25",
-          "fare": 218,
-          "companion": 5.6,
-          "two": 223.6,
-          "basis": "lowest fare Southwest showed, Dec 2026 (monthly 'From' fare; no date shown)",
-          "source": "https://www.southwest.com/en/flights/flights-from-kahului-to-seattle-tacoma"
-         },
-         {
-          "from": "SEA",
-          "to": "HOU",
-          "date": "2026-12-25",
-          "fare": 182,
-          "companion": 5.6,
-          "two": 187.6,
-          "basis": "lowest fare Southwest showed, Dec 2, 15, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-seattle-tacoma-to-houston-hobby"
-         }
-        ],
-        "flights": 799,
-        "hotel": [
-         104,
-         207
-        ],
-        "hub_nights": 1,
-        "gives": [
-         "a night in Las Vegas on the way out, leaving Houston Dec 18"
-        ],
-        "notes": [
-         "Southwest's Seattle flights to Hawaii connect. Only Houston to Seattle is nonstop."
-        ],
-        "low": 2071,
-        "high": 2814,
-        "diff": 319
-       },
-       {
-        "stay": "back",
-        "days": 8,
-        "legs": [
-         {
-          "from": "HOU",
-          "to": "LAS",
-          "date": "2026-12-19",
-          "fare": 72,
-          "companion": 5.6,
-          "two": 77.6,
-          "basis": "lowest fare Southwest showed, Dec 1, 5, 7, 8, 12, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-houston-hobby-to-las-vegas"
-         },
-         {
-          "from": "LAS",
-          "to": "HNL",
-          "date": "2026-12-19",
-          "fare": 241,
-          "companion": 5.6,
-          "two": 246.6,
-          "basis": "lowest fare Southwest showed, Dec 7, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-las-vegas-to-honolulu"
-         },
-         {
-          "from": "HNL",
-          "to": "OGG",
-          "date": "2026-12-23",
-          "fare": 58,
-          "companion": 5.6,
-          "two": 63.6,
-          "basis": "lowest fare Southwest showed, Dec 17, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-honolulu-to-kahului"
-         },
-         {
-          "from": "OGG",
-          "to": "SEA",
-          "date": "2026-12-25",
-          "fare": 218,
-          "companion": 5.6,
-          "two": 223.6,
-          "basis": "lowest fare Southwest showed, Dec 2026 (monthly 'From' fare; no date shown)",
-          "source": "https://www.southwest.com/en/flights/flights-from-kahului-to-seattle-tacoma"
-         },
-         {
-          "from": "SEA",
-          "to": "HOU",
-          "date": "2026-12-26",
-          "fare": 182,
-          "companion": 5.6,
-          "two": 187.6,
-          "basis": "lowest fare Southwest showed, Dec 2, 15, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-seattle-tacoma-to-houston-hobby"
-         }
-        ],
-        "flights": 799,
-        "hotel": [
-         145,
-         237
-        ],
-        "hub_nights": 1,
-        "gives": [
-         "a night in Seattle on the way home, one more day"
-        ],
-        "notes": [
-         "Southwest's Seattle flights to Hawaii connect. Only Houston to Seattle is nonstop.",
-         "Houston and Seattle are nonstop on weekdays only, and Dec 26 is a Saturday.",
-         "Same day means a dawn flight from Houston. The Vegas flights to Honolulu and Hilo leave in the morning."
-        ],
-        "low": 2112,
-        "high": 2844,
-        "diff": 360
-       },
-       {
-        "stay": "both",
-        "days": 9,
-        "legs": [
-         {
-          "from": "HOU",
-          "to": "LAS",
-          "date": "2026-12-18",
-          "fare": 72,
-          "companion": 5.6,
-          "two": 77.6,
-          "basis": "lowest fare Southwest showed, Dec 1, 5, 7, 8, 12, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-houston-hobby-to-las-vegas"
-         },
-         {
-          "from": "LAS",
-          "to": "HNL",
-          "date": "2026-12-19",
-          "fare": 241,
-          "companion": 5.6,
-          "two": 246.6,
-          "basis": "lowest fare Southwest showed, Dec 7, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-las-vegas-to-honolulu"
-         },
-         {
-          "from": "HNL",
-          "to": "OGG",
-          "date": "2026-12-23",
-          "fare": 58,
-          "companion": 5.6,
-          "two": 63.6,
-          "basis": "lowest fare Southwest showed, Dec 17, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-honolulu-to-kahului"
-         },
-         {
-          "from": "OGG",
-          "to": "SEA",
-          "date": "2026-12-25",
-          "fare": 218,
-          "companion": 5.6,
-          "two": 223.6,
-          "basis": "lowest fare Southwest showed, Dec 2026 (monthly 'From' fare; no date shown)",
-          "source": "https://www.southwest.com/en/flights/flights-from-kahului-to-seattle-tacoma"
-         },
-         {
-          "from": "SEA",
-          "to": "HOU",
-          "date": "2026-12-26",
-          "fare": 182,
-          "companion": 5.6,
-          "two": 187.6,
-          "basis": "lowest fare Southwest showed, Dec 2, 15, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-seattle-tacoma-to-houston-hobby"
-         }
-        ],
-        "flights": 799,
-        "hotel": [
-         249,
-         444
-        ],
-        "hub_nights": 2,
-        "gives": [
-         "a night in Las Vegas on the way out, leaving Houston Dec 18",
-         "a night in Seattle on the way home, one more day"
-        ],
-        "notes": [
-         "Southwest's Seattle flights to Hawaii connect. Only Houston to Seattle is nonstop.",
-         "Houston and Seattle are nonstop on weekdays only, and Dec 26 is a Saturday."
-        ],
-        "low": 2216,
-        "high": 3051,
-        "diff": 464
-       }
-      ]
-     },
-     {
-      "out": "Seattle",
-      "back": "Las Vegas",
-      "nonstop": false,
-      "options": [
-       {
-        "stay": "none",
-        "days": 7,
-        "legs": [
-         {
-          "from": "HOU",
-          "to": "SEA",
-          "date": "2026-12-19",
-          "fare": 187,
-          "companion": 5.6,
-          "two": 192.6,
-          "basis": "lowest fare Southwest showed, Dec 2, 7, 8, 10, 12, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-houston-hobby-to-seattle-tacoma"
-         },
-         {
-          "from": "SEA",
-          "to": "HNL",
-          "date": "2026-12-19",
-          "fare": 248,
-          "companion": 5.6,
-          "two": 253.6,
-          "basis": "lowest fare Southwest showed, Dec 2, 3, 15, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-seattle-tacoma-to-honolulu"
-         },
-         {
-          "from": "HNL",
-          "to": "OGG",
-          "date": "2026-12-23",
-          "fare": 58,
-          "companion": 5.6,
-          "two": 63.6,
-          "basis": "lowest fare Southwest showed, Dec 17, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-honolulu-to-kahului"
-         },
-         {
-          "from": "OGG",
-          "to": "LAS",
-          "date": "2026-12-25",
-          "fare": 246,
-          "companion": 5.6,
-          "two": 251.6,
-          "basis": "lowest fare Southwest showed, Dec 3, 9, 10, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-kahului-to-las-vegas"
-         },
-         {
-          "from": "LAS",
-          "to": "HOU",
-          "date": "2026-12-25",
-          "fare": 72,
-          "companion": 5.6,
-          "two": 77.6,
-          "basis": "lowest fare Southwest showed, Dec 1, 2, 3, 10, 17, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-las-vegas-to-houston-hobby"
-         }
-        ],
-        "flights": 839,
-        "hotel": [
-         0,
-         0
-        ],
-        "hub_nights": 0,
-        "gives": [],
-        "notes": [
-         "Southwest's Seattle flights to Hawaii connect. Only Houston to Seattle is nonstop.",
-         "Houston and Seattle are nonstop on weekdays only, and Dec 19 is a Saturday."
-        ],
-        "low": 2007,
-        "high": 2647,
-        "diff": 255
-       },
-       {
-        "stay": "out",
-        "days": 8,
-        "legs": [
-         {
-          "from": "HOU",
-          "to": "SEA",
-          "date": "2026-12-18",
-          "fare": 187,
-          "companion": 5.6,
-          "two": 192.6,
-          "basis": "lowest fare Southwest showed, Dec 2, 7, 8, 10, 12, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-houston-hobby-to-seattle-tacoma"
-         },
-         {
-          "from": "SEA",
-          "to": "HNL",
-          "date": "2026-12-19",
-          "fare": 248,
-          "companion": 5.6,
-          "two": 253.6,
-          "basis": "lowest fare Southwest showed, Dec 2, 3, 15, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-seattle-tacoma-to-honolulu"
-         },
-         {
-          "from": "HNL",
-          "to": "OGG",
-          "date": "2026-12-23",
-          "fare": 58,
-          "companion": 5.6,
-          "two": 63.6,
-          "basis": "lowest fare Southwest showed, Dec 17, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-honolulu-to-kahului"
-         },
-         {
-          "from": "OGG",
-          "to": "LAS",
-          "date": "2026-12-25",
-          "fare": 246,
-          "companion": 5.6,
-          "two": 251.6,
-          "basis": "lowest fare Southwest showed, Dec 3, 9, 10, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-kahului-to-las-vegas"
-         },
-         {
-          "from": "LAS",
-          "to": "HOU",
-          "date": "2026-12-25",
-          "fare": 72,
-          "companion": 5.6,
-          "two": 77.6,
-          "basis": "lowest fare Southwest showed, Dec 1, 2, 3, 10, 17, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-las-vegas-to-houston-hobby"
-         }
-        ],
-        "flights": 839,
-        "hotel": [
-         145,
-         237
-        ],
-        "hub_nights": 1,
-        "gives": [
-         "a night in Seattle on the way out, leaving Houston Dec 18"
-        ],
-        "notes": [
-         "Southwest's Seattle flights to Hawaii connect. Only Houston to Seattle is nonstop."
-        ],
-        "low": 2152,
-        "high": 2884,
-        "diff": 400
-       },
-       {
-        "stay": "back",
-        "days": 8,
-        "legs": [
-         {
-          "from": "HOU",
-          "to": "SEA",
-          "date": "2026-12-19",
-          "fare": 187,
-          "companion": 5.6,
-          "two": 192.6,
-          "basis": "lowest fare Southwest showed, Dec 2, 7, 8, 10, 12, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-houston-hobby-to-seattle-tacoma"
-         },
-         {
-          "from": "SEA",
-          "to": "HNL",
-          "date": "2026-12-19",
-          "fare": 248,
-          "companion": 5.6,
-          "two": 253.6,
-          "basis": "lowest fare Southwest showed, Dec 2, 3, 15, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-seattle-tacoma-to-honolulu"
-         },
-         {
-          "from": "HNL",
-          "to": "OGG",
-          "date": "2026-12-23",
-          "fare": 58,
-          "companion": 5.6,
-          "two": 63.6,
-          "basis": "lowest fare Southwest showed, Dec 17, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-honolulu-to-kahului"
-         },
-         {
-          "from": "OGG",
-          "to": "LAS",
-          "date": "2026-12-25",
-          "fare": 246,
-          "companion": 5.6,
-          "two": 251.6,
-          "basis": "lowest fare Southwest showed, Dec 3, 9, 10, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-kahului-to-las-vegas"
-         },
-         {
-          "from": "LAS",
-          "to": "HOU",
-          "date": "2026-12-26",
-          "fare": 72,
-          "companion": 5.6,
-          "two": 77.6,
-          "basis": "lowest fare Southwest showed, Dec 1, 2, 3, 10, 17, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-las-vegas-to-houston-hobby"
-         }
-        ],
-        "flights": 839,
-        "hotel": [
-         104,
-         207
-        ],
-        "hub_nights": 1,
-        "gives": [
-         "a night in Las Vegas on the way home, one more day"
-        ],
-        "notes": [
-         "Southwest's Seattle flights to Hawaii connect. Only Houston to Seattle is nonstop.",
-         "Houston and Seattle are nonstop on weekdays only, and Dec 19 is a Saturday."
-        ],
-        "low": 2111,
-        "high": 2854,
-        "diff": 359
-       },
-       {
-        "stay": "both",
-        "days": 9,
-        "legs": [
-         {
-          "from": "HOU",
-          "to": "SEA",
-          "date": "2026-12-18",
-          "fare": 187,
-          "companion": 5.6,
-          "two": 192.6,
-          "basis": "lowest fare Southwest showed, Dec 2, 7, 8, 10, 12, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-houston-hobby-to-seattle-tacoma"
-         },
-         {
-          "from": "SEA",
-          "to": "HNL",
-          "date": "2026-12-19",
-          "fare": 248,
-          "companion": 5.6,
-          "two": 253.6,
-          "basis": "lowest fare Southwest showed, Dec 2, 3, 15, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-seattle-tacoma-to-honolulu"
-         },
-         {
-          "from": "HNL",
-          "to": "OGG",
-          "date": "2026-12-23",
-          "fare": 58,
-          "companion": 5.6,
-          "two": 63.6,
-          "basis": "lowest fare Southwest showed, Dec 17, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-honolulu-to-kahului"
-         },
-         {
-          "from": "OGG",
-          "to": "LAS",
-          "date": "2026-12-25",
-          "fare": 246,
-          "companion": 5.6,
-          "two": 251.6,
-          "basis": "lowest fare Southwest showed, Dec 3, 9, 10, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-kahului-to-las-vegas"
-         },
-         {
-          "from": "LAS",
-          "to": "HOU",
-          "date": "2026-12-26",
-          "fare": 72,
-          "companion": 5.6,
-          "two": 77.6,
-          "basis": "lowest fare Southwest showed, Dec 1, 2, 3, 10, 17, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-las-vegas-to-houston-hobby"
-         }
-        ],
-        "flights": 839,
-        "hotel": [
-         249,
-         444
-        ],
-        "hub_nights": 2,
-        "gives": [
-         "a night in Seattle on the way out, leaving Houston Dec 18",
-         "a night in Las Vegas on the way home, one more day"
-        ],
-        "notes": [
-         "Southwest's Seattle flights to Hawaii connect. Only Houston to Seattle is nonstop."
-        ],
-        "low": 2256,
-        "high": 3091,
-        "diff": 504
-       }
-      ]
-     },
-     {
-      "out": "Seattle",
-      "back": "Seattle",
-      "nonstop": false,
-      "options": [
-       {
-        "stay": "none",
-        "days": 7,
-        "legs": [
-         {
-          "from": "HOU",
-          "to": "SEA",
-          "date": "2026-12-19",
-          "fare": 187,
-          "companion": 5.6,
-          "two": 192.6,
-          "basis": "lowest fare Southwest showed, Dec 2, 7, 8, 10, 12, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-houston-hobby-to-seattle-tacoma"
-         },
-         {
-          "from": "SEA",
-          "to": "HNL",
-          "date": "2026-12-19",
-          "fare": 248,
-          "companion": 5.6,
-          "two": 253.6,
-          "basis": "lowest fare Southwest showed, Dec 2, 3, 15, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-seattle-tacoma-to-honolulu"
-         },
-         {
-          "from": "HNL",
-          "to": "OGG",
-          "date": "2026-12-23",
-          "fare": 58,
-          "companion": 5.6,
-          "two": 63.6,
-          "basis": "lowest fare Southwest showed, Dec 17, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-honolulu-to-kahului"
-         },
-         {
-          "from": "OGG",
-          "to": "SEA",
-          "date": "2026-12-25",
-          "fare": 218,
-          "companion": 5.6,
-          "two": 223.6,
-          "basis": "lowest fare Southwest showed, Dec 2026 (monthly 'From' fare; no date shown)",
-          "source": "https://www.southwest.com/en/flights/flights-from-kahului-to-seattle-tacoma"
-         },
-         {
-          "from": "SEA",
-          "to": "HOU",
-          "date": "2026-12-25",
-          "fare": 182,
-          "companion": 5.6,
-          "two": 187.6,
-          "basis": "lowest fare Southwest showed, Dec 2, 15, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-seattle-tacoma-to-houston-hobby"
-         }
-        ],
-        "flights": 921,
-        "hotel": [
-         0,
-         0
-        ],
-        "hub_nights": 0,
-        "gives": [],
-        "notes": [
-         "Southwest's Seattle flights to Hawaii connect. Only Houston to Seattle is nonstop.",
-         "Houston and Seattle are nonstop on weekdays only, and Dec 19 is a Saturday."
-        ],
-        "low": 2089,
-        "high": 2729,
-        "diff": 337
-       },
-       {
-        "stay": "out",
-        "days": 8,
-        "legs": [
-         {
-          "from": "HOU",
-          "to": "SEA",
-          "date": "2026-12-18",
-          "fare": 187,
-          "companion": 5.6,
-          "two": 192.6,
-          "basis": "lowest fare Southwest showed, Dec 2, 7, 8, 10, 12, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-houston-hobby-to-seattle-tacoma"
-         },
-         {
-          "from": "SEA",
-          "to": "HNL",
-          "date": "2026-12-19",
-          "fare": 248,
-          "companion": 5.6,
-          "two": 253.6,
-          "basis": "lowest fare Southwest showed, Dec 2, 3, 15, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-seattle-tacoma-to-honolulu"
-         },
-         {
-          "from": "HNL",
-          "to": "OGG",
-          "date": "2026-12-23",
-          "fare": 58,
-          "companion": 5.6,
-          "two": 63.6,
-          "basis": "lowest fare Southwest showed, Dec 17, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-honolulu-to-kahului"
-         },
-         {
-          "from": "OGG",
-          "to": "SEA",
-          "date": "2026-12-25",
-          "fare": 218,
-          "companion": 5.6,
-          "two": 223.6,
-          "basis": "lowest fare Southwest showed, Dec 2026 (monthly 'From' fare; no date shown)",
-          "source": "https://www.southwest.com/en/flights/flights-from-kahului-to-seattle-tacoma"
-         },
-         {
-          "from": "SEA",
-          "to": "HOU",
-          "date": "2026-12-25",
-          "fare": 182,
-          "companion": 5.6,
-          "two": 187.6,
-          "basis": "lowest fare Southwest showed, Dec 2, 15, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-seattle-tacoma-to-houston-hobby"
-         }
-        ],
-        "flights": 921,
-        "hotel": [
-         145,
-         237
-        ],
-        "hub_nights": 1,
-        "gives": [
-         "a night in Seattle on the way out, leaving Houston Dec 18"
-        ],
-        "notes": [
-         "Southwest's Seattle flights to Hawaii connect. Only Houston to Seattle is nonstop."
-        ],
-        "low": 2234,
-        "high": 2966,
-        "diff": 482
-       },
-       {
-        "stay": "back",
-        "days": 8,
-        "legs": [
-         {
-          "from": "HOU",
-          "to": "SEA",
-          "date": "2026-12-19",
-          "fare": 187,
-          "companion": 5.6,
-          "two": 192.6,
-          "basis": "lowest fare Southwest showed, Dec 2, 7, 8, 10, 12, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-houston-hobby-to-seattle-tacoma"
-         },
-         {
-          "from": "SEA",
-          "to": "HNL",
-          "date": "2026-12-19",
-          "fare": 248,
-          "companion": 5.6,
-          "two": 253.6,
-          "basis": "lowest fare Southwest showed, Dec 2, 3, 15, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-seattle-tacoma-to-honolulu"
-         },
-         {
-          "from": "HNL",
-          "to": "OGG",
-          "date": "2026-12-23",
-          "fare": 58,
-          "companion": 5.6,
-          "two": 63.6,
-          "basis": "lowest fare Southwest showed, Dec 17, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-honolulu-to-kahului"
-         },
-         {
-          "from": "OGG",
-          "to": "SEA",
-          "date": "2026-12-25",
-          "fare": 218,
-          "companion": 5.6,
-          "two": 223.6,
-          "basis": "lowest fare Southwest showed, Dec 2026 (monthly 'From' fare; no date shown)",
-          "source": "https://www.southwest.com/en/flights/flights-from-kahului-to-seattle-tacoma"
-         },
-         {
-          "from": "SEA",
-          "to": "HOU",
-          "date": "2026-12-26",
-          "fare": 182,
-          "companion": 5.6,
-          "two": 187.6,
-          "basis": "lowest fare Southwest showed, Dec 2, 15, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-seattle-tacoma-to-houston-hobby"
-         }
-        ],
-        "flights": 921,
-        "hotel": [
-         145,
-         237
-        ],
-        "hub_nights": 1,
-        "gives": [
-         "a night in Seattle on the way home, one more day"
-        ],
-        "notes": [
-         "Southwest's Seattle flights to Hawaii connect. Only Houston to Seattle is nonstop.",
-         "Houston and Seattle are nonstop on weekdays only, and Dec 19 is a Saturday.",
-         "Houston and Seattle are nonstop on weekdays only, and Dec 26 is a Saturday."
-        ],
-        "low": 2234,
-        "high": 2966,
-        "diff": 482
-       },
-       {
-        "stay": "both",
-        "days": 9,
-        "legs": [
-         {
-          "from": "HOU",
-          "to": "SEA",
-          "date": "2026-12-18",
-          "fare": 187,
-          "companion": 5.6,
-          "two": 192.6,
-          "basis": "lowest fare Southwest showed, Dec 2, 7, 8, 10, 12, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-houston-hobby-to-seattle-tacoma"
-         },
-         {
-          "from": "SEA",
-          "to": "HNL",
-          "date": "2026-12-19",
-          "fare": 248,
-          "companion": 5.6,
-          "two": 253.6,
-          "basis": "lowest fare Southwest showed, Dec 2, 3, 15, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-seattle-tacoma-to-honolulu"
-         },
-         {
-          "from": "HNL",
-          "to": "OGG",
-          "date": "2026-12-23",
-          "fare": 58,
-          "companion": 5.6,
-          "two": 63.6,
-          "basis": "lowest fare Southwest showed, Dec 17, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-honolulu-to-kahului"
-         },
-         {
-          "from": "OGG",
-          "to": "SEA",
-          "date": "2026-12-25",
-          "fare": 218,
-          "companion": 5.6,
-          "two": 223.6,
-          "basis": "lowest fare Southwest showed, Dec 2026 (monthly 'From' fare; no date shown)",
-          "source": "https://www.southwest.com/en/flights/flights-from-kahului-to-seattle-tacoma"
-         },
-         {
-          "from": "SEA",
-          "to": "HOU",
-          "date": "2026-12-26",
-          "fare": 182,
-          "companion": 5.6,
-          "two": 187.6,
-          "basis": "lowest fare Southwest showed, Dec 2, 15, 2026",
-          "source": "https://www.southwest.com/en/flights/flights-from-seattle-tacoma-to-houston-hobby"
-         }
-        ],
-        "flights": 921,
-        "hotel": [
-         290,
-         474
-        ],
-        "hub_nights": 2,
-        "gives": [
-         "a night in Seattle on the way out, leaving Houston Dec 18",
-         "a night in Seattle on the way home, one more day"
-        ],
-        "notes": [
-         "Southwest's Seattle flights to Hawaii connect. Only Houston to Seattle is nonstop.",
-         "Houston and Seattle are nonstop on weekdays only, and Dec 26 is a Saturday."
-        ],
-        "low": 2379,
-        "high": 3203,
-        "diff": 627
+        "low": 2024,
+        "high": 2870,
+        "diff": 272
        }
       ]
      }
