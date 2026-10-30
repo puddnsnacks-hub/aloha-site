@@ -308,10 +308,10 @@ document.addEventListener('click', (e) => { const a = e.target.closest && e.targ
     const viaName = v => v.out === v.back ? `Through ${v.out}` : `Out through ${v.out}, home through ${v.back}`;
     const stayName = (v, o) => ({ none: 'Same-day connections', out: `A night in ${v.out} going out`, back: `A night in ${v.back} coming home`, both: v.out === v.back ? `A night in ${v.out} each way` : `A night in each city` })[o.stay];
     const vsDiff = d => d > 0 ? `${usd(d)} more than the Houston plan` : d < 0 ? `${usd(-d)} less than the Houston plan` : 'the same as the Houston plan';
-    const optRow = (v, o) => `<li><span>${esc(stayName(v, o))}<span class="leg-basis">${o.legs.length} one-way tickets, flights ${esc(usd(o.flights))}${o.hub_nights ? `, ${o.hub_nights === 1 ? 'hotel' : 'hotels'} ${esc(usd(o.hotel[0]))}–${esc(usd(o.hotel[1]))}` : ''}. ${o.gives.length ? esc(o.gives.map(g => g[0].toUpperCase() + g.slice(1)).join('. ')) + '. ' : ''}About ${esc(vsDiff(o.diff))}.</span></span><span class="num">${esc(usd(o.low))}–${esc(usd(o.high))}</span></li>`;
+    const optRow = (v, o) => `<li><span>${esc(stayName(v, o))}<span class="leg-basis">${o.days} days, ${o.legs.length} one-way tickets, flights ${esc(usd(o.flights))}${o.hub_nights ? `, ${o.hub_nights === 1 ? 'hotel' : 'hotels'} ${esc(usd(o.hotel[0]))}–${esc(usd(o.hotel[1]))}` : ''}. ${o.gives.length ? esc(o.gives.map(g => g[0].toUpperCase() + g.slice(1)).join('. ')) + '. ' : ''}About ${esc(vsDiff(o.diff))}.</span></span><span class="num">${esc(usd(o.low))}–${esc(usd(o.high))}</span></li>`;
     const pick = vs.length && vs[0].options.find(o => o.stay === 'both') || (vs.length && vs[0].options[0]);
     const viaHTML = vs.length ? `<h4 class="sheet-h">Through Vegas or Seattle</h4>
-      <p class="prose">The same ten days, with the long flights split in two. A night in either city comes out of the island nights.</p>
+      <p class="prose">The same trip with the long flights split in two. You still land in Honolulu on Dec 19. A night out leaves Houston on Dec 18, and nothing runs past 10 days.</p>
       ${vs.map(v => `<h5 class="via-h">${esc(viaName(v))} <span class="badge badge--${v.nonstop ? 'go' : 'caution'}">${v.nonstop ? 'Nonstop' : 'Connects'}</span></h5>
       <ul class="price-list">${v.options.map(o => optRow(v, o)).join('')}</ul>
       <p class="caption">${esc([...new Set(v.options.flatMap(o => o.notes))].join(' '))}</p>`).join('')}
@@ -343,13 +343,13 @@ document.addEventListener('click', (e) => { const a = e.target.closest && e.targ
   function renderTrips(d) {
     const bd = body('trips-menu'); if (!bd) return;
     const ts = arr(d && d.trips); if (!ts.length) return pending('trips-menu');
-    bd.innerHTML = `<div class="tm"><p class="tm-head"><span>Ten days</span><span>For two</span></p><ol class="tm-list">${ts.map((t, i) => {
+    bd.innerHTML = `<div class="tm"><p class="tm-head"><span>Honolulu, Dec 19</span><span>For two</span></p><ol class="tm-list">${ts.map((t, i) => {
       const m = modal(tripHTML(t, i + 1));
       return `<li class="tm-row" data-trip="${esc(t.id)}"><button class="tm-item" type="button" ${m} data-trip-open="${esc(t.id)}" aria-label="${esc(`No. ${i + 1}, ${t.name}: ${t.tag}, ${longDate(t.start)} to ${longDate(t.end)}, about ${usd(t.cost.low)} to ${usd(t.cost.high)} for two. Open the day-by-day`)}">
         <span class="tm-top"><span class="tm-n num">${i + 1}</span><span class="tm-name">${esc(t.name)}</span><span class="tm-dots" aria-hidden="true"></span><span class="tm-price num">${esc(usd(t.cost.low))}<span class="tm-to">–${esc(usd(t.cost.high))}</span></span></span>
         <span class="tm-line">${esc(t.line)}</span>
         <span class="tm-recipe">${pour(t)}</span>
-        <span class="tm-meta"><span>${esc(longDate(t.start))} – ${esc(longDate(t.end))}</span>${strength(t.pace_n, t.pace)}${t.flag ? `<span class="tm-flag tm-flag--car">${esc(t.flag)}</span>` : ''}${t.checks.length ? '<span class="tm-flag">Check first</span>' : ''}</span>
+        <span class="tm-meta"><span>${t.length} days · ${esc(longDate(t.start))} – ${esc(longDate(t.end))}</span>${strength(t.pace_n, t.pace)}${t.flag ? `<span class="tm-flag tm-flag--car">${esc(t.flag)}</span>` : ''}${t.checks.length ? '<span class="tm-flag">Check first</span>' : ''}</span>
       </button></li>`; }).join('')}</ol>
       <p class="tm-foot">For two. Every flight is its own one-way ticket, the only way the 2-for-1 applies (the companion pays from $5.60 a flight). Flights, stays and cars, before taxes, fees, food and fun.</p></div>`;
     /* the sheet's island buttons and stop pills need the trip to come back to */

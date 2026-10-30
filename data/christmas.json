@@ -2051,44 +2051,6 @@
    }
   },
   {
-   "id": "fire-down-below",
-   "name": "Fire Down Below",
-   "eve": "Big Island",
-   "day": "Big Island",
-   "eve_day": {
-    "date": "2026-12-24",
-    "title": "Land in Hilo on Christmas Eve",
-    "stops": [
-     "kens-pancakes"
-    ],
-    "note": "A long travel day. Ken's is open until 9."
-   },
-   "xmas_day": {
-    "date": "2026-12-25",
-    "title": "Christmas at the volcano",
-    "stops": [
-     "kilauea-summit",
-     "kilauea-iki",
-     "nahuku",
-     "mauna-ulu-puu-huluhulu"
-    ],
-    "note": "The park stays open on Christmas. Lots can fill by 10 a.m. Hilo has no posted Christmas dinners, so book Ken's or plan a picnic."
-   }
-  },
-  {
-   "id": "waikiki-countdown",
-   "name": "Waikiki Countdown",
-   "eve": null,
-   "day": "Maui",
-   "eve_day": null,
-   "xmas_day": {
-    "date": "2026-12-25",
-    "title": "Land in Kahului on Christmas",
-    "stops": [],
-    "note": "A full travel day with a connection. Most Christmas dinners will be done by the time you land."
-   }
-  },
-  {
    "id": "garden-party",
    "name": "Garden Party",
    "eve": "Kauai",
@@ -2113,51 +2075,95 @@
    }
   },
   {
-   "id": "island-hopper",
-   "name": "Island Hopper",
-   "eve": "Oahu",
+   "id": "two-by-sea",
+   "name": "Two by Sea",
+   "eve": "Maui",
    "day": "Maui",
    "eve_day": {
     "date": "2026-12-24",
     "title": "Christmas Eve",
     "stops": [
-     "diamond-head",
-     "ono-seafood",
-     "four-seasons-oahu-christmas"
+     "makena-big-beach",
+     "hotel-wailea-christmas"
     ],
-    "note": "Ko Olina's Christmas Eve buffet runs 5 to 9. Book through the concierge. Diamond Head reservations release 30 days ahead (Nov 24)."
+    "note": "Hotel Wailea's five courses. Book it now."
    },
    "xmas_day": {
     "date": "2026-12-25",
-    "title": "Christmas Day, fly to Maui",
+    "title": "Christmas Day",
     "stops": [
-     "mamas-fish-house"
+     "montage-kapalua-cane-canoe-christmas"
     ],
-    "note": "Fly early. Mama's is ten minutes from Paia, if it opens on Christmas and you can get a table."
+    "note": "Kapalua is about an hour's drive from Wailea."
    }
   },
   {
-   "id": "two-by-sea",
-   "name": "Two by Sea",
-   "eve": "Oahu",
-   "day": "Oahu",
+   "id": "fire-down-below",
+   "name": "Fire Down Below",
+   "eve": "Big Island",
+   "day": "Big Island",
    "eve_day": {
     "date": "2026-12-24",
-    "title": "Fly to Honolulu for Christmas Eve",
+    "title": "Christmas Eve",
     "stops": [
-     "hau-tree-kaimana-christmas"
+     "kiholo-bay",
+     "outrigger-kona-christmas-eve-buffet"
     ],
-    "note": "Christmas Eve dinner on the sand at Kaimana Beach, from 4."
+    "note": "Live Hawaiian music at Don's Mai Tai Bar, Thursdays 5 to 7."
    },
    "xmas_day": {
     "date": "2026-12-25",
-    "title": "Christmas in Waikiki",
+    "title": "Christmas on the Kona coast",
     "stops": [
-     "international-market-place-dons-treehouse",
-     "royal-hawaiian-mai-tai-bar",
-     "halekulani-house-without-a-key-christmas"
+     "huggos-christmas-day"
     ],
-    "note": "Diamond Head and Ala Moana close today."
+    "note": "Huggo's Christmas menu starts at 3."
+   }
+  },
+  {
+   "id": "island-hopper",
+   "name": "Island Hopper",
+   "eve": "Big Island",
+   "day": "Big Island",
+   "eve_day": {
+    "date": "2026-12-24",
+    "title": "Christmas Eve, fly to Kona",
+    "stops": [
+     "royal-kona-dons-mai-tai-bar",
+     "outrigger-kona-christmas-eve-buffet"
+    ],
+    "note": "Live Hawaiian music at Don's Mai Tai Bar, Thursdays 5 to 7."
+   },
+   "xmas_day": {
+    "date": "2026-12-25",
+    "title": "Christmas at the volcano",
+    "stops": [
+     "kilauea-summit",
+     "kilauea-iki",
+     "nahuku"
+    ],
+    "note": "The park stays open on Christmas."
+   }
+  },
+  {
+   "id": "short-pour",
+   "name": "The Short Pour",
+   "eve": "Maui",
+   "day": null,
+   "eve_day": {
+    "date": "2026-12-24",
+    "title": "Christmas Eve",
+    "stops": [
+     "iao-valley",
+     "hotel-wailea-christmas"
+    ],
+    "note": "Hotel Wailea's five courses. Book it now."
+   },
+   "xmas_day": {
+    "date": "2026-12-25",
+    "title": "Fly home on Christmas",
+    "stops": [],
+    "note": "Holiday flights can fill. Book early."
    }
   }
  ]

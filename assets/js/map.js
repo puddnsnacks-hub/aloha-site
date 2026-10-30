@@ -5,7 +5,7 @@ WSP.map = (function () {
   const CATS = {
     'tiki':    { label: 'Tiki',         glyph: 'T' },
     'xmas':    { label: 'Christmas',    glyph: '✶' },
-    'luau':    { label: 'Luaus and New Year\'s', glyph: 'L' },
+    'luau':    { label: 'Luaus', glyph: 'L' },
     'music':   { label: 'Music',        glyph: '♫' },
     'food':    { label: 'Food',         glyph: 'F' },
     'nature':  { label: 'Nature',       glyph: 'N' },
