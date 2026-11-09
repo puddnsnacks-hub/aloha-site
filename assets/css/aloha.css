@@ -490,3 +490,9 @@ a.src, .src-list a, .src { font-size: 16px !important; min-height: 32px; line-he
 .kw-sources li { font: 400 15px/1.45 var(--pds-font-sans); word-break: break-all; }
 .kw-sources a { min-height: 32px; line-height: 32px; }
 @media (max-width: 480px) { .kw-dl { grid-template-columns: minmax(0, 1fr); gap: 2px; } .kw-dl dd { margin-bottom: 6px; } .kw { padding: 12px; } }
+
+/* ---------- Kauaʻi, Christmas week: its own chapter at the top (Snacks, Nov 8) ---------- */
+.scene[data-chapter="kauai"] { --ground: var(--wsp-green-50); --c-title: var(--wsp-paper-5); --c-shadow: var(--wsp-pink-60);
+  --c-w1: var(--wsp-pink-60); --c-w1-ink: var(--wsp-paper-5); --c-w2: var(--wsp-ink-90); --c-w2-ink: var(--wsp-paper-5); }
+#scene-kauai { --lab-ink: var(--wsp-green-60); clip-path: polygon(0 var(--c), 100% 0, 100% calc(100% - var(--c) * 1.1), 0 calc(100% - var(--c) * .3)); }
+:root { --chip-kauai: var(--wsp-green-50); }
