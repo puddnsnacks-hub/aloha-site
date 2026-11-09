@@ -22,7 +22,7 @@
    "island": "Kauai",
    "display": "Kauaʻi",
    "verdict": "caution",
-   "text": "A small-town Christmas. The luau with a 21-and-over ticket on Christmas Eve is the night out, and Christmas Day is a plantation-house dinner."
+   "text": "A small-town Christmas, and a storm-scarred one this year: Poipu's Sheraton and The Beach House are closed. Merriman's and 1 Hotel Hanalei Bay have posted this year's dinners, the Thursday luau on Kalapaki Bay is the Christmas Eve night out, and Dec 23 to 27 is laid out day by day below."
   }
  ],
  "cards": {
@@ -1194,18 +1194,18 @@
     "lat": 22.2206616,
     "lng": -159.4972212,
     "blurb": "Christmas Eve dinner and a Christmas Day buffet in Princeville, looking out on Hanalei Bay.",
-    "check": "This year's menu and price aren't posted yet. Last year's are shown.",
+    "check": "Posted for this year. The Christmas Eve pages disagree on plated or buffet, so ask.",
     "status": "open",
     "order": "",
     "order_label": "",
     "hours": "",
-    "price": "",
+    "price": "Christmas Eve $185 an adult, $85 for ages 5 to 12, plus tax and tip. Christmas Day isn't priced yet",
     "age": "",
     "difficulty": "",
     "distance": "",
-    "reservation": "Call 808-826-9644",
+    "reservation": "Reservations 833-623-2111, hotel 808-826-9644",
     "dates": [],
-    "time": "Last year: Christmas Eve dinner 5:30 to 9 p.m., Christmas Day buffet 3 to 9 p.m.",
+    "time": "Christmas Eve 5 to 9 p.m. (bar to 10), Christmas Day 12:30 to 8 p.m.",
     "website": "https://1hotels.com/hanalei-bay/do/events/christmas-eve-dinner-at-1-kitchen",
     "donn": false,
     "sources": [
@@ -2026,6 +2026,1854 @@
   "https://www.polynesia.com/faq/hours-of-operation",
   "https://www.suite-paradise.com/blog/holidays/how-celebrate-christmas-kauai"
  ],
+ "kauai_week": {
+  "checked_on": "2026-11-08",
+  "intro": "Five days on Kauaʻi, Wednesday to Sunday, with every luau, holiday dinner, brunch, light show and market we could find, and what each kitchen is serving. Nothing is guessed: Confirmed means a 2026 page names the date, Likely means last year's pattern or a weekly schedule nobody could see on sale yet, and Not confirmed means call. Most places hadn't posted Christmas by Nov 8.",
+  "status": {
+   "confirmed": "Confirmed",
+   "likely": "Likely",
+   "unconfirmed": "Not confirmed",
+   "closed": "Closed"
+  },
+  "kinds": [
+   {
+    "id": "dinner",
+    "label": "Dinners"
+   },
+   {
+    "id": "brunch",
+    "label": "Brunch and buffets"
+   },
+   {
+    "id": "luau",
+    "label": "Luaus and shows"
+   },
+   {
+    "id": "event",
+    "label": "Lights, Santa and markets"
+   },
+   {
+    "id": "open",
+    "label": "Open as usual, or ask"
+   }
+  ],
+  "days": [
+   {
+    "date": "2026-12-23",
+    "label": "Wed 23"
+   },
+   {
+    "date": "2026-12-24",
+    "label": "Thu 24"
+   },
+   {
+    "date": "2026-12-25",
+    "label": "Fri 25"
+   },
+   {
+    "date": "2026-12-26",
+    "label": "Sat 26"
+   },
+   {
+    "date": "2026-12-27",
+    "label": "Sun 27"
+   }
+  ],
+  "hurricane": {
+   "text": "Hurricane Lowell hit Kauaʻi on Sept 8, 2026, and the south shore took the worst of it. The Sheraton Kauai Resort in Poipu flooded and is closed with no reopening date, RumFire with it, and The Beach House is boarded up. Kilohana Plantation was only partly reopened in late October. Most of the island is open, with fewer staff and shorter hours, so confirm every venue by phone before counting on it.",
+   "sources": [
+    "https://www.civilbeat.org/2026/09/hurricane-lowell-hit-kauai-hard-but-worst-fears-averted/",
+    "https://hawaiisbesttravel.com/kauai-travel-conditions/",
+    "https://www.hawaiinewsnow.com/2026/10/02/poipu-resort-recovery-major-resort-vacation-rentals-face-extensive-damage-hurricane-lowell/",
+    "https://beatofhawaii.com/poipu-visitors-are-finding-recovery-and-devastation-side-by-side/",
+    "https://www.thegardenisland.com/2026/10/20/business/hta-seeks-tourism-emergency-declaration-after-lowell-takes-a-toll/",
+    "https://www.staradvertiser.com/2026/10/30/hawaii-news/hurricane-fallout-batters-kauai-tourism-weighs-on-statewide-visitor-numbers/",
+    "https://www.kauai.gov/Government/Departments-Agencies/Parks-Recreation"
+   ]
+  },
+  "items": [
+   {
+    "id": "kw-merrimans",
+    "name": "Merriman's Kauaʻi",
+    "kind": "dinner",
+    "area": "Poipu",
+    "address": "2829 Ala Kalanikaumaka St #42, Koloa (The Shops at Kukuiula)",
+    "lat": null,
+    "lng": null,
+    "place": "",
+    "tel": "tel:+18087428385",
+    "phone": "808-742-8385",
+    "book": "https://www.opentable.com/r/merrimans-kauai-koloa",
+    "site": "https://www.merrimanshawaii.com/location/kauai/",
+    "time": "Both nights. Seating times aren't posted",
+    "price": "$120 a person, three courses, plus tax and tip. Child price not posted",
+    "blurb": "The only Christmas Eve and Christmas Day dinner on Kauaʻi with this year's price posted: a plated three-course prix fixe both nights at Peter Merriman's room in the Kukuiula shops. Tables are held 15 minutes, seatings run two hours, and a cancellation inside 48 hours costs $25 a person. Parties of seven or more call.",
+    "menu": "Not posted. OpenTable says the menus go up at merrimanshawaii.com in early November, and they weren't there on Nov 8. Last year's Christmas Day entrees included roasted Chateaubriand of Hawaii Island beef and Moroccan-spiced Kona kampachi with clams. The restaurant's 2026 Thanksgiving prix fixe shows the format: one starter (hapa poke, kalua pork and Maui onion quesadilla, Caesar, beet salad, lobster salad for $10 more), one main (turkey, macadamia-crusted Kona kampachi, mahi mahi and shrimp, chateaubriand, Hanalei taro falafel, lobster pot pie for $15 more), one dessert, at $120 an adult and $45 for keiki 10 and under.",
+    "dietary": "On the Thanksgiving menu the taro falafel was the meatless main and several dishes were marked gluten-free. A separate keiki menu exists.",
+    "check": "The Christmas dishes aren't posted yet. Book the date now and read the menu when it lands.",
+    "basis": "2026 OpenTable listings for Dec 24 and Dec 25",
+    "on": [
+     {
+      "date": "2026-12-24",
+      "status": "confirmed",
+      "note": "Christmas Eve Holiday Menu, Dec 24, 2026, on OpenTable."
+     },
+     {
+      "date": "2026-12-25",
+      "status": "confirmed",
+      "note": "Christmas Day Holiday Menu, Dec 25, 2026, on OpenTable."
+     }
+    ],
+    "sources": [
+     "https://www.opentable.com/r/merrimans-kauai-koloa",
+     "https://opentable.co.th/r/merrimans-kauai-koloa",
+     "https://www.merrimanshawaii.com/location/kauai/",
+     "https://merrimanshawaii.com/poipu",
+     "https://spectrumlocalnews.com/hi/hawaii/news/2025/12/16/enjoy-no-fuss-holiday-dining-with-these-festive-options"
+    ]
+   },
+   {
+    "id": "kw-1kitchen-eve",
+    "name": "Christmas Eve at 1 Kitchen, 1 Hotel Hanalei Bay",
+    "kind": "dinner",
+    "area": "Princeville",
+    "address": "5520 Ka Haku Rd, Princeville",
+    "lat": 22.2206616,
+    "lng": -159.4972212,
+    "place": "1-hotel-hanalei-christmas",
+    "tel": "tel:+18336232111",
+    "phone": "833-623-2111",
+    "book": "https://sevn.ly/xxOokhSx",
+    "site": "https://1hotels.com/hanalei-bay/do/events/christmas-eve-dinner-at-1-kitchen",
+    "time": "Food 5 to 9 p.m., bar until 10 p.m.",
+    "price": "$185 an adult, $85 for keiki 5 to 12, plus tax and tip. Ages 4 and under free with a paying adult. Parties of eight or more pay a 20 percent service charge",
+    "blurb": "The grown-up Christmas Eve on the North Shore, in the old St. Regis above Hanalei Bay. The hotel reopened Sept 28 after the hurricane with no structural damage.",
+    "menu": "Chilled seafood: oysters, shrimp, king crab, mussels, sushi and sashimi. Hot: lobster mango bisque, seared ono, braised kalua pork, potato gratin, ulu and kalo mash, butternut squash with vegan chorizo, roasted eggplant. Dim sum and a build-your-own noodle shop. Terrace grill: prawn and huli huli chicken skewers. Carving board: pineapple-brined turkey, bourbon-rubbed striploin, lilikoi-glazed pork loin. Salad bar: Caprese, kale Caesar, Nicoise, green papaya. Holiday sweets.",
+    "dietary": "Dishes carry vegan, vegetarian, dairy-free, gluten-free and nut-free labels. A Keiki Corner has fruit skewers, sliders, mac and cheese, tater tots, chicken fingers and cookies.",
+    "check": "The restaurant page calls it a hybrid buffet and the event page describes plated entrees, so ask which it is. Whether non-guests can book isn't stated.",
+    "basis": "2026 event and restaurant pages",
+    "on": [
+     {
+      "date": "2026-12-24",
+      "status": "confirmed",
+      "note": "The event page says Thursday, Dec 24, which is this year's calendar, and the site is dated 2026."
+     }
+    ],
+    "sources": [
+     "https://1hotels.com/hanalei-bay/do/events/christmas-eve-dinner-at-1-kitchen",
+     "https://www.1hotels.com/hanalei-bay/taste/1-kitchen",
+     "https://1hotels.com/hanalei-bay/tis-the-festive-season-at-hanalei",
+     "https://www.thegardenisland.com/?p=425496"
+    ]
+   },
+   {
+    "id": "kw-1kitchen-day",
+    "name": "Christmas Day at 1 Kitchen, 1 Hotel Hanalei Bay",
+    "kind": "brunch",
+    "area": "Princeville",
+    "address": "5520 Ka Haku Rd, Princeville",
+    "lat": 22.2206616,
+    "lng": -159.4972212,
+    "place": "1-hotel-hanalei-christmas",
+    "tel": "tel:+18336232111",
+    "phone": "833-623-2111",
+    "book": "https://sevn.ly/xUQeMQEi",
+    "site": "https://1hotels.com/hanalei-bay/do/events/christmas-day-at-1-kitchen",
+    "time": "12:30 to 8 p.m.",
+    "price": "Not posted. Christmas Eve is $185 and the Thanksgiving buffet is $185, so plan on that range",
+    "blurb": "An all-afternoon Christmas buffet over the bay. Kids 4 and under eat free with a paying adult.",
+    "menu": "Only the categories are posted: fresh seafood, carving stations, locally inspired dishes, brunch favorites, seasonal sides, desserts and holiday sweets. No dishes are named yet.",
+    "dietary": "Not stated for this event. The restaurant's buffets run a Keiki Corner.",
+    "check": "Ask the price and whether non-guests can book.",
+    "basis": "2026 event page",
+    "on": [
+     {
+      "date": "2026-12-25",
+      "status": "confirmed",
+      "note": "The event page says Friday, Dec 25, 12:30 to 8 p.m."
+     }
+    ],
+    "sources": [
+     "https://1hotels.com/hanalei-bay/do/events/christmas-day-at-1-kitchen",
+     "https://www.1hotels.com/hanalei-bay/taste/1-kitchen",
+     "https://1hotels.com/hanalei-bay/tis-the-festive-season-at-hanalei"
+    ]
+   },
+   {
+    "id": "kw-sheraton-coconut-brunch",
+    "name": "Christmas brunch at Daybreak, Sheraton Kauai Coconut Beach",
+    "kind": "brunch",
+    "area": "Kapaa",
+    "address": "650 Aleka Loop, Kapaa",
+    "lat": null,
+    "lng": null,
+    "place": "",
+    "tel": "tel:+18088223455",
+    "phone": "808-822-3455",
+    "book": "https://www.opentable.com/restaurant/profile/1203928",
+    "site": "https://www.marriott.com/en-us/hotels/lihsk-sheraton-kauai-coconut-beach-resort/experiences/holidays",
+    "time": "Christmas Day. Hours aren't posted; breakfast there normally runs 6 to 10 a.m.",
+    "price": "$45 to $89 a person. The split isn't explained; the same room's Thanksgiving was $89 an adult and $45 for ages 5 to 12",
+    "blurb": "A Christmas Day brunch buffet on the Coconut Coast, booked through OpenTable for parties of up to eight.",
+    "menu": "Fresh seafood station, a prime rib and roasted lamb carving station, made-to-order crepes, traditional breakfast favorites, holiday sweets.",
+    "dietary": "The restaurant lists gluten-free and vegan options in general and calls itself family-friendly. Nothing specific to the brunch is posted.",
+    "check": "Marriott's own holiday page says holiday offerings aren't available yet, so the OpenTable listing is the better source. Call to confirm, and ask about Christmas Eve.",
+    "basis": "2026 OpenTable listing",
+    "on": [
+     {
+      "date": "2026-12-25",
+      "status": "confirmed",
+      "note": "OpenTable lists it for Dec 25, 2026 only."
+     }
+    ],
+    "sources": [
+     "https://www.opentable.com/restaurant/profile/1203928",
+     "https://www.marriott.com/en-us/hotels/lihsk-sheraton-kauai-coconut-beach-resort/experiences/holidays"
+    ]
+   },
+   {
+    "id": "kw-naupaka-eve",
+    "name": "Christmas Eve at Naupaka Terrace, Outrigger Kauai Beach Resort",
+    "kind": "dinner",
+    "area": "Lihue",
+    "address": "4331 Kauai Beach Dr, Lihue",
+    "lat": null,
+    "lng": null,
+    "place": "",
+    "tel": "tel:+18082451955",
+    "phone": "808-245-1955",
+    "book": "",
+    "site": "https://event.outrigger.com/outrigger-kauai-beach-resort-spa/events/lihue/christmas-eve-dinner-at-naupaka-terrace",
+    "time": "Last year: 5 to 10 p.m.",
+    "price": "Last year: ordered off the menu, no set price",
+    "blurb": "The resort north of the airport does a Christmas Eve special menu most years. It isn't on OpenTable, so you call: 808-245-1955, extension 5540.",
+    "menu": "Last year's specials, beside the regular dinner menu: smoked lomi lomi salmon salad $16, Portuguese taro stew $16, crab cake won ton with spicy lilikoi sauce $22; braised kalbi short rib $42, char siu tofu with garden vegetables and soba $34, pupu-style prime rib (a 12 oz Kauaʻi salt-rubbed ribeye) $56. In 2024 it was a $65 buffet from 4 to 8 p.m. with shrimp, poke, crab-stuffed salmon, steak and chicken Alfredo.",
+    "dietary": "The char siu tofu was the one meatless main. Nothing is labeled gluten-free. No kids' menu posted.",
+    "check": "This year's menu isn't posted, and 2026 reviews mention renovations. Call before you plan on it.",
+    "basis": "2025 event page; 2024 festive page",
+    "on": [
+     {
+      "date": "2026-12-24",
+      "status": "likely",
+      "note": "Ran on Dec 24 in 2024 and 2025. Nothing posted for 2026."
+     }
+    ],
+    "sources": [
+     "https://event.outrigger.com/outrigger-kauai-beach-resort-spa/events/lihue/christmas-eve-dinner-at-naupaka-terrace",
+     "https://www.outrigger.com/app/kbr/activities/festive",
+     "https://www.outrigger.com/hawaii/kauai/outrigger-kauai-beach-resort-spa/food--drink",
+     "https://www.opentable.com/naupaka-terrace-lihue"
+    ]
+   },
+   {
+    "id": "kw-naupaka-brunch",
+    "name": "Christmas brunch buffet at Naupaka Terrace, Outrigger Kauai Beach Resort",
+    "kind": "brunch",
+    "area": "Lihue",
+    "address": "4331 Kauai Beach Dr, Lihue",
+    "lat": null,
+    "lng": null,
+    "place": "",
+    "tel": "tel:+18082451955",
+    "phone": "808-245-1955",
+    "book": "",
+    "site": "https://event.outrigger.com/outrigger-kauai-beach-resort-spa/events/lihue/christmas-brunch-buffet-at-naupaka-terrace",
+    "time": "Last year: 9 a.m. to 1 p.m.",
+    "price": "Last year: $78 an adult, $32 for ages 5 to 12",
+    "blurb": "The island's big Christmas morning buffet, with a lobby of 30-plus decorated trees (last year Dec 1 to Jan 1, 8 a.m. to 9 p.m.). An older write-up had staff caroling at 11 a.m. and a free ukulele lesson at 10 on Christmas morning.",
+    "menu": "Last year: salads (garden greens, Greek orzo, tropical fruit, crab potato-mac, Italian chopped); chilled seafood (mussels on the half shell, smoked salmon, a poke bar); eggs and omelets to order with chicken sausage and bacon; eggs Benedict, Asian eggplant with tofu, grilled garlic steak, island shrimp tempura, carved meats; rice, pancakes, croissants, muffins; Christmas cookies, mini cupcakes, eggnog and cherry cheesecake, custard tarts, bread pudding with bourbon sauce.",
+    "dietary": "Nothing labeled. The eggplant with tofu, the salads and the egg station cover a vegetarian. Kids pay the reduced price.",
+    "check": "This year's price and hours aren't posted. Call 808-245-1955, extension 5540.",
+    "basis": "2025 event page",
+    "on": [
+     {
+      "date": "2026-12-25",
+      "status": "likely",
+      "note": "Ran on Dec 25 in 2025 (and a breakfast buffet in 2024 and 2023). Nothing posted for 2026."
+     }
+    ],
+    "sources": [
+     "https://event.outrigger.com/outrigger-kauai-beach-resort-spa/events/lihue/christmas-brunch-buffet-at-naupaka-terrace",
+     "https://event.outrigger.com/outrigger-kauai-beach-resort-spa/events/lihue/laau-kalikimaka--christmas-tree-display",
+     "https://www.outrigger.com/app/kbr/activities/festive",
+     "https://news.outrigger.com/wp-content/uploads/2025/11/NR-OUTRIGGER-Hawaii-Festive-Happenings-112025.pdf",
+     "https://localgetaways.com/hawaii/kauai-puts-captivating-spin-on-christmas-traditions"
+    ]
+   },
+   {
+    "id": "kw-gaylords",
+    "name": "Christmas Day at Gaylord's, Kilohana Plantation",
+    "kind": "dinner",
+    "area": "Lihue",
+    "address": "3-2087 Kaumualii Hwy, Lihue",
+    "lat": 21.9745792,
+    "lng": -159.3753256,
+    "place": "gaylords-kilohana-christmas",
+    "tel": "tel:+18082459593",
+    "phone": "808-245-9593",
+    "book": "",
+    "site": "https://www.kilohanakauai.com/christmas-menu",
+    "time": "Last year: noon to 8 p.m., two-hour seatings",
+    "price": "Last year: entrees $48 to $70, keiki three courses $35",
+    "blurb": "Christmas dinner in the 1935 plantation house outside Lihue, each diner picking a soup or salad, a starter, an entree and a dessert off a holiday menu. The same estate runs Luau Kalamaku. A 20 percent tip goes on parties of six, and cards carry a 2 percent surcharge.",
+    "menu": "Last year: cream of mushroom soup with truffle oil or arugula salad; beef tenderloin carpaccio or shrimp Frangelico; fresh catch Oscar $65, seared Hokkaido scallops $70, braised oxtail $65, herb-crusted prime rib $65, surf and turf at market price, vegetable stack $58, portobello linguine $48 (add lobster $45, tiger shrimp $15, scallop $8); taro and guava bread pudding with eggnog creme anglaise, or blueberry or lilikoi cheesecake. Keiki 12 and under: chicken fingers or pasta, $21 a la carte or $35 for three courses. No substitutions.",
+    "dietary": "The vegetable stack and the portobello linguine are the vegetarian mains. Gluten-free isn't marked on the Christmas menu, though the Thanksgiving menu carries GF, DF, NF and V codes.",
+    "check": "In late October fewer than a dozen of Kilohana's 140 staff were working and the kitchen was on a limited basis, with a hoped-for full reopening Dec 1. Call before you count on it.",
+    "basis": "2025 Christmas menu page; Oct 20, 2026 news",
+    "on": [
+     {
+      "date": "2026-12-25",
+      "status": "likely",
+      "note": "The posted Christmas menu is last year's. Kilohana was only partly reopened in late October."
+     },
+     {
+      "date": "2026-12-27",
+      "status": "closed",
+      "note": "Gaylord's is closed on Sundays."
+     }
+    ],
+    "sources": [
+     "https://www.kilohanakauai.com/christmas-menu",
+     "https://kilohanakauai.com/gaylords-restaurant/",
+     "https://www.kilohanakauai.com/plantation-house-gaylords-thanksgiving-menu",
+     "https://www.thegardenisland.com/2026/10/20/business/hta-seeks-tourism-emergency-declaration-after-lowell-takes-a-toll/"
+    ]
+   },
+   {
+    "id": "kw-grand-hyatt-togo",
+    "name": "Grand Hyatt Kauaʻi: Christmas Day meal to go",
+    "kind": "dinner",
+    "area": "Poipu",
+    "address": "1571 Poipu Rd, Koloa",
+    "lat": 21.8757149,
+    "lng": -159.4398149,
+    "place": "grand-hyatt-kauai-christmas",
+    "tel": "tel:+18087421234",
+    "phone": "808-742-1234",
+    "book": "",
+    "site": "https://www.hyatt.com/grand-hyatt/en-US/kauai-grand-hyatt-kauai-resort-and-spa/dining",
+    "time": "Last year: pickup noon to 5 p.m. at the Group Entrance",
+    "price": "Last year: $149 for four, tax and tip included",
+    "blurb": "Poipu's biggest resort posted no dine-in Christmas menu last year, only a prime rib dinner to carry back to a condo, open to residents and visitors. Its Ilima Terrace page talks about holiday buffets in general and lists only Thanksgiving. The resort came through the hurricane without reported damage.",
+    "menu": "Last year's meal to go: an 8 oz prime rib a person, family-style mashed potatoes, green beans and roasted vegetables, garden greens with lilikoi dressing, dinner rolls, four slices of sweet potato pie. Order at 808-742-1234, extension 54. For scale, the 2025 Thanksgiving buffet at Ilima Terrace was $129 an adult and $64.50 for keiki, with prime rib, sushi and dim sum.",
+    "dietary": "Nothing vegetarian, gluten-free or child-sized was offered with the meal to go.",
+    "check": "Ask whether Tidepools or Ilima Terrace will seat Christmas Eve or Christmas Day this year, and whether the meal to go is back.",
+    "basis": "2025 news; 2026 dining and OpenTable pages show no holiday menu",
+    "on": [
+     {
+      "date": "2026-12-24",
+      "status": "unconfirmed",
+      "note": "No Christmas Eve dinner is posted at Tidepools or Ilima Terrace. Regular dinner at Tidepools runs 5 to 9 p.m."
+     },
+     {
+      "date": "2026-12-25",
+      "status": "likely",
+      "note": "Last year the only Christmas Day offer was a meal to go; nothing is posted for 2026."
+     }
+    ],
+    "sources": [
+     "https://kauainownews.com/2025/12/24/let-the-culinary-team-at-grand-hyatt-kauai-take-care-of-your-holiday-meal/",
+     "https://www.hyatt.com/grand-hyatt/en-US/kauai-grand-hyatt-kauai-resort-and-spa/dining",
+     "https://opentable.co.uk/ilima-terrace-grand-hyatt-kauai",
+     "https://www.opentable.com/tidepools-grand-hyatt-kauai",
+     "https://kauainownews.com/2025/11/24/grand-hyatt-kauai-hosts-festive-thanksgiving-buffet-annual-tree-lighting-ceremony/",
+     "https://www.suite-paradise.com/node/3581"
+    ]
+   },
+   {
+    "id": "kw-smiths-luau",
+    "name": "Smith Family Garden Luau",
+    "kind": "luau",
+    "area": "Wailua",
+    "address": "3-5971 Kuhio Hwy, Kapaa (Wailua River State Park)",
+    "lat": 22.0472188,
+    "lng": -159.3443387,
+    "place": "",
+    "tel": "tel:+18088216895",
+    "phone": "808-821-6895",
+    "book": "https://www.smithskauai.com/garden-luau/buy-tickets-smiths-kauai-luau/",
+    "site": "https://www.smithskauai.com/garden-luau/",
+    "time": "Nov to Feb: check in 4:45 p.m., last tram 5:15, imu ceremony 5:45, feast about 6:15, show 7:45",
+    "price": "$150 an adult through Dec 31 (regular $170), $45 for ages 7 to 13, $35 for ages 3 to 6, under 3 free. Show only $30 and $15. Plus $5 a person park entry and $10 parking, by card at the gate. Princeville van $25 a person",
+    "blurb": "The family-run garden luau on the Wailua River: a shell lei, a tram through the gardens, the imu ceremony, the buffet with an open bar, then the Rhythm of Aloha show in the Pele Amphitheater with its erupting volcano, hula, Tahitian drums and Samoan fire knife. It reopened after the hurricane by late September and sells out weeks ahead.",
+    "menu": "Kalua pig, sweet and sour mahimahi, chicken adobo, teriyaki beef. Green salad, mac salad, namasu, lomilomi salmon, Hanalei poi, breads, purple sweet potatoes, fried rice, mashed potatoes, stir-fried vegetables. Coconut cake, haupia, imu-baked rice pudding, fruit jello, fresh pineapple and papaya. Open bar: mai tai punch, Kona Longboard, chardonnay and cabernet, a liquor bar, sodas, juices and fruit punch.",
+    "dietary": "No vegetarian entree; a vegetarian builds a plate from the sides. Vegan-marked: green salad, poi, purple sweet potatoes, haupia. Gluten-free-marked: kalua pig, namasu, lomilomi salmon, mashed potatoes, stir-fried vegetables, haupia. No kids' menu; kids eat the buffet at their ticket price.",
+    "check": "The online calendar wouldn't load, so Dec 23 to 27 availability isn't confirmed. Call, and ask which nights run Christmas week.",
+    "basis": "2026 official prices and times; 2026 weekly pattern from third-party guides",
+    "on": [
+     {
+      "date": "2026-12-23",
+      "status": "likely",
+      "note": "Wednesday is a regular night in every 2026 schedule."
+     },
+     {
+      "date": "2026-12-24",
+      "status": "unconfirmed",
+      "note": "Only one 2026 source lists Thursdays; two others say Monday, Wednesday and Friday."
+     },
+     {
+      "date": "2026-12-25",
+      "status": "likely",
+      "note": "Friday is a regular night, and the official site posts no Christmas closure."
+     }
+    ],
+    "sources": [
+     "https://www.smithskauai.com/garden-luau/",
+     "https://www.smithskauai.com/garden-luau/buy-tickets-smiths-kauai-luau/",
+     "https://smithskauai.com/?p=6",
+     "https://www.lovebigisland.com/?p=16483",
+     "https://www.hawaiidiscount.com/kauai/luaus/smiths.htm",
+     "https://hawaiitravelwithkids.com/best-kauai-luau-options/"
+    ]
+   },
+   {
+    "id": "kw-luau-kalamaku",
+    "name": "Luau Kalamaku, Kilohana Plantation",
+    "kind": "luau",
+    "area": "Lihue",
+    "address": "3-2087 Kaumualii Hwy, Lihue",
+    "lat": 21.971184,
+    "lng": -159.3911578,
+    "place": "",
+    "tel": "tel:+18776221780",
+    "phone": "877-622-1780",
+    "book": "https://www.luaukalamaku.com",
+    "site": "https://www.luaukalamaku.com/tour/luau-kalamaku-package",
+    "time": "Check in 4:45 to 5:30 p.m., open bar from 5, imu about 6:10, dinner 6:30 to 7:30, show 7:30 to 8:15. Manor House guests check in by 5",
+    "price": "Before tax: Hawaiian $181.26 an adult, $104.94 teen, $62.54 child 3 to 12. Silver (raised preferred seating) $200.34, $122.96, $79.50. Gold (front rows) $222.60, $140.98, $97.52. Manor House (a four-course dinner at Gaylord's plus premier seats) $262.88, ages 2 and up. Under 2 free. The plantation train adds about $32",
+    "blurb": "The theatrical luau in the round at Kilohana: a craft fair and open bar, the imu ceremony, an all-you-can-eat buffet, then a Tahiti-to-Hawaii voyage story told in hula, Tahitian drums, fire poi and fire knife. It was taking bookings again by late September and shows sell out in peak season.",
+    "menu": "Potato mac salad, tofu salad, fruit, Kauaʻi green salad. Imu kalua pork, teriyaki chicken, seasonal fish, vegetable chow mein, garlic vegetables, jasmine rice, poi, sweet rolls. Banana cream tart, pineapple upside-down cake, haupia, coffee. Open bar: tropical and mixed drinks, local beer, wine, soft drinks.",
+    "dietary": "Dishes are labeled vegan, vegetarian or gluten-free. No kids' menu; reduced child prices.",
+    "check": "The booking calendar wouldn't load, and the weekday sources disagree. Call to confirm which of Dec 24 and 25 runs.",
+    "basis": "2026 official menu and package pages; weekday pattern from the official site and 2026 guides",
+    "on": [
+     {
+      "date": "2026-12-24",
+      "status": "unconfirmed",
+      "note": "The official homepage says Tuesday and Thursday; most other 2026 sources say Tuesday and Friday."
+     },
+     {
+      "date": "2026-12-25",
+      "status": "likely",
+      "note": "Friday per most 2026 sources, though not per the official homepage. Call."
+     }
+    ],
+    "sources": [
+     "https://www.luaukalamaku.com",
+     "https://www.luaukalamaku.com/feast/",
+     "https://www.luaukalamaku.com/tour/luau-kalamaku-package",
+     "https://www.lovebigisland.com/tours/luau-kalamaku-kilohana-plantation/",
+     "https://www.thegardenisland.com/2026/10/20/business/hta-seeks-tourism-emergency-declaration-after-lowell-takes-a-toll/"
+    ]
+   },
+   {
+    "id": "kw-havaiki-nui",
+    "name": "Havaiki Nui Luau, Grand Hyatt Kauaʻi",
+    "kind": "luau",
+    "area": "Poipu",
+    "address": "1571 Poipu Rd, Koloa",
+    "lat": 21.8757149,
+    "lng": -159.4398149,
+    "place": "havaiki-nui-grand-hyatt-kauai",
+    "tel": "tel:+18082406320",
+    "phone": "808-240-6320",
+    "book": "https://fareharbor.com/embeds/book/grandhyattkauailuau/",
+    "site": "https://grandhyattkauailuau.com/luau-buffet-menu/",
+    "time": "Check in 5:30 p.m. (Premier 5:15), about two and a half hours",
+    "price": "General $215.33 an adult, $101.86 for ages 3 to 12. Premier $254.08 and $140.60. Under 3 free. The official site says tax and tip are included; confirm at checkout",
+    "blurb": "The Grand Hyatt's Polynesian show on the courtyard lawn (no ocean view; rain moves it to a ballroom): a welcome mai tai and open bar, hula and poi-ball lessons before dinner, a buffet, then dances from Tahiti, Samoa, New Zealand and Hawaii with a fire-knife finale. Premier adds a first-row table, early entry, a premium lei and a pupu platter. Peak season fills one to two weeks ahead.",
+    "menu": "Fruit, Grand Hyatt Farms greens, pancit noodle salad, ahi poke, poi, lomi lomi salmon. Kalua pig, grilled Makaweli New York steaks, huli huli chicken, volcano-spiced local catch with yuzu beurre blanc, Molokai sweet potatoes, rice, wok vegetables, poi rolls. Coconut cream pie, haupia, pineapple upside-down cake, guava mousse cake, bread pudding, Starbucks coffee and Tazo teas. Drinks: welcome mai tai, juices, a full bar with local spirits, beer, signature cocktails, wine and soft drinks.",
+    "dietary": "Nothing is labeled and there is no kids' menu; call 808-742-1234.",
+    "check": "The Tuesday and Saturday schedule puts only Dec 26 in the window. Ask whether a Christmas Eve or Christmas Day show is added this year, as in 2024.",
+    "basis": "2026 official menu and prices; 2024 holiday menus from a reseller",
+    "on": [
+     {
+      "date": "2026-12-24",
+      "status": "unconfirmed",
+      "note": "Not a regular night in 2026, but in 2024 a Christmas Eve menu (prime rib, Yule logs) was listed."
+     },
+     {
+      "date": "2026-12-25",
+      "status": "unconfirmed",
+      "note": "Not a regular night in 2026, but in 2024 a Christmas Day menu (prime rib and extra desserts) was listed."
+     },
+     {
+      "date": "2026-12-26",
+      "status": "likely",
+      "note": "Saturday is a regular night in the 2026 calendar."
+     }
+    ],
+    "sources": [
+     "https://grandhyattkauailuau.com/luau-buffet-menu/",
+     "https://www.lovebigisland.com/tours/havaiki-nui-luau-grand-hyatt-kauai/",
+     "https://hawaiidiscount.com/kauai/luaus/grand-hyatt-havaiki-nui.htm",
+     "https://hawaii.com/kauai/luau"
+    ]
+   },
+   {
+    "id": "kw-royal-sonesta-luau",
+    "name": "Drums and Dances of Polynesia, Royal Sonesta Kauaʻi",
+    "kind": "luau",
+    "area": "Lihue",
+    "address": "3610 Rice St, Lihue (Kalapaki Bay)",
+    "lat": 21.961611,
+    "lng": -159.348767,
+    "place": "drums-dances-royal-sonesta-kauai",
+    "tel": "tel:+18082455050",
+    "phone": "808-245-5050",
+    "book": "https://fareharbor.com/embeds/book/royalsonestaluau/items/612858/",
+    "site": "https://kauairesort.sonesta.com/?p=1620",
+    "time": "Lei and photos 5:30 p.m., hula 6, show 7:20 to 8:30. Open seating, first come",
+    "price": "Before about 10.7 percent tax and fees: $180 for ages 21 and up, $140 for 13 to 20, $85 for 5 to 12. Kamaaina and seniors 10 percent off",
+    "blurb": "The Thursday luau on Kalapaki Bay at the old Kauai Marriott: a lei, free lawn photos, a buffet with beer, wine and mai tais, hula and live music from 6, then drumming, dances from across Polynesia, storytelling and fire. The 21-and-over ticket is the Christmas Eve night out, and Santa's canoe lands on this beach earlier the same day.",
+    "menu": "Pipikaula salad, ulu mac salad, a poke bar, whole-roasted smoked pig, mahimahi with lemongrass-kaffir butter, huli huli chicken, poi, sweet rolls with lilikoi butter, haupia cake. Drinks: beer, wine, mai tais and soft drinks.",
+    "dietary": "Vegetarian and gluten-free options aren't mentioned. No kids' menu; ask about under-5 pricing.",
+    "check": "Confirm Dec 24 isn't a blackout date.",
+    "basis": "2026 weekly calendar check by a third-party guide; the resort page",
+    "on": [
+     {
+      "date": "2026-12-24",
+      "status": "likely",
+      "note": "Every show from October to January in a 2026 calendar check was a Thursday. The resort warns of unnamed blackout dates."
+     }
+    ],
+    "sources": [
+     "https://kauairesort.sonesta.com/?p=1620",
+     "https://www.lovebigisland.com/tours/drums-dances-of-polynesia-royal-sonesta-kauai/",
+     "https://www.sonesta.com/royal-sonesta/hi/lihue/royal-sonesta-kauai-resort-lihue"
+    ]
+   },
+   {
+    "id": "kw-luau-ka-hikina",
+    "name": "Luau Ka Hikina, Sheraton Kauai Coconut Beach",
+    "kind": "luau",
+    "area": "Kapaa",
+    "address": "650 Aleka Loop, Kapaa",
+    "lat": null,
+    "lng": null,
+    "place": "",
+    "tel": "tel:+18088223455",
+    "phone": "808-822-3455",
+    "book": "https://www.resortpass.com/experiences/event-3232267",
+    "site": "https://www.lovebigisland.com/tours/luau-ka-hikina-sheraton-coconut-beach/",
+    "time": "Check in 5:15 p.m., seating 5:30, about two and a half to three hours",
+    "price": "$189 to $194 an adult, $89 to $131 for children depending on age and seller. One general-seating tier",
+    "blurb": "The Coconut Coast's oceanfront luau: a shell lei and a mai tai or punch, a hosted bar until showtime, a buffet, then hula by kumu hula Leilani Rivera Low with Tahitian, Maori, Tongan and Samoan dance and a fire-knife close.",
+    "menu": "Kalua pig, huli huli chicken, teriyaki beef, mahi mahi luau, rice, Molokai sweet potatoes and vegetables. Greens, lomi lomi salmon, mac salad, cucumber, rolls, poi. Haupia tartlets, pineapple upside-down cake, coconut cake, fruit. Coffee and tea.",
+    "dietary": "One vegetarian curry is mentioned, and a 2026 review mentions gluten-free and dairy-free labels. No kids' menu.",
+    "check": "No official menu page or luau phone line could be reached. Book through the resort.",
+    "basis": "2026 third-party guide citing the resort menu",
+    "on": [
+     {
+      "date": "2026-12-24",
+      "status": "likely",
+      "note": "Tuesday and Thursday are its nights in the 2026 schedule. ResortPass showed Dec 23 to 27 as unavailable, but it showed regular November nights that way too."
+     }
+    ],
+    "sources": [
+     "https://www.lovebigisland.com/tours/luau-ka-hikina-sheraton-coconut-beach/",
+     "https://www.resortpass.com/experiences/event-3232267",
+     "https://hawaii.com/kauai/luau"
+    ]
+   },
+   {
+    "id": "kw-wailua-nui",
+    "name": "Wailua Nui Luau, Hilton Garden Inn Kauaʻi Wailua Bay",
+    "kind": "luau",
+    "area": "Kapaa",
+    "address": "3-5920 Kuhio Hwy, Kapaa",
+    "lat": null,
+    "lng": null,
+    "place": "",
+    "tel": "tel:+18778274852",
+    "phone": "877-827-4852",
+    "book": "https://fareharbor.com/embeds/book/wailuanuiluau/",
+    "site": "https://www.wailuanuiluau.com",
+    "time": "5 p.m. start",
+    "price": "Standard $175 an adult, VIP $200, plus a 6 percent fee. Children 3 to 10 $95 or $110. Under 2 free",
+    "blurb": "The newest luau on the island, opened Dec 2025 at the Hilton on Wailua Bay: a fresh flower lei, an imu ceremony, a buffet with a prime rib carving station, Hawaiian and Polynesian dance, music and storytelling, craft stations, and a fire-knife finale by guest report. It is the only luau on any pattern for Sunday, Dec 27.",
+    "menu": "Island greens, tomato, cucumber and onion, watercress and tofu salad, pineapple, furikake potato-mac salad, lomi lomi salmon, poi. 12-hour prime rib, imu kalua pig, huli huli chicken, seared island catch with ume yuzu beurre blanc, Molokai sweet potatoes, island fried rice, taro and sweet rolls. Coconut creme, haupia, pineapple upside-down cake with Koloa rum. Coffee and teas on the menu; the site promises tropical drinks, and guests report mai tais.",
+    "dietary": "Vegan meals on request with 24 hours' notice. The menu carries allergen notes. No kids' menu.",
+    "check": "Ask what the VIP tier adds beyond seating, and whether drinks are included.",
+    "basis": "2026 official menu PDF and prices; weekday pattern from gohawaii and the 2025 launch coverage",
+    "on": [
+     {
+      "date": "2026-12-25",
+      "status": "likely",
+      "note": "Friday is a regular night (Sunday, Tuesday, Friday)."
+     },
+     {
+      "date": "2026-12-27",
+      "status": "likely",
+      "note": "Sunday is a regular night."
+     }
+    ],
+    "sources": [
+     "https://www.wailuanuiluau.com",
+     "https://www.wailuanuiluau.com/wp-content/themes/wailua-nui-luau/assets/pdf/Wailua-Nui-Menu-Only.pdf",
+     "https://www.gohawaii.com/listing/wailua-nui-l%C5%AB%E2%80%98au/122016",
+     "https://kauainownews.com/?p=79801",
+     "https://www.hilton.com/en/hotels/lihwbgi-hilton-garden-inn-kauai-wailua-bay/"
+    ]
+   },
+   {
+    "id": "kw-ahi-lele",
+    "name": "Ahi Lele Fire Show Dinner, Anaina Hou",
+    "kind": "luau",
+    "area": "Kilauea",
+    "address": "5-2723 Kuhio Hwy, Kilauea (Porter Pavilion)",
+    "lat": null,
+    "lng": null,
+    "place": "",
+    "tel": "tel:+18089777726",
+    "phone": "808-977-7726",
+    "book": "",
+    "site": "https://www.lovebigisland.com/tours/ahi-lele-fire-show-kilauea/",
+    "time": "Happy hour 4 p.m., gates and buffet 5:30 to 6:45, doors close 7:30, about an hour of fire",
+    "price": "Before about 10.7 percent tax and fees: front-row VIP $179 (lei and one drink), second-row VIP $154, third row $140, general $129, child general 3 to 12 $99, a table of five $745. Under 3 free. Drinks cost extra",
+    "blurb": "Not a luau, a North Shore fire show with a paniolo-style buffet under a covered pavilion in Kilauea: live music and hula, then the Coppin Colburn family's fire dances, audience bits and cast photos. The nearest show to Hanalei.",
+    "menu": "Smoked kalua pork, teriyaki chicken, stir-fry vegetables, rice, mac salad, green salad with passion fruit vinaigrette, rolls, pineapple. Seconds allowed.",
+    "dietary": "The pork and the vegetables are gluten-free and the vegetables vegan; no separate vegetarian entree. No kids' menu.",
+    "check": "The North Shore took hurricane damage. Confirm the Dec 23 show runs.",
+    "basis": "2026 third-party guide; the booking calendar couldn't be read",
+    "on": [
+     {
+      "date": "2026-12-23",
+      "status": "likely",
+      "note": "Monday and Wednesday are its nights in the 2026 schedule."
+     }
+    ],
+    "sources": [
+     "https://www.lovebigisland.com/tours/ahi-lele-fire-show-kilauea/",
+     "https://hawaiitravelwithkids.com/best-kauai-luau-options/"
+    ]
+   },
+   {
+    "id": "kw-postcards",
+    "name": "Postcards Cafe",
+    "kind": "open",
+    "area": "Hanalei",
+    "address": "5-5075 Kuhio Hwy, Hanalei",
+    "lat": null,
+    "lng": null,
+    "place": "",
+    "tel": "tel:+18088261191",
+    "phone": "808-826-1191",
+    "book": "https://yelp.to/QK2XKd-9N1",
+    "site": "https://www.postcardscafe.com/",
+    "time": "Dinner 5 to 9 p.m., Tuesday to Saturday (one menu page says 8:30)",
+    "price": "Starters $18 to $26, mains $32 to $65, desserts $12 to $15",
+    "blurb": "Hanalei's plantation-cottage seafood room, back open since Sept 23 after the storm. The menu changes every few months, so the one below may shift by Christmas.",
+    "menu": "Hamachi crudo $26, ahi tartare $22, Hanalei hummus $18; pigeon pea risotto $36, market fish $44, campanelle pasta, New York steak $59, fennel-crusted half rack of lamb $65; Valrhona chocolate cremeux and other desserts.",
+    "dietary": "Marked per dish: the campanelle is vegetarian, the risotto gluten-free, the Brussels sprouts and hummus vegan, the chocolate cremeux vegan and gluten-free. No kids' menu.",
+    "check": "Call about Christmas Eve and Christmas Day.",
+    "basis": "2026 site hours and current menu page",
+    "on": [
+     {
+      "date": "2026-12-23",
+      "status": "likely",
+      "note": "Open Tuesday to Saturday, 5 to 9 p.m. No holiday notice posted."
+     },
+     {
+      "date": "2026-12-24",
+      "status": "unconfirmed",
+      "note": "A regular Thursday, but no word on Christmas Eve."
+     },
+     {
+      "date": "2026-12-25",
+      "status": "unconfirmed",
+      "note": "A regular Friday, but no word on Christmas Day."
+     },
+     {
+      "date": "2026-12-26",
+      "status": "likely",
+      "note": "A regular Saturday."
+     },
+     {
+      "date": "2026-12-27",
+      "status": "closed",
+      "note": "Closed Sundays."
+     }
+    ],
+    "sources": [
+     "https://www.postcardscafe.com/",
+     "https://places.singleplatform.com/postcards/menu"
+    ]
+   },
+   {
+    "id": "kw-royal-sonesta-dining",
+    "name": "Kukui's and Duke's, Royal Sonesta Kauaʻi",
+    "kind": "open",
+    "area": "Lihue",
+    "address": "3610 Rice St, Lihue",
+    "lat": 21.961611,
+    "lng": -159.348767,
+    "place": "",
+    "tel": "tel:+18082465042",
+    "phone": "808-246-5042",
+    "book": "https://opentable.hk/dukes-kauai",
+    "site": "https://www.sonesta.com/royal-sonesta/hi/lihue/royal-sonesta-kauai-resort-lihue",
+    "time": "Duke's 11 a.m. to 10 p.m. Monday to Saturday, 9 a.m. to 10 p.m. Sunday. Kukui's dinner Wednesday to Monday. Cafe Portofino too",
+    "price": "Regular menus",
+    "blurb": "The open resort on Kalapaki Bay (all amenities running after the storm) with three regular rooms and no Christmas menu posted: Duke's (808-246-9599), Kukui's (808-246-5042) and Cafe Portofino (808-245-2121). The easy pairing with Santa's canoe landing and the Thursday luau.",
+    "menu": "Regular menus only. Nothing holiday-specific is posted.",
+    "dietary": "",
+    "check": "Ask about Christmas Eve and Christmas Day menus and hours.",
+    "basis": "2026 resort and OpenTable pages",
+    "on": [
+     {
+      "date": "2026-12-24",
+      "status": "likely",
+      "note": "Kukui's serves dinner Wednesday to Monday and Duke's Monday to Saturday, so both are on their normal Thursday schedule. The Royal Lānaʻi sushi bar is closed Thursdays."
+     },
+     {
+      "date": "2026-12-25",
+      "status": "likely",
+      "note": "A normal Friday for Kukui's (dinner) and Duke's (11 a.m. to 10 p.m.). No holiday menu posted."
+     }
+    ],
+    "sources": [
+     "https://www.sonesta.com/royal-sonesta/hi/lihue/royal-sonesta-kauai-resort-lihue",
+     "https://opentable.hk/dukes-kauai"
+    ]
+   },
+   {
+    "id": "kw-hualanis",
+    "name": "Hualani's, Timbers Kauaʻi",
+    "kind": "open",
+    "area": "Lihue",
+    "address": "3770 Alaoli Way, Lihue (Hokuala)",
+    "lat": null,
+    "lng": null,
+    "place": "",
+    "tel": "tel:+18444407572",
+    "phone": "844-440-7572",
+    "book": "",
+    "site": "https://www.timberskauai.com/eat-drink/hualanis/",
+    "time": "Dinner 4:45 to 8:15 p.m. daily, lunch 11 to 3, bar 11 to 8:30",
+    "price": "Regular menu: soups and salads $16 to $18, mains $39 to $69, keiki $12 to $19",
+    "blurb": "The farm-to-table room at the Timbers resort above Kalapaki, with a view of the golf course and the bay. The page was updated Nov 4, 2026 and says dishes change often.",
+    "menu": "French onion soup $16, avocado and kale salad $18, Hokuala Farm Thai curry $39, ginger prawn fettuccine $49, prime filet mignon $69. Keiki: fresh catch $19, grilled chicken $15, cheese quesadilla $12, pasta shells $12.",
+    "dietary": "Vegetarian and gluten-free dishes are marked; the Thai curry is vegetarian and the filet gluten-free.",
+    "check": "Nothing posted for Christmas. Call 844-440-7572 or the concierge, 808-320-7400.",
+    "basis": "2026 restaurant page; 2026 third-party listing",
+    "on": [
+     {
+      "date": "2026-12-24",
+      "status": "unconfirmed",
+      "note": "Dinner runs 4:45 to 8:15 nightly; no holiday hours posted."
+     },
+     {
+      "date": "2026-12-25",
+      "status": "unconfirmed",
+      "note": "A 2026 rental blog lists it for Christmas dinner; the restaurant posts nothing."
+     }
+    ],
+    "sources": [
+     "https://www.timberskauai.com/eat-drink/hualanis/",
+     "https://www.suite-paradise.com/node/3581"
+    ]
+   },
+   {
+    "id": "kw-keokis",
+    "name": "Keoki's Paradise",
+    "kind": "open",
+    "area": "Poipu",
+    "address": "2360 Kiahuna Plantation Dr, Koloa (Poipu Shopping Village)",
+    "lat": 21.8789973,
+    "lng": -159.4597638,
+    "place": "keokis-paradise",
+    "tel": "tel:+18087427534",
+    "phone": "808-742-7534",
+    "book": "https://www.opentable.com/keokis-paradise",
+    "site": "https://www.keokisparadise.com/menus/",
+    "time": "Dinner 4 to 9 p.m. daily (OpenTable: 11 a.m. to 9 p.m. weekdays, 9 to 9 weekends)",
+    "price": "Regular menu: fish $39.50, prime rib $47, filet $57, lobster tails $74, hula pie $15. Kids $13 to $18",
+    "blurb": "The tiki-roofed garden restaurant in Poipu, open through the fall with reviews into November. A regular-menu Christmas fallback, not a holiday dinner.",
+    "menu": "Roasted lobster tails $74, filet steak Kiana $57, 12 oz prime rib $47, Keoki's-style fish $39.50, seafood risotto $39, the original hula pie $15. Kids 10 and under: grilled cheese $13, cheeseburger $14, fried chicken $15, fish and chips $18.",
+    "dietary": "Vegan wild mushroom and spinach ravioli $31, a taro patty swap, and gluten-free marks on the kale salad, ahi sashimi, seafood risotto and more.",
+    "check": "Call about Christmas hours.",
+    "basis": "2026 menu and OpenTable pages",
+    "on": [
+     {
+      "date": "2026-12-24",
+      "status": "unconfirmed",
+      "note": "Open daily; no holiday hours posted."
+     },
+     {
+      "date": "2026-12-25",
+      "status": "unconfirmed",
+      "note": "A 2026 rental blog lists it for Christmas dinner; its own pages say nothing. It served Thanksgiving in 2025."
+     }
+    ],
+    "sources": [
+     "https://www.opentable.com/keokis-paradise",
+     "https://places.singleplatform.com/keokis-paradise/menu",
+     "https://www.keokisparadise.com/menus/",
+     "https://www.suite-paradise.com/node/3581"
+    ]
+   },
+   {
+    "id": "kw-lava-lava",
+    "name": "Lava Lava Beach Club",
+    "kind": "open",
+    "area": "Kapaa",
+    "address": "420 Papaloa Rd, Kapaa",
+    "lat": null,
+    "lng": null,
+    "place": "",
+    "tel": "tel:+18082415282",
+    "phone": "808-241-5282",
+    "book": "",
+    "site": "https://lavalavabeachclub.com/kauai/",
+    "time": "Breakfast 7 to 11, lunch noon to 3, happy hour 3 to 4:30, dinner 4:30 to 9. Live island music daily, about 3 to 8 p.m.",
+    "price": "Regular menu; not readable online",
+    "blurb": "Toes-in-the-sand beach bar on the Coconut Coast with live music every afternoon and no reservations, first come. Its dinner and holiday-hours pages wouldn't load, so the menu is a phone call.",
+    "menu": "Not posted in a readable form.",
+    "dietary": "",
+    "check": "Call for the Christmas menu and hours.",
+    "basis": "2026 site; a 2017 post for the holiday pattern",
+    "on": [
+     {
+      "date": "2026-12-24",
+      "status": "unconfirmed",
+      "note": "In 2017 it ran a Christmas Eve menu with two entrees, a pupu and a dessert. Its holiday-hours page wouldn't load."
+     },
+     {
+      "date": "2026-12-25",
+      "status": "unconfirmed",
+      "note": "Same: a Christmas Day menu in 2017, nothing readable for 2026."
+     }
+    ],
+    "sources": [
+     "https://lavalavabeachclub.com/kauai/",
+     "https://lavalavabeachclub.com/kauai/menus/dinner-menu",
+     "https://lavalavabeachclub.com/kauai/news/page/2"
+    ]
+   },
+   {
+    "id": "kw-eating-house",
+    "name": "Eating House 1849",
+    "kind": "open",
+    "area": "Poipu",
+    "address": "2829 Ala Kalanikaumaka St #A-201, Koloa (The Shops at Kukuiula)",
+    "lat": null,
+    "lng": null,
+    "place": "",
+    "tel": "tel:+18087425000",
+    "phone": "808-742-5000",
+    "book": "https://www.opentable.com/eating-house-1849",
+    "site": "https://www.opentable.com/eating-house-1849",
+    "time": "Dinner 5 to 9 p.m. daily",
+    "price": "Regular menu. Parties of five or more call; $20 a person late-cancel fee",
+    "blurb": "Roy Yamaguchi's plantation-era room upstairs at Kukuiula, operating through October. A regular-menu fallback a few doors from Merriman's.",
+    "menu": "Regular menu; nothing holiday-specific posted.",
+    "dietary": "",
+    "check": "Call about Christmas hours.",
+    "basis": "2026 OpenTable page",
+    "on": [
+     {
+      "date": "2026-12-24",
+      "status": "unconfirmed",
+      "note": "Dinner nightly 5 to 9; no holiday listing."
+     },
+     {
+      "date": "2026-12-25",
+      "status": "unconfirmed",
+      "note": "No holiday listing."
+     }
+    ],
+    "sources": [
+     "https://www.opentable.com/eating-house-1849"
+    ]
+   },
+   {
+    "id": "kw-red-salt",
+    "name": "Red Salt, Koa Kea Resort",
+    "kind": "open",
+    "area": "Poipu",
+    "address": "2251 Poipu Rd, Koloa",
+    "lat": 21.8751665,
+    "lng": -159.4572619,
+    "place": "koa-kea-red-salt-christmas",
+    "tel": "tel:+18087424288",
+    "phone": "808-742-4288",
+    "book": "https://opentable.co.uk/red-salt-at-koa-kea-resort",
+    "site": "https://www.koakea.com/holidays-hawaii",
+    "time": "Regular dinner",
+    "price": "Regular menu",
+    "blurb": "The boutique hotel's dining room on Poipu Beach. Koa Kea reopened Sept 16 after the storm surge, the first Poipu resort back.",
+    "menu": "Nothing holiday-specific posted.",
+    "dietary": "",
+    "check": "Call 808-742-4288 (resort 888-603-9263) about Christmas dinners.",
+    "basis": "2026 OpenTable and resort pages",
+    "on": [
+     {
+      "date": "2026-12-24",
+      "status": "unconfirmed",
+      "note": "No Christmas event listed. The only December listing is a $175 Dinner Pa'ina on Dec 3."
+     },
+     {
+      "date": "2026-12-25",
+      "status": "unconfirmed",
+      "note": "No Christmas event listed; in 2023 it ran a $75 prix fixe."
+     }
+    ],
+    "sources": [
+     "https://opentable.co.uk/red-salt-at-koa-kea-resort",
+     "https://www.koakea.com/holidays-hawaii",
+     "https://www.hawaiinewsnow.com/2026/09/25/rapid-recovery-koa-kea-resort-reopens-after-hurricane-lowells-storm-surge/"
+    ]
+   },
+   {
+    "id": "kw-brenneckes",
+    "name": "Brennecke's Beach Broiler",
+    "kind": "open",
+    "area": "Poipu",
+    "address": "2100 Hoone Rd, Koloa",
+    "lat": 21.8739032,
+    "lng": -159.4534837,
+    "place": "brenneckes-christmas",
+    "tel": "tel:+18087427588",
+    "phone": "808-742-7588",
+    "book": "",
+    "site": "https://www.opentable.com/r/brenneckes-beach-broiler-koloa",
+    "time": "Daily 11 a.m. to 9 p.m. Live music midweek",
+    "price": "Regular menu",
+    "blurb": "The casual upstairs seafood room across from Poipu Beach Park, open after the storm. Book at brenneckes.com, not OpenTable.",
+    "menu": "Regular menu.",
+    "dietary": "",
+    "check": "Call about Christmas hours.",
+    "basis": "2026 OpenTable page; Oct 5, 2026 news",
+    "on": [
+     {
+      "date": "2026-12-24",
+      "status": "unconfirmed",
+      "note": "Daily 11 a.m. to 9 p.m.; open as of Oct 5. Christmas hours not posted."
+     },
+     {
+      "date": "2026-12-25",
+      "status": "unconfirmed",
+      "note": "Open both days in 2023. Christmas hours not posted."
+     }
+    ],
+    "sources": [
+     "https://www.opentable.com/r/brenneckes-beach-broiler-koloa",
+     "https://beatofhawaii.com/poipu-visitors-are-finding-recovery-and-devastation-side-by-side/"
+    ]
+   },
+   {
+    "id": "kw-nanea",
+    "name": "Nanea, Westin Princeville",
+    "kind": "open",
+    "area": "Princeville",
+    "address": "3838 Wyllie Rd, Princeville",
+    "lat": null,
+    "lng": null,
+    "place": "",
+    "tel": "tel:+18088278700",
+    "phone": "808-827-8700",
+    "book": "",
+    "site": "https://www.marriott.com/en-us/hotels/lihwp-the-westin-princeville-ocean-resort-villas/dining/",
+    "time": "Monday to Saturday 11:30 a.m. to 8 p.m., Sunday 8 a.m. to 8 p.m.",
+    "price": "Regular menu; not posted",
+    "blurb": "The Westin villas' restaurant in Princeville, island comfort food with a hurricane alert still on its page. No menu is readable online.",
+    "menu": "Not posted.",
+    "dietary": "",
+    "check": "Call about Christmas.",
+    "basis": "2026 Marriott page",
+    "on": [
+     {
+      "date": "2026-12-24",
+      "status": "unconfirmed",
+      "note": "Open Monday to Saturday 11:30 a.m. to 8 p.m.; no holiday hours posted."
+     },
+     {
+      "date": "2026-12-25",
+      "status": "unconfirmed",
+      "note": "A Christmas dinner page exists on a booking site but wouldn't load, so its year and price are unknown. In 2013 it was a $65 four-course."
+     }
+    ],
+    "sources": [
+     "https://www.marriott.com/en-us/hotels/lihwp-the-westin-princeville-ocean-resort-villas/dining/",
+     "https://midweekkauai.com/?p=13511"
+    ]
+   },
+   {
+    "id": "kw-chicken-barrel",
+    "name": "Chicken in a Barrel",
+    "kind": "open",
+    "area": "Islandwide",
+    "address": "Hanalei, Kapaa, Coconut Marketplace and Waimea",
+    "lat": null,
+    "lng": null,
+    "place": "",
+    "tel": "tel:+18088230780",
+    "phone": "808-823-0780",
+    "book": "",
+    "site": "https://www.chickeninabarrel.com",
+    "time": "Hanalei Mon to Sat 11 to 8, Sun noon to 7 (808-826-1999). Kapaa Mon to Sat 11 to 7:30, Sun 11 to 7 (808-823-0780). Coconut Marketplace Mon to Sat 11 to 8 (808-320-7228). Waimea daily 8:30 to 9 (808-320-8397)",
+    "price": "Plate lunches",
+    "blurb": "Barrel-smoked chicken and ribs, the plate lunch that was open on Christmas Day last year when most big stores were closed.",
+    "menu": "Smoked chicken, ribs and plate lunches; the menu lives on Toast and wasn't readable.",
+    "dietary": "",
+    "check": "Call the location you want on Christmas morning.",
+    "basis": "Dec 26, 2025 news; company site",
+    "on": [
+     {
+      "date": "2026-12-25",
+      "status": "likely",
+      "note": "Served plate lunches on Christmas Day 2025; which location wasn't reported."
+     }
+    ],
+    "sources": [
+     "https://www.chickeninabarrel.com",
+     "https://www.thegardenisland.com/?p=405690"
+    ]
+   },
+   {
+    "id": "kw-koloa-thai",
+    "name": "Koloa Thai Bistro",
+    "kind": "open",
+    "area": "Koloa",
+    "address": "Koloa",
+    "lat": null,
+    "lng": null,
+    "place": "",
+    "tel": "",
+    "phone": "",
+    "book": "",
+    "site": "https://koloathai.com/",
+    "time": "Christmas Eve lunch, per a 2026 listing",
+    "price": "Regular menu",
+    "blurb": "A Thai lunch in Koloa town on Christmas Eve, per one 2026 listing.",
+    "menu": "Regular Thai menu.",
+    "dietary": "",
+    "check": "Hours aren't posted.",
+    "basis": "2026 third-party listing",
+    "on": [
+     {
+      "date": "2026-12-24",
+      "status": "unconfirmed",
+      "note": "A 2026 rental blog says it serves lunch on Christmas Eve; no hours given."
+     }
+    ],
+    "sources": [
+     "https://koloathai.com/",
+     "https://www.suite-paradise.com/node/3581"
+    ]
+   },
+   {
+    "id": "kw-kukui-grove-lights",
+    "name": "Holiday Spectacular Light Show, Kukui Grove Center",
+    "kind": "event",
+    "area": "Lihue",
+    "address": "3-2600 Kaumualii Hwy, Lihue",
+    "lat": null,
+    "lng": null,
+    "place": "",
+    "tel": "tel:+18082457784",
+    "phone": "808-245-7784",
+    "book": "",
+    "site": "https://www.kukuigrovecenter.com/events/holiday-spectacular-light-show/",
+    "time": "7 p.m. Bring a lawn chair",
+    "price": "Not listed; past years free",
+    "blurb": "The mall's synchronized light show on the lawn, this year on Nov 28, Dec 5, 11, 12, 17 to 19, 22, 23 and 26. Last year Santa's House and the Mele Makeke holiday market ran alongside it, 11 a.m. to 6 p.m. on weekdays, closing at 4 on Christmas Eve and not opening Christmas Day.",
+    "menu": "",
+    "dietary": "",
+    "check": "Santa's House and the market aren't posted for 2026. The mall's holiday hours line is 808-245-7784.",
+    "basis": "2026 event page; 2025 news for the market",
+    "on": [
+     {
+      "date": "2026-12-23",
+      "status": "confirmed",
+      "note": "On the 2026 schedule, 7 p.m."
+     },
+     {
+      "date": "2026-12-24",
+      "status": "closed",
+      "note": "Not on the 2026 schedule."
+     },
+     {
+      "date": "2026-12-25",
+      "status": "closed",
+      "note": "Not on the 2026 schedule. In 2024 the Festival of Lights here closed on Christmas Day too."
+     },
+     {
+      "date": "2026-12-26",
+      "status": "confirmed",
+      "note": "The last show of the season, 7 p.m."
+     }
+    ],
+    "sources": [
+     "https://www.kukuigrovecenter.com/events/holiday-spectacular-light-show/",
+     "https://www.thegardenisland.com/2025/12/19/lifestyles/happy-camper-for-friday-december-19-2025/",
+     "https://thegardenisland.com/2024/12/20/lifestyles/shopping-center-unveils-holiday-excitement-plans"
+    ]
+   },
+   {
+    "id": "kw-festival-of-lights",
+    "name": "Kauaʻi Festival of Lights",
+    "kind": "event",
+    "area": "Lihue",
+    "address": "4396 Rice St, Lihue (Historic County Building)",
+    "lat": 21.9750989,
+    "lng": -159.3671985,
+    "place": "kauai-festival-of-lights",
+    "tel": "tel:+18086398564",
+    "phone": "808-639-8564",
+    "book": "",
+    "site": "https://kauaifestivaloflights.wordpress.com/",
+    "time": "Past years: lights on from 6 p.m. nightly, Santa on Fridays",
+    "price": "Free",
+    "blurb": "Lihue's folk-art Christmas at the Historic County Building, the lawn lit from Dec 4's Lights on Rice parade onward and the rooms inside full of ornaments made from local junk. The only nightly lights on the island, and the easy Christmas Eve stroll before dinner.",
+    "menu": "",
+    "dietary": "",
+    "check": "A 2026 guide says plainly that this year's hours aren't confirmed.",
+    "basis": "2023 and 2024 reports; 2026 guide",
+    "on": [
+     {
+      "date": "2026-12-23",
+      "status": "likely",
+      "note": "Nightly through the season in 2023; Dec 1 to 29 in 2024. 2026 hours aren't posted."
+     },
+     {
+      "date": "2026-12-24",
+      "status": "likely",
+      "note": "Same pattern."
+     },
+     {
+      "date": "2026-12-25",
+      "status": "likely",
+      "note": "Same pattern."
+     },
+     {
+      "date": "2026-12-26",
+      "status": "likely",
+      "note": "Same pattern."
+     },
+     {
+      "date": "2026-12-27",
+      "status": "likely",
+      "note": "Same pattern."
+     }
+    ],
+    "sources": [
+     "https://www.hawaii-guide.com/blog/kauai-festival-of-lights-guide",
+     "https://kauaifestivaloflights.wordpress.com/",
+     "https://www.hawaiimagazine.com/?p=130755",
+     "https://www.lightsonrice.org"
+    ]
+   },
+   {
+    "id": "kw-kalapaki-santa",
+    "name": "Santa by canoe at Kalapaki Beach",
+    "kind": "event",
+    "area": "Lihue",
+    "address": "Kalapaki Beach, in front of the Royal Sonesta, 3610 Rice St, Lihue",
+    "lat": 21.961611,
+    "lng": -159.348767,
+    "place": "",
+    "tel": "tel:+18082455050",
+    "phone": "808-245-5050",
+    "book": "",
+    "site": "https://www.thegardenisland.com/?p=405690",
+    "time": "Christmas Eve, late afternoon in past years. The time isn't posted",
+    "price": "Free",
+    "blurb": "Santa arrives at Kalapaki Beach in a double-hulled canoe paddled by Chris Kauwe and his ohana, announced by a conch shell, then an hour of photos and candy on the sand in front of the Royal Sonesta. Pair it with the resort's Thursday luau the same evening.",
+    "menu": "",
+    "dietary": "",
+    "check": "Call the Royal Sonesta for the time.",
+    "basis": "2025, 2016 and 2012 reports",
+    "on": [
+     {
+      "date": "2026-12-24",
+      "status": "likely",
+      "note": "Santa paddled in on Dec 24, 2025, as in 2012 and 2016. Time and 2026 plans aren't posted."
+     }
+    ],
+    "sources": [
+     "https://www.thegardenisland.com/?p=405690",
+     "https://thegardenisland.com/?p=104596",
+     "https://midweekkauai.com/paina/santa-paddles-into-kalapaki-beach/"
+    ]
+   },
+   {
+    "id": "kw-kukuiula-santa",
+    "name": "Santa at The Shops at Kukuiula",
+    "kind": "event",
+    "area": "Poipu",
+    "address": "2829 Ala Kalanikaumaka St, Koloa (Palm Court)",
+    "lat": null,
+    "lng": null,
+    "place": "",
+    "tel": "",
+    "phone": "",
+    "book": "",
+    "site": "https://theshopsatkukuiula.com",
+    "time": "Last year: 2:30 to 4:30 p.m., with the Kauaʻi Culinary Market",
+    "price": "Last year: $10 or five canned goods for the food bank",
+    "blurb": "Christmas Eve Santa and the farmers market at the Poipu shops, steps from Merriman's and Eating House 1849.",
+    "menu": "",
+    "dietary": "",
+    "check": "Not posted for 2026.",
+    "basis": "2025 news",
+    "on": [
+     {
+      "date": "2026-12-24",
+      "status": "likely",
+      "note": "In 2025 Santa sat at Palm Court 2:30 to 4:30 p.m. on Christmas Eve with the Kauaʻi Culinary Market. The 2026 event page runs only through Dec 4."
+     }
+    ],
+    "sources": [
+     "https://kauainownews.com/2025/12/07/the-shops-at-kukuiula-welcomes-holidays-with-santa-visits-keiki-bash/",
+     "https://theshopsatkukuiula.com"
+    ]
+   },
+   {
+    "id": "kw-kauai-made",
+    "name": "Kauaʻi Made craft fairs",
+    "kind": "event",
+    "area": "Lihue and Kapaa",
+    "address": "Dec 25 at the Outrigger Kauai Beach Resort, 4331 Kauai Beach Dr, Lihue. Dec 26 at Kauai Shores Hotel, 420 Papaloa Rd, Kapaa",
+    "lat": null,
+    "lng": null,
+    "place": "",
+    "tel": "",
+    "phone": "",
+    "book": "",
+    "site": "https://kauaimade.net",
+    "time": "3 to 7 p.m.",
+    "price": "Not listed",
+    "blurb": "The county's made-on-Kauaʻi craft program sets up at a hotel on Christmas afternoon and again the day after.",
+    "menu": "",
+    "dietary": "",
+    "check": "Both listings come from a calendar aggregator; the Kauaʻi Made site shows no dates.",
+    "basis": "2026 calendar listing",
+    "on": [
+     {
+      "date": "2026-12-25",
+      "status": "confirmed",
+      "note": "On a 2026 island calendar, 3 to 7 p.m., at the Outrigger Kauai Beach Resort. Not verified on the organizer's page."
+     },
+     {
+      "date": "2026-12-26",
+      "status": "confirmed",
+      "note": "On a 2026 island calendar, 3 to 7 p.m., at Kauaʻi Shores Hotel. Not verified on the organizer's page."
+     }
+    ],
+    "sources": [
+     "https://kauaiconnect.com/events/month/2026-12/",
+     "https://kauaimade.net"
+    ]
+   },
+   {
+    "id": "kw-makai-festival",
+    "name": "Makai Music and Art Festival",
+    "kind": "event",
+    "area": "Kauaʻi",
+    "address": "Location not listed",
+    "lat": null,
+    "lng": null,
+    "place": "",
+    "tel": "",
+    "phone": "",
+    "book": "",
+    "site": "https://kauaiconnect.com/events/month/2026-12/",
+    "time": "1 to 5 p.m.",
+    "price": "Free",
+    "blurb": "A free afternoon music and art festival on Dec 23, listed on the island calendar without a venue.",
+    "menu": "",
+    "dietary": "",
+    "check": "Find the location before you drive.",
+    "basis": "2026 calendar listing",
+    "on": [
+     {
+      "date": "2026-12-23",
+      "status": "confirmed",
+      "note": "On a 2026 island calendar, 1 to 5 p.m., free. The venue isn't listed."
+     }
+    ],
+    "sources": [
+     "https://kauaiconnect.com/events/month/2026-12/"
+    ]
+   },
+   {
+    "id": "kw-kanikapila",
+    "name": "Kanikapila",
+    "kind": "event",
+    "area": "Poipu",
+    "address": "Not listed; the Kukuiula shops host a Kanikapila on Dec 4",
+    "lat": null,
+    "lng": null,
+    "place": "",
+    "tel": "",
+    "phone": "",
+    "book": "",
+    "site": "https://kauaiconnect.com/events/month/2026-12/",
+    "time": "6:30 to 8:30 p.m.",
+    "price": "Not listed",
+    "blurb": "A Christmas-night jam session on the island calendar, venue not given.",
+    "menu": "",
+    "dietary": "",
+    "check": "Probably a calendar artifact. Confirm before planning around it.",
+    "basis": "2026 calendar listing",
+    "on": [
+     {
+      "date": "2026-12-25",
+      "status": "unconfirmed",
+      "note": "A 2026 island calendar lists a Kanikapila 6:30 to 8:30 p.m. on Dec 25 with no venue; the shops' own page lists one only on Dec 4."
+     }
+    ],
+    "sources": [
+     "https://kauaiconnect.com/events/month/2026-12/"
+    ]
+   },
+   {
+    "id": "kw-sunshine-markets",
+    "name": "Sunshine Markets and farmers markets",
+    "kind": "event",
+    "area": "Islandwide",
+    "address": "Kapaa Ball Park (Wed), Kilauea (Thu), Kauai Community College, Lihue (Sat), Coconut Marketplace, Kapaa (daily)",
+    "lat": null,
+    "lng": null,
+    "place": "",
+    "tel": "tel:+18082414946",
+    "phone": "808-241-4946",
+    "book": "",
+    "site": "https://www.kauai.gov/SunshineMarkets",
+    "time": "Kapaa Wednesday 3 to 4:30 p.m.; the others vary",
+    "price": "Free to browse",
+    "blurb": "The county's farmers markets keep their weekly rhythm through Christmas week, with the Coconut Marketplace market the one that was open on Christmas Day last year.",
+    "menu": "",
+    "dietary": "",
+    "check": "The county posts no holiday closures; call the Office of Economic Development if a market matters.",
+    "basis": "2026 county page; undated guide; Dec 26, 2025 news",
+    "on": [
+     {
+      "date": "2026-12-23",
+      "status": "confirmed",
+      "note": "Kapaa Sunshine Market, Wednesday 3 to 4:30 p.m., on the county's 2026 schedule. No holiday notice either way."
+     },
+     {
+      "date": "2026-12-24",
+      "status": "likely",
+      "note": "Kilauea's Thursday market, per an undated guide."
+     },
+     {
+      "date": "2026-12-25",
+      "status": "likely",
+      "note": "The Coconut Marketplace market was open on Christmas Day 2025. Hours not stated."
+     },
+     {
+      "date": "2026-12-26",
+      "status": "likely",
+      "note": "The Saturday market at Kauaʻi Community College, Lihue, per an undated guide."
+     }
+    ],
+    "sources": [
+     "https://www.kauai.gov/SunshineMarkets",
+     "https://www.tastingkauai.com/farmers-markets/",
+     "https://www.thegardenisland.com/?p=405690"
+    ]
+   },
+   {
+    "id": "kw-1hotel-festive",
+    "name": "Festive week at 1 Hotel Hanalei Bay",
+    "kind": "event",
+    "area": "Princeville",
+    "address": "5520 Ka Haku Rd, Princeville",
+    "lat": 22.2206616,
+    "lng": -159.4972212,
+    "place": "1-hotel-hanalei-christmas",
+    "tel": "tel:+18088269644",
+    "phone": "808-826-9644",
+    "book": "",
+    "site": "https://1hotels.com/hanalei-bay/do/events/eat-drink-and-delight-in-the-season",
+    "time": "Live music nightly: The Sandbox 5:30 to 8:30 p.m., Welina Terrace Thursday to Saturday 5 to 8 (2025)",
+    "price": "Mostly free for guests; some classes charge",
+    "blurb": "The hotel's Dec 22 to Jan 5 program of Santa, lei making, cooking classes, nightly music and a menorah. The 2026 version isn't posted; the Dec 1 to 19 brochure is, and last year's Christmas-week guide shows the shape of it.",
+    "menu": "",
+    "dietary": "",
+    "check": "Ask when the Dec 22 to Jan 5 schedule posts, and which events take non-guests.",
+    "basis": "2025 festive guide; 2026 Dec 1 to 19 brochure",
+    "on": [
+     {
+      "date": "2026-12-23",
+      "status": "likely",
+      "note": "Last year: Santa at Kamani Cove 10 a.m., ornament decorating 10 to noon."
+     },
+     {
+      "date": "2026-12-24",
+      "status": "likely",
+      "note": "Last year: Princeville Jingle Walk with the general manager 9 to 10 a.m., gingerbread houses 10 to noon."
+     },
+     {
+      "date": "2026-12-25",
+      "status": "likely",
+      "note": "Last year: breakfast extended 6 a.m. to noon, Light of the Season yoga 10 a.m., menorah lighting nightly Dec 25 to Jan 2."
+     },
+     {
+      "date": "2026-12-26",
+      "status": "likely",
+      "note": "Last year: ti-leaf lei 9 to 10, pohaku painting 10:30, konane 2 to 4, paint and sip 4 to 6, s'mores at The Sandbox 6 to 8."
+     },
+     {
+      "date": "2026-12-27",
+      "status": "likely",
+      "note": "Last year: lei making 2:30, ceviche class 3 to 4 (ages 10 and up)."
+     }
+    ],
+    "sources": [
+     "https://1hotels.com/sites/1hotels.com/files/documents/1HHB%20December%20Festive%20Programming_0.pdf",
+     "https://www.1hotels.com/sites/1hotels.com/files/documents/DECEMBER%201-19%20Brochure%202026.pdf",
+     "https://1hotels.com/hanalei-bay/do/events/eat-drink-and-delight-in-the-season",
+     "https://www.1hotels.com/hanalei-bay/offers/hanalei-for-the-holidays"
+    ]
+   },
+   {
+    "id": "kw-wilcox-trees",
+    "name": "Christmas trees at Wilcox Medical Center",
+    "kind": "event",
+    "area": "Lihue",
+    "address": "3-3420 Kuhio Hwy, Lihue (lobby)",
+    "lat": null,
+    "lng": null,
+    "place": "",
+    "tel": "",
+    "phone": "",
+    "book": "",
+    "site": "https://www.thegardenisland.com/2025/12/19/lifestyles/happy-camper-for-friday-december-19-2025/",
+    "time": "Last year: 5 a.m. to 8 p.m. daily",
+    "price": "Free",
+    "blurb": "The hospital lobby's tree display, a Lihue tradition and a five-minute stop.",
+    "menu": "",
+    "dietary": "",
+    "check": "Not posted for 2026.",
+    "basis": "2025 news",
+    "on": [
+     {
+      "date": "2026-12-23",
+      "status": "likely",
+      "note": "Last year: decorated trees lit 5 a.m. to 8 p.m. daily through Jan 2."
+     },
+     {
+      "date": "2026-12-24",
+      "status": "likely",
+      "note": "Same."
+     },
+     {
+      "date": "2026-12-25",
+      "status": "likely",
+      "note": "Same."
+     },
+     {
+      "date": "2026-12-26",
+      "status": "likely",
+      "note": "Same."
+     },
+     {
+      "date": "2026-12-27",
+      "status": "likely",
+      "note": "Same."
+     }
+    ],
+    "sources": [
+     "https://www.thegardenisland.com/2025/12/19/lifestyles/happy-camper-for-friday-december-19-2025/"
+    ]
+   },
+   {
+    "id": "kw-yoga-kukuiula",
+    "name": "Sunday yoga at Palm Court, Kukuiula",
+    "kind": "event",
+    "area": "Poipu",
+    "address": "2829 Ala Kalanikaumaka St, Koloa (Palm Court)",
+    "lat": null,
+    "lng": null,
+    "place": "",
+    "tel": "",
+    "phone": "",
+    "book": "",
+    "site": "https://theshopsatkukuiula.com",
+    "time": "9 to 10 a.m.",
+    "price": "Free",
+    "blurb": "Free Sunday-morning yoga at the Poipu shops, the one thing on the island calendar for Dec 27.",
+    "menu": "",
+    "dietary": "",
+    "check": "",
+    "basis": "2026 listing",
+    "on": [
+     {
+      "date": "2026-12-27",
+      "status": "confirmed",
+      "note": "lululemon's free Sunday yoga, 9 to 10 a.m., on the 2026 listing."
+     }
+    ],
+    "sources": [
+     "https://theshopsatkukuiula.com",
+     "https://kauaiconnect.com/events/month/2026-12/"
+    ]
+   },
+   {
+    "id": "kw-church-services",
+    "name": "Christmas Eve and Christmas Day services",
+    "kind": "event",
+    "area": "Islandwide",
+    "address": "St. Catherine, Kapaa; All Saints Episcopal, Kapaa; St. Michael and All Angels, Lihue; Lihue Lutheran; Christ Memorial, Kilauea; St. Raphael, Koloa; St. Paul's, Kekaha",
+    "lat": null,
+    "lng": null,
+    "place": "",
+    "tel": "tel:+18088227900",
+    "phone": "808-822-7900",
+    "book": "",
+    "site": "https://thegardenisland.com/?p=317232",
+    "time": "2019 pattern: St. Catherine 5 p.m. Mass, 11:20 choir, Midnight Mass; All Saints 5:30 family service and 10:30 carols and Eucharist; St. Michael's 6 and 9 p.m. with sacred music; Lihue Lutheran 3 p.m. carols, 7:30 candlelight, 11 p.m. Mass of carols; Christ Memorial 7 p.m. candlelight",
+    "price": "Free",
+    "blurb": "The congregations that have welcomed visitors on Christmas Eve, with 2019 times as a guide: St. Catherine (5021-A Kawaihau Rd, Kapaa, 808-822-7900), All Saints Episcopal (4-1061 Kuhio Hwy, Kapaa, 808-822-4267), St. Michael and All Angels (Lihue), Lihue Lutheran (4602 Hoomana Rd), Christ Memorial Episcopal (Kilauea), St. John's (Eleele), St. Raphael (Koloa; times to be posted on its site), St. Paul's (Kekaha). No Hawaiian-language Christmas service could be found; Waioli Huiia in Hanalei is the one to ask.",
+    "menu": "",
+    "dietary": "",
+    "check": "Call for this year's times.",
+    "basis": "2019 islandwide list; 2026 parish pages show regular times only",
+    "on": [
+     {
+      "date": "2026-12-24",
+      "status": "unconfirmed",
+      "note": "No church has posted 2026 times. The last islandwide list is from 2019."
+     },
+     {
+      "date": "2026-12-25",
+      "status": "unconfirmed",
+      "note": "In 2019 St. Paul's in Kekaha held a 10 a.m. Christmas Day service."
+     }
+    ],
+    "sources": [
+     "https://thegardenisland.com/?p=317232",
+     "https://kauaistcatherine.church/",
+     "https://www.allsaintskauai.org",
+     "https://www.suite-paradise.com/node/3581"
+    ]
+   },
+   {
+    "id": "kw-kauai-museum",
+    "name": "Kauaʻi Museum",
+    "kind": "open",
+    "area": "Lihue",
+    "address": "4428 Rice St, Lihue",
+    "lat": null,
+    "lng": null,
+    "place": "",
+    "tel": "",
+    "phone": "",
+    "book": "",
+    "site": "https://kauaimuseum.org",
+    "time": "Monday to Friday 9 a.m. to 4 p.m., Saturday 9 to 2, closed Sunday",
+    "price": "$15 adults, $12 seniors, $10 students and kamaaina, 7 and under free",
+    "blurb": "The island's history museum, two blocks from the Festival of Lights, a rainy-afternoon stop.",
+    "menu": "",
+    "dietary": "",
+    "check": "Email education@kauaimuseum.org about Christmas Day.",
+    "basis": "Undated hours page",
+    "on": [
+     {
+      "date": "2026-12-23",
+      "status": "likely",
+      "note": "Regular hours Monday to Friday 9 to 4."
+     },
+     {
+      "date": "2026-12-24",
+      "status": "likely",
+      "note": "Regular Thursday hours; Christmas Eve closure not posted."
+     },
+     {
+      "date": "2026-12-25",
+      "status": "unconfirmed",
+      "note": "A Christmas Day closure isn't posted either way."
+     },
+     {
+      "date": "2026-12-26",
+      "status": "likely",
+      "note": "Saturday 9 to 2."
+     },
+     {
+      "date": "2026-12-27",
+      "status": "closed",
+      "note": "Closed Sundays."
+     }
+    ],
+    "sources": [
+     "https://kauaimuseum.org"
+    ]
+   },
+   {
+    "id": "kw-haena",
+    "name": "Haena State Park",
+    "kind": "open",
+    "area": "Haena",
+    "address": "End of Kuhio Hwy, Haena",
+    "lat": null,
+    "lng": null,
+    "place": "",
+    "tel": "",
+    "phone": "",
+    "book": "https://gohaena.com",
+    "site": "https://www.hawaiimagazine.com/?p=130755",
+    "time": "Reservation entry windows",
+    "price": "Entry and parking reservations, released 30 days ahead",
+    "blurb": "Ke'e Beach and the Kalalau trailhead, which stayed open on Christmas in past years for anyone holding a reservation. The road past Hanalei was still restricted in October.",
+    "menu": "",
+    "dietary": "",
+    "check": "Confirm the park and road are open before booking the Christmas slot.",
+    "basis": "2020 and 2024 reports; Oct 1, 2026 conditions",
+    "on": [
+     {
+      "date": "2026-12-25",
+      "status": "unconfirmed",
+      "note": "Open on Christmas Day with a reservation in 2020 and 2024. Haena and Wainiha were local traffic only as of Oct 1, 2026."
+     }
+    ],
+    "sources": [
+     "https://www.hawaiimagazine.com/?p=130755",
+     "https://hawaiisbesttravel.com/kauai-travel-conditions/"
+    ]
+   },
+   {
+    "id": "kw-stores-gas",
+    "name": "Groceries and gas",
+    "kind": "open",
+    "area": "Islandwide",
+    "address": "Costco, 4300 Nuhou St, Lihue. Safeway Kapaa. Kukui Grove Center, Lihue",
+    "lat": null,
+    "lng": null,
+    "place": "",
+    "tel": "tel:+18082414000",
+    "phone": "808-241-4000",
+    "book": "",
+    "site": "https://www.costco.com/warehouse-locations/lihue-HI-640.html",
+    "time": "Costco gas: weekdays 5:30 a.m. to 10 p.m., Saturday 6 to 8:30, Sunday 6 to 7:30, regular hours",
+    "price": "",
+    "blurb": "Stock the condo on Dec 24. Last Christmas most big stores closed and nobody has posted this year's hours.",
+    "menu": "",
+    "dietary": "",
+    "check": "Costco Lihue 808-241-4000; Kukui Grove holiday hours 808-245-7784.",
+    "basis": "Dec 26, 2025 news; 2024 statewide guide; Costco page",
+    "on": [
+     {
+      "date": "2026-12-24",
+      "status": "unconfirmed",
+      "note": "No Christmas Eve hours posted anywhere."
+     },
+     {
+      "date": "2026-12-25",
+      "status": "unconfirmed",
+      "note": "Most big stores were closed on Christmas 2025; small shops and hotels were open. Statewide in 2024 most Safeways opened and Times, Whole Foods and Foodland mostly closed."
+     }
+    ],
+    "sources": [
+     "https://www.thegardenisland.com/?p=405690",
+     "https://www.hawaiimagazine.com/?p=130755",
+     "https://www.costco.com/warehouse-locations/lihue-HI-640.html"
+    ]
+   }
+  ],
+  "closed": [
+   {
+    "name": "Sheraton Kauai Resort and RumFire, Poipu",
+    "note": "Flooded by the storm surge and closed, with no reopening date. RumFire canceled its reservations. Resort 808-742-1661, RumFire 808-742-4786.",
+    "sources": [
+     "https://www.hawaiinewsnow.com/2026/10/02/poipu-resort-recovery-major-resort-vacation-rentals-face-extensive-damage-hurricane-lowell/",
+     "https://www.rumfirekauai.com/",
+     "https://www.marriottvacationclubs.com/experiences/resorts/sheraton-kauai-resort.html"
+    ]
+   },
+   {
+    "name": "ʻAuliʻi Luau, Sheraton Kauaʻi",
+    "note": "Paused since the hurricane with no reopening date, though its site is already selling 2027. Its Wednesday would have been Dec 23. 808-634-1499.",
+    "sources": [
+     "https://www.lovebigisland.com/tours/aulii-luau-sheraton-kauai/",
+     "https://auliiluau.com"
+    ]
+   },
+   {
+    "name": "The Beach House, Poipu",
+    "note": "Boarded up and closed until further notice as of early October.",
+    "sources": [
+     "https://beatofhawaii.com/poipu-visitors-are-finding-recovery-and-devastation-side-by-side/"
+    ]
+   },
+   {
+    "name": "Tahiti Nui Luau, Hanalei",
+    "note": "On hiatus with no dates on sale. The bar itself blocked our reading; call 808-826-6277.",
+    "sources": [
+     "https://www.lovebigisland.com/?p=16483"
+    ]
+   },
+   {
+    "name": "Bull Shed, Kapaa",
+    "note": "Closed for renovation since summer with no reopening date.",
+    "sources": [
+     "https://kauainownews.com/2026/07/30/iconic-kaua%CA%BBi-steakhouse-bull-shed-expands-to-hawai%CA%BBi-island/",
+     "https://www.bullshedrestaurant.com/"
+    ]
+   },
+   {
+    "name": "Plantation Gardens, Kiahuna",
+    "note": "Permanently closed.",
+    "sources": [
+     "https://www.opentable.com/r/plantation-gardens-koloa"
+    ]
+   },
+   {
+    "name": "Marriott's Waiohai pools, Poipu",
+    "note": "The main and keiki pools are closed until 2027 and the Honu pool bar with them. The Marketplace is open.",
+    "sources": [
+     "https://www.marriottvacationclubs.com/experiences/resorts/marriotts-waiohai-beach-club.html"
+    ]
+   },
+   {
+    "name": "Hanapepe Friday Art Night, Dec 25",
+    "note": "Skipped when Christmas falls on a Friday, which it does this year.",
+    "sources": [
+     "https://www.hanapepe.org/art-night"
+    ]
+   },
+   {
+    "name": "Hanalei Dolphin, Bar Acuda, Hanalei Colony Resort",
+    "note": "No usable page for any of them. The Dolphin's site is dated 2021, Bar Acuda's domain redirects elsewhere, and the Colony Resort's wouldn't load; Haena was local traffic only in October.",
+    "sources": [
+     "https://www.hanaleidolphin.com/",
+     "https://hawaiisbesttravel.com/kauai-travel-conditions/"
+    ]
+   }
+  ],
+  "calls": [
+   "Smith's, 808-821-6895, and Luau Kalamaku, 877-622-1780: which nights run Dec 23 to 27, is Christmas week on sale, and is there a Christmas closure? They sell out first.",
+   "Grand Hyatt, 808-742-1234: will Tidepools or Ilima Terrace seat Christmas Eve or Christmas Day, does Havaiki Nui add a Dec 24 or 25 show as in 2024, and is the meal to go back (extension 54)?",
+   "1 Hotel Hanalei Bay, 833-623-2111: the Christmas Day price, whether non-guests can book, plated or buffet on Christmas Eve, and when the Dec 22 to Jan 5 program posts.",
+   "Naupaka Terrace at the Outrigger, 808-245-1955 ext. 5540: this year's Christmas Eve specials, and the brunch price and hours.",
+   "Royal Sonesta, 808-245-5050: what time Santa's canoe lands on Christmas Eve, whether Dec 24 is a blackout date for the luau, and any holiday menus at Kukui's and Duke's.",
+   "Gaylord's at Kilohana, 808-245-9593: fully open, serving Christmas Day, and this year's menu?",
+   "Merriman's, 808-742-8385: book Dec 24 or 25 now; the menu was due in early November.",
+   "Sheraton Kauai Coconut Beach, 808-822-3455: what the $45 to $89 brunch range covers, any Christmas Eve option, and Luau Ka Hikina on Dec 24.",
+   "If they're in the plan: Postcards 808-826-1191, Wailua Nui 877-827-4852, Ahi Lele 808-977-7726, Lava Lava 808-241-5282, Nanea 808-827-8700."
+  ],
+  "sources": [
+   "https://1hotels.com/hanalei-bay/do/events/christmas-day-at-1-kitchen",
+   "https://1hotels.com/hanalei-bay/do/events/christmas-eve-dinner-at-1-kitchen",
+   "https://1hotels.com/hanalei-bay/do/events/eat-drink-and-delight-in-the-season",
+   "https://1hotels.com/hanalei-bay/tis-the-festive-season-at-hanalei",
+   "https://1hotels.com/sites/1hotels.com/files/documents/1HHB%20December%20Festive%20Programming_0.pdf",
+   "https://auliiluau.com",
+   "https://beatofhawaii.com/poipu-visitors-are-finding-recovery-and-devastation-side-by-side/",
+   "https://event.outrigger.com/outrigger-kauai-beach-resort-spa/events/lihue/christmas-brunch-buffet-at-naupaka-terrace",
+   "https://event.outrigger.com/outrigger-kauai-beach-resort-spa/events/lihue/christmas-eve-dinner-at-naupaka-terrace",
+   "https://event.outrigger.com/outrigger-kauai-beach-resort-spa/events/lihue/laau-kalikimaka--christmas-tree-display",
+   "https://grandhyattkauailuau.com/luau-buffet-menu/",
+   "https://hawaii.com/kauai/luau",
+   "https://hawaiidiscount.com/kauai/luaus/grand-hyatt-havaiki-nui.htm",
+   "https://hawaiisbesttravel.com/kauai-travel-conditions/",
+   "https://hawaiitravelwithkids.com/best-kauai-luau-options/",
+   "https://kauaiconnect.com/events/month/2026-12/",
+   "https://kauaifestivaloflights.wordpress.com/",
+   "https://kauaimade.net",
+   "https://kauaimuseum.org",
+   "https://kauainownews.com/2025/11/24/grand-hyatt-kauai-hosts-festive-thanksgiving-buffet-annual-tree-lighting-ceremony/",
+   "https://kauainownews.com/2025/12/07/the-shops-at-kukuiula-welcomes-holidays-with-santa-visits-keiki-bash/",
+   "https://kauainownews.com/2025/12/24/let-the-culinary-team-at-grand-hyatt-kauai-take-care-of-your-holiday-meal/",
+   "https://kauainownews.com/2026/07/30/iconic-kaua%CA%BBi-steakhouse-bull-shed-expands-to-hawai%CA%BBi-island/",
+   "https://kauainownews.com/?p=79801",
+   "https://kauairesort.sonesta.com/?p=1620",
+   "https://kauaistcatherine.church/",
+   "https://kilohanakauai.com/gaylords-restaurant/",
+   "https://koloathai.com/",
+   "https://lavalavabeachclub.com/kauai/",
+   "https://lavalavabeachclub.com/kauai/menus/dinner-menu",
+   "https://lavalavabeachclub.com/kauai/news/page/2",
+   "https://localgetaways.com/hawaii/kauai-puts-captivating-spin-on-christmas-traditions",
+   "https://merrimanshawaii.com/poipu",
+   "https://midweekkauai.com/?p=13511",
+   "https://midweekkauai.com/paina/santa-paddles-into-kalapaki-beach/",
+   "https://news.outrigger.com/wp-content/uploads/2025/11/NR-OUTRIGGER-Hawaii-Festive-Happenings-112025.pdf",
+   "https://opentable.co.th/r/merrimans-kauai-koloa",
+   "https://opentable.co.uk/ilima-terrace-grand-hyatt-kauai",
+   "https://opentable.co.uk/red-salt-at-koa-kea-resort",
+   "https://opentable.hk/dukes-kauai",
+   "https://places.singleplatform.com/keokis-paradise/menu",
+   "https://places.singleplatform.com/postcards/menu",
+   "https://smithskauai.com/?p=6",
+   "https://spectrumlocalnews.com/hi/hawaii/news/2025/12/16/enjoy-no-fuss-holiday-dining-with-these-festive-options",
+   "https://thegardenisland.com/2024/12/20/lifestyles/shopping-center-unveils-holiday-excitement-plans",
+   "https://thegardenisland.com/?p=104596",
+   "https://thegardenisland.com/?p=317232",
+   "https://theshopsatkukuiula.com",
+   "https://www.1hotels.com/hanalei-bay/offers/hanalei-for-the-holidays",
+   "https://www.1hotels.com/hanalei-bay/taste/1-kitchen",
+   "https://www.1hotels.com/sites/1hotels.com/files/documents/DECEMBER%201-19%20Brochure%202026.pdf",
+   "https://www.allsaintskauai.org",
+   "https://www.bullshedrestaurant.com/",
+   "https://www.chickeninabarrel.com",
+   "https://www.civilbeat.org/2026/09/hurricane-lowell-hit-kauai-hard-but-worst-fears-averted/",
+   "https://www.costco.com/warehouse-locations/lihue-HI-640.html",
+   "https://www.gohawaii.com/listing/wailua-nui-l%C5%AB%E2%80%98au/122016",
+   "https://www.hanaleidolphin.com/",
+   "https://www.hanapepe.org/art-night",
+   "https://www.hawaii-guide.com/blog/kauai-festival-of-lights-guide",
+   "https://www.hawaiidiscount.com/kauai/luaus/smiths.htm",
+   "https://www.hawaiimagazine.com/?p=130755",
+   "https://www.hawaiinewsnow.com/2026/09/25/rapid-recovery-koa-kea-resort-reopens-after-hurricane-lowells-storm-surge/",
+   "https://www.hawaiinewsnow.com/2026/10/02/poipu-resort-recovery-major-resort-vacation-rentals-face-extensive-damage-hurricane-lowell/",
+   "https://www.hilton.com/en/hotels/lihwbgi-hilton-garden-inn-kauai-wailua-bay/",
+   "https://www.hyatt.com/grand-hyatt/en-US/kauai-grand-hyatt-kauai-resort-and-spa/dining",
+   "https://www.kauai.gov/Government/Departments-Agencies/Parks-Recreation",
+   "https://www.kauai.gov/SunshineMarkets",
+   "https://www.keokisparadise.com/menus/",
+   "https://www.kilohanakauai.com/christmas-menu",
+   "https://www.kilohanakauai.com/plantation-house-gaylords-thanksgiving-menu",
+   "https://www.koakea.com/holidays-hawaii",
+   "https://www.kukuigrovecenter.com/events/holiday-spectacular-light-show/",
+   "https://www.lightsonrice.org",
+   "https://www.lovebigisland.com/?p=16483",
+   "https://www.lovebigisland.com/tours/ahi-lele-fire-show-kilauea/",
+   "https://www.lovebigisland.com/tours/aulii-luau-sheraton-kauai/",
+   "https://www.lovebigisland.com/tours/drums-dances-of-polynesia-royal-sonesta-kauai/",
+   "https://www.lovebigisland.com/tours/havaiki-nui-luau-grand-hyatt-kauai/",
+   "https://www.lovebigisland.com/tours/luau-ka-hikina-sheraton-coconut-beach/",
+   "https://www.lovebigisland.com/tours/luau-kalamaku-kilohana-plantation/",
+   "https://www.luaukalamaku.com",
+   "https://www.luaukalamaku.com/feast/",
+   "https://www.luaukalamaku.com/tour/luau-kalamaku-package",
+   "https://www.marriott.com/en-us/hotels/lihsk-sheraton-kauai-coconut-beach-resort/experiences/holidays",
+   "https://www.marriott.com/en-us/hotels/lihwp-the-westin-princeville-ocean-resort-villas/dining/",
+   "https://www.marriottvacationclubs.com/experiences/resorts/marriotts-waiohai-beach-club.html",
+   "https://www.marriottvacationclubs.com/experiences/resorts/sheraton-kauai-resort.html",
+   "https://www.merrimanshawaii.com/location/kauai/",
+   "https://www.opentable.com/eating-house-1849",
+   "https://www.opentable.com/keokis-paradise",
+   "https://www.opentable.com/naupaka-terrace-lihue",
+   "https://www.opentable.com/r/brenneckes-beach-broiler-koloa",
+   "https://www.opentable.com/r/merrimans-kauai-koloa",
+   "https://www.opentable.com/r/plantation-gardens-koloa",
+   "https://www.opentable.com/restaurant/profile/1203928",
+   "https://www.opentable.com/tidepools-grand-hyatt-kauai",
+   "https://www.outrigger.com/app/kbr/activities/festive",
+   "https://www.outrigger.com/hawaii/kauai/outrigger-kauai-beach-resort-spa/food--drink",
+   "https://www.postcardscafe.com/",
+   "https://www.resortpass.com/experiences/event-3232267",
+   "https://www.rumfirekauai.com/",
+   "https://www.smithskauai.com/garden-luau/",
+   "https://www.smithskauai.com/garden-luau/buy-tickets-smiths-kauai-luau/",
+   "https://www.sonesta.com/royal-sonesta/hi/lihue/royal-sonesta-kauai-resort-lihue",
+   "https://www.staradvertiser.com/2026/10/30/hawaii-news/hurricane-fallout-batters-kauai-tourism-weighs-on-statewide-visitor-numbers/",
+   "https://www.suite-paradise.com/node/3581",
+   "https://www.tastingkauai.com/farmers-markets/",
+   "https://www.thegardenisland.com/2025/12/19/lifestyles/happy-camper-for-friday-december-19-2025/",
+   "https://www.thegardenisland.com/2026/10/20/business/hta-seeks-tourism-emergency-declaration-after-lowell-takes-a-toll/",
+   "https://www.thegardenisland.com/?p=405690",
+   "https://www.thegardenisland.com/?p=425496",
+   "https://www.timberskauai.com/eat-drink/hualanis/",
+   "https://www.wailuanuiluau.com",
+   "https://www.wailuanuiluau.com/wp-content/themes/wailua-nui-luau/assets/pdf/Wailua-Nui-Menu-Only.pdf"
+  ]
+ },
  "trips": [
   {
    "id": "tiki-trail",

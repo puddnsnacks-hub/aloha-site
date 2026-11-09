@@ -397,7 +397,7 @@ document.addEventListener('click', (e) => { const a = e.target.closest && e.targ
     const lb = body('luau-list'); if (lb) lb.insertAdjacentHTML('beforeend', closedList(l.closed));
   }
   function renderChristmas(x) {
-    const ids = ['xmas-verdict', 'xmas-trips', 'xmas-eve', 'xmas-day', 'xmas-lights', 'xmas-open', 'xmas-calls'];
+    const ids = ['xmas-verdict', 'xmas-trips', 'xmas-kauai', 'xmas-eve', 'xmas-day', 'xmas-lights', 'xmas-open', 'xmas-calls'];
     if (!x) return ids.forEach(k => pending(k));
     const vb = body('xmas-verdict');
     if (vb) vb.innerHTML = `<ul class="rules">${arr(x.verdicts).map(v => `<li class="rule"><span class="badge badge--${v.verdict === 'go' ? 'go' : 'caution'}">${v.verdict === 'go' ? 'Go' : 'Quiet'}</span><span><b>${esc(v.display)}.</b> ${esc(v.text)}</span></li>`).join('')}</ul>${srcList(x.sources)}`;
@@ -408,6 +408,42 @@ document.addEventListener('click', (e) => { const a = e.target.closest && e.targ
     if (tb) tb.innerHTML = `<ul class="xmas-trips">${arr(x.trips).map(t => `<li><b>${esc(t.name)}</b><span>${esc(where(t))} ${t.eve_day ? esc(t.eve_day.title) + '.' : ''} ${t.xmas_day ? esc(t.xmas_day.title) + '.' : ''}</span>${pills(t.eve_day)}${pills(t.xmas_day)}</li>`).join('')}</ul>`;
     ['xmas-eve', 'xmas-day', 'xmas-lights', 'xmas-open'].forEach(k => renderPlaces(k, x.cards[k]));
     const cb = body('xmas-calls'); if (cb) cb.innerHTML = `<ol class="xmas-calls">${arr(x.calls).map(c => `<li>${esc(c)}</li>`).join('')}</ol>`;
+    renderKauaiWeek(x.kauai_week);
+  }
+  /* ---------- Christmas week on Kauai, Dec 23 to 27: one tab per day, a status badge per place per day, the menu, the phone, every source ---------- */
+  const PHONE = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z"/></svg>';
+  function renderKauaiWeek(k) {
+    const bd = body('xmas-kauai'); if (!bd) return;
+    if (!k || !arr(k.items).length) return pending('xmas-kauai');
+    const ST = k.status || {}, ORDER = ['confirmed', 'likely', 'unconfirmed', 'closed'];
+    const badge = (st) => `<span class="badge badge--kw-${esc(st)}">${esc(ST[st] || st)}</span>`;
+    const shortUrl = (u) => { try { const x = new URL(u); const t = x.hostname.replace(/^www\./, '') + decodeURIComponent(x.pathname).replace(/\/$/, ''); return t.length > 96 ? t.slice(0, 94) + '…' : t; } catch (e) { return u; } };
+    const kwSrc = (urls) => { const seen = {}; const u = [...new Set(arr(urls).filter(x => /^https?:\/\//.test(x)))]; return u.length ? `<p class="caption src-list">Sources: ${u.map(x => { const h = host(x); seen[h] = (seen[h] || 0) + 1; return `<a href="${esc(x)}" target="_blank" rel="noopener">${esc(h)}${seen[h] > 1 ? ' ' + seen[h] : ''}</a>`; }).join(', ')}</p>` : ''; };
+    const links = (it) => `<div class="links">${pill(it.book, 'Book', I.ticket)}${it.site && it.site !== it.book ? pill(it.site, 'Site', I.link) : ''}${pill(it.tel, 'Call ' + it.phone, PHONE)}${it.address && !/not listed/i.test(it.address) ? pill(mapsFor({ name: it.name.replace(/^(Christmas (Eve|Day|brunch[^,]*) at |Festive week at |Santa (by canoe )?at )/, ''), address: it.address, city: 'Kauaʻi' }), 'Maps', I.pin, 'maps') : ''}${it.place && P[it.place] ? onMap(P[it.place]) : ''}</div>`;
+    const entry = (it, on) => `<li class="kw" data-kind="${esc(it.kind)}" data-status="${esc(on.status)}">
+      <div class="kw-h">${badge(on.status)}<h3>${esc(it.name)}</h3><span class="kw-area">${esc(it.area)}</span></div>
+      ${on.note ? `<p class="kw-on">${esc(on.note)}</p>` : ''}
+      <p class="kw-blurb">${esc(it.blurb)}</p>
+      <dl class="kw-dl">${it.time ? `<dt>Time</dt><dd>${esc(it.time)}</dd>` : ''}${it.price ? `<dt>Price</dt><dd>${esc(it.price)}</dd>` : ''}${it.menu ? `<dt>Menu</dt><dd>${esc(it.menu)}</dd>` : ''}${it.dietary ? `<dt>Diet</dt><dd>${esc(it.dietary)}</dd>` : ''}${it.address && !/not listed/i.test(it.address) ? `<dt>Where</dt><dd>${esc(it.address)}</dd>` : ''}</dl>
+      ${it.check ? `<p class="check-first"><b>Check first</b> ${esc(it.check)}</p>` : ''}
+      ${links(it)}
+      ${kwSrc(it.sources)}</li>`;
+    const kinds = arr(k.kinds);
+    const dayPanel = (d) => {
+      const rows = arr(k.items).map(it => ({ it, on: arr(it.on).find(o => o.date === d.date) })).filter(r => r.on);
+      rows.sort((a, b) => ORDER.indexOf(a.on.status) - ORDER.indexOf(b.on.status) || kinds.findIndex(x => x.id === a.it.kind) - kinds.findIndex(x => x.id === b.it.kind) || a.it.name.localeCompare(b.it.name));
+      const counts = ORDER.map(st => [st, rows.filter(r => r.on.status === st).length]).filter(x => x[1]).map(([st, n]) => `${n} ${(ST[st] || st).toLowerCase()}`).join(', ');
+      return `<p class="kw-count">${esc(longDate(d.date))}: ${esc(counts)}.</p>${kinds.map(g => { const rs = rows.filter(r => r.it.kind === g.id); return rs.length ? `<h3 class="isle-h">${esc(g.label)}</h3><ul class="kw-list">${rs.map(r => entry(r.it, r.on)).join('')}</ul>` : ''; }).join('')}`;
+    };
+    const allSources = arr(k.sources);
+    bd.innerHTML = `<p class="check-first"><b>Hurricane Lowell</b> ${esc(k.hurricane.text)}${src(k.hurricane.sources)}</p>
+      <p class="prose kw-intro">${esc(k.intro)}</p>
+      <p class="kw-legend">${ORDER.map(st => `${badge(st)}`).join(' ')}</p>
+      <div class="kw-days"></div>
+      ${arr(k.closed).length ? `<h3 class="isle-h">Closed, so don't plan on it</h3><ul class="rules">${arr(k.closed).map(c => `<li class="rule"><span class="ic">${I.info}</span><span><b>${esc(c.name)}.</b> ${esc(c.note)}${src(c.sources)}</span></li>`).join('')}</ul>` : ''}
+      <h3 class="isle-h">Call first</h3><ol class="xmas-calls">${arr(k.calls).map(c => `<li>${esc(c)}</li>`).join('')}</ol>
+      <details class="kw-sources"><summary>Every source (${allSources.length}), checked ${esc(longDate(k.checked_on))}</summary><ul>${allSources.map(u => `<li><a href="${esc(u)}" target="_blank" rel="noopener">${esc(shortUrl(u))}</a></li>`).join('')}</ul></details>`;
+    tabs(bd.querySelector('.kw-days'), 'kw', arr(k.days).map(d => [d.date.slice(8), d.label, dayPanel(d)]));
   }
   function renderMusic(m) {
     if (!m) return ['music-shows', 'music-rooms'].forEach(k => pending(k));
